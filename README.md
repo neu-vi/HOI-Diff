@@ -1,6 +1,6 @@
 
 # HOI-Diff: Text-Driven Synthesis of 3D Human-Object Interactions using Diffusion Models
-### [Project Page](https://neu-vi.github.io/) | [Paper](https://arxiv.org/abs/xxx)
+### [Project Page](https://neu-vi.github.io/HOI-Diff) | [Paper](https://arxiv.org/abs/xxx)
 
 > HOI-Diff: Text-Driven Synthesis of 3D Human-Object Interactions using Diffusion Models  
 > [Xiaogang Peng*](https://xiaogangpeng.github.io), [Yiming Xie*](https://ymingxie.github.io), [Zizhao Wu](http://zizhao.me/), [Varun Jampani](https://varunjampani.github.io/), [Deqing Sun](https://deqings.github.io/), [Huaizu Jiang](https://jianghz.me/)    
