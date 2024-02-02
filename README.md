@@ -53,7 +53,7 @@
 
 ## 📥 Data Preparation
 
-For more information about the implementation, see [data/README.md](data/README.md).
+For more information about the implementation, see [README](dataset/README.md).
 
 ## ⚙️ Implementation
 Coming soon!
