@@ -65,12 +65,10 @@ Coming soon!
 ## 🤝 Citation
 If you find this repository useful for your work, please consider citing it as follows:
 ```bibtex
-@article{peng2023hoidiff,
-        title={HOI-Diff: Text-Driven Synthesis of 3D Human-Object Interactions using Diffusion Models}, 
-        author={Xiaogang Peng and Yiming Xie and Zizhao Wu and Varun Jampani and Deqing Sun and Huaizu Jiang},
-        year={2023},
-        eprint={2312.06553},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
+@article{peng2023hoi,
+  title={HOI-Diff: Text-Driven Synthesis of 3D Human-Object Interactions using Diffusion Models},
+  author={Peng, Xiaogang and Xie, Yiming and Wu, Zizhao and Jampani, Varun and Sun, Deqing and Jiang, Huaizu},
+  journal={arXiv preprint arXiv:2312.06553},
+  year={2023}
 }
 ```
