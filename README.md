@@ -53,7 +53,7 @@
 
 ## 📥 Data Preparation
 
-For more information about the implementation, see [README](dataset/README.md).
+For more information about the implementation, see [README](behave_process/README.md).
 
 ## ⚙️ Implementation
 Coming soon!
