@@ -8,7 +8,7 @@ from model.points_encoder import PointNet2Encoder
 from .mdm import *
 
 
-class ContactPredictor(nn.Module):
+class AffordEstimation(nn.Module):
     def __init__(self,  njoints, nfeats, latent_dim=256, ff_size=1024, num_layers=8, num_heads=4, dropout=0.1,
                 activation="gelu", clip_dim=512, clip_version=None, **kargs):
         super().__init__()
