@@ -15,16 +15,6 @@ def build_models(opt):
                                       output_size=opt.dim_coemb_hidden,
                                       device=opt.device)
 
-    # checkpoint = torch.load(pjoin(opt.checkpoints_dir, opt.dataset_name, 'text_mot_match', 'model', 'finest.tar'),
-    #                         map_location=opt.device)
-
-    # checkpoint = torch.load(pjoin(opt.checkpoints_dir, 't2m', 'text_mot_match', 'model', 'finest.tar'),
-    #                         map_location=opt.device)
-    
-
-    # print(f"============ loading finetuend evaluator !  ")
-    # checkpoint = torch.load(pjoin(opt.checkpoints_dir, 't2m', 'finetuned', 'model', 'finest.tar'),
-    #                         map_location=opt.device)
 
 
     movement_enc.load_state_dict(checkpoint['movement_encoder'])
