@@ -221,7 +221,9 @@ class TextOnlyAffordDataset(data.Dataset):
                     data_dict[name] = {'text': text_data, 'seq_name': name, 'obj_points': obj_points}
                     new_name_list.append(name)
             except:
-                pass
+                print(err.__class__.__name__) # 错误类型
+                print(err) # 错误明细
+                # pass
         self.data_dict = data_dict
         self.name_list = new_name_list
 
@@ -432,7 +434,7 @@ class Text2MotionDatasetV2(data.Dataset):
                 motion = motion[:199].astype(np.float32)
 
 
-                contact_input = np.load(pjoin(opt.data_root, 'affordance_data/contact_'+name + '.npy'), allow_pickle=True)[None][0]
+                # contact_input = np.load(pjoin(opt.data_root, 'affordance_data/contact_'+name + '.npy'), allow_pickle=True)[None][0]
 
                 
                 if (len(motion)) < min_motion_len or (len(motion) >= 200):
@@ -467,8 +469,8 @@ class Text2MotionDatasetV2(data.Dataset):
                                                     'text':[text_dict],
                                                     'seq_name': name,
                                                     'obj_points': obj_points,
-                                                    'obj_normals':obj_normals,
-                                                    'gt_afford_labels': contact_input
+                                                    'obj_normals':obj_normals
+                                                    # 'gt_afford_labels': contact_input
                                                 }
                                 new_name_list.append(name)
                                 length_list.append(len(n_motion))
@@ -483,14 +485,16 @@ class Text2MotionDatasetV2(data.Dataset):
                                         'text': text_data,
                                         'seq_name': name,
                                         'obj_points': obj_points,
-                                        'obj_normals':obj_normals,
-                                        'gt_afford_labels':contact_input
+                                        'obj_normals':obj_normals
+                                        # 'gt_afford_labels':contact_input
                                     }
 
                     new_name_list.append(name)
                     length_list.append(len(motion))
-            except:
-                pass
+            except Exception as err:
+                print(err.__class__.__name__) # 错误类型
+                print(err) # 错误明细
+                # pass
 
         name_list, length_list = zip(*sorted(zip(new_name_list, length_list), key=lambda x: x[1]))
 
@@ -523,7 +527,7 @@ class Text2MotionDatasetV2(data.Dataset):
     def __getitem__(self, item):
         idx = self.pointer + item
         data = self.data_dict[self.name_list[idx]]
-        motion, m_length, text_list, seq_name, obj_points, obj_normals, gt_afford_labels = data['motion'], data['length'], data['text'], data['seq_name'],  data['obj_points'], data['obj_normals'],  data['gt_afford_labels']
+        motion, m_length, text_list, seq_name, obj_points, obj_normals = data['motion'], data['length'], data['text'], data['seq_name'],  data['obj_points'], data['obj_normals']
 
         # Randomly select a caption
         text_data = random.choice(text_list)
@@ -583,8 +587,8 @@ class Text2MotionDatasetV2(data.Dataset):
 
 
         # Contact labels here for evaluation!
-        return word_embeddings, pos_one_hots, caption, sent_len, motion, m_length, '_'.join(tokens), seq_name, obj_points, obj_normals, gt_afford_labels
-        # return None, None, caption, sent_len, motion, m_length, '_'.join(tokens), seq_name, obj_points, obj_normals
+        return word_embeddings, pos_one_hots, caption, sent_len, motion, m_length, '_'.join(tokens), seq_name, obj_points, obj_normals
+
 
 
 # A wrapper class for behave dataset t2m and t2afford
