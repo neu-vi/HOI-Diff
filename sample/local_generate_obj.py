@@ -17,15 +17,14 @@ import data_loaders.behave.utils.paramUtil as paramUtil
 from data_loaders.behave.utils.plot_script import plot_3d_motion
 import shutil
 from data_loaders.tensors import collate, afford_collate
-from utils.optimization import optimization
 from trimesh import Trimesh
 import trimesh
 from scipy.spatial.transform import Rotation
 from data_loaders.behave.data.dataset import text_to_object
 from visualize.vis_utils import simplified_mesh
 from model.hoi_diff import HOIDiff as used_model
-from model.afford_est import ContactPredictor
-from diffusion.gaussian_diffusion import LocalMotionDiffusion, ContactDiffusion
+from model.afford_est import AffordEstimation
+from diffusion.gaussian_diffusion import LocalMotionDiffusion, AffordDiffusion
 
 
 def main():
@@ -91,13 +90,12 @@ def main():
 
          
 
-    args.afford_model_path = './save/contact_pred/model000019000.pt'
     afford_model, afford_diffusion = load_model(args, data, dist_util.dev(), 
-                                           ModelClass=ContactPredictor, DiffusionClass=ContactDiffusion,
+                                           ModelClass=AffordEstimation, DiffusionClass=AffordDiffusion,
                                            model_path=args.afford_model_path, diff_steps=500)
 
     print("Creating motion model and diffusion...")
-    motion_model, motion_diffusion = load_model(args, data, dist_util.dev(), ModelClass=used_model, DiffusionClass=HOI_Contact_Diffusion, diff_steps=1000,model_path=args.model_path)
+    motion_model, motion_diffusion = load_model(args, data, dist_util.dev(), ModelClass=used_model, DiffusionClass=LocalMotionDiffusion, diff_steps=1000,model_path=args.model_path)
 
     # print(motion_model)
         
@@ -114,11 +112,7 @@ def main():
 
             collate_args = [dict(arg, text=txt, obj_points=points, obj_normals=normals, seq_name = name) for arg, txt, points, normals, name in zip(collate_args, texts, obj_points, obj_normals, obj_name)]
    
-        else:
-            # a2m
-            action = data.dataset.action_name_to_action(action_text)
-            collate_args = [dict(arg, action=one_action, action_text=one_action_text) for
-                            arg, one_action, one_action_text in zip(collate_args, action, action_text)]
+
         _, model_kwargs = collate(collate_args)
 
     # input to cuda
@@ -153,7 +147,7 @@ def main():
                 # clip_denoised=False,
                 clip_denoised=not args.predict_xstart,
                 model_kwargs=model_kwargs,
-                skip_timesteps=490,  # 0 is the default value - i.e. don't skip any step
+                skip_timesteps=0,  # 0 is the default value - i.e. don't skip any step
                 init_image=None,
                 progress=True,
                 dump_steps=None,
@@ -164,28 +158,7 @@ def main():
 
             afford_sample[:,3:] = sigmoid(afford_sample[:,3:])
 
-            o_afford_labels = []
-            for i in range(afford_sample.shape[0]):
-                contact_prob = afford_sample[i,3:,0, :].permute(1,0)
-                contact_pos = afford_sample[i,:3, 0, :].permute(1,0)
-                contact_idx = torch.where(contact_prob>0.65)[0]
-                points = model_kwargs['y']['obj_points'][i]
-                if len(contact_idx)>0:
-                    sel_pos = contact_pos[contact_idx]                    
-                    dist = torch.cdist(sel_pos, points)
-                    min_dist_idx = torch.argmin(dist, dim=-1)
-                    o_afford_labels.append(min_dist_idx.detach().cpu().numpy())
-                    # print(f"======= {o_afford_labels}")
-                else:
-                    o_afford_labels.append(np.array([-1]))
 
-            contact_prob = sigmoid(afford_sample[:,3:]).squeeze()
-            contact_pos = afford_sample[:,:3].squeeze()
-            sel_joints = [0,9,10,11,16,17,20,21]
-            h_afford_labels = torch.zeros([contact_prob.shape[0], 22]).to(dist_util.dev())
-            for i in range(afford_sample.shape[0]):
-                h_afford_labels[i, sel_joints] = contact_prob[i]
-            h_mask = (h_afford_labels>0.6).int()
 
 
 
@@ -198,7 +171,6 @@ def main():
                                             use_global=data.dataset.use_global,
                                             batch_size=afford_sample.shape[0],
                                             afford_sample = afford_sample
-
                                             )
         else: 
             guide_fn_contact = None
@@ -257,8 +229,6 @@ def main():
     all_lengths = np.concatenate(all_lengths, axis=0)[:total_num_samples]
     all_motions_obj = np.concatenate(all_motions_obj, axis=0)[:total_num_samples]
     all_obj_points = np.concatenate(all_obj_points, axis=0)
-    # all_h_contact = np.concatenate(all_h_contact, axis=0)
-    # all_o_contact = np.concatenate(all_o_contact, axis=0)
     all_obj_name = all_obj_name[:total_num_samples]
 
 
@@ -269,13 +239,9 @@ def main():
     npy_path = os.path.join(out_path, 'results.npy')
 
 
-
-    # do optimization
-    if_optimization = False
     save_dict = {'motion': all_motions, 'motion_obj':all_motions_obj, 'text': all_text, 'lengths': all_lengths,
                 'num_samples': args.num_samples, 'num_repetitions': args.num_repetitions, 'obj_name': all_obj_name}
-    if if_optimization:
-        save_dict = optimization(save_dict)
+
     print(f"saving results file to [{npy_path}]")
     np.save(npy_path, save_dict)
 
@@ -309,7 +275,7 @@ def main():
                 obj_name = all_obj_name[rep_i*args.batch_size + sample_i]
 
 
-            mesh_path = os.path.join("/work/vig/xiaogangp/codes/hoi-motion_pretrained/object_mesh", simplified_mesh[obj_name])
+            mesh_path = os.path.join("./dataset/behave_t2m/object_mesh", simplified_mesh[obj_name])
             temp_simp = trimesh.load(mesh_path)
             all_vertices = temp_simp.vertices
             # center the meshes
@@ -388,6 +354,29 @@ def construct_template_variables(unconstrained):
 
 
 
+def load_afford_dataset(args, training_stage=1):
+    data_conf = DatasetConfig(
+        name=args.dataset,
+        batch_size=args.batch_size,
+        num_frames=1,
+        split='test',
+        hml_mode='text_only',
+        training_stage=training_stage)
+    data = get_dataset_loader(data_conf)
+    return data
+
+def load_motion_dataset(args, max_frames, n_frames, training_stage=2): 
+    data_conf = DatasetConfig(
+        name=args.dataset,
+        batch_size=args.batch_size,
+        num_frames=max_frames,
+        use_global=args.global_3d,
+        split='test',
+        hml_mode='text_only',
+        training_stage=training_stage)
+    data = get_dataset_loader(data_conf)
+    data.fixed_length = n_frames
+    return data
 
 
         

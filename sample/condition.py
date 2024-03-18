@@ -3,17 +3,13 @@ from data_loaders.behave.scripts.motion_process import recover_from_ric
 import torch.nn.functional as F
 import numpy as np
 import os
-# import chamfer_pytorch.dist_chamfer as ext
 import matplotlib.pyplot as plt
 from visualize.simplify_loc2rot import joints2smpl
 from model.rotation2xyz import Rotation2xyz
 from diffusion.losses import point2point_signed
 from utils.rotation_conversions import axis_angle_to_matrix, matrix_to_axis_angle
-from sample.tools import *
-# import open3d as o3d
 from trimesh import Trimesh
 import trimesh
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import math
 
 
@@ -137,17 +133,10 @@ class Guide_Contact:
                     o_afford_labels.append(np.array([-1]))
                     contact_idxs.append(np.array([-1]))
 
-            # print(f"=========  o_afford_labels  :{o_afford_labels}  contact_idxs : {contact_idxs}")
-
-            # ind , is_static =  contact_labels[:,:2], contact_labels[:,2:]
-    
-            # o_contact_labels = contact_labels[:,22:].float()
           
             batch_size = joints_output.size(0)
             all_loss_joints_contact = 0
             all_loss_object_contact = 0
-            all_loss_h_collision = 0
-            all_loss_o_collision = 0
 
         
             h_contact_dist = torch.zeros(0).to(x.device)
@@ -158,8 +147,6 @@ class Guide_Contact:
 
             all_local_rot = torch.zeros(0).to(x.device)
             all_close_points_loss = torch.zeros(0).to(x.device)
-
-            collisione_loss = 0.0
 
 
             for i in range(B):
