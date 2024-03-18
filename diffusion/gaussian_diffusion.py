@@ -1815,7 +1815,7 @@ class LocalMotionDiffusion(GaussianDiffusion):
 
 
 
-class ContactDiffusion(GaussianDiffusion):
+class AffordDiffusion(GaussianDiffusion):
 
     def __init__(self, use_timesteps,  conf: DiffusionConfig):
         self.use_timesteps = set(use_timesteps)
@@ -1834,9 +1834,6 @@ class ContactDiffusion(GaussianDiffusion):
         # use the new conf to create a new diffusion process
         new_conf = deepcopy(conf)
         new_conf.betas = np.array(new_betas)
-
-      
-
         super().__init__(new_conf)
 
     def p_mean_variance(
@@ -1876,3 +1873,16 @@ class ContactDiffusion(GaussianDiffusion):
         # Scaling is done by the wrapped model.
         return t
 
+class _WrappedModel:
+    def __init__(self, model, timestep_map, rescale_timesteps, original_num_steps):
+        self.model = model
+        self.timestep_map = timestep_map
+        self.rescale_timesteps = rescale_timesteps
+        self.original_num_steps = original_num_steps
+
+    def __call__(self, x, ts, **kwargs):
+        map_tensor = th.tensor(self.timestep_map, device=ts.device, dtype=ts.dtype)
+        new_ts = map_tensor[ts]
+        if self.rescale_timesteps:
+            new_ts = new_ts.float() * (1000.0 / self.original_num_steps)
+        return self.model(x, new_ts, **kwargs)
