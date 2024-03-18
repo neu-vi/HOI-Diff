@@ -118,20 +118,17 @@ def build_evaluators(opt):
                                       device=opt['device'])
 
     ckpt_dir = opt['dataset_name']
-    if opt['dataset_name'] == 'humanml' or opt['dataset_name'] == 'behave':
+    if opt['dataset_name'] == 'humanml':
         ckpt_dir = 't2m'
 
-
-    # print(f"============ loading finetuend evaluator checkpoints =====================")
-    # checkpoint = torch.load(pjoin(opt['checkpoints_dir'], ckpt_dir, 'finetuned', 'model', 'finest.tar'),
-    #                         map_location=opt['device'])
+    if opt['dataset_name'] == 'behave':
+        ckpt_dir = 't2hoi'
 
     print(f"============ loading behave evaluator checkpoints =====================")
-    checkpoint = torch.load(pjoin(opt['checkpoints_dir'], ckpt_dir, 'scratch', 'model', 'finest.tar'),
+    checkpoint = torch.load(pjoin(opt['checkpoints_dir'], ckpt_dir, 'text_hoi', 'model', 'finest.tar'),
                             map_location=opt['device'])
 
-    # checkpoint = torch.load(pjoin(opt['checkpoints_dir'], ckpt_dir, 'text_mot_match', 'model', 'finest.tar'),
-    #                         map_location=opt['device'])
+
 
     movement_enc.load_state_dict(checkpoint['movement_encoder'])
     text_enc.load_state_dict(checkpoint['text_encoder'])
