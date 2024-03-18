@@ -204,21 +204,6 @@ def add_generate_options(parser):
 
 
 
-# def add_edit_options(parser):
-#     group = parser.add_argument_group('edit')
-#     group.add_argument("--edit_mode", default='in_between', choices=['in_between', 'upper_body'], type=str,
-#                        help="Defines which parts of the input motion will be edited.\n"
-#                             "(1) in_between - suffix and prefix motion taken from input motion, "
-#                             "middle motion is generated.\n"
-#                             "(2) upper_body - lower body joints taken from input motion, "
-#                             "upper body is generated.")
-#     group.add_argument("--text_condition", default='', type=str,
-#                        help="Editing will be conditioned on this text prompt. "
-#                             "If empty, will perform unconditioned editing.")
-#     group.add_argument("--prefix_end", default=0.25, type=float,
-#                        help="For in_between editing - Defines the end of input prefix (ratio from all frames).")
-#     group.add_argument("--suffix_start", default=0.75, type=float,
-#                        help="For in_between editing - Defines the start of input suffix (ratio from all frames).")
 
 
 def add_evaluation_options(parser):
@@ -236,7 +221,7 @@ def add_evaluation_options(parser):
                        help="model path of human motion generation")
     # group.add_argument("--afford_model_path", default='./save/afford_pred/model000004000.pt', type=str,
     #                    help="model path of affordance learning")
-    group.add_argument("--afford_model_path", default='./save/contact_pred/model000019000.pt', type=str,
+    group.add_argument("--afford_model_path", default='./save/afford_pred/model000000000.pt', type=str,
                        help="model path of affordance learning")
 
     group.add_argument("--comment", default='_', type=str, help="comment for evaluation")
@@ -280,14 +265,6 @@ def generate_args():
 
     return args
 
-
-# def edit_args():
-#     parser = ArgumentParser()
-#     # args specified by the user: (all other will be loaded from the model)
-#     add_base_options(parser)
-#     add_sampling_options(parser)
-#     add_edit_options(parser)
-#     return parse_and_load_from_model(parser)
 
 
 def evaluation_parser():
