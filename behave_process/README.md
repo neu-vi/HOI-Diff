@@ -5,7 +5,7 @@
 We have prepocessed the BEHAVE data into [HumanML3D](https://github.com/EricGuo5513/HumanML3D) format. The human pose is represented in the local space, while the object pose is in the global space.
 
 ## Download
-The motion data and annotations can be downloaded from [here](https://drive.google.com/file/d/168EPBHlzUZidJG-xaE0YZ6k4fByGTGo4/view?usp=sharing).
+The preprocessed motion data and annotations can be downloaded from [here](https://drive.google.com/file/d/1w7IRaMMhdU2PM1Dk4nkfKAFbXTf4iPZA/view?usp=sharing).
 
 
 ## Dataset Structure
@@ -78,10 +78,6 @@ If you want to preprocess motion data from scratch, you could follow [interdiff]
 Then run `raw_pose_processing_behave.py` to output processed data in folder ./dataset/joints_behave. At last, just like preprocessing for HumanML3D, run `motion_representation.py` and `cal_mean_variance.py` to convert data into HumanML3D format and calculate data std and mean, respectively.
 
 
-
-
-## 🚀  Data Loading 
-To load the motion and text labels, here we provide the example dataloader `.dataset/dataset.py`, which is similar to the HumanML3D dataloader. Notably, `Text2AffordDataset` is for affordance estimation and `Text2MotionDatasetV2` is for HOI generation.
 
 
 
