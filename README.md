@@ -122,8 +122,9 @@ python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model0000
 ```
 python -m eval.eval_behave --model_path ./save/behave_enc_512/model000020000.pt  --guidance --comment eval_behave
 ```
+</details>
 
-### Acknowledgments
+## Acknowledgments
 This code is standing on the shoulders of giants. We want to thank the following contributors that our code is based on:
 
 [MDM](https://github.com/GuyTevet/motion-diffusion-model), [GMD](https://github.com/korrawe/guided-motion-diffusion), [guided-diffusion](https://github.com/openai/guided-diffusion), [MotionCLIP](https://github.com/GuyTevet/MotionCLIP), [text-to-motion](https://github.com/EricGuo5513/text-to-motion), [actor](https://github.com/Mathux/ACTOR), [joints2smpl](https://github.com/wangsen1312/joints2smpl), [MoDi](https://github.com/sigal-raab/MoDi).
