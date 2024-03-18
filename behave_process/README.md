@@ -9,41 +9,43 @@ The motion data and annotations can be downloaded from [here](https://drive.goog
 
 
 ## Dataset Structure
-After unzip the data, you can find four subfolders: `affordance_data`, `local_pose_rep`, `object_mesh`,  `object_sample`. Please organize them as follows:
+After unzip the data, you can find five subfolders: `affordance_data`, `new_joint_vecs_local`, `new_joint_local`, `texts`, `object_mesh`,  `object_sample`. Please organize them as follows:
 ```
-.dataset/behave/
-|--affordance_data   # human contact labels, object cotact positions and object state
-|--local_pose_rep   # human-object interaction sequences
-|--objects_mesh   # 3D scans of the 20 objects
-|--objects_sample   # downsampling idxs for 20 objects
-|--split.json   # train and test split
+.dataset/behave_t2m/
+|--affordance_data       # human contact labels, object cotact positions and object state
+|--new_joint_vecs_local  # human-object interaction sequences
+|--new_joint_local       # human joint sequences in global space
+|--objects_mesh          # 3D scans of the 20 objects
+|--objects_sample        # downsampling idxs for 20 objects
+|--texts                 # text descriptions
+|--split.json            # train and test split
+|--Mean_local.npy      
+|--Std_local.npy
+|--test.txt     
+|--train.txt
 ```
 We discuss details of each folder next:
 
-**local_pose_rep**: This folder stores the human and object pose sequences with text descriptions.
+**new_joint_vecs_local**: This folder stores the HOIs data for humans and objects, including 263-dim pose representation and 6-dim object pose representation.
+```
+.dataset/behave_t2m/
+|--new_joint_vecs_local  
+|----sequence_name.npy 
 
 ```
-.dataset/behave/
-|--local_pose_rep          
-|----new_joint_vecs_local       # 263-dim local pose vectors
-|----new_joint_local   # 22 skeleton joints' positions 
-|----texts             # text descriptions
-|----Mean_local.npy      
-|----Std_local.npy
-|----....     
-```
+
 
 **affordance_data**: This folder stores the affordance data for humans and objects, including 8-dim human contact labels, 1-dim object state and two object contact positions of 6-dim.
 ```
-.dataset/behave/
+.dataset/behave_t2m/
 |--affordance_data  
-|----sequence_name.npy  # affordance data for contact information and object state
+|----contact_{sequence_name}.npy  # affordance data for contact information
 
 ```
 
 **object_mesh**: This folder provides the scans of our template objects. 
 ```
-.dataset/behave/
+.dataset/behave_t2m/
 |--object_mesh
 |----object_name
 |------object_name.jpg  # one photo of the object
@@ -55,7 +57,7 @@ We discuss details of each folder next:
 
 **object_sample**: This folder provides the downsampling idxs of the object mesh vertices.
 ```
-.dataset/behave/
+.dataset/behave_t2m/
 |--object_sample
 |----sequence_name.npy   #  each sample contains 512 downsampling idxs
 ```
@@ -68,7 +70,7 @@ We discuss details of each folder next:
 ### Preprocess data from scratch [Optional]: 
 If you want to preprocess motion data from scratch, you could follow [interdiff](https://github.com/Sirui-Xu/InterDiff/blob/main/interdiff/README.md) to download original behave data and put motion data into ./dataset/raw_behave/, which would be like this: 
 ```
-./dataset/raw_behave/
+./data/raw_behave/
 |--sequence_name
 |----object_fit_all.npz # object's pose sequences
 |----smpl_fit_all.npz # human's pose sequences
