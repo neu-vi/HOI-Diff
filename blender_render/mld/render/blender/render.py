@@ -37,10 +37,6 @@ def render(npydata, objnpydata, h_data_path, o_data_path, frames_folder, *, mode
 
     is_mesh = mesh_detect(npydata)
 
-    # npydata = npydata[::10]
-    # center = np.mean(objnpydata, 1)[:,np.newaxis, :]
-    # objnpydata[:,:,1] -= 0.1
-    # objnpydata[:] = objnpydata[100:101]
 
     
     # Put everything in this folder
