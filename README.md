@@ -48,19 +48,85 @@
 
 ## 📜 TODO List
 - [x] Release the dataset preparation and annotations.
-- [ ] Release the main codes for implementation.
+- [x] Release the main codes for implementation.
+- [ ] Release the pretrained models.
 - [ ] Release the demo video.
 
 ## 📥 Data Preparation
 
 For more information about the implementation, see [README](behave_process/README.md).
 
-## ⚙️ Implementation
-Coming soon!
+## ⚙️ Quick Start
+<details>
+  <summary><b>Setup and download</b></summary>
 
 
 
+### 1. Setup environment
+Install ffmpeg (if not already installed):
 
+```
+sudo apt update
+sudo apt install ffmpeg
+```
+
+Setup conda env:
+```
+conda env create -f environment.yml
+conda activate t2hoi
+
+python -m spacy download en_core_web_sm
+pip install git+https://github.com/openai/CLIP.git
+```
+
+
+Download dependencies:
+```
+bash prepare/download_smpl_files.sh
+bash prepare/download_glove.sh
+bash prepare/download_t2hoi_evaluators.sh  
+```
+
+Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install PointNet++.
+
+<!-- ### Download Pre-trained model
+
+Run the script to download the pre-train model, then unzip and place them in ./save/.
+
+```
+bash prepare/download_pretrained_models.sh
+```  -->
+
+### Train your APDM
+```
+python -m train.train_affordance --save_dir ./save/afford_pred --dataset behave --save_interval 1000 --num_steps 20000 --batch_size 32 --diffusion_steps 500
+```
+
+### Train your HOI-DM
+```
+python -m train.hoi_diff --save_dir ./save/behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
+```
+
+### HOIs Synthesis
+
+Generate from test set prompts
+```
+python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
+```
+Generate from your text file
+```
+python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
+```
+
+### Evaluate
+```
+python -m eval.eval_behave --model_path ./save/behave_enc_512/model000020000.pt  --guidance --comment eval_behave
+```
+
+### Acknowledgments
+This code is standing on the shoulders of giants. We want to thank the following contributors that our code is based on:
+
+[MDM](https://github.com/GuyTevet/motion-diffusion-model), [GMD](https://github.com/korrawe/guided-motion-diffusion), [guided-diffusion](https://github.com/openai/guided-diffusion), [MotionCLIP](https://github.com/GuyTevet/MotionCLIP), [text-to-motion](https://github.com/EricGuo5513/text-to-motion), [actor](https://github.com/Mathux/ACTOR), [joints2smpl](https://github.com/wangsen1312/joints2smpl), [MoDi](https://github.com/sigal-raab/MoDi).
 
 ## 🤝 Citation
 If you find this repository useful for your work, please consider citing it as follows:
