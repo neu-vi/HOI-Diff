@@ -134,8 +134,8 @@ python -m visualize.render_mesh --input_path /path/to/mp4/stick/figure/file
 ```
 
 **This script outputs: [YOUR_NPY_FOLDER]**
-* `sample##_rep##_smpl_params.npy` - SMPL parameters (motion thetas, root translations, vertices and faces)
-* `sample##_rep##_obj_params.npy` - SMPL parameters (motion, vertices and faces)
+* `sample##_rep##_smpl_params.npy` - SMPL parameters (human_motion, thetas, root translations, human_vertices and human_faces)
+* `sample##_rep##_obj_params.npy` - SMPL parameters (object_motion, object_vertices and object_faces)
 
 **Notes:**
 * This script is running [SMPLify](https://smplify.is.tue.mpg.de/) and needs GPU as well (can be specified with the `--device` flag).
