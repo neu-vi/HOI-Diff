@@ -49,7 +49,7 @@
 ## 📜 TODO List
 - [x] Release the dataset preparation and annotations.
 - [x] Release the main codes for implementation.
-- [ ] Release the pretrained models.
+- [ ] Release the evaluation codes and the pretrained models.
 - [ ] Release the demo video.
 
 ## 📥 Data Preparation
@@ -116,10 +116,10 @@ Generate from your text file
 python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
 ```
 
-### Evaluate
+<!-- ### Evaluate
 ```
 python -m eval.eval_behave --model_path ./save/behave_enc_512/model000020000.pt  --guidance --comment eval_behave
-```
+``` -->
 
 </details>
 
