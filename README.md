@@ -89,13 +89,11 @@ bash prepare/download_t2hoi_evaluators.sh
 
 Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install PointNet++.
 
-<!-- ### Download Pre-trained model
+### Download Pre-trained model
+`MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
 
-Run the script to download the pre-train model, then unzip and place them in ./save/.
-
-```
-bash prepare/download_pretrained_models.sh
-```  -->
+`HOI-DM and APDM:` 
+Release soon!
 
 ### Train your APDM
 ```
