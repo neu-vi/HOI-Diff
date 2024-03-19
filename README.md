@@ -120,12 +120,53 @@ python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model0000
 ```
 python -m eval.eval_behave --model_path ./save/behave_enc_512/model000020000.pt  --guidance --comment eval_behave
 ```
+
 </details>
+
+## Visualization
+<details>
+<summary><b> Render SMPL mesh</b></summary>
+
+To create SMPL mesh per frame run:
+
+```shell
+python -m visualize.render_mesh --input_path /path/to/mp4/stick/figure/file
+```
+
+**This script outputs: [YOUR_NPY_FOLDER]**
+* `sample##_rep##_smpl_params.npy` - SMPL parameters (motion thetas, root translations, vertices and faces)
+* `sample##_rep##_obj_params.npy` - SMPL parameters (motion, vertices and faces)
+
+**Notes:**
+* This script is running [SMPLify](https://smplify.is.tue.mpg.de/) and needs GPU as well (can be specified with the `--device` flag).
+* **Important** - Do not change the original `.mp4` path before running the script.
+
+### 1. Set up blender - WIP
+
+Refer to [TEMOS-Rendering motions](https://github.com/Mathux/TEMOS) for blender setup, then install the following dependencies.
+
+```
+YOUR_BLENDER_PYTHON_PATH/python -m pip install -r prepare/requirements_render.txt
+```
+### 2. Render SMPL meshes
+
+Run the following command to render SMPL using blender:
+
+```
+YOUR_BLENDER_PATH/blender --background --python render.py -- --cfg=./configs/render.yaml --dir=YOUR_NPY_FOLDER --mode=video --joint_type=HumanML3D
+```
+
+optional parameters:
+
+- `--mode=video`: render mp4 video
+- `--mode=sequence`: render the whole motion in a png image.
+</details>
+
 
 ## Acknowledgments
 This code is standing on the shoulders of giants. We want to thank the following contributors that our code is based on:
 
-[MDM](https://github.com/GuyTevet/motion-diffusion-model), [GMD](https://github.com/korrawe/guided-motion-diffusion), [guided-diffusion](https://github.com/openai/guided-diffusion), [MotionCLIP](https://github.com/GuyTevet/MotionCLIP), [text-to-motion](https://github.com/EricGuo5513/text-to-motion), [actor](https://github.com/Mathux/ACTOR), [joints2smpl](https://github.com/wangsen1312/joints2smpl), [MoDi](https://github.com/sigal-raab/MoDi).
+[BEHAVE](https://github.com/xiexh20/behave-dataset), [MLD](https://github.com/ChenFengYe/motion-latent-diffusion), [MDM](https://github.com/GuyTevet/motion-diffusion-model), [GMD](https://github.com/korrawe/guided-motion-diffusion), [guided-diffusion](https://github.com/openai/guided-diffusion), [MotionCLIP](https://github.com/GuyTevet/MotionCLIP), [text-to-motion](https://github.com/EricGuo5513/text-to-motion), [actor](https://github.com/Mathux/ACTOR), [joints2smpl](https://github.com/wangsen1312/joints2smpl), [MoDi](https://github.com/sigal-raab/MoDi).
 
 ## 🤝 Citation
 If you find this repository useful for your work, please consider citing it as follows:
