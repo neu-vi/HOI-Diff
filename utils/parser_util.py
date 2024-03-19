@@ -150,7 +150,7 @@ def add_training_options(parser):
 
 def add_obj_options(parser):
     group = parser.add_argument_group('object_training')
-    group.add_argument("--pretrained_path", default='./checkpoints/model000475000.pt', type=str,
+    group.add_argument("--pretrained_path", default='./checkpoints/humanml_trans_enc_512/model000475000.pt', type=str,
                        help="Path to model####.pt file to be sampled.")
     group.add_argument("--multi_arch", default='trans_enc', type=str, choices=['trans_enc'], help="communication architecture.")
     group.add_argument("--multi_func", default='in_both_out_cur', type=str,
