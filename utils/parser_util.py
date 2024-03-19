@@ -150,8 +150,6 @@ def add_training_options(parser):
 
 def add_obj_options(parser):
     group = parser.add_argument_group('object_training')
-    # group.add_argument("--pretrained_path", default='./save/global_humanml_trans_enc_512_norm/model000550000.pt', type=str,
-    #                    help="Path to model####.pt file to be sampled.")
     group.add_argument("--pretrained_path", default='./checkpoints/model000475000.pt', type=str,
                        help="Path to model####.pt file to be sampled.")
     group.add_argument("--multi_arch", default='trans_enc', type=str, choices=['trans_enc'], help="communication architecture.")
@@ -177,9 +175,9 @@ def add_sampling_options(parser):
     group.add_argument("--guidance_param", default=2.5, type=float,
                        help="For classifier-free sampling - specifies the s parameter, as defined in the paper.")
     group.add_argument("--classifier_scale", type=float, default=100.0, help="A scaling factor for the gradient from the classifier. Use the same scale for both model in two-staged case")
-    group.add_argument("--model_path", default='./save/hoi_finetuned_obj_cond/model000020000.pt', type=str,
+    group.add_argument("--model_path", default='./save/behave_enc_512/model000020000.pt', type=str,
                        help="model path of human motion generation")
-    group.add_argument("--afford_model_path", default='./save/afford_pred/model000000000.pt', type=str,
+    group.add_argument("--afford_model_path", default='./save/afford_pred/model000020000.pt', type=str,
                        help="model path of affordance learning")
                        
 
@@ -217,11 +215,9 @@ def add_evaluation_options(parser):
                             "full (a2m only) - 20 repetitions.")
     group.add_argument("--guidance_param", default=2.5, type=float,
                        help="For classifier-free sampling - specifies the s parameter, as defined in the paper.")
-    group.add_argument("--model_path", default='./save/hand_hoi_finetuned_wo_freeze_rot_obj_0.1/model000020000.pt', type=str,
+    group.add_argument("--model_path", default='./save/behave_enc_512/model000020000.pt', type=str,
                        help="model path of human motion generation")
-    # group.add_argument("--afford_model_path", default='./save/afford_pred/model000004000.pt', type=str,
-    #                    help="model path of affordance learning")
-    group.add_argument("--afford_model_path", default='./save/afford_pred/model000000000.pt', type=str,
+    group.add_argument("--afford_model_path", default='./save/afford_pred/model000020000.pt', type=str,
                        help="model path of affordance learning")
 
     group.add_argument("--comment", default='_', type=str, help="comment for evaluation")
