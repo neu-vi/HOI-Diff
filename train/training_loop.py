@@ -16,7 +16,7 @@ from diffusion.resample import LossAwareSampler, UniformSampler
 from tqdm import tqdm
 from diffusion.resample import create_named_schedule_sampler
 from data_loaders.behave.networks.evaluator_wrapper import EvaluatorMDMWrapper
-from eval import eval_behave
+# from eval import eval_behave
 from data_loaders.get_data import get_dataset_loader
 
 
