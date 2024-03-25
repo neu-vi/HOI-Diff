@@ -141,106 +141,6 @@ class Text2AffordDataset(data.Dataset):
         caption, tokens = text_data['caption'], text_data['tokens']
         return None, None, caption, None, contact_input, '_'.join(tokens), seq_name, obj_points
 
-class TextOnlyAffordDataset(data.Dataset):
-    def __init__(self, opt, split_file):
-
-        self.opt = opt
-        self.data_dict = []
-        self.max_length = 20
-        self.pointer = 0
-        self.normal_dim = opt.dim_pose
-        self.obj_path = '/work/vig/Datasets/BEHAVE-dataset/objects'
-
-        data_dict = {}
-        id_list = []
-        with cs.open(split_file, 'r') as f:
-            for line in f.readlines():
-                id_list.append(line.strip())
-
-        self.id_list = id_list
-
-
-
-        new_name_list = []
-        for name in tqdm(id_list):
-            try:
-                # load obj points----------------
-                obj_name = name.split('_')[2]
-                obj_path = pjoin(opt.data_root, 'object_mesh')
-                mesh_path = os.path.join(obj_path, simplified_mesh[obj_name])
-                temp_simp = trimesh.load(mesh_path)
-
-                obj_points = np.array(temp_simp.vertices)
-                obj_faces = np.array(temp_simp.faces)
-
-                # center the meshes
-                center = np.mean(obj_points, 0)
-                obj_points -= center
-                obj_points = obj_points.astype(np.float32)
-
-
-                # sample object points
-                obj_sample_path = pjoin(opt.data_root, 'object_sample/{}.npy'.format(name))
-                o_choose = np.load(obj_sample_path)
-
-        
-
-                obj_points = obj_points[o_choose] 
-                # obj_normals = obj_vn[o_choose]
-
-                text_data = []
-                flag = False
-                with cs.open(pjoin(opt.text_dir, name + '.txt')) as f:
-                    for line in f.readlines():
-                        text_dict = {}
-                        line_split = line.strip().split('#')
-                        caption = line_split[0]
-                        tokens = line_split[1].split(' ')
-
-                        # TODO: hardcode
-                        f_tag = to_tag = 0.0
-
-                        text_dict['caption'] = caption
-                        text_dict['tokens'] = tokens
-                        if f_tag == 0.0 and to_tag == 0.0:
-                            flag = True
-                            text_data.append(text_dict)
-                        else:
-                            try:
-                                new_name = random.choice('ABCDEFGHIJKLMNOPQRSTUVW') + '_' + name
-                                while new_name in data_dict:
-                                    new_name = random.choice('ABCDEFGHIJKLMNOPQRSTUVW') + '_' + name
-                                data_dict[new_name] = {'text':[text_dict]}
-                                new_name_list.append(new_name)
-                            except:
-                                print(line_split)
-                                print(line_split[2], line_split[3], f_tag, to_tag, name)
-                                # break
-
-                if flag:
-                    data_dict[name] = {'text': text_data, 'seq_name': name, 'obj_points': obj_points}
-                    new_name_list.append(name)
-            except:
-                print(err.__class__.__name__) # 错误类型
-                print(err) # 错误明细
-                # pass
-        self.data_dict = data_dict
-        self.name_list = new_name_list
-
-    def __len__(self):
-        return len(self.data_dict)
-
-    def __getitem__(self, item):
-        idx = self.pointer + item
-        data = self.data_dict[self.name_list[idx]]
-        text_list, seq_name, obj_points = data['text'], data['seq_name'], data['obj_points']
-
-        # Randomly select a caption
-        text_data = random.choice(text_list)
-        caption, tokens = text_data['caption'], text_data['tokens']
-        return None, None, caption, None, np.array([0]), None, seq_name, obj_points # fixed_length can be set from outside before sampling
-
-
 
 class TextOnlyDataset(data.Dataset):
     def __init__(self, opt, mean, std, split_file):
@@ -340,8 +240,8 @@ class TextOnlyDataset(data.Dataset):
                                         }
                     new_name_list.append(name)
             except Exception as err:
-                # print(err.__class__.__name__) # 错误类型
-                # print(err) # 错误明细
+                # print(err.__class__.__name__) # 
+                # print(err) 
                 pass
 
         self.length_arr = np.array(length_list)
@@ -492,9 +392,9 @@ class Text2MotionDatasetV2(data.Dataset):
                     new_name_list.append(name)
                     length_list.append(len(motion))
             except Exception as err:
-                print(err.__class__.__name__) # 错误类型
-                print(err) # 错误明细
-                # pass
+                # print(err.__class__.__name__) 
+                # print(err) 
+                pass
 
         name_list, length_list = zip(*sorted(zip(new_name_list, length_list), key=lambda x: x[1]))
 
