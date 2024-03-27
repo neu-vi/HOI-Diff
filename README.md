@@ -89,23 +89,23 @@ bash prepare/download_t2hoi_evaluators.sh
 
 Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install PointNet++.
 
-### Download Pre-trained model
+### 2. Download Pre-trained model
 `MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
 
 `HOI-DM and APDM:` 
 Release soon!
 
-### Train your APDM
+### 3. Train your APDM
 ```
 python -m train.train_affordance --save_dir ./save/afford_pred --dataset behave --save_interval 1000 --num_steps 20000 --batch_size 32 --diffusion_steps 500
 ```
 
-### Train your HOI-DM
+### 4. Train your HOI-DM
 ```
 python -m train.hoi_diff --save_dir ./save/behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
 ```
 
-### HOIs Synthesis
+### 5. HOIs Synthesis
 
 Generate from test set prompts
 ```
@@ -116,7 +116,7 @@ Generate from your text file
 python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
 ```
 
-<!-- ### Evaluate
+<!-- ### 6. Evaluate
 ```
 python -m eval.eval_behave --model_path ./save/behave_enc_512/model000020000.pt  --guidance --comment eval_behave
 ``` -->
