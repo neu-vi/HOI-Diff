@@ -4,27 +4,12 @@ from data_loaders.tensors import t2m_collate, t2m_behave_collate, t2m_contact_co
 from dataclasses import dataclass
 
 def get_dataset_class(name):
-    if name == "amass":
-        from .amass import AMASS
-        return AMASS
-    elif name == "uestc":
-        from .a2m.uestc import UESTC
-        return UESTC
-    elif name == "humanact12":
-        from .a2m.humanact12poses import HumanAct12Poses
-        return HumanAct12Poses
-    elif name == "humanml":
+    if name == "humanml":
         from data_loaders.humanml.data.dataset import HumanML3D
         return HumanML3D
-    elif name == "kit":
-        from data_loaders.humanml.data.dataset import KIT
-        return KIT
     elif name == "behave":
         from data_loaders.behave.data.dataset import Behave
         return Behave
-    elif name == "omomo":
-        from data_loaders.omomo.data.dataset import Omomo
-        return Omomo
     else:
         raise ValueError(f'Unsupported dataset name [{name}]')
 
@@ -35,9 +20,7 @@ class DatasetConfig:
     num_frames: int
     split: str = 'train'
     hml_mode: str = 'train'
-    use_global: bool = True
     training_stage: int = 1
-    wo_obj_motion: bool = False
 
 
 def get_collate_fn(name, hml_mode='train', training_stage=1):
@@ -56,19 +39,9 @@ def get_collate_fn(name, hml_mode='train', training_stage=1):
         return t2m_contact_collate
     elif name in ["behave"] and training_stage==2:
         return t2m_behave_collate
-    elif name in ["omomo"]:
-        return t2m_omomo_collate
     else:
         return all_collate
 
-
-# def get_dataset(name, num_frames, split='train', hml_mode='train'):
-#     DATA = get_dataset_class(name)
-#     if name in ["humanml", "kit", "behave"]:
-#         dataset = DATA(split=split, num_frames=num_frames, mode=hml_mode)
-#     else:
-#         dataset = DATA(split=split, num_frames=num_frames)
-#     return dataset
 
 def get_dataset(conf: DatasetConfig):
     DATA = get_dataset_class(conf.name)
@@ -76,9 +49,7 @@ def get_dataset(conf: DatasetConfig):
         dataset = DATA(split=conf.split,
                        mode=conf.hml_mode,
                        num_frames=conf.num_frames,
-                       use_global=conf.use_global,
-                       training_stage=conf.training_stage,
-                       wo_obj_motion=conf.wo_obj_motion)
+                       training_stage=conf.training_stage)
     else:
         raise NotImplementedError()
         dataset = DATA(split=split, num_frames=num_frames)
