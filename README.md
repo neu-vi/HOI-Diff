@@ -54,7 +54,7 @@
 
 ## 📥 Data Preparation
 
-For more information about the implementation, see [README](behave_process/README.md).
+For more information about the implementation, see [README](utils/README.md).
 
 ## ⚙️ Quick Start
 <details>
