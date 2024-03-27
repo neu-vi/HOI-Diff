@@ -16,8 +16,6 @@ from dataclasses import dataclass
 from diffusion.nn import mean_flat, sum_flat
 from data_loaders.behave.scripts import motion_process
 import torch.nn.functional as F
-from scipy.spatial.transform import Rotation
-from utils.rotation_conversions import axis_angle_to_matrix
 from utils.utils import *
 from typing import List
 
@@ -1776,7 +1774,6 @@ class LocalMotionDiffusion(GaussianDiffusion):
         new_conf = deepcopy(conf)
         new_conf.betas = np.array(new_betas)
 
-        self.normalizer = MotionNormalizerTorch()
         super().__init__(new_conf)
 
     def p_mean_variance(
