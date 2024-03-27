@@ -87,9 +87,9 @@ You could download official data of SMPL and object parameters (30fps) from [her
 ```
 Run  `bash prepare/process_behave_raw.sh` to split motion sequeces based on our manual annonation. The splited data will be output in the ./dataset/raw_behave. 
 
-Then `python utils/raw_pose_processing_behave.py` to output processed data in folder ./dataset/joints_behave. 
+Then run `python utils/raw_pose_processing_behave.py` to covert humam SMPL paramaters into global body joints, which would be saved in the folder ./dataset/joints_behave. 
 
-At last, just like preprocessing method of HumanML3D, run `python utils/motion_representation.py` and `python utils/cal_mean_variance.py` to convert data into HumanML3D format and calculate data std and mean, respectively.
+At last, just like preprocessing method of HumanML3D, run `python utils/motion_representation.py` and `python utils/cal_mean_variance.py` to preprocess the data in HumanML3D format and calculate the data std and mean, respectively.
 
 
 
