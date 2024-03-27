@@ -37,9 +37,7 @@ def mean_variance(data_dir, save_dir, joints_num):
     Std[4 + (joints_num - 1) * 9 + joints_num * 3 +7 : ] = Std[4 + (joints_num - 1) * 9 + joints_num * 3 +7 : ].mean() / 1.0
     assert 8 + (joints_num - 1) * 9 + joints_num * 3 + 6 == Std.shape[-1]
 
-#     np.save(pjoin(save_dir, 'Mean.npy'), Mean)
-#     np.save(pjoin(save_dir, 'Std.npy'), Std)
-    
+
     np.save(pjoin(save_dir, 'Mean_local.npy'), Mean)
     np.save(pjoin(save_dir, 'Std_local.npy'), Std)
 
@@ -47,9 +45,8 @@ def mean_variance(data_dir, save_dir, joints_num):
 
 
 if __name__ == '__main__':
-#     data_dir = './HumanML3D/new_joint_vecs/'
-    data_dir = './new_joint_vecs_local/'
-    save_dir = './'
+    data_dir = './dataset/behave_t2m/new_joint_vecs_local/'
+    save_dir = './dataset/behave_t2m/'
     mean, std = mean_variance(data_dir, save_dir, 22)
 #     print(mean)
 #     print(Std)

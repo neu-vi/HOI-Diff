@@ -324,7 +324,6 @@ For HumanML3D Dataset
 '''
 
 if __name__ == "__main__":
-    # example_id = "Date03_Sub04_chairblack_liftreal_3"
     example_id = "Date07_Sub08_yogamat_28"
     # Lower legs
     l_idx1, l_idx2 = 5, 8
@@ -336,10 +335,10 @@ if __name__ == "__main__":
     r_hip, l_hip = 2, 1
     joints_num = 22
     # ds_num = 8
-    data_dir = './joints_behave'
-    data_obj_dir = './pose_data_behave/'
-    save_dir1 = './new_joints_local/'      # './behave/new_joints/'
-    save_dir2 = './new_joint_vecs_local/'  # './behave/new_joint_vecs/'
+    data_dir = './dataset/joints_behave'
+    data_obj_dir = './dataset/pose_data_behave/'
+    save_dir1 = './dataset/behave_t2m/new_joints_local/'      # './behave/new_joints/'
+    save_dir2 = './dataset/behave_t2m/new_joint_vecs_local/'  # './behave/new_joint_vecs/'
     
     os.makedirs(save_dir1, exist_ok=True)
     os.makedirs(save_dir2, exist_ok=True)

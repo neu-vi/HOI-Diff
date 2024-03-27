@@ -76,7 +76,11 @@ If you want to preprocess motion data from scratch, you could download official 
 |----object_fit_all.npz # object's pose sequences
 |----smpl_fit_all.npz # human's pose sequences
 ```
-Run  `bash prepare/process_behave_raw.sh` to split motion sequeces based on our manual annonation. The splited data will be output in the ./dataset/raw_behave. Then `python utils/raw_pose_processing_behave.py` to output processed data in folder ./dataset/joints_behave. At last, just like preprocessing method of HumanML3D, run `motion_representation.py` and `cal_mean_variance.py` to convert data into HumanML3D format and calculate data std and mean, respectively.
+Run  `bash prepare/process_behave_raw.sh` to split motion sequeces based on our manual annonation. The splited data will be output in the ./dataset/raw_behave. 
+
+Then `python utils/raw_pose_processing_behave.py` to output processed data in folder ./dataset/joints_behave. 
+
+At last, just like preprocessing method of HumanML3D, run `python utils/motion_representation.py` and `python utils/cal_mean_variance.py` to convert data into HumanML3D format and calculate data std and mean, respectively.
 
 
 
