@@ -554,7 +554,6 @@ class Behave(data.Dataset):
   
 
             self.split_file = pjoin(opt.data_root, f'{split}.txt')
-            # self.split_file = pjoin('/work/vig/xiaogangp/codes/hoi-motion', f'{split}.txt')
             if mode == 'text_only':
                 self.t2m_dataset = TextOnlyDataset(self.opt, self.mean, self.std, self.split_file)
             else:
@@ -678,7 +677,7 @@ def text_to_object(text):
                 break
         
         # load obj points----------------
-        obj_path = '/work/vig/xiaogangp/codes/hoi-motion_pretrained/object_mesh'
+        obj_path = '/dataset/behave_t2m/object_mesh'
         obj_name = name
         mesh_path = os.path.join(obj_path, simplified_mesh[obj_name])
 
@@ -688,37 +687,18 @@ def text_to_object(text):
         obj_normals = obj_faces
 
 
-        # # sample object points
-        # obj_sample_path = '/work/vig/yimingx/behave_obj_sample/{}.npy'.format(name)
-        # o_choose = np.load(obj_sample_path)
+        # sample object points
+        obj_sample_path = './dataset/behave_t2m/object_sample/{}.npy'.format(name)
+        choose = np.load(obj_sample_path)
         
-
-        # # compute normal
-        # mesh = o3d.geometry.TriangleMesh()
-        # verts_full_new = obj_points
-        # mesh.vertices = o3d.utility.Vector3dVector(verts_full_new)
-        # mesh.triangles = o3d.utility.Vector3iVector(obj_faces)
-        # mesh.compute_vertex_normals()
-        # obj_normals = np.asarray(mesh.vertex_normals)
-        # obj_points = np.asarray(mesh.vertices).astype(np.float32)
-
 
         # center the meshes
         center = np.mean(obj_points, 0)
         obj_points -= center
 
-
-
-
-        replace = False if len(obj_points) > 512 else True
-        choose = np.random.choice(len(obj_points), 512, replace=replace)
-        choose = np.sort(choose)
-        # np.save(obj_sample_path, choose)
-
                 
         obj_points = obj_points[choose] 
         obj_normals = obj_normals[choose] 
-
 
 
         all_obj_points.append(obj_points)
