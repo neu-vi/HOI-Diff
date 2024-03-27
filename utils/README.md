@@ -64,10 +64,18 @@ We discuss details of each folder next:
 
 **split.json**: this file provides the official train and test split for the dataset. The split is based on sequence name. The splited information is stored in the `train.txt` and `test.txt`.
 
-> Utilizing the SMPL-H body model, kindly download the latest version (v1.2) from the official [website](https://mano.is.tue.mpg.de/), and place it in a suitable directory.
 
 
 ### Preprocess BEHAVE data from scratch [Optional]: 
+> Utilizing the SMPL-H body model, kindly download the latest version (v1.2) from the official [website](https://mano.is.tue.mpg.de/), and place it in ./body_models and organize them like this:
+```
+./body_models/
+|--smplh
+|----SMPLH_FEMALE.npz
+|----SMPLH_MALE.npz
+|----SMPLH_NEUTRAL.npz
+```
+
 If you want to preprocess motion data from scratch, you could download official data of SMPL and object parameters (30fps) from [here](https://virtualhumans.mpi-inf.mpg.de/behave/license.html) , unzip and place them into ./dataset/behave-30fps-params/, which would be like this: 
 ```
 ./data/behave-30fps-params/
