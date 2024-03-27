@@ -85,10 +85,7 @@ def main():
     total_num_samples = args.num_samples * args.num_repetitions
 
 
-    print("Setting afford model ...")
-    # NOTE: Hard-coded trajectory model location
-
-         
+    print("Setting affordance model ...")
 
     afford_model, afford_diffusion = load_model(args, data, dist_util.dev(), 
                                            ModelClass=AffordEstimation, DiffusionClass=AffordDiffusion,
