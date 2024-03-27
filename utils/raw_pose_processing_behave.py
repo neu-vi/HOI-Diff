@@ -103,16 +103,6 @@ for root, dirs, files in os.walk('./dataset/raw_behave'):
         paths.append(os.path.join(root, files[-1]))
 
 
-paths = []
-folders = []
-dataset_names = []
-for root, dirs, files in os.walk('./dataset/dataset/dataset/raw_behave'):
-    folders.append(root)
-    for name in files:
-        dataset_name = root.split('/')[2]
-        if dataset_name not in dataset_names:
-            dataset_names.append(dataset_name)
-        paths.append(os.path.join(root, name))
 
 
 # %%
