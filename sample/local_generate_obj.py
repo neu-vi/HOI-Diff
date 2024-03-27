@@ -379,14 +379,7 @@ def load_motion_dataset(args, max_frames, n_frames, training_stage=2):
     return data
 
 
-        
-def save_npy(save_path, vertices, faces):
-    # print(f"motion: { type(self.motions['motion'])} frame : {self.real_num_frames}  vet {type(self.vertices.detach().cpu().numpy())}")
-    data_dict = {
-        'faces': faces,
-        'vertices': vertices,
-    }
-    np.save(save_path, data_dict)
+    
 
 if __name__ == "__main__":
     main()
