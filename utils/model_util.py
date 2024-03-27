@@ -14,11 +14,8 @@ def load_model_wo_clip(model, state_dict):
 
 def load_model(args, data, device, ModelClass=MDM, DiffusionClass=LocalMotionDiffusion, diff_steps=1000,  model_path=None):
     model, diffusion = create_model_and_diffusion(args, data, ModelClass=ModelClass, DiffusionClass=DiffusionClass, diff_steps=diff_steps) 
-    # model_path = args.model_path
-    print(f"Loading checkpoints from [{model_path}]...")
+    print(f"Loading pretrained checkpoints from [{model_path}]...")
     state_dict = torch.load(model_path, map_location='cpu')
-
-    # print(f"  state_dict  {state_dict.keys()} ")
     load_model_wo_clip(model, state_dict)
     model.to(device)
     model.eval()  # disable random masking
@@ -105,27 +102,6 @@ def create_gaussian_diffusion(args, diff_steps=1000, DiffusionClass=LocalMotionD
     if not timestep_respacing:
         timestep_respacing = [steps]
 
-    # return SpacedDiffusion(
-    #     use_timesteps=space_timesteps(steps, timestep_respacing),
-    #     betas=betas,
-    #     model_mean_type=(
-    #         gd.ModelMeanType.EPSILON if not predict_xstart else gd.ModelMeanType.START_X
-    #     ),
-    #     model_var_type=(
-    #         (
-    #             gd.ModelVarType.FIXED_LARGE
-    #             if not args.sigma_small
-    #             else gd.ModelVarType.FIXED_SMALL
-    #         )
-    #         if not learn_sigma
-    #         else gd.ModelVarType.LEARNED_RANGE
-    #     ),
-    #     loss_type=loss_type,
-    #     rescale_timesteps=rescale_timesteps,
-    #     lambda_vel=args.lambda_vel,
-    #     lambda_rcxyz=args.lambda_rcxyz,
-    #     lambda_fc=args.lambda_fc,
-    # )
 
     return DiffusionClass(
         use_timesteps=space_timesteps(steps, timestep_respacing),

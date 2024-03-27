@@ -61,11 +61,8 @@ def add_base_options(parser):
     group.add_argument("--device", default=0, type=int, help="Device id to use.")
     group.add_argument("--seed", default=10, type=int, help="For fixing random seed.")
     group.add_argument("--batch_size", default=64, type=int, help="Batch size during training.")
-    group.add_argument("--global_3d", default=False, action="store_true",  help="where use global pose representation or local one ")
     group.add_argument("--guidance", default=False, action="store_true",  help="whether use guidance learning ")  
     group.add_argument("--skip_first_stage", default=False, action="store_true",  help="whether skip stage 1 for affordance prediction")
-    group.add_argument("--wo_obj_motion", default=False, action="store_true",  help="whether input obj_motion")
-    group.add_argument("--wo_cross_attn", default=False, action="store_true",  help="whether use cross_attention, the defaut will use it")
 
 
 def add_diffusion_options(parser):

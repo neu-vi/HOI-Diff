@@ -24,7 +24,6 @@ def recover_obj_points(obj_motion, temp_points):
 
     return obj_points
 
-# axis_angle_to_matrix
 
 
 
@@ -99,54 +98,6 @@ def rigid_transform(relative, data):
     return data
 
 
-class MotionNormalizer():
-    def __init__(self):
-        mean = np.load("/work/vig/xiaogangp/codes/guided-motion-diffusion/dataset/Behave_global/Mean_global.npy")
-        std = np.load("/work/vig/xiaogangp/codes/guided-motion-diffusion/dataset/Behave_global/Std_global.npy")
-
-        self.motion_mean = mean
-        self.motion_std = std
-
-
-    def forward(self, x):
-        x = (x - self.motion_mean) / self.motion_std
-        return x
-
-    def backward(self, x):
-        x = x * self.motion_std + self.motion_mean
-        return x
-
-
-
-class MotionNormalizerTorch():
-    def __init__(self,):
-
-        # mean = np.load("/work/vig/xiaogangp/codes/guided-motion-diffusion/dataset/HumanML3D_global/Mean_global.npy")
-        # std = np.load("/work/vig/xiaogangp/codes/guided-motion-diffusion/dataset/HumanML3D_global/Std_global.npy")
-
-        mean = np.load("/work/vig/xiaogangp/codes/guided-motion-diffusion/dataset/Behave_global/Mean_global.npy")
-        std = np.load("/work/vig/xiaogangp/codes/guided-motion-diffusion/dataset/Behave_global/Std_global.npy")
-
-
-        self.motion_mean = torch.from_numpy(mean).float()
-        self.motion_std = torch.from_numpy(std).float()
-
-
-    def forward(self, x,  dim=268):
-        device = x.device
-        x = x.clone()
-        x = (x - self.motion_mean.to(device)) / self.motion_std.to(device)
-        return x
-
-    def backward(self, x, global_rt=False, dim=268):
-        device = x.device
-        x = x.clone()
-        x = x * self.motion_std.to(device) + self.motion_mean.to(device)
-        return x
-
-trans_matrix = torch.Tensor([[1.0, 0.0, 0.0],
-                         [0.0, 0.0, 1.0],
-                         [0.0, -1.0, 0.0]])
 
 
 def process_motion_np(motion, feet_thre, prev_frames, n_joints):
