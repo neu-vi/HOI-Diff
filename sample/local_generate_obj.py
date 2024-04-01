@@ -25,6 +25,7 @@ from visualize.vis_utils import simplified_mesh
 from model.hoi_diff import HOIDiff as used_model
 from model.afford_est import AffordEstimation
 from diffusion.gaussian_diffusion import LocalMotionDiffusion, AffordDiffusion
+from sample.condition import Guide_Contact
 
 
 def main():
@@ -33,9 +34,8 @@ def main():
     out_path = args.output_dir
     name = os.path.basename(os.path.dirname(args.model_path))
     niter = os.path.basename(args.model_path).replace('model', '').replace('.pt', '')
-    max_frames = 196 if args.dataset in ['kit', 'humanml', 'behave'] else 120
-    # fps = 12.5 if args.dataset == 'kit' else 20
-    fps = 10
+    max_frames = 196 if args.dataset in ['humanml', 'behave'] else 120
+    fps = 20
     n_frames = min(max_frames, int(args.motion_length*fps))
     is_using_data = not any([args.input_text, args.text_prompt, args.action_file, args.action_name])
     dist_util.setup_dist(args.device)
@@ -77,8 +77,7 @@ def main():
     # (specify through the --seed flag)
     args.batch_size = args.num_samples  # Sampling a single batch from the testset, with exactly args.num_samples
 
-    # print('Loading Afford dataset...')
-    # data = load_afford_dataset(args)
+
     print('Loading Motion dataset...')
     data = load_motion_dataset(args, max_frames, n_frames)
 
@@ -94,7 +93,6 @@ def main():
     print("Creating motion model and diffusion...")
     motion_model, motion_diffusion = load_model(args, data, dist_util.dev(), ModelClass=used_model, DiffusionClass=LocalMotionDiffusion, diff_steps=1000,model_path=args.model_path)
 
-    # print(motion_model)
         
     if is_using_data:
         iterator = iter(data)
@@ -367,7 +365,6 @@ def load_motion_dataset(args, max_frames, n_frames, training_stage=2):
         name=args.dataset,
         batch_size=args.batch_size,
         num_frames=max_frames,
-        use_global=args.global_3d,
         split='test',
         hml_mode='text_only',
         training_stage=training_stage)
