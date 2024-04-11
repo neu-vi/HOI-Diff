@@ -31,16 +31,14 @@ We discuss details of each folder next:
 .dataset/behave_t2m/
 |--new_joint_vecs_local  
 |----sequence_name.npy 
-
 ```
 
 
-**affordance_data**: This folder stores the affordance data for humans and objects, including 8-dim human contact labels, 1-dim object state and two object contact positions of 6-dim.
+**affordance_data**: This folder stores the affordance data for humans and objects, including 8-dim binary human contact labels, 8-dim object contact positions. The object state will be released soon!
 ```
 .dataset/behave_t2m/
 |--affordance_data  
 |----contact_{sequence_name}.npy  # affordance data for contact information
-
 ```
 
 **object_mesh**: This folder provides the scans of our template objects. 
@@ -65,7 +63,6 @@ We discuss details of each folder next:
 **split.json**: this file provides the official train and test split for the dataset. The split is based on sequence name. The splited information is stored in the `train.txt` and `test.txt`.
 
 
-
 ### Preprocess BEHAVE data from scratch [Optional]: 
 We need the SMPL-H body model first, so please kindly download the latest version (v1.2) from the official [website](https://mano.is.tue.mpg.de/), and place it in ./body_models and organize them like this:
 ```
@@ -75,7 +72,6 @@ We need the SMPL-H body model first, so please kindly download the latest versio
 |----SMPLH_MALE.npz
 |----SMPLH_NEUTRAL.npz
 ```
-
 
 You could download official data of SMPL and object parameters (30fps) from [here](https://virtualhumans.mpi-inf.mpg.de/behave/license.html) , unzip and place them into ./dataset/behave-30fps-params/, which would be like this: 
 ```
