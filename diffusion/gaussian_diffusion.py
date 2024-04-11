@@ -453,16 +453,6 @@ class GaussianDiffusion:
                 x[:,:263] = x[:,:263] - tao1 * grad[:,:263] 
                 x[:,263:] = x[:,263:] - tao2 * grad[:,263:]    
  
-            if t[0] == 0:
-                print(torch.tensor(loss_list))
-                import codecs as cs
-                from os.path import join as pjoin
-                import numpy as np
-                np.set_printoptions(threshold=np.inf)
-                data = list(np.array(torch.tensor(loss_list)))
-          
-                with cs.open(pjoin('./', 'loss.txt'), 'a+') as f:
-                    f.write('%s\n' % (data))
         new_mean = x.detach()
 
         return new_mean
