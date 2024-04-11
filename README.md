@@ -70,6 +70,12 @@ sudo apt update
 sudo apt install ffmpeg
 ```
 
+Update installed ffmpeg path in ./data_loaders/behave/utils/plot_script.py:
+```
+# Line 5
+plt.rcParams['animation.ffmpeg_path'] = 'your_ffmpeg_path/bin/ffmpeg'
+```
+
 Setup conda env:
 ```
 conda env create -f environment.yml
