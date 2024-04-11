@@ -43,14 +43,7 @@ class Guide_Contact:
 
 
     def __call__(self, x, t, y=None, human_mean=None): # *args, **kwds):
-        """
-        Args:
-            target: [bs, 120, 22, 3]
-            target_mask: [bs, 120, 22, 3]
-        """
 
-            
-        # return x.detach()
         loss, grad, loss_list = self.gradients(x, t, self.afford_sample, y['obj_points'], y['obj_normals'])
 
             
@@ -118,38 +111,26 @@ class Guide_Contact:
                 vertices -= center
                 center_ = torch.mean(vertices, 0)
 
-                init_y = center_[1:2] - vertices[:, 1].min()
             
-                contact_vertices = obj_points[i][-2:,:].float()
-    
-
                 obj_normal = obj_normals[i]
-
                 pred_angle, pred_trans = obj_output[i, :, :3].transpose(1,0), obj_output[i, :, 3:].transpose(1,0)
                 pred_rot = axis_angle_to_matrix(pred_angle.transpose(1,0))
-
-                pred_points = torch.matmul(contact_vertices.unsqueeze(0), pred_rot.permute(0, 2, 1)) + pred_trans.transpose(1, 0).unsqueeze(1)
-
                 all_pred_points = torch.matmul(obj_points[i].float().unsqueeze(0), pred_rot.permute(0, 2, 1)) + pred_trans.transpose(1, 0).unsqueeze(1)
                 
+
                 if contact_idxs[i].any() !=-1:
                     sel_joints = np.array([0,9,10,11,16,17,20,21])
-                    contact_idxs[i] = np.array([6, 7])
-                    o_afford_labels[i] = o_afford_labels[i][:2]
-
+                    o_afford_labels[i] = o_afford_labels[i]
                     sel_idx = sel_joints[contact_idxs[i]]
                     loss_contact = torch.norm((joints_output[i, :, sel_idx,:] - all_pred_points[:, o_afford_labels[i],  :]), dim=-1)
                     contact_loss = torch.cat([contact_loss, loss_contact.sum(-1).unsqueeze(0)], dim=0)
 
 
+            total_loss_contact = contact_loss.sum()
 
-
-            total_loss_contact = 1.0 * contact_loss.sum()
-
-            loss_sum = total_loss_contact
+            loss_sum = total_loss_contact 
             
             self.loss_all.append(loss_sum)
-
             grad = torch.autograd.grad([loss_sum], [x])[0]
             x.detach()
         return loss_sum, grad, self.loss_all

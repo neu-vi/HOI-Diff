@@ -420,27 +420,11 @@ class GaussianDiffusion:
         """
 
 
-        # gradient = cond_fn(x, self._scale_timesteps(t), **model_kwargs)
-        # new_mean = (
-        #     p_mean_var["mean"].float() + p_mean_var["variance"] * gradient.float()
-        # )
-
-        # updated_xstart = cond_fn(
-        #                     p_mean_var["pred_xstart"],
-        #                     self._scale_timesteps(t),
-        #                     # diffusion=self,
-        #                     p_mean_var,
-        #                     **model_kwargs
-        #                     )
-        # new_mean, _, _ = self.q_posterior_mean_variance(
-        #     x_start=updated_xstart, x_t=x, t=t)
-
 
         min_variance = 0.01
         model_log_variance = _extract_into_tensor(self.posterior_log_variance_clipped, t, x.shape)
         model_variance = torch.exp(model_log_variance)
         
-        # print(f" model_variance : {model_variance}")
         if model_variance[0, 0, 0, 0] < min_variance:
             model_variance = min_variance   
 
@@ -452,8 +436,6 @@ class GaussianDiffusion:
 
             if t[0] < 1:
                 n_guide_steps = 100
-            elif t[0] < 100 and t[0] >= 1:
-                n_guide_steps = 1
             else:
                 n_guide_steps = 1
 
@@ -465,14 +447,12 @@ class GaussianDiffusion:
                                 )
                 grad = model_variance * grad
                 tao1 = 1.0
-                tao2 = 100.0
+                tao2 = 10.0   # NOTE Different strengths have a big impact on gudiance and final perfomance, which is a bit tricky and we are still working on this.
 
                 # NOTE hard code
                 x[:,:263] = x[:,:263] - tao1 * grad[:,:263] 
                 x[:,263:] = x[:,263:] - tao2 * grad[:,263:]    
-
  
-
             if t[0] == 0:
                 print(torch.tensor(loss_list))
                 import codecs as cs
