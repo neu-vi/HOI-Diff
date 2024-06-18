@@ -125,10 +125,11 @@ class Guide_Contact:
                     loss_contact = torch.norm((joints_output[i, :, sel_idx,:] - all_pred_points[:, o_afford_labels[i],  :]), dim=-1)
                     contact_loss = torch.cat([contact_loss, loss_contact.sum(-1).unsqueeze(0)], dim=0)
 
-
+            loss_smooth_obj_rot_mean = F.mse_loss(obj_output[:, :, :], torch.mean(obj_output[:, :, :], dim=1, keepdim=True)) * 200
+            
             total_loss_contact = contact_loss.sum()
 
-            loss_sum = total_loss_contact 
+            loss_sum = total_loss_contact +  loss_smooth_obj_rot_mean
             
             self.loss_all.append(loss_sum)
             grad = torch.autograd.grad([loss_sum], [x])[0]
