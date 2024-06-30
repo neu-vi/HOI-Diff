@@ -12,7 +12,7 @@ The preprocessed motion data and annotations can be downloaded from [here](https
 After unzip the data, you can find five subfolders: `affordance_data`, `new_joint_vecs_local`, `new_joint_local`, `texts`, `object_mesh`,  `object_sample`. Please organize them as follows:
 ```
 .dataset/behave_t2m/
-|--affordance_data       # human contact labels, object cotact positions and object state
+|--affordance_data       # human contact labels, object cotact positions
 |--new_joint_vecs_local  # human-object interaction sequences
 |--new_joint_local       # human joint sequences in global space
 |--objects_mesh          # 3D scans of the 20 objects
@@ -34,7 +34,8 @@ We discuss details of each folder next:
 ```
 
 
-**affordance_data**: This folder stores the affordance data for humans and objects, including 8-dim binary human contact labels, 8-dim object contact positions. The object state will be released soon!
+**affordance_data**: This folder stores the affordance data for humans and objects, including 8-dim binary human contact labels (8x1) for 8 primary contacting joints, and the corresponding 8-dim object contact positions (8x3). 
+
 ```
 .dataset/behave_t2m/
 |--affordance_data  
