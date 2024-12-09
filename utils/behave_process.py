@@ -58,8 +58,7 @@ save_path = './dataset/raw_behave'
 behave_path = './dataset/behave-30fps-params'
 for seq in all_sequence:
     seq_name_fine = seq['name'] + '_{}'.format(seq['frame'][0])
-    if not osp.exists(osp.join(save_path, seq_name_fine)):
-        os.makedirs(osp.join(save_path, seq_name_fine))
+
     min_frame = seq['frame'][0]
     max_frame = seq['frame'][-1]
 
@@ -114,11 +113,16 @@ for seq in all_sequence:
             frame_times_o_.append(ft)
     files_h = {'poses': pose_h_, 'betas': betas_h_, 'trans': trans_h_, 'frame_times': frame_times_h_}
     files_o = {'angles': angles_o_, 'trans': trans_o_, 'frame_times': frame_times_o_}
-    
-    np.savez_compressed(osp.join(save_path, seq_name_fine, 'smpl_fit_all.npz'), **files_h)
-    np.savez_compressed(osp.join(save_path, seq_name_fine, 'object_fit_all.npz'), **files_o)
-    with open(osp.join(save_path, seq_name_fine, 'info.json'), 'w') as f:
-        json.dump(seq_info, f)
-    pass
+
+    if len(pose_h_) != 0:
+
+        if not osp.exists(osp.join(save_path, seq_name_fine)):
+            os.makedirs(osp.join(save_path, seq_name_fine))
+            
+        np.savez_compressed(osp.join(save_path, seq_name_fine, 'smpl_fit_all.npz'), **files_h)
+        np.savez_compressed(osp.join(save_path, seq_name_fine, 'object_fit_all.npz'), **files_o)
+        with open(osp.join(save_path, seq_name_fine, 'info.json'), 'w') as f:
+            json.dump(seq_info, f)
+        pass
 
 # a = 1

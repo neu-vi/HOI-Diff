@@ -97,6 +97,7 @@ def behave_to_pose(src_path, save_path):
             pose_hand = torch.Tensor(bdata['poses'][fId:fId+1, 66:]).to(comp_device) # controls the finger articulation
             betas = torch.Tensor(bdata['betas'][fId:fId+1]).to(comp_device) # controls the body shape
             trans = torch.Tensor(bdata['trans'][fId:fId+1]).to(comp_device)  
+            # print(f"pose_body: {pose_body.shape}, pose_hand: {pose_hand.shape}, betas: {betas.shape}, root_orient: {root_orient.shape}")  
             body = bm(pose_body=pose_body, pose_hand=pose_hand, betas=betas, root_orient=root_orient)
             joint_loc = body.Jtr[0] + trans
             pose_seq.append(joint_loc.unsqueeze(0))
@@ -143,7 +144,7 @@ for paths in group_path:
         try:
             fps = behave_to_pose(path, save_path)
         except:
-            # print('Error: ', path)
+            print('Error: ', path)
             continue
         
     cur_count += len(paths)
