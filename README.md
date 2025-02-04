@@ -100,8 +100,7 @@ Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install
 `MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
 
 `HOI-DM and APDM:` 
-HOI-DM Pretrained [checkpoint](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing) and [APDM](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing).
-
+HOI-DM's pretrained [checkpoint](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing) and APDM's pretrained [checkpoint](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing). Please place them in the “save” folder and update the parser file so it loads them correctly.
 ### 3. Train your APDM
 ```
 python -m train.train_affordance --save_dir ./save/afford_pred --dataset behave --save_interval 1000 --num_steps 20000 --batch_size 32 --diffusion_steps 500
