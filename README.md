@@ -49,7 +49,8 @@
 ## 📜 TODO List
 - [x] Release the dataset preparation and annotations.
 - [x] Release the main codes for implementation.
-- [ ] Release the evaluation codes and the pretrained models.
+- [x] Release the pretrained models.
+- [ ] Release the evaluation codes. (We are still working on developing a more robust evaluator.)
 - [ ] Release the demo video.
 
 ## 📥 Data Preparation
@@ -99,7 +100,7 @@ Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install
 `MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
 
 `HOI-DM and APDM:` 
-Release soon!
+HOI-DM Pretrained [checkpoint](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing) and [APDM](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing).
 
 ### 3. Train your APDM
 ```
