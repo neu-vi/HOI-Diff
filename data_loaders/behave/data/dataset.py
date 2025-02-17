@@ -677,7 +677,7 @@ def text_to_object(text):
                 break
         
         # load obj points----------------
-        obj_path = '/dataset/behave_t2m/object_mesh'
+        obj_path = './dataset/behave_t2m/object_mesh'
         obj_name = name
         mesh_path = os.path.join(obj_path, simplified_mesh[obj_name])
 
