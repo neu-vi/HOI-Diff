@@ -27,7 +27,7 @@ dependencies:
   - filelock=3.8.0=pyhd8ed1ab_0
   - fontconfig=2.13.1=h6c09931_0
   - freetype=2.11.0=h70c0345_0
-  - gdown=4.5.1=pyhd8ed1ab_0
+  # - gdown=4.5.1=pyhd8ed1ab_0
   - giflib=5.2.1=h7b6447c_0
   - glib=2.69.1=h4ff587b_1
   - gst-plugins-base=1.14.0=h8213a91_2
@@ -133,4 +133,6 @@ dependencies:
     - urllib3==1.26.12
     - wasabi==0.10.1
     - wcwidth==0.2.5
+    - gdown==4.7.3
+    - blobfile
 prefix: /disk2/guytevet/anaconda3/envs/t2hoi

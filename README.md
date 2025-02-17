@@ -101,17 +101,16 @@ Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install
 
 `HOI-DM and APDM:` 
 HOI-DM's pretrained [checkpoint](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing) and APDM's pretrained [checkpoint](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing). Please place them in the “save” folder and update the parser file so it loads them correctly.
-### 3. Train your APDM
+Alternatively, run
 ```
-python -m train.train_affordance --save_dir ./save/afford_pred --dataset behave --save_interval 1000 --num_steps 20000 --batch_size 32 --diffusion_steps 500
+mkdir save
+cd save
+gdown 1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f
+gdown 1KicIF9MtCO9RsMo5Yk6Ki0HVy98doKgs
+cd ..
 ```
 
-### 4. Train your HOI-DM
-```
-python -m train.hoi_diff --save_dir ./save/behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
-```
-
-### 5. HOIs Synthesis
+### 3. HOIs Synthesis with pretrained model
 
 Generate from test set prompts
 ```
@@ -121,6 +120,17 @@ Generate from your text file
 ```
 python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
 ```
+
+### 4. Train your APDM
+```
+python -m train.train_affordance --save_dir ./save/my_afford_pred --dataset behave --save_interval 1000 --num_steps 20000 --batch_size 32 --diffusion_steps 500
+```
+
+### 5. Train your HOI-DM
+```
+python -m train.hoi_diff --save_dir ./save/my_behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
+```
+
 
 <!-- ### 6. Evaluate
 ```
