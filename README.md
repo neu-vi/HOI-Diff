@@ -99,12 +99,12 @@ Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install
 ### 2. Download Pre-trained model
 
 `HOI-DM and APDM:` 
-The [pretrained model](https://drive.google.com/file/d/1Xp78VJyEbWGN8nWD5T08KWiz9P4VLwci/view?usp=sharing) (including HOI-DM and APDM):
-'''
+The [pretrained model](https://drive.google.com/file/d/1Xp78VJyEbWGN8nWD5T08KWiz9P4VLwci/view?usp=sharing) (including HOI-DM and APDM):  
+```
 gdown 1Xp78VJyEbWGN8nWD5T08KWiz9P4VLwci
 unzip pretrain_model.zip -d .
 rm pretrain_model.zip
-'''
+```
 
 <!-- HOI-DM's pretrained [checkpoint](https://drive.google.com/drive/folders/1WQaaqQumkzm_c1zJ_UfmfSSOIC_h4w8D?usp=drive_link) and APDM's pretrained [checkpoint](https://drive.google.com/drive/folders/1ynFIvZXiopuHGOxuLkSsyvNMMCs9zHxr?usp=drive_link). Please place them in the “save” folder and update the parser file so it loads them correctly. -->
 
