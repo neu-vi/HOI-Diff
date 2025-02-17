@@ -97,18 +97,17 @@ bash prepare/download_t2m_evaluators.sh
 Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install PointNet++.
 
 ### 2. Download Pre-trained model
-`MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
 
 `HOI-DM and APDM:` 
-HOI-DM's pretrained [checkpoint](https://drive.google.com/drive/folders/1WQaaqQumkzm_c1zJ_UfmfSSOIC_h4w8D?usp=drive_link) and APDM's pretrained [checkpoint](https://drive.google.com/drive/folders/1ynFIvZXiopuHGOxuLkSsyvNMMCs9zHxr?usp=drive_link). Please place them in the “save” folder and update the parser file so it loads them correctly.
-Alternatively, run
-```
-mkdir save
-cd save
-gdown 1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f
-gdown 1KicIF9MtCO9RsMo5Yk6Ki0HVy98doKgs
-cd ..
-```
+The [pretrained model](https://drive.google.com/file/d/1Xp78VJyEbWGN8nWD5T08KWiz9P4VLwci/view?usp=sharing) (including HOI-DM and APDM):
+'''
+gdown 1Xp78VJyEbWGN8nWD5T08KWiz9P4VLwci
+unzip pretrain_model.zip -d .
+rm pretrain_model.zip
+'''
+
+<!-- HOI-DM's pretrained [checkpoint](https://drive.google.com/drive/folders/1WQaaqQumkzm_c1zJ_UfmfSSOIC_h4w8D?usp=drive_link) and APDM's pretrained [checkpoint](https://drive.google.com/drive/folders/1ynFIvZXiopuHGOxuLkSsyvNMMCs9zHxr?usp=drive_link). Please place them in the “save” folder and update the parser file so it loads them correctly. -->
+
 
 ### 3. HOIs Synthesis with pretrained model
 
@@ -127,6 +126,7 @@ python -m train.train_affordance --save_dir ./save/my_afford_pred --dataset beha
 ```
 
 ### 5. Train your HOI-DM
+`MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
 ```
 python -m train.hoi_diff --save_dir ./save/my_behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
 ```
