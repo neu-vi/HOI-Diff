@@ -100,7 +100,7 @@ Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install
 `MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
 
 `HOI-DM and APDM:` 
-HOI-DM's pretrained [checkpoint](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing) and APDM's pretrained [checkpoint](https://drive.google.com/file/d/1wos_dDo5Y8Ex3T4r2lME0yOxCI_MTu2f/view?usp=sharing). Please place them in the “save” folder and update the parser file so it loads them correctly.
+HOI-DM's pretrained [checkpoint](https://drive.google.com/drive/folders/1WQaaqQumkzm_c1zJ_UfmfSSOIC_h4w8D?usp=drive_link) and APDM's pretrained [checkpoint](https://drive.google.com/drive/folders/1ynFIvZXiopuHGOxuLkSsyvNMMCs9zHxr?usp=drive_link). Please place them in the “save” folder and update the parser file so it loads them correctly.
 Alternatively, run
 ```
 mkdir save
@@ -118,7 +118,7 @@ python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model0000
 ```
 Generate from your text file
 ```
-python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
+python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance --input_text ./assets/your_text.txt
 ```
 
 ### 4. Train your APDM
