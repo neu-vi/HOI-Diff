@@ -119,7 +119,8 @@ python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model0000
 ```
 Generate from your text file
 ```
-python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
+python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance --input_text ./assets/your_text.txt
+```
 ```
 
 <!-- ### 6. Evaluate
