@@ -6,6 +6,7 @@ We have prepocessed the BEHAVE data into [HumanML3D](https://github.com/EricGuo5
 
 ## Download
 The preprocessed motion data and annotations can be downloaded from [here](https://drive.google.com/file/d/1w7IRaMMhdU2PM1Dk4nkfKAFbXTf4iPZA/view?usp=sharing).
+Please put the data in `.dataset/`.
 
 
 ## Dataset Structure

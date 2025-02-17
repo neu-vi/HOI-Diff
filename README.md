@@ -55,7 +55,8 @@
 
 ## 📥 Data Preparation
 
-For more information about the implementation, see [README](utils/README.md).
+For more information about the implementation, see [README](utils/README.md).  
+Please download the [processed data](https://github.com/neu-vi/HOI-Diff/blob/main/utils/README.md#download), even if you are only running inference, as the ground-truth object mesh is required in our pipeline.
 
 ## ⚙️ Quick Start
 <details>
@@ -110,7 +111,6 @@ rm pretrain_model.zip
 
 
 ### 3. HOIs Synthesis with pretrained model
-
 Generate from test set prompts
 ```
 python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
