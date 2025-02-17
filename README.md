@@ -91,7 +91,7 @@ Download dependencies:
 ```
 bash prepare/download_smpl_files.sh
 bash prepare/download_glove.sh
-bash prepare/download_t2hoi_evaluators.sh  
+bash prepare/download_t2m_evaluators.sh  
 ```
 
 Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install PointNet++.
