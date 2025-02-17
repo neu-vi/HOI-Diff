@@ -41,7 +41,7 @@ female_bm = BodyModel(bm_fname=female_bm_path, num_betas=num_betas).to(comp_devi
 paths = []
 folders = []
 dataset_names = []
-for root, dirs, files in os.walk('./dataset/behave-30fps-params'):
+for root, dirs, files in os.walk('./dataset/raw_behave'):
     folders.append(root)
     for name in files:
         dataset_name = root.split('/')[2]
