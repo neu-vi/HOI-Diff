@@ -66,6 +66,8 @@ We discuss details of each folder next:
 
 
 ## Preprocess BEHAVE data from scratch [Optional]: 
+(Note that you can directly download the preprossed data via [link](https://github.com/neu-vi/HOI-Diff/blob/main/utils/README.md#download))  
+
 We need the SMPL-H body model first, so please kindly download the latest version (v1.2) from the official [website](https://mano.is.tue.mpg.de/), and place it in ./body_models and organize them like this:
 ```
 ./body_models/
