@@ -127,7 +127,7 @@ python -m train.train_affordance --save_dir ./save/my_afford_pred --dataset beha
 
 ### 5. Train your HOI-DM
 `MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
-``
+```
 mkdirs checkpoints
 cd checkpoints
 gdown 1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821
