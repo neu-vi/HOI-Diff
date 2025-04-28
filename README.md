@@ -38,7 +38,7 @@
     Northeastern University &emsp; Hangzhou Dianzi University &emsp;
     Stability AI &emsp; Google Research
     <br>
-    arXiv 2023
+    CVPRW 2025
   </p>
 </p>
 
