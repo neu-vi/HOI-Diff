@@ -38,7 +38,7 @@
     Northeastern University &emsp; Hangzhou Dianzi University &emsp;
     Stability AI &emsp; Google Research
     <br>
-    CVPRW 2025
+    CVPR 2025 Workshop of HuMoGen
   </p>
 </p>
 
