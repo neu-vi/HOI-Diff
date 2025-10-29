@@ -56,7 +56,7 @@
 ## 📥 Data Preparation
 
 For more information about the implementation, see [README](utils/README.md).  
-Please download the [processed data](https://github.com/neu-vi/HOI-Diff/blob/main/utils/README.md#download), even if you are only running inference, as the ground-truth object mesh is required in our pipeline.
+Please prepare the data by following this [instruction](https://github.com/neu-vi/HOI-Diff/blob/main/utils/README.md#download), even if you are only running inference, as the ground-truth object mesh is required in our pipeline.
 
 ## ⚙️ Quick Start
 <details>
