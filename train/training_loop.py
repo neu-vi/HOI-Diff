@@ -15,9 +15,6 @@ from diffusion.fp16_util import MixedPrecisionTrainer
 from diffusion.resample import LossAwareSampler, UniformSampler
 from tqdm import tqdm
 from diffusion.resample import create_named_schedule_sampler
-from data_loaders.behave.networks.evaluator_wrapper import EvaluatorMDMWrapper
-# from eval import eval_behave
-from data_loaders.get_data import get_dataset_loader
 
 
 # For ImageNet experiments, this was a good default value.
@@ -79,24 +76,7 @@ class TrainLoop:
         self.schedule_sampler_type = 'uniform'
         self.schedule_sampler = create_named_schedule_sampler(self.schedule_sampler_type, diffusion)
         self.eval_wrapper, self.eval_data, self.eval_gt_data = None, None, None
-        if args.dataset in ['kit', 'humanml'] and args.eval_during_training:
-            mm_num_samples = 0  # mm is super slow hence we won't run it during training
-            mm_num_repeats = 0  # mm is super slow hence we won't run it during training
-            gen_loader = get_dataset_loader(name=args.dataset, batch_size=args.eval_batch_size, num_frames=None,
-                                            split=args.eval_split,
-                                            hml_mode='eval')
 
-            self.eval_gt_data = get_dataset_loader(name=args.dataset, batch_size=args.eval_batch_size, num_frames=None,
-                                                   split=args.eval_split,
-                                                   hml_mode='gt')
-            self.eval_wrapper = EvaluatorMDMWrapper(args.dataset, dist_util.dev())
-            self.eval_data = {
-                'test': lambda: eval_behave.get_mdm_loader(
-                    model, diffusion, args.eval_batch_size,
-                    gen_loader, mm_num_samples, mm_num_repeats, gen_loader.dataset.opt.max_motion_length,
-                    args.eval_num_samples, scale=1.,
-                )
-            }
         self.use_ddp = False
         self.ddp_model = self.model
 

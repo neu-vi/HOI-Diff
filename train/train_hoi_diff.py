@@ -10,12 +10,13 @@ from utils.fixseed import fixseed
 from utils.parser_util import train_args
 from utils import dist_util
 from train.training_loop import TrainLoop
-from utils.model_util import create_model_and_diffusion, load_pretrained_mdm
+from utils.model_util import create_model_and_diffusion, load_pretrained_mdm, load_split_mdm
 from train.train_platforms import ClearmlPlatform, TensorboardPlatform, NoPlatform  # required for the eval operation
-from model.afford_est import AffordEstimation
-from diffusion.gaussian_diffusion import AffordDiffusion
-from data_loaders.dataset import Text2AffordDataset
-from data_loaders.tensors import t2m_contact_collate
+from model.mdm import MDM
+from diffusion.gaussian_diffusion import LocalMotionDiffusion
+from data_loaders.dataset import Text2MotionDatasetV2
+from data_loaders.tensors import t2hoi_collate
+
 def main():
     args = train_args()
     fixseed(args.seed)
@@ -36,23 +37,38 @@ def main():
     dist_util.setup_dist(args.device)
 
     print("creating data loader...")
-    dataset = Text2AffordDataset(opt=args, split='train')
+    data_set = Text2MotionDatasetV2(opt=args, split='train')
     data_loader =torch.utils.data.DataLoader(
-            dataset,
+            data_set,
             batch_size=args.batch_size,
             num_workers=args.num_workers,
             pin_memory=False,
             shuffle=True,
             drop_last=True,
-            collate_fn=t2m_contact_collate
+            collate_fn=t2hoi_collate
             )
 
-    print("creating model and diffusion...")
-    model, diffusion = create_model_and_diffusion(args, data_loader, ModelClass=AffordEstimation, DiffusionClass=AffordDiffusion)
-    model.to(dist_util.dev())
 
+    print("creating model and diffusion...")
+    from model.hoi_diff import HOIDiff
+    model, diffusion = create_model_and_diffusion(args, data_loader, ModelClass=HOIDiff, DiffusionClass=LocalMotionDiffusion)
+
+
+    print(f"Loading checkpoints from [{args.pretrained_path}]...")
+    state_dict = torch.load(args.pretrained_path, map_location='cpu')
+
+
+    if args.multi_backbone_split == 0:
+        load_pretrained_mdm(model, state_dict)
+    else:
+        load_split_mdm(model, state_dict, args.multi_backbone_split)
+        
+
+    model.to(dist_util.dev())
+    model.rot2xyz.smpl_model.eval()
 
     print('Total params: %.2fM' % (sum(p.numel() for p in model.parameters_wo_clip()) / 1000000.0))
+    print('Trainable params: %.2fM' % (sum(p.numel() for p in model.trainable_parameters()) / 1000000.0))
     print("Training...")
     TrainLoop(args, train_platform, model, diffusion, data_loader).run_loop()
     train_platform.close()
