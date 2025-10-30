@@ -60,7 +60,7 @@ Please prepare and organize the data by following this [instruction](process/REA
 
 ## ⚙️ Quick Start
 <details>
-  <summary><b>Setup and download</b></summary>
+  <summary><b>Setup and Run</b></summary>
 
 
 
