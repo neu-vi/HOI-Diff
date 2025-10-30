@@ -2,14 +2,37 @@
 
 ## Data Preparation
 
-We have prepocessed the BEHAVE data into [HumanML3D](https://github.com/EricGuo5513/HumanML3D) format. The human pose is represented in the local space, while the object pose is in the global space.
+We provided the script to convert BEHAVE data into [HumanML3D](https://github.com/EricGuo5513/HumanML3D) format. The human pose is represented in the local space, while the object pose is in the global space.
 
-## Download
-The preprocessed motion data and annotations can be downloaded from [here](https://drive.google.com/file/d/1w7IRaMMhdU2PM1Dk4nkfKAFbXTf4iPZA/view?usp=sharing).
+## Preprocess BEHAVE data from scratch:  
+We need the SMPL-H body model first, so please kindly download the latest version (v1.2) from the official [website](https://mano.is.tue.mpg.de/), and place it in ./body_models and organize them like this:
+```
+./body_models/
+|--smplh
+    |----SMPLH_FEMALE.npz
+    |----SMPLH_MALE.npz
+    |----SMPLH_NEUTRAL.npz
+```
+
+Then download official data of SMPLH and object parameters (30fps) from [here](https://virtualhumans.mpi-inf.mpg.de/behave/license.html) , unzip and place them into ./dataset/behave-30fps-params/, which would be like this: 
+```
+./dataset/behave-30fps-params/
+|--sequence_name
+    |----info.json
+    |----object_fit_all.npz # object's pose sequences
+    |----smpl_fit_all.npz # human's pose sequences
+```
+Run  `bash prepare/process_behave_raw.sh` to split motion sequeces based on our manual annonation. The splited data will be output in the ./dataset/raw_behave. 
+
+Then run `python utils/raw_pose_processing_behave.py` to covert humam SMPL paramaters into global body joints, which would be saved in the folder ./dataset/joints_behave. 
+
+At last, just like preprocessing method of HumanML3D, run `python utils/motion_representation.py` and `python utils/cal_mean_variance.py` to preprocess the data in HumanML3D format and calculate the data std and mean, respectively.
+
+
 
 
 ## Dataset Structure
-After unzip the data, you can find five subfolders: `affordance_data`, `new_joint_vecs_local`, `new_joint_local`, `texts`, `object_mesh`,  `object_sample`. Please organize them as follows:
+After processed the data, you will have five subfolders: `affordance_data`, `new_joint_vecs_local`, `new_joint_local`, `texts`, `object_mesh`,  `object_sample`. Please organize them as follows:
 ```
 .dataset/behave_t2m/
 |--affordance_data       # human contact labels, object cotact positions
@@ -64,29 +87,7 @@ We discuss details of each folder next:
 **split.json**: this file provides the official train and test split for the dataset. The split is based on sequence name. The splited information is stored in the `train.txt` and `test.txt`.
 
 
-### Preprocess BEHAVE data from scratch [Optional]: 
-We need the SMPL-H body model first, so please kindly download the latest version (v1.2) from the official [website](https://mano.is.tue.mpg.de/), and place it in ./body_models and organize them like this:
-```
-./body_models/
-|--smplh
-|----SMPLH_FEMALE.npz
-|----SMPLH_MALE.npz
-|----SMPLH_NEUTRAL.npz
-```
 
-You could download official data of SMPL and object parameters (30fps) from [here](https://virtualhumans.mpi-inf.mpg.de/behave/license.html) , unzip and place them into ./dataset/behave-30fps-params/, which would be like this: 
-```
-./data/behave-30fps-params/
-|--sequence_name
-|----info.json
-|----object_fit_all.npz # object's pose sequences
-|----smpl_fit_all.npz # human's pose sequences
-```
-Run  `bash prepare/process_behave_raw.sh` to split motion sequeces based on our manual annonation. The splited data will be output in the ./dataset/raw_behave. 
-
-Then run `python utils/raw_pose_processing_behave.py` to covert humam SMPL paramaters into global body joints, which would be saved in the folder ./dataset/joints_behave. 
-
-At last, just like preprocessing method of HumanML3D, run `python utils/motion_representation.py` and `python utils/cal_mean_variance.py` to preprocess the data in HumanML3D format and calculate the data std and mean, respectively.
 
 
 

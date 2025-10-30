@@ -38,7 +38,7 @@
     Northeastern University &emsp; Hangzhou Dianzi University &emsp;
     Stability AI &emsp; Google Research
     <br>
-    arXiv 2023
+    CVPR 2025 Workshop of HuMoGen
   </p>
 </p>
 
@@ -49,12 +49,14 @@
 ## 📜 TODO List
 - [x] Release the dataset preparation and annotations.
 - [x] Release the main codes for implementation.
-- [ ] Release the evaluation codes and the pretrained models.
+- [x] Release the pretrained models.
+- [ ] Release the evaluation codes. (We are still working on developing a more robust evaluator.)
 - [ ] Release the demo video.
 
 ## 📥 Data Preparation
 
-For more information about the implementation, see [README](utils/README.md).
+For more information about the implementation, see [README](utils/README.md).  
+Please prepare the data by following this [instruction](https://github.com/neu-vi/HOI-Diff/blob/main/utils/README.md#download), even if you are only running inference, as the ground-truth object mesh is required in our pipeline.
 
 ## ⚙️ Quick Start
 <details>
@@ -90,37 +92,52 @@ Download dependencies:
 ```
 bash prepare/download_smpl_files.sh
 bash prepare/download_glove.sh
-bash prepare/download_t2hoi_evaluators.sh  
+bash prepare/download_t2m_evaluators.sh  
 ```
 
 Pleas follow [this](https://github.com/erikwijmans/Pointnet2_PyTorch) to install PointNet++.
 
 ### 2. Download Pre-trained model
-`MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
 
 `HOI-DM and APDM:` 
-Release soon!
-
-### 3. Train your APDM
+The [pretrained model](https://drive.google.com/file/d/1Xp78VJyEbWGN8nWD5T08KWiz9P4VLwci/view?usp=sharing) (including HOI-DM and APDM):  
 ```
-python -m train.train_affordance --save_dir ./save/afford_pred --dataset behave --save_interval 1000 --num_steps 20000 --batch_size 32 --diffusion_steps 500
-```
-
-### 4. Train your HOI-DM
-```
-python -m train.hoi_diff --save_dir ./save/behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
+gdown 1Xp78VJyEbWGN8nWD5T08KWiz9P4VLwci
+unzip pretrain_model.zip -d .
+rm pretrain_model.zip
 ```
 
-### 5. HOIs Synthesis
+<!-- HOI-DM's pretrained [checkpoint](https://drive.google.com/drive/folders/1WQaaqQumkzm_c1zJ_UfmfSSOIC_h4w8D?usp=drive_link) and APDM's pretrained [checkpoint](https://drive.google.com/drive/folders/1ynFIvZXiopuHGOxuLkSsyvNMMCs9zHxr?usp=drive_link). Please place them in the “save” folder and update the parser file so it loads them correctly. -->
 
+
+### 3. HOIs Synthesis with pretrained model
 Generate from test set prompts
 ```
 python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance
 ```
 Generate from your text file
 ```
-python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance --input_text ./assets/example_text_prompts.txt
+python -m sample.local_generate_obj --model_path ./save/behave_enc_512/model000020000.pt --num_samples 10 --num_repetitions 1 --motion_length 10 --multi_backbone_split 4 --guidance --input_text ./assets/your_text.txt
 ```
+
+### 4. Train your APDM
+```
+python -m train.train_affordance --save_dir ./save/my_afford_pred --dataset behave --save_interval 1000 --num_steps 20000 --batch_size 32 --diffusion_steps 500
+```
+
+### 5. Train your HOI-DM
+`MDM:` Before your training, please download the pre-trained model [here](https://drive.google.com/file/d/1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821/view?pli=1), then unzip and place them in ./checkpoints/.
+```
+mkdirs checkpoints
+cd checkpoints
+gdown 1PE0PK8e5a5j-7-Xhs5YET5U5pGh0c821
+unzip humanml_trans_enc_512.zip -d .
+cd ..
+```
+```
+python -m train.hoi_diff --save_dir ./save/my_behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
+```
+
 
 <!-- ### 6. Evaluate
 ```

@@ -27,7 +27,7 @@ dependencies:
   - filelock=3.8.0=pyhd8ed1ab_0
   - fontconfig=2.13.1=h6c09931_0
   - freetype=2.11.0=h70c0345_0
-  - gdown=4.5.1=pyhd8ed1ab_0
+  # - gdown=4.5.1=pyhd8ed1ab_0
   - giflib=5.2.1=h7b6447c_0
   - glib=2.69.1=h4ff587b_1
   - gst-plugins-base=1.14.0=h8213a91_2
@@ -90,14 +90,14 @@ dependencies:
   - readline=8.1.2=h7f8727e_1
   - requests=2.28.1=pyhd8ed1ab_1
   - scikit-learn=1.0.2=py37h51133e4_1
-  - scipy=1.7.3=py37h6c91a56_2
+  # - scipy=1.7.3=py37h6c91a56_2
   - setuptools=63.4.1=py37h06a4308_0
   - shellingham=1.5.0=pyhd8ed1ab_0
   - sip=4.19.8=py37hf484d3e_0
   - six=1.16.0=pyhd3eb1b0_1
   - smart_open=5.2.1=pyhd8ed1ab_0
   - soupsieve=2.3.2.post1=pyhd8ed1ab_0
-  - spacy=3.3.1=py37h79cecc1_0
+  # - spacy=3.3.1=py37h79cecc1_0
   - spacy-legacy=3.0.10=pyhd8ed1ab_0
   - spacy-loggers=1.0.3=pyhd8ed1ab_0
   - sqlite=3.39.3=h5082296_0
@@ -133,4 +133,8 @@ dependencies:
     - urllib3==1.26.12
     - wasabi==0.10.1
     - wcwidth==0.2.5
+    - gdown==4.7.3
+    - spacy==3.3.1
+    - scipy==1.7.3
+    - blobfile
 prefix: /disk2/guytevet/anaconda3/envs/t2hoi
