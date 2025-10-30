@@ -52,49 +52,51 @@ obj_scale_list = {'clothesstand': 0.27487725, 'floorlamp': 0.3792082, 'largebox'
 'smalltable': 0.016271079, 'woodchair': 0.025014637, 'suitcase': 0.36519036, 'largetable': 0.025855122}
 
 
-# print(f"processing object meshes...")
-# for obj_name in os.listdir(object_path):
-#     print(f"processing {obj_name}")
-#     new_obj_name = obj_name.split('_')[0]
-#     obj_save_path = os.path.join(new_object_path, new_obj_name)
-#     os.makedirs(obj_save_path, exist_ok=True)
-#     mesh_obj = trimesh.load(os.path.join(object_path, f"{new_obj_name}_cleaned_simplified.obj"), force='mesh')
-#     obj_verts = np.array(mesh_obj.vertices) * obj_scale_list[new_obj_name]
-#     obj_faces = np.array(mesh_obj.faces)
-#     new_mesh_obj = trimesh.Trimesh(vertices=obj_verts, faces=obj_faces)
-#     new_mesh_obj.export(os.path.join(obj_save_path, f"{new_obj_name}.obj"))
+print(f"processing object meshes...")
+for obj_name in os.listdir(object_path):
+    print(f"processing {obj_name}")
+    new_obj_name = obj_name.split('_')[0]
+    obj_save_path = os.path.join(new_object_path, new_obj_name)
+    os.makedirs(obj_save_path, exist_ok=True)
+    mesh_obj = trimesh.load(os.path.join(object_path, f"{new_obj_name}_cleaned_simplified.obj"), force='mesh')
+    obj_verts = np.array(mesh_obj.vertices) * obj_scale_list[new_obj_name]
+    obj_faces = np.array(mesh_obj.faces)
+    new_mesh_obj = trimesh.Trimesh(vertices=obj_verts, faces=obj_faces)
+    new_mesh_obj.export(os.path.join(obj_save_path, f"{new_obj_name}.obj"))
 
 
 
-#     bps_th = bps_torch()
-#     bps_obj = np.load(os.path.join('./dataset', 'bps_basis_set_1024_1.npy'))
-#     bps_obj = torch.from_numpy(bps_obj).float().cuda()
+    bps_th = bps_torch()
+    bps_obj = np.load(os.path.join('./dataset', 'bps_basis_set_1024_1.npy'))
+    bps_obj = torch.from_numpy(bps_obj).float().cuda()
 
 
-#     bps_obj_verts = (obj_verts)[None, ...]
-#     torch_obj_verts = torch.from_numpy(bps_obj_verts).float().cuda()
+    bps_obj_verts = (obj_verts)[None, ...]
+    torch_obj_verts = torch.from_numpy(bps_obj_verts).float().cuda()
     
-#     bps_object_geo = bps_th.encode(x=torch_obj_verts, \
-#             feature_type=['deltas'], \
-#             custom_basis=bps_obj[None,...])['deltas'] # T X N X 3 
-#     bps_object_geo_np = bps_object_geo.data.detach().cpu().numpy()
+    bps_object_geo = bps_th.encode(x=torch_obj_verts, \
+            feature_type=['deltas'], \
+            custom_basis=bps_obj[None,...])['deltas'] # T X N X 3 
+    bps_object_geo_np = bps_object_geo.data.detach().cpu().numpy()
     
-#     np.save(os.path.join(obj_save_path, "bps_1024.npy"), bps_object_geo_np)
+    np.save(os.path.join(obj_save_path, "bps_1024.npy"), bps_object_geo_np)
 
 
 
-#     points, face_indices = trimesh.sample.sample_surface(
-#         mesh_obj,
-#         count=1024       # let trimesh choose automatically
-#         )
+    # points, face_indices = trimesh.sample.sample_surface(
+    #     mesh_obj,
+    #     count=1024       # let trimesh choose automatically
+    #     )
 
-#     # Find the nearest mesh vertex for each sampled point
-#     closest_vertex_indices = mesh_obj.kdtree.query(points)[1]
+    # # Find the nearest mesh vertex for each sampled point
+    # closest_vertex_indices = mesh_obj.kdtree.query(points)[1]
 
-#     # np.save(os.path.join(obj_save_path, "sample_points.npy"), points)
+    closest_vertex_indices = np.load(os.path.join(new_data_path, f"sample_objids/{new_obj_name}/{new_obj_name}.npy"))
 
-#     os.makedirs(os.path.join(new_data_path, f"sample_objids/{new_obj_name}"), exist_ok=True)
-#     np.save(os.path.join(new_data_path, f"sample_objids/{new_obj_name}/{new_obj_name}.npy"), closest_vertex_indices)
+    np.save(os.path.join(obj_save_path, "sample_points.npy"), obj_verts[closest_vertex_indices])
+
+    os.makedirs(os.path.join(new_data_path, f"sample_objids/{new_obj_name}"), exist_ok=True)
+    np.save(os.path.join(new_data_path, f"sample_objids/{new_obj_name}/{new_obj_name}.npy"), closest_vertex_indices)
 
 
 
@@ -118,7 +120,8 @@ for i, dic in list(enumerate([data_dict1, data_dict2])):
         seq_name = dic[index]['seq_name']
         obj_name = dic[index]['seq_name'].split("_")[1]
 
-
+        if os.path.exists(os.path.join(new_motion_path, seq_name, 'human_motion.npz')): # already processed
+            continue
         
 
 
@@ -217,13 +220,6 @@ for i, dic in list(enumerate([data_dict1, data_dict2])):
         rot_mat = Rotation.from_rotvec(obj_angles).as_matrix()
         obj_verts = np.matmul(obj_verts[np.newaxis], rot_mat.transpose(0, 2, 1)[:, np.newaxis])[:, 0] + obj_trans[:, np.newaxis]
 
-
-
-
-        # obj_sample_idx = np.load(os.path.join(new_data_path, 'sample_objids', obj_name, f"{obj_name}.npy"))
-        # animation_save_path = os.path.join('./vis_check/', 'omomo')
-        # os.makedirs(animation_save_path, exist_ok=True)
-        # plot_3d_motion(os.path.join(animation_save_path, seq_name + '.mp4'), None, jts, [obj_verts[:,obj_sample_idx,:]], 'test', figsize=(10, 10), fps=20, radius=4)
 
 
 

@@ -121,10 +121,9 @@ for obj_name in os.listdir(object_path):
     closest_vertex_indices = mesh_obj.kdtree.query(points)[1]
 
 
-    # idx = np.load("/projects/vig/xiaogangp/projects/HOI-Diff/dataset/behave_t2m_old/object_mesh/downsample_index.npz", allow_pickle=True)[obj_name].astype(np.int32)
+    closest_vertex_indices = np.load(os.path.join(new_data_path, f"sample_objids/{obj_name}/{obj_name}.npy"))
 
-    # points = np.array(obj_verts[idx])
-    np.save(os.path.join(obj_save_path, "sample_points.npy"), points)
+    np.save(os.path.join(obj_save_path, "sample_points.npy"), obj_verts[closest_vertex_indices])
 
     os.makedirs(os.path.join(new_data_path, f"sample_objids/{obj_name}"), exist_ok=True)
     np.save(os.path.join(new_data_path, f"sample_objids/{obj_name}/{obj_name}.npy"), closest_vertex_indices)
@@ -261,14 +260,6 @@ for seq in pbar:
         'gender': gender,
         'jts': jts,
     }
-    # jts = jts[:100]
-    # obj_verts = obj_verts[:100]
-    # from visualize.plot_script import plot_3d_motion
-
-    # animation_save_path = os.path.join('./vis_check/', 'behave')
-    # os.makedirs(animation_save_path, exist_ok=True)
-    # plot_3d_motion(os.path.join(animation_save_path, seq_name_fine + '.mp4'), None, jts, [obj_verts], 'test', figsize=(10, 10), fps=20, radius=4)
-
 
 
     os.makedirs(os.path.join(new_motion_path, seq_name_fine), exist_ok=True)
