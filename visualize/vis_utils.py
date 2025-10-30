@@ -165,14 +165,14 @@ class npy2obj_object:
         vertices_list = []
         faces_list = []
         for b in range(self.bs):
-            mesh_path = os.path.join(obj_path, dataset_name[b], 'object_mesh', obj_names[b], obj_names[b]+'.obj')
+            mesh_path = os.path.join(obj_path, dataset_name[b]+'_t2m', 'object_mesh', obj_names[b], obj_names[b]+'.obj')
             temp_simp = trimesh.load(mesh_path)
             # vertices = temp_simp.vertices * 0.16
             vertices = temp_simp.vertices
             faces = temp_simp.faces
             # center the meshes
-            center = np.mean(vertices, 0)
-            vertices -= center
+            # center = np.mean(vertices, 0)
+            # vertices -= center
             # transform
             angle, trans = motion_obj[b, 0, :3], motion_obj[b, 0, 3:]
             rot = Rotation.from_rotvec(angle.transpose(1, 0)).as_matrix()
