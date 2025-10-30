@@ -102,11 +102,13 @@ def add_model_options(parser):
 
 def add_data_options(parser):
     group = parser.add_argument_group('dataset')
-    group.add_argument("--dataset", default='humanml', choices=['humanml', 'behave', 'omomo'], type=str,
+    group.add_argument("--dataset", default='behave', choices=['behave', 'omomo'], type=str,
                        help="Dataset name (choose from list).")
-    group.add_argument("--data_dir", default="", type=str,
-                       help="If empty, will use defaults according to the specified dataset.")              
-
+    group.add_argument("--data_root", default="./dataset", type=str, help="Path to the dataset root directory.")              
+    group.add_argument("--max_motion_length",type=int,default=196,help="Max length of motion")
+    group.add_argument("--max_text_len", type=int, default=20, help="Length of text prompt")
+    group.add_argument("--unit_length", type=int, default=5, help="Length of motion")
+    group.add_argument("--num_workers", type=int, default=4, help="Number of workers for data loading.")
 
 def add_training_options(parser):
     group = parser.add_argument_group('training')
@@ -293,7 +295,7 @@ def train_feature_extractor_args():
 def get_cond_mode(args):
     if args.unconstrained:
         cond_mode = 'no_cond'
-    elif args.dataset in ['kit', 'humanml', 'behave']:
+    elif args.dataset in ['omomo', 'behave']:
         cond_mode = 'text'
     else:
         cond_mode = 'action'

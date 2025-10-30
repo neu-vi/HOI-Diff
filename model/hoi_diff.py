@@ -3,7 +3,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import clip
-from model.points_encoder import PointNet2Encoder
 from model.mdm import MDM
 from model.mdm import *
 
@@ -20,10 +19,10 @@ class HOIDiff(MDM):
         
         self.args = args
 
-        if self.arch == 'trans_enc':
 
-            # print(f"  {self.args.multi_backbone_split}  {self.num_layers} ")
+        if self.arch == 'trans_enc':
             assert 0 < self.args.multi_backbone_split <= self.num_layers
+            print("TRANS_ENC_SPLIT init")
             print(f'CUTTING BACKBONE AT LAYER [{self.args.multi_backbone_split}]')
             seqTransEncoderLayer = nn.TransformerEncoderLayer(d_model=self.latent_dim,
                                                               nhead=self.num_heads,
@@ -35,6 +34,16 @@ class HOIDiff(MDM):
                                                                num_layers=self.args.multi_backbone_split)
             self.seqTransEncoder_end = nn.TransformerEncoder(seqTransEncoderLayer,
                                                              num_layers= self.num_layers - self.args.multi_backbone_split)
+        elif self.arch == 'only_trans_enc':
+            print("TRANS_ENC init")
+            seqTransEncoderLayer = nn.TransformerEncoderLayer(d_model=self.latent_dim,
+                                                              nhead=self.num_heads,
+                                                              dim_feedforward=self.ff_size,
+                                                              dropout=self.dropout,
+                                                              activation=self.activation)
+
+            self.seqTransEncoder = nn.TransformerEncoder(seqTransEncoderLayer,
+                                                         num_layers=self.num_layers)
         else:
             raise ValueError('Supporting only trans_enc arch.')
 
@@ -89,19 +98,17 @@ class HOIDiff(MDM):
         """
 
 
-        x_human, x_obj = x[:,:263], x[:,263:]
-
+        x_human, x_obj = x[:,:-6], x[:,-6:]
         # Build embedding vector
         emb = self.embed_timestep(timesteps)  # [1, bs, d]
+        
+
 
         force_mask = y.get('uncond', False)
         # force_no_com = y.get('no_com', False)  # FIXME - note that this feature not working for com_only - which is ok
         if 'text' in self.cond_mode:
             enc_text = self.encode_text(y['text'])
             emb += self.embed_text(self.mask_cond(enc_text, force_mask=force_mask))
-        if 'action' in self.cond_mode:
-            action_emb = self.embed_action(y['action'])
-            emb += self.mask_cond(action_emb, force_mask=force_mask)
 
         x_human = self.input_process(x_human)
         x_obj =  self.input_process_obj(x_obj)
@@ -116,12 +123,11 @@ class HOIDiff(MDM):
         xseq_obj = self.sequence_pos_encoder(xseq_obj)
         obj_mid = self.seqTransEncoder_obj_pose(xseq_obj)
 
-
         if self.args.multi_backbone_split < self.num_layers:
-
             dec_output_human, dec_output_obj = self.mutual_attn(human_mid[1:], obj_mid[1:])
             output_human = self.seqTransEncoder_end(torch.cat([human_mid[:1], dec_output_human], 0))[1:]
             output_obj = dec_output_obj
+
 
 
         output_human = self.output_process(output_human)

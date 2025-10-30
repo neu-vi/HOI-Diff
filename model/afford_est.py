@@ -4,18 +4,16 @@ import torch.nn as nn
 import torch.nn.functional as F
 import clip
 from model.rotation2xyz import Rotation2xyz
-from model.points_encoder import PointNet2Encoder
+# from model.points_encoder import PointNet2Encoder
 from .mdm import *
 
 
 class AffordEstimation(nn.Module):
-    def __init__(self,  njoints, nfeats, latent_dim=256, ff_size=1024, num_layers=8, num_heads=4, dropout=0.1,
+    def __init__(self,  latent_dim=256, ff_size=1024, num_layers=8, num_heads=4, dropout=0.1,
                 activation="gelu", clip_dim=512, clip_version=None, **kargs):
         super().__init__()
 
 
-        self.njoints = 15               #.      contact_points + skel_contact_labels + static_labels
-        self.nfeats = nfeats
         self.latent_dim = 256
 
         self.ff_size = 512
@@ -27,8 +25,6 @@ class AffordEstimation(nn.Module):
         self.clip_dim = clip_dim
 
 
-        self.input_feats = self.njoints * self.nfeats
-
 
         self.cond_mode = kargs.get('cond_mode', 'no_cond')
         self.cond_mask_prob = kargs.get('cond_mask_prob', 0.)
@@ -37,6 +33,7 @@ class AffordEstimation(nn.Module):
         self.sequence_pos_encoder = PositionalEncoding(self.latent_dim, self.dropout)
 
         self.objEmbedding = PointNet2Encoder(c_in=0, c_out=self.latent_dim, num_keypoints=256)
+        # self.objEmbedding = nn.Linear(3, self.latent_dim)
 
 
         print("TRANS_ENC init")
@@ -144,6 +141,7 @@ class AffordEstimation(nn.Module):
         """
 
         bs, njoints, nfeats, nframes = x.shape
+        print(f"x: {x.shape}")
 
 
         emb = self.embed_timestep(timesteps)  # [1, bs, d]
@@ -166,6 +164,7 @@ class AffordEstimation(nn.Module):
 
         xseq_contact = torch.cat((emb, contact_input), axis=0)  # [seqlen+256 , bs, d]
         xseq_contact = self.sequence_pos_encoder(xseq_contact)  # [seqlen+1, bs, d]
+
 
 
         output_contact = self.seqTransEncoder_contact(xseq_contact)[256:]  # [seqlen+256, bs, d]
