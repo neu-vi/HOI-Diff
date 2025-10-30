@@ -108,9 +108,3 @@ for seq_name in tqdm(motion_list):
     os.makedirs(os.path.join(data_path, 'affordance'), exist_ok=True)
     np.save(os.path.join(data_path, 'affordance', f'{seq_name}.npy'), affordance_data)
 
-
-    # all_contact_points_motion = np.matmul( affordance_data[human_contact_idx, 1:][None, ...], np.transpose(angle_matrix, (0, 2, 1))) + obj_trans[:, None, :]
-
-
-    # os.makedirs(os.path.join('./vis_check/', args.dataset), exist_ok=True) 
-    # plot_3d_motion(os.path.join('./vis_check/', args.dataset, seq_name+ '_contact.mp4'), None, human_jts, [obj_verts_motion], contact_label=[all_contact_points_motion], title='test', figsize=(10, 10), fps=20, radius=4)

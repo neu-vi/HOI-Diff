@@ -11,16 +11,7 @@ from os.path import join as pjoin
 # rot_data (B, seq_len, (joint_num - 1)*6)
 # local_velocity (B, seq_len, joint_num*3)
 # foot contact (B, seq_len, 4)
-def mean_variance(data_dir, save_dir, joints_num):
-    file_list = os.listdir(data_dir)
-    data_list = []
-
-    for file in file_list:
-        data = np.load(pjoin(data_dir, file))
-        if np.isnan(data).any():
-            print(file)
-            continue
-        data_list.append(data)
+def mean_variance(data_list, joints_num, save_dir):
 
     data = np.concatenate(data_list, axis=0)
     print(data.shape)
@@ -51,6 +42,16 @@ if __name__ == '__main__':
     args = parser.parse_args()
     data_dir = './dataset/{}_t2m/sequences_263_rep/'.format(args.dataset)
     save_dir = './dataset/{}_t2m/'.format(args.dataset)
-    mean, std = mean_variance(data_dir, save_dir, 22)
-    print(mean)
-    print(std)
+
+
+    file_list = os.listdir(data_dir)
+    data_list = []
+    for file in file_list:
+        data = np.load(pjoin(data_dir, file, 'hoi_motion.npy'))
+        if np.isnan(data).any():
+            print(file)
+            continue
+        data_list.append(data)
+    mean, std = mean_variance(data_list,  22, save_dir)
+    print(mean.shape)
+    print(std.shape)
