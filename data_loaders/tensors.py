@@ -47,48 +47,22 @@ def collate(batch):
         cond['y'].update({'seq_name': seq_name})
     
     if 'obj_points' in notnone_batches[0]:
-        obj_points = [b['obj_points']for b in notnone_batches]
-        obj_points = torch.as_tensor(obj_points)
+        obj_points = collate_tensors([b['obj_points']for b in notnone_batches])
+
         if len(obj_points.shape) < 3:
             obj_points = obj_points.unsqueeze(0)
         cond['y'].update({'obj_points': obj_points})  #  this part is changed for prompt-based generation
 
-    if 'afford_labels' in notnone_batches[0]:    # For prediciton
-        afford_labels = [b['afford_labels']for b in notnone_batches]
-        afford_labels = torch.as_tensor(afford_labels)
-        cond['y'].update({'afford_labels': afford_labels})  #  this part is changed for prompt-based generation
+    if 'obj_bps' in notnone_batches[0]:
+        obj_bps = collate_tensors([b['obj_bps']for b in notnone_batches])
+        cond['y'].update({'obj_bps': obj_bps})  #  this part is changed for prompt-based generation
 
-    if 'obj_normals' in notnone_batches[0]:
-        obj_normals = [b['obj_normals']for b in notnone_batches]
-        # print(f"==== {obj_faces.shape}")
-        obj_normals = torch.as_tensor(obj_normals)
-        if len(obj_normals.shape) < 3:
-            obj_normals = obj_normals.unsqueeze(0)
-        cond['y'].update({'obj_normals': obj_normals})  #  this part is changed for prompt-based generation
-
-    if 'gt_afford_data' in notnone_batches[0]:
-        gt_afford_data = [b['gt_afford_data']for b in notnone_batches]
-        gt_afford_data = torch.as_tensor(gt_afford_data)
-        cond['y'].update({'gt_afford_data': gt_afford_data})  #  this part is changed for prompt-based generation
 
     return motion, cond
 
-# an adapter to our collate func
-def t2m_collate(batch):
-    # batch.sort(key=lambda x: x[3], reverse=True)
-    adapted_batch = [{
-        'inp': torch.tensor(b[4].T).float().unsqueeze(1), # [seqlen, J] -> [J, 1, seqlen]
-        'text': b[2], #b[0]['caption']
-        'tokens': b[6],
-        'lengths': b[5],
-        'hint': b[-1],
-        # 'seq_mask': b[-2],
-        # 'joint_id': b[-1],
-    } for b in batch]
-    return collate(adapted_batch)
 
 # an adapter to our collate func
-def t2m_behave_collate(batch):
+def t2hoi_collate(batch):
     # batch.sort(key=lambda x: x[3], reverse=True)
     adapted_batch = [{
         'inp': torch.tensor(b[4].T).float().unsqueeze(1), # [seqlen, J] -> [J, 1, seqlen]
@@ -96,23 +70,8 @@ def t2m_behave_collate(batch):
         'tokens': b[6],
         'lengths': b[5],
         'seq_name': b[7],
-        'obj_points': b[8],
-        'obj_normals': b[9],
-        # 'gt_afford_data': b[10]
-    } for b in batch]
-    return collate(adapted_batch)
-
-# an adapter to our collate func
-def t2m_omomo_collate(batch):
-    # batch.sort(key=lambda x: x[3], reverse=True)
-    adapted_batch = [{
-        'inp': torch.tensor(b[4].T).float().unsqueeze(1), # [seqlen, J] -> [J, 1, seqlen]
-        'text': b[2], #b[0]['caption']
-        'tokens': b[6],
-        'lengths': b[5],
-        'seq_name': b[7],
-        'obj_points': b[8],
-        'obj_normals': b[9]
+        'obj_points': torch.tensor(b[8]).float(),
+        'obj_bps': torch.tensor(b[9]).float(),
     } for b in batch]
     return collate(adapted_batch)
 
@@ -141,8 +100,7 @@ def afford_collate(batch):
         cond['y'].update({'seq_name': seq_name})
     
     if 'obj_points' in notnone_batches[0]:
-        obj_points = [b['obj_points']for b in notnone_batches]
-        obj_points = torch.as_tensor(obj_points)
+        obj_points = collate_tensors([b['obj_points']for b in notnone_batches])
         if len(obj_points.shape) < 3:
             obj_points = obj_points.unsqueeze(0)
         cond['y'].update({'obj_points': obj_points})  #  this part is changed for prompt-based generation
@@ -165,7 +123,7 @@ def t2m_contact_collate(batch):
         'text': b[2], #b[0]['caption']
         'tokens': b[5],
         'seq_name': b[6],
-        'obj_points': b[7],
+        'obj_points': torch.tensor(b[7]).float(),
         # 'obj_faces':b[8]
     } for b in batch]
     return afford_collate(adapted_batch)
