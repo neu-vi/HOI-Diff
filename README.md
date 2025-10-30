@@ -56,7 +56,7 @@
 ## 📥 Data Preparation
 
 <!-- For more information about the implementation, see [README](utils/README.md).   -->
-Please prepare and organize the data by following this [instruction](utils/README.md). 
+Please prepare and organize the data by following this [instruction](process/README.md). 
 
 ## ⚙️ Quick Start
 <details>
