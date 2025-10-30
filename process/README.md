@@ -62,71 +62,30 @@ Finally, execute `python process/get_affordance.py --dataset behave / omomo` to 
 
 ## Dataset Structure
 After processed the data, you will have five subfolders: `affordance`, `sequences`, `sequences_263_rep`, `texts`, `object_mesh`,  `sample_objids`. Please organize them as follows:
-```
-.dataset/behave_t2m/
-|--affordance      # human contact labels, object cotact positions
-|--sequences_263_rep  # human-object interaction sequences
-|--sequences       # 22 human joints, 6-Dof object poses and SMPLH/SMPLX parameters
-|--objects_mesh          # scanned mesh of object mesh, bps feature, downsampled object points
-|--texts                 # text descriptions
-|--split.json            # train and test split
-|--Mean_local.npy      
-|--Std_local.npy
-```
-
 
 ```
-.dataset/omomo_t2m/
-|--affordance      # human contact labels, object cotact positions
-|--sequences_263_rep  # human-object interaction sequences
-|--sequences       # 22 human joints, 6-Dof object poses and SMPLH/SMPLX parameters
-|--objects_mesh          # scanned mesh of object mesh, bps feature, downsampled object points
-|--texts                 # text descriptions
-|--split.json            # train and test split
-|--Mean_local.npy      
-|--Std_local.npy
+./dataset
+│── behave_t2m
+│   ├── affordance   # human contact labels, object cotact positions
+│   ├── sequences_263_rep  # human-object interaction sequences in HumanML3D format
+│   ├── sequences   # 22 human joints, 6-Dof object poses and SMPLH/SMPLX parameters
+│   ├── objects_mesh   # scanned mesh of object mesh, bps feature, downsampled object points
+│   ├── sample_objids  # indices of downsampled object points
+│   ├── texts           # text descriptions
+│   ├── Mean_local.npy  
+│   ├── Std_local.npy  
+│── omomo_t2m   
+│   ├── affordance
+│   ├── sequences_263_rep
+│   ├── sequences
+│   ├── objects_mesh
+│   ├── sample_objids
+│   ├── texts
+│   ├── Mean_local.npy  
+│   ├── Std_local.npy  
+│── dataset_split.json   # train and test split for both datasets
+└── ...	
 ```
-
-
-<!-- We discuss details of each folder next:
-
-**new_joint_vecs_local**: This folder stores the HOIs data for humans and objects, including 263-dim pose representation and 6-dim object pose representation.
-```
-.dataset/behave_t2m/
-|--new_joint_vecs_local  
-|----sequence_name.npy 
-```
-
-
-**affordance_data**: This folder stores the affordance data for humans and objects, including 8-dim binary human contact labels (8x1) for 8 primary contacting joints, and the corresponding 8-dim object contact positions (8x3). 
-
-```
-.dataset/behave_t2m/
-|--affordance_data  
-|----contact_{sequence_name}.npy  # affordance data for contact information
-```
-
-**object_mesh**: This folder provides the scans of our template objects. 
-```
-.dataset/behave_t2m/
-|--object_mesh
-|----object_name
-|------object_name.jpg  # one photo of the object
-|------object_name.obj  # reconstructed 3D scan of the object
-|------object_name.obj.mtl  # mesh material property
-|------object_name_tex.jpg  # mesh texture
-|------object_name_fxxx.ply  # simplified object mesh 
-```
-
-**object_sample**: This folder provides the downsampling idxs of the object mesh vertices.
-```
-.dataset/behave_t2m/
-|--object_sample
-|----sequence_name.npy   #  each sample contains 512 downsampling idxs
-```
-
-**split.json**: this file provides the official train and test split for the dataset. The split is based on sequence name. The splited information is stored in the `train.txt` and `test.txt`. -->
-
 
 
 
