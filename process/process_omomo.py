@@ -120,8 +120,8 @@ for i, dic in list(enumerate([data_dict1, data_dict2])):
         seq_name = dic[index]['seq_name']
         obj_name = dic[index]['seq_name'].split("_")[1]
 
-        if os.path.exists(os.path.join(new_motion_path, seq_name, 'human_motion.npz')): # already processed
-            continue
+        # if os.path.exists(os.path.join(new_motion_path, seq_name, 'human_motion.npz')): # already processed
+        #     continue
         
 
 
@@ -145,14 +145,10 @@ for i, dic in list(enumerate([data_dict1, data_dict2])):
 
         mesh = trimesh.load_mesh(obj_mesh_path)
         obj_verts = np.asarray(mesh.vertices)  # Nv X 3
-        # obj_verts *= obj_scale
+        obj_verts *= obj_scale
         obj_faces = np.asarray(mesh.faces) # Nf X 3 
             
         obj_angles = Rotation.from_matrix(obj_rot).as_rotvec()
-
-        rotation_matrix = np.array([[1.0, 0.0, 0.0],
-                                [0.0, 0.0, 1.0],
-                                [0.0, -1.0, 0.0]])
 
 
         poses = np.concatenate([pose_root, pose_body], -1)
@@ -174,7 +170,7 @@ for i, dic in list(enumerate([data_dict1, data_dict2])):
         pelvis = smplx_output.joints.detach().numpy()[:, 0, :]
         rotvecs = poses[:, :3]
         rotations = Rotation.from_rotvec(rotvecs)
-        rotation_matrix_x = Rotation.from_euler('x', -np.pi, degrees=False)
+        rotation_matrix_x = Rotation.from_euler('x', -np.pi/2, degrees=False)
         # Apply the rotation to the batch of rotations
         rotated_rotations = rotation_matrix_x * rotations
         # Convert the rotated rotations back to rotation vectors
@@ -215,11 +211,17 @@ for i, dic in list(enumerate([data_dict1, data_dict2])):
 
 
 
-
+        sample_idx = np.load(os.path.join(new_data_path, f"sample_objids/{obj_name}/{obj_name}.npy"))
+        sample_verts = obj_verts[sample_idx]
 
         rot_mat = Rotation.from_rotvec(obj_angles).as_matrix()
         obj_verts = np.matmul(obj_verts[np.newaxis], rot_mat.transpose(0, 2, 1)[:, np.newaxis])[:, 0] + obj_trans[:, np.newaxis]
 
+        sample_verts = np.matmul(sample_verts[np.newaxis], rot_mat.transpose(0, 2, 1)[:, np.newaxis])[:, 0] + obj_trans[:, np.newaxis]
+
+
+
+        # plot_3d_motion(os.path.join('./vis_check/', dataset, seq_name+ '.mp4'), None, jts, [sample_verts],  title='test', figsize=(10, 10), fps=20, radius=4)
 
 
 
@@ -227,9 +229,6 @@ for i, dic in list(enumerate([data_dict1, data_dict2])):
         obj_trans[..., 1] -= diff_fix
         pose_trans[..., 1] -= diff_fix
         jts[..., 1] -= diff_fix
-
-
-
 
         obj = {
             'angles': obj_angles,
@@ -243,6 +242,7 @@ for i, dic in list(enumerate([data_dict1, data_dict2])):
             'gender': gender,
             'jts': jts,
         }
+
 
 
         os.makedirs(os.path.join(new_motion_path, seq_name), exist_ok=True)

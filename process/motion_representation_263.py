@@ -309,7 +309,10 @@ if __name__ == "__main__":
 
 
     args = parse_args()
-    example_id = "Date01_Sub01_backpack_back_5"
+    if args.dataset == 'behave':
+        example_id = "Date01_Sub01_backpack_back_5"
+    else:
+        example_id = "sub1_clothesstand_000"
     # Lower legs
     l_idx1, l_idx2 = 5, 8
     # Right/Left foot
