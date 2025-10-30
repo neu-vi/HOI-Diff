@@ -1,0 +1,3 @@
+erson presently has a yogamat in front.#erson/PROPN presently/ADV have/VERB a/DET yogamat/NOUN in/ADP front/NOUN#0.0#0.0
+erson is currently gripping a yogamat in front.#erson/PROPN is/AUX currently/ADV grip/VERB a/DET yogamat/NOUN in/ADP front/NOUN#0.0#0.0
+erson right now possesses a yogamat in front.#erson/PROPN right/ADV now/ADV possess/VERB a/DET yogamat/NOUN in/ADP front/NOUN#0.0#0.0

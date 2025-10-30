@@ -1,0 +1,3 @@
+The person firmly clutches his body, balancing a diminutive box.#the/DET person/NOUN firmly/ADV clutch/VERB his/PRON body/NOUN balance/VERB a/DET diminutive/ADJ box/NOUN#0.0#0.0
+Keeping a firm grip on his body, the individual transports a minuscule box.#keep/VERB a/DET firm/ADJ grip/NOUN on/ADP his/PRON body/NOUN the/DET individual/NOUN transport/VERB a/DET minuscule/ADJ box/NOUN#0.0#0.0
+Securely holding onto himself, the person moves with a boxsmall.#securely/ADV hold/VERB onto/ADP himself/PRON the/DET person/NOUN move/VERB with/ADP a/DET boxsmall/NOUN#0.0#0.0

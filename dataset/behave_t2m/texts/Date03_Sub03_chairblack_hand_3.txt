@@ -1,0 +1,3 @@
+A person is sliding the chairblack back and forth on the ground.#a/DET person/NOUN is/AUX slide/VERB the/DET chairblack/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+A person is rocking the chairblack back and forth on the ground.#a/DET person/NOUN is/AUX rock/VERB the/DET chairblack/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+A person is shifting the chairblack back and forth on the ground.#a/DET person/NOUN is/AUX shift/VERB the/DET chairblack/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0

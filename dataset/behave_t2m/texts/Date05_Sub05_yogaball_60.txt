@@ -1,0 +1,3 @@
+a person is engaging in a ballgame on a yogaball.#a/DET person/NOUN is/AUX engage/VERB in/ADP a/DET ballgame/NOUN on/ADP a/DET yogaball/NOUN#0.0#0.0
+a person is participating in ball play with two hands on a yogaball.#a/DET person/NOUN is/AUX participate/VERB in/ADP ball/NOUN play/VERB with/ADP two/NUM hand/NOUN on/ADP a/DET yogaball/NOUN#0.0#0.0
+a person is involved in a ball activity while balancing two-handed on a yogaball.#a/DET person/NOUN is/AUX involve/VERB in/ADP a/DET ball/NOUN activity/NOUN while/SCONJ balancing/AUX twohande/VERB on/ADP a/DET yogaball/NOUN#0.0#0.0

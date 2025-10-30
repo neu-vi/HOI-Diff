@@ -1,0 +1,3 @@
+A person is gripping the boxlong's front.#a/DET person/NOUN is/AUX grip/VERB the/DET boxlong/NOUN front/NOUN#0.0#0.0
+The boxlong's front is in the grasp of someone.#the/DET boxlong/NOUN front/NOUN is/AUX in/ADP the/DET grasp/NOUN of/ADP someone/PRON#0.0#0.0
+Someone presently has hold of the boxlong's front.#someone/PRON presently/ADV have/VERB hold/NOUN of/ADP the/DET boxlong/NOUN front/NOUN#0.0#0.0

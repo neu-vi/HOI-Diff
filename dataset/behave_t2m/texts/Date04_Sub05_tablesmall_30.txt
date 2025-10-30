@@ -1,0 +1,3 @@
+A person is maneuvering a tablesmall on the ground.#a/DET person/NOUN is/AUX maneuver/VERB a/DET tablesmall/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is manipulating a tablesmall back and forth on the ground.#a/DET person/NOUN is/AUX manipulate/VERB a/DET tablesmall/NOUN back/NOUN and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+A person is pushing and tugging a tablesmall across the ground.#a/DET person/NOUN is/AUX push/VERB and/CCONJ tug/VERB a/DET tablesmall/NOUN across/ADP the/DET ground/NOUN#0.0#0.0

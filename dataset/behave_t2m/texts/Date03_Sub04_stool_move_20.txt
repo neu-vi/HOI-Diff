@@ -1,0 +1,3 @@
+A person is clutching the front of the stool.#a/DET person/NOUN is/AUX clutch/VERB the/DET front/NOUN of/ADP the/DET stool/NOUN#0.0#0.0
+A person has a firm grip on the front of the stool.#a/DET person/NOUN have/VERB a/DET firm/ADJ grip/NOUN on/ADP the/DET front/NOUN of/ADP the/DET stool/NOUN#0.0#0.0
+A person firmly grasps the front of the stool.#a/DET person/NOUN firmly/ADV grasp/VERB the/DET front/NOUN of/ADP the/DET stool/NOUN#0.0#0.0

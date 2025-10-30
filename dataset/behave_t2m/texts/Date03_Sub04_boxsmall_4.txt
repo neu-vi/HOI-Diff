@@ -1,0 +1,3 @@
+A person is nudging a boxsmall with his foot.#a/DET person/NOUN is/AUX nudge/VERB a/DET boxsmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is prodding a boxsmall with his foot.#a/DET person/NOUN is/AUX prod/VERB a/DET boxsmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is kicking a boxsmall with his foot.#a/DET person/NOUN is/AUX kick/VERB a/DET boxsmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0

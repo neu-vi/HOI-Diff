@@ -1,0 +1,3 @@
+person is standing in front of a tablesquare. #person/NOUN is/AUX stand/VERB in/ADP front/NOUN of/ADP a/DET tablesquare/NOUN#0.0#0.0
+A person is positioned in front of a tablesquare.#a/DET person/NOUN is/AUX position/VERB in/ADP front/NOUN of/ADP a/DET tablesquare/NOUN#0.0#0.0
+The person is situated in front of a tablesquare.#the/DET person/NOUN is/AUX situate/VERB in/ADP front/NOUN of/ADP a/DET tablesquare/NOUN#0.0#0.0

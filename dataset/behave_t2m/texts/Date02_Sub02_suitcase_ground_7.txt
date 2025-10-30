@@ -1,0 +1,3 @@
+The person is pushing the suitcase along the ground.#the/DET person/NOUN is/AUX push/VERB the/DET suitcase/NOUN along/ADP the/DET ground/NOUN#0.0#0.0
+A person is exerting force to move the suitcase along the ground.#a/DET person/NOUN is/AUX exert/VERB force/NOUN to/PART move/VERB the/DET suitcase/NOUN along/ADP the/DET ground/NOUN#0.0#0.0
+The individual is propelling the suitcase along the ground.#the/DET individual/NOUN is/AUX propel/VERB the/DET suitcase/NOUN along/ADP the/DET ground/NOUN#0.0#0.0

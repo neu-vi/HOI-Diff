@@ -1,0 +1,3 @@
+The person is performing upper body workouts using a yogaball during ball play.#the/DET person/NOUN is/AUX perform/VERB upper/ADJ body/NOUN workout/NOUN use/VERB a/DET yogaball/NOUN during/ADP ball/NOUN play/NOUN#0.0#0.0
+An individual is engaging in upper body exercises utilizing a yogaball while playing ball.#an/DET individual/NOUN is/AUX engage/VERB in/ADP upper/ADJ body/NOUN exercise/NOUN utilize/VERB a/DET yogaball/NOUN while/SCONJ play/VERB ball/NOUN#0.0#0.0
+Someone is doing upper body workouts with a yogaball while participating in ball play.#someone/PRON is/AUX do/VERB upper/ADJ body/NOUN workout/NOUN with/ADP a/DET yogaball/NOUN while/SCONJ participate/VERB in/ADP ball/NOUN play/NOUN#0.0#0.0

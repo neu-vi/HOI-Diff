@@ -1,0 +1,3 @@
+The person is sliding the tablesmall across the floor.#the/DET person/NOUN is/AUX slide/VERB the/DET tablesmall/NOUN across/ADP the/DET floor/NOUN#0.0#0.0
+The individual is shifting the tablesmall across the floor.#the/DET individual/NOUN is/AUX shift/VERB the/DET tablesmall/NOUN across/ADP the/DET floor/NOUN#0.0#0.0
+The person is moving the tablesmall along the floor.#the/DET person/NOUN is/AUX move/VERB the/DET tablesmall/NOUN along/ADP the/DET floor/NOUN#0.0#0.0

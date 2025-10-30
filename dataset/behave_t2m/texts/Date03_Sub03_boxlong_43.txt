@@ -1,0 +1,3 @@
+A person grips the boxlong from its front.#a/DET person/NOUN grip/VERB the/DET boxlong/NOUN from/ADP its/PRON front/NOUN#0.0#0.0
+The boxlong is being held by someone from its front.#the/DET boxlong/NOUN is/AUX being/AUX hold/VERB by/ADP someone/PRON from/ADP its/PRON front/NOUN#0.0#0.0
+Someone maintains hold of the boxlong from its front.#someone/PRON maintain/VERB hold/NOUN of/ADP the/DET boxlong/NOUN from/ADP its/PRON front/NOUN#0.0#0.0

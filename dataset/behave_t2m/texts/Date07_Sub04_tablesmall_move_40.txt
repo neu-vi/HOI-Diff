@@ -1,0 +1,3 @@
+A person is shifting a tablesmalltop through pushing and pulling actions.#a/DET person/NOUN is/AUX shift/VERB a/DET tablesmalltop/NOUN through/ADP push/VERB and/CCONJ pull/VERB action/NOUN#0.0#0.0
+The person is displacing a tablesmalltop by using pushing and pulling actions.#the/DET person/NOUN is/AUX displace/VERB a/DET tablesmalltop/NOUN by/ADP use/VERB push/VERB and/CCONJ pull/VERB action/NOUN#0.0#0.0
+A person manipulates a tablesmalltop by pushing and pulling it.#a/DET person/NOUN manipulate/VERB a/DET tablesmalltop/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON#0.0#0.0

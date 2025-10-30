@@ -1,0 +1,3 @@
+A person is grasping the monitor with both hands.#a/DET person/NOUN is/AUX grasp/VERB the/DET monitor/NOUN with/ADP both/DET hand/NOUN#0.0#0.0
+Someone is clutching the monitor in two hands.#someone/PRON is/AUX clutch/VERB the/DET monitor/NOUN in/ADP two/NUM hand/NOUN#0.0#0.0
+An individual firmly grips the monitor with both hands.#an/DET individual/NOUN firmly/ADV grip/VERB the/DET monitor/NOUN with/ADP both/DET hand/NOUN#0.0#0.0

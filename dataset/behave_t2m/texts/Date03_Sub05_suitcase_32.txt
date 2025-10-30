@@ -1,0 +1,3 @@
+A person is kicking the suitcase.#a/DET person/NOUN is/AUX kick/VERB the/DET suitcase/NOUN#0.0#0.0
+A person is booting the suitcase.#a/DET person/NOUN is/AUX boot/VERB the/DET suitcase/NOUN#0.0#0.0
+A person is driving the suitcase with his foot.#a/DET person/NOUN is/AUX drive/VERB the/DET suitcase/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0

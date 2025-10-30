@@ -1,0 +1,3 @@
+The person is pushing the chairwood back and forth.#the/DET person/NOUN is/AUX push/VERB the/DET chairwood/NOUN back/ADV and/CCONJ forth/ADV#0.0#0.0
+The individual is applying force to move the chairwood back and forth.#the/DET individual/NOUN is/AUX apply/VERB force/NOUN to/PART move/VERB the/DET chairwood/NOUN back/ADV and/CCONJ forth/ADV#0.0#0.0
+The person is exerting effort to make the chairwood move back and forth.#the/DET person/NOUN is/AUX exert/VERB effort/NOUN to/PART make/VERB the/DET chairwood/NOUN move/VERB back/ADV and/CCONJ forth/ADV#0.0#0.0

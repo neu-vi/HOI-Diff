@@ -1,0 +1,3 @@
+A person is applying force to shift the chairwood along the ground.#a/DET person/NOUN is/AUX apply/VERB force/NOUN to/PART shift/VERB the/DET chairwood/NOUN along/ADP the/DET ground/NOUN#0.0#0.0
+A person is pushing the chairwood across the ground.#a/DET person/NOUN is/AUX push/VERB the/DET chairwood/NOUN across/ADP the/DET ground/NOUN#0.0#0.0
+A person is exerting effort to move the chairwood along the ground.#a/DET person/NOUN is/AUX exert/VERB effort/NOUN to/PART move/VERB the/DET chairwood/NOUN along/ADP the/DET ground/NOUN#0.0#0.0

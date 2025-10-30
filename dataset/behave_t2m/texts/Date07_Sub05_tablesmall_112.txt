@@ -1,0 +1,3 @@
+A person is lugging a tablesmall with his left hand, utilizing his strength.#a/DET person/NOUN is/AUX lug/VERB a/DET tablesmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN utilize/VERB his/PRON strength/NOUN#0.0#10.0
+A person is shouldering a tablesmall with his left hand, employing his strength.#a/DET person/NOUN is/AUX shoulder/VERB a/DET tablesmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN employ/VERB his/PRON strength/NOUN#0.0#10.0
+A person is maneuvering a tablesmall with his left hand, harnessing his strength.#a/DET person/NOUN is/AUX maneuver/VERB a/DET tablesmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN harness/VERB his/PRON strength/NOUN#0.0#10.0

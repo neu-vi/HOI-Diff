@@ -1,0 +1,3 @@
+The basketball player is in the act of crossing his legs while playing ball.#the/DET basketball/NOUN player/NOUN is/AUX in/ADP the/DET act/NOUN of/ADP cross/VERB his/PRON leg/NOUN while/SCONJ play/VERB ball/NOUN#0.0#0.0
+The basketball player is currently crossing his legs while engaged in the game.#the/DET basketball/NOUN player/NOUN is/AUX currently/ADV cross/VERB his/PRON leg/NOUN while/SCONJ engage/VERB in/ADP the/DET game/NOUN#0.0#0.0
+The basketball player actively crosses his legs while playing basketball.#the/DET basketball/NOUN player/NOUN actively/ADV cross/VERB his/PRON leg/NOUN while/SCONJ play/VERB basketball/NOUN#0.0#0.0

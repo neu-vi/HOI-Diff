@@ -1,0 +1,3 @@
+A person is grasping a suitcase.#a/DET person/NOUN is/AUX grasp/VERB a/DET suitcase/NOUN#0.0#0.0
+A person is clutching a suitcase.#a/DET person/NOUN is/AUX clutch/VERB a/DET suitcase/NOUN#0.0#0.0
+A person is gripping a suitcase.#a/DET person/NOUN is/AUX grip/VERB a/DET suitcase/NOUN#0.0#0.0

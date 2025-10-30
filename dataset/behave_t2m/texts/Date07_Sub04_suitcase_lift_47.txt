@@ -1,0 +1,3 @@
+The individual currently has custody of the suitcase before him.#the/DET individual/NOUN currently/ADV have/VERB custody/NOUN of/ADP the/DET suitcase/NOUN before/ADP him/PRON#0.0#0.0
+The person is presently in possession of the suitcase in front of him.#the/DET person/NOUN is/AUX presently/ADV in/ADP possession/NOUN of/ADP the/DET suitcase/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+A person currently holds the suitcase in his vicinity.#a/DET person/NOUN currently/ADV hold/VERB the/DET suitcase/NOUN in/ADP his/PRON vicinity/NOUN#0.0#0.0

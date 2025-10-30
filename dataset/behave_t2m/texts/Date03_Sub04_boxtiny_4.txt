@@ -1,0 +1,3 @@
+An individual is raising a boxsmall and keeping it in his right hand.#an/DET individual/NOUN is/AUX raise/VERB a/DET boxsmall/NOUN and/CCONJ keep/VERB it/PRON in/ADP his/PRON right/ADJ hand/NOUN#0.0#5.0
+A person is hoisting a boxsmall which they are holding in his right hand.#a/DET person/NOUN is/AUX hoist/VERB a/DET boxsmall/NOUN which/PRON they/PRON are/AUX hold/VERB in/ADP his/PRON right/ADJ hand/NOUN#0.0#5.0
+An individual is grasping a boxsmall and supporting it with his right hand.#an/DET individual/NOUN is/AUX grasp/VERB a/DET boxsmall/NOUN and/CCONJ support/VERB it/PRON with/ADP his/PRON right/ADJ hand/NOUN#0.0#5.0

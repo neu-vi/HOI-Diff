@@ -1,0 +1,3 @@
+An individual is gripping the chairblack in the front.#an/DET individual/NOUN is/AUX grip/VERB the/DET chairblack/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+A person is clasping the chairblack in the front.#a/DET person/NOUN is/AUX clasp/VERB the/DET chairblack/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+Someone is grasping the chairblack in the front.#someone/PRON is/AUX grasp/VERB the/DET chairblack/NOUN in/ADP the/DET front/NOUN#0.0#0.0

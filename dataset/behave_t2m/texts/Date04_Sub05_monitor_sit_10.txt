@@ -1,0 +1,3 @@
+An individual is fine-tuning a monitor.#an/DET individual/NOUN is/AUX finetune/VERB a/DET monitor/NOUN#0.0#0.0
+A person is calibrating a monitor.#a/DET person/NOUN is/AUX calibrate/VERB a/DET monitor/NOUN#0.0#0.0
+Someone is adjusting the settings on a monitor.#someone/PRON is/AUX adjust/VERB the/DET setting/NOUN on/ADP a/DET monitor/NOUN#0.0#0.0

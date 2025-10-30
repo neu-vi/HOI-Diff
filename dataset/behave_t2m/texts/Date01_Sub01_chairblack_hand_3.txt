@@ -1,0 +1,3 @@
+The person is dragging the chairblack across the ground.#the/DET person/NOUN is/AUX drag/VERB the/DET chairblack/NOUN across/ADP the/DET ground/NOUN#0.0#0.0
+The person is tugging on the chairblack, moving it along the ground.#the/DET person/NOUN is/AUX tug/VERB on/ADP the/DET chairblack/NOUN move/VERB it/PRON along/ADP the/DET ground/NOUN#0.0#0.0
+The person is transporting the chairblack by pushing and pulling it on the ground.#the/DET person/NOUN is/AUX transport/VERB the/DET chairblack/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0

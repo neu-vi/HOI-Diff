@@ -1,0 +1,3 @@
+A person raises a boxmedium with his right hand.#a/DET person/NOUN raise/VERB a/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+Someone is lifting a boxmedium using his right hand.#someone/PRON is/AUX lift/VERB a/DET boxmedium/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+An individual is elevating a boxmedium with his right hand.#an/DET individual/NOUN is/AUX elevate/VERB a/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

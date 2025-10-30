@@ -1,0 +1,3 @@
+The person is hoisting his backpack with his left hand.#the/DET person/NOUN is/AUX hoist/VERB his/PRON backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#14.0
+The person is raising his backpack with his left hand.#the/DET person/NOUN is/AUX raise/VERB his/PRON backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#14.0
+The person is toting his backpack with his left hand.#the/DET person/NOUN is/AUX tote/VERB his/PRON backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#14.0

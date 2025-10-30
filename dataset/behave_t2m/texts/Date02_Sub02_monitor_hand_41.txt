@@ -1,0 +1,3 @@
+A person is altering the monitor's settings.#a/DET person/NOUN is/AUX alter/VERB the/DET monitor/NOUN setting/NOUN#0.0#0.0
+Someone is adjusting the monitor's settings.#someone/PRON is/AUX adjust/VERB the/DET monitor/NOUN setting/NOUN#0.0#0.0
+An individual is changing the monitor's settings.#an/DET individual/NOUN is/AUX change/VERB the/DET monitor/NOUN setting/NOUN#0.0#0.0

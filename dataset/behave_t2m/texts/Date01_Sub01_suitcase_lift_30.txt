@@ -1,0 +1,3 @@
+A person is gripping the suitcase in front of him.#a/DET person/NOUN is/AUX grip/VERB the/DET suitcase/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+A person has the suitcase held in front of him.#a/DET person/NOUN have/VERB the/DET suitcase/NOUN hold/VERB in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+The suitcase is within the grasp of a person standing in front of him.#the/DET suitcase/NOUN is/AUX within/ADP the/DET grasp/NOUN of/ADP a/DET person/NOUN stand/VERB in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

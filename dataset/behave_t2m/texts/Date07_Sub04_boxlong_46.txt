@@ -1,0 +1,3 @@
+An individual is currently holding the boxlong.#an/DET individual/NOUN is/AUX currently/ADV hold/VERB the/DET boxlong/NOUN#0.0#0.0
+The person is presently gripping the boxlong.#the/DET person/NOUN is/AUX presently/ADV grip/VERB the/DET boxlong/NOUN#0.0#0.0
+A person presently holds the boxlong.#a/DET person/NOUN presently/ADV hold/VERB the/DET boxlong/NOUN#0.0#0.0

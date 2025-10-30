@@ -1,0 +1,3 @@
+A person is moving a tablesmall on the ground.#a/DET person/NOUN is/AUX move/VERB a/DET tablesmall/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is shoving a tablesmall on the ground.#a/DET person/NOUN is/AUX shove/VERB a/DET tablesmall/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is dragging a tablesmall on the ground.#a/DET person/NOUN is/AUX drag/VERB a/DET tablesmall/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

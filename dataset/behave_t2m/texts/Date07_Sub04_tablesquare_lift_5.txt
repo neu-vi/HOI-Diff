@@ -1,0 +1,3 @@
+A person is clutching the front of a tablesquare.#a/DET person/NOUN is/AUX clutch/VERB the/DET front/NOUN of/ADP a/DET tablesquare/NOUN#0.0#0.0
+A person is gripping the front of a tablesquare.#a/DET person/NOUN is/AUX grip/VERB the/DET front/NOUN of/ADP a/DET tablesquare/NOUN#0.0#0.0
+A person is clasping the front of a tablesquare.#a/DET person/NOUN is/AUX clasp/VERB the/DET front/NOUN of/ADP a/DET tablesquare/NOUN#0.0#0.0

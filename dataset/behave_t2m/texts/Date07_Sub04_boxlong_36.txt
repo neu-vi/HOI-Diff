@@ -1,0 +1,3 @@
+The person is clasping the boboxlongx tightly to his body with his right hand.#the/DET person/NOUN is/AUX clasp/VERB the/DET boboxlongx/NOUN tightly/ADV to/ADP his/PRON body/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person tightly grips the boboxlongx against his body with his right hand.#a/DET person/NOUN tightly/ADV grip/VERB the/DET boboxlongx/NOUN against/ADP his/PRON body/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person securely holds the boboxlongx against his body with his right hand.#the/DET person/NOUN securely/ADV hold/VERB the/DET boboxlongx/NOUN against/ADP his/PRON body/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

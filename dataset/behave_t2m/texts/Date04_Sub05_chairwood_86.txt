@@ -1,0 +1,3 @@
+A person is pushing the chairblack across the ground.#a/DET person/NOUN is/AUX push/VERB the/DET chairblack/NOUN across/ADP the/DET ground/NOUN#0.0#0.0
+A person is sliding the chairblack across the ground.#a/DET person/NOUN is/AUX slide/VERB the/DET chairblack/NOUN across/ADP the/DET ground/NOUN#0.0#0.0
+A person is propelling the chairblack across the ground.#a/DET person/NOUN is/AUX propel/VERB the/DET chairblack/NOUN across/ADP the/DET ground/NOUN#0.0#0.0

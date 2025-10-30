@@ -1,0 +1,3 @@
+The person is applying force to the suitcase by pushing and pulling it on the ground.#the/DET person/NOUN is/AUX apply/VERB force/NOUN to/ADP the/DET suitcase/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0
+The person is pressing and tugging the suitcase on the ground with force.#the/DET person/NOUN is/AUX press/VERB and/CCONJ tug/VERB the/DET suitcase/NOUN on/ADP the/DET ground/NOUN with/ADP force/NOUN#0.0#0.0
+The person is exerting effort while shoving and yanking the suitcase on the ground.#the/DET person/NOUN is/AUX exert/VERB effort/NOUN while/SCONJ shove/VERB and/CCONJ yank/VERB the/DET suitcase/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is raising the boxlong with his left hand.#a/DET person/NOUN is/AUX raise/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone is elevating the boxlong using solely his left hand.#someone/PRON is/AUX elevate/VERB the/DET boxlong/NOUN use/VERB solely/ADV his/PRON left/ADJ hand/NOUN#0.0#0.0
+The boxlong is being hoisted by a person who is utilizing only his left hand.#the/DET boxlong/NOUN is/AUX being/AUX hoist/VERB by/ADP a/DET person/NOUN who/PRON is/AUX utilize/VERB only/ADV his/PRON left/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person fiddles with the monitor's settings.#a/DET person/NOUN fiddle/VERB with/ADP the/DET monitor/NOUN setting/NOUN#0.0#0.0
+An individual adjusts the monitor's settings.#an/DET individual/ADJ adjust/VERB the/DET monitor/NOUN setting/NOUN#0.0#0.0
+Someone messes with the monitor's settings.#someone/PRON mess/NOUN with/ADP the/DET monitor/NOUN setting/NOUN#0.0#0.0

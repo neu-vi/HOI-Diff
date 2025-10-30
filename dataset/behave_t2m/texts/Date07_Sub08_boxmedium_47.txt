@@ -1,0 +1,3 @@
+A person is clutching the boxmedium in front of him.#a/DET person/NOUN is/AUX clutch/VERB the/DET boxmedium/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+Someone presently has the boxmedium in front of him.#someone/PRON presently/ADV have/VERB the/DET boxmedium/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+The person currently grips the boxmedium in front of him.#the/DET person/NOUN currently/ADV grip/VERB the/DET boxmedium/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

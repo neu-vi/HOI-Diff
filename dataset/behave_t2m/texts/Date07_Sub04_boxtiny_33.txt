@@ -1,0 +1,3 @@
+A person is clutching the boxtiny.#a/DET person/NOUN is/AUX clutch/VERB the/DET boxtiny/NOUN#0.0#0.0
+A person is gripping the boxtiny.#a/DET person/NOUN is/AUX grip/VERB the/DET boxtiny/NOUN#0.0#0.0
+A person is grasping the boxtiny.#a/DET person/NOUN is/AUX grasp/VERB the/DET boxtiny/NOUN#0.0#0.0

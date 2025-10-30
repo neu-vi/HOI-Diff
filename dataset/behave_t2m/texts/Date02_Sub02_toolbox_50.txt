@@ -1,0 +1,3 @@
+An individual is raising the toolbox with his hand.#an/DET individual/NOUN is/AUX raise/VERB the/DET toolbox/NOUN with/ADP his/PRON hand/NOUN#0.0#0.0
+A person is hoisting the toolbox using his hand.#a/DET person/NOUN is/AUX hoist/VERB the/DET toolbox/NOUN use/VERB his/PRON hand/NOUN#0.0#0.0
+Someone is elevating the toolbox by his hand.#someone/PRON is/AUX elevate/VERB the/DET toolbox/NOUN by/ADP his/PRON hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is gripping a chairwood in the front.#a/DET person/NOUN is/AUX grip/VERB a/DET chairwood/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+A person has a hold on a chairwood in the front.#a/DET person/NOUN have/VERB a/DET hold/NOUN on/ADP a/DET chairwood/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+A person cradles a chairwood in the front.#a/DET person/NOUN cradle/VERB a/DET chairwood/NOUN in/ADP the/DET front/NOUN#0.0#0.0

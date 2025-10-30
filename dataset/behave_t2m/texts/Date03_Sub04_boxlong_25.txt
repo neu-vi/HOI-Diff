@@ -1,0 +1,3 @@
+a person grasps the boxlong with his left hand.#a/DET person/NOUN grasp/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+a person is gripping the boxlong with his left hand.#a/DET person/NOUN is/AUX grip/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+a individual clutches the boxlong with his left hand.#a/DET individual/NOUN clutch/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

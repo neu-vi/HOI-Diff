@@ -1,0 +1,3 @@
+Someone is tilting the tablesmall slightly.#someone/PRON is/AUX tilt/VERB the/DET tablesmall/NOUN slightly/ADV#0.0#0.0
+Someone is giving the tablesmall a gentle tilt.#someone/PRON is/AUX give/VERB the/DET tablesmall/NOUN a/DET gentle/ADJ tilt/NOUN#0.0#0.0
+Someone is causing a slight tilt to the tablesmall.#someone/PRON is/AUX cause/VERB a/DET slight/ADJ tilt/NOUN to/ADP the/DET tablesmall/NOUN#0.0#0.0

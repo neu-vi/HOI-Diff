@@ -1,0 +1,3 @@
+The person is kicking the suitcase.#the/DET person/NOUN is/AUX kick/VERB the/DET suitcase/NOUN#0.0#0.0
+The person is using his foot to shove the suitcase.#the/DET person/NOUN is/AUX use/VERB his/PRON foot/NOUN to/PART shove/VERB the/DET suitcase/NOUN#0.0#0.0
+The person is utilizing his foot to propel the suitcase.#the/DET person/NOUN is/AUX utilize/VERB his/PRON foot/NOUN to/PART propel/VERB the/DET suitcase/NOUN#0.0#0.0

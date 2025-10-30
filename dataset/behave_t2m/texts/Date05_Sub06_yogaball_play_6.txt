@@ -1,0 +1,3 @@
+The person is engaging in a game of ball with his legs crossed using a yogaball.#the/DET person/NOUN is/AUX engage/VERB in/ADP a/DET game/NOUN of/ADP ball/NOUN with/ADP his/PRON leg/NOUN cross/VERB use/VERB a/DET yogaball/NOUN#0.0#0.0
+The person is participating in a yogaball game, crossing his legs while playing ball.#the/DET person/NOUN is/AUX participate/VERB in/ADP a/DET yogaball/NOUN game/NOUN cross/VERB his/PRON leg/NOUN while/SCONJ play/VERB ball/NOUN#0.0#0.0
+The person is involved in a game where they use a yogaball to play ball with his legs crossed.#the/DET person/NOUN is/AUX involve/VERB in/ADP a/DET game/NOUN where/SCONJ they/PRON use/VERB a/DET yogaball/NOUN to/PART play/VERB ball/NOUN with/ADP his/PRON leg/NOUN cross/VERB#0.0#0.0

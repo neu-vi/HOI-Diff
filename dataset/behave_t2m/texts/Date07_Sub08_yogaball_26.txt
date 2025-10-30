@@ -1,0 +1,3 @@
+A person is utilizing an yogaball to participate in an upper body game.#a/DET person/NOUN is/AUX utilize/VERB an/DET yogaball/NOUN to/PART participate/VERB in/ADP an/DET upper/ADJ body/NOUN game/NOUN#0.0#0.0
+A person is employing an yogaball to engage in an upper body game.#a/DET person/NOUN is/AUX employ/VERB an/DET yogaball/NOUN to/PART engage/VERB in/ADP an/DET upper/ADJ body/NOUN game/NOUN#0.0#0.0
+A person is implementing an yogaball to partake in an upper body game.#a/DET person/NOUN is/AUX implement/VERB an/DET yogaball/NOUN to/PART partake/VERB in/ADP an/DET upper/ADJ body/NOUN game/NOUN#0.0#0.0

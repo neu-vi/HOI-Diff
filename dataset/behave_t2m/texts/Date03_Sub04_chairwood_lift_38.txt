@@ -1,0 +1,3 @@
+The person is raising the chairwood with his right hand.#the/DET person/NOUN is/AUX raise/VERB the/DET chairwood/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is hoisting the chairwood using his right hand.#a/DET person/NOUN is/AUX hoist/VERB the/DET chairwood/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+Someone is elevating the chairwood utilizing his right hand.#someone/PRON is/AUX elevate/VERB the/DET chairwood/NOUN utilize/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0

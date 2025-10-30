@@ -1,0 +1,3 @@
+A person is currently occupying a seat at the tablesquare.#a/DET person/NOUN is/AUX currently/ADV occupy/VERB a/DET seat/NOUN at/ADP the/DET tablesquare/NOUN#0.0#0.0
+A person is presently situated at the tablesquare.#a/DET person/NOUN is/AUX presently/ADV situate/VERB at/ADP the/DET tablesquare/NOUN#0.0#0.0
+A person is actively sitting at the tablesquare.#a/DET person/NOUN is/AUX actively/ADV sit/VERB at/ADP the/DET tablesquare/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person lifts the backpack with his left hand.#the/DET person/NOUN lift/VERB the/DET backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The individual raises the backpack with his left hand.#the/DET individual/NOUN raise/VERB the/DET backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone elevates the backpack with his left hand.#someone/PRON elevate/VERB the/DET backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

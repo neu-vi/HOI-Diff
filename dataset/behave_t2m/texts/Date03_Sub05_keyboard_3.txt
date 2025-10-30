@@ -1,0 +1,3 @@
+A person is operating a keyboard.#a/DET person/NOUN is/AUX operate/VERB a/DET keyboard/NOUN#0.0#0.0
+A person is tapping a keyboard.#a/DET person/NOUN is/AUX tap/VERB a/DET keyboard/NOUN#0.0#0.0
+A person is using a keyboard for typing.#a/DET person/NOUN is/AUX use/VERB a/DET keyboard/NOUN for/ADP type/VERB#0.0#0.0

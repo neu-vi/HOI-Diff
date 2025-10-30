@@ -1,0 +1,3 @@
+The person is pushing the chairwood with his foot.#the/DET person/NOUN is/AUX push/VERB the/DET chairwood/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+The person is using his foot to apply pressure and move the chairwood.#the/DET person/NOUN is/AUX use/VERB his/PRON foot/NOUN to/PART apply/VERB pressure/NOUN and/CCONJ move/VERB the/DET chairwood/NOUN#0.0#0.0
+The person is exerting force on the chairwood by pushing it with his foot.#the/DET person/NOUN is/AUX exert/VERB force/NOUN on/ADP the/DET chairwood/NOUN by/ADP push/VERB it/PRON with/ADP his/PRON foot/NOUN#0.0#0.0

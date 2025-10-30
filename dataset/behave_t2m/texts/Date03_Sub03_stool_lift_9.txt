@@ -1,0 +1,3 @@
+The person is raising the stool with his right hand.#the/DET person/NOUN is/AUX raise/VERB the/DET stool/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person lifts the stool using his right hand.#a/DET person/NOUN lift/VERB the/DET stool/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+An individual elevates the stool with his right hand.#an/DET individual/ADJ elevate/VERB the/DET stool/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

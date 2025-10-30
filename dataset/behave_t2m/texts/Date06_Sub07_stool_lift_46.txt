@@ -1,0 +1,3 @@
+A person is nudging the stool with his foot.#a/DET person/NOUN is/AUX nudge/VERB the/DET stool/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is kicking the stool with his foot.#a/DET person/NOUN is/AUX kick/VERB the/DET stool/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+With his foot, a person is pushing the stool.#with/ADP his/PRON foot/NOUN a/DET person/NOUN is/AUX push/VERB the/DET stool/NOUN#0.0#0.0

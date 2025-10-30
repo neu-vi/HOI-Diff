@@ -1,0 +1,3 @@
+he person in front is supporting the chairwood.#he/PRON person/NOUN in/ADP front/NOUN is/AUX support/VERB the/DET chairwood/NOUN#0.0#0.0
+he person in front is grasping the chairwood.#he/PRON person/NOUN in/ADP front/NOUN is/AUX grasp/VERB the/DET chairwood/NOUN#0.0#0.0
+he person in front is securing the chairwood.#he/PRON person/NOUN in/ADP front/NOUN is/AUX secure/VERB the/DET chairwood/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+An individual is raising the monitor with his left hand.#an/DET individual/NOUN is/AUX raise/VERB the/DET monitor/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person is hoisting the monitor using only his left hand.#a/DET person/NOUN is/AUX hoist/VERB the/DET monitor/NOUN use/VERB only/ADV his/PRON left/ADJ hand/NOUN#0.0#0.0
+The monitor is being lifted by someone solely with his left hand.#the/DET monitor/NOUN is/AUX being/AUX lift/VERB by/ADP someone/PRON solely/ADV with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

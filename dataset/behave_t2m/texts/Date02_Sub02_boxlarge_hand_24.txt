@@ -1,0 +1,3 @@
+A person clutches the boxlarge from the front.#a/DET person/NOUN clutch/VERB the/DET boxlarge/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person firmly grasps the boxlarge from the front.#a/DET person/NOUN firmly/ADV grasp/VERB the/DET boxlarge/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person tightly holds the boxlarge from the front.#a/DET person/NOUN tightly/ADV hold/VERB the/DET boxlarge/NOUN from/ADP the/DET front/NOUN#0.0#0.0

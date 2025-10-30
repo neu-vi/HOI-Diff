@@ -1,0 +1,3 @@
+The person is gripping a yogamat with his right hand.#the/DET person/NOUN is/AUX grip/VERB a/DET yogamat/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The individual is clutching a yogamat with his right hand.#the/DET individual/NOUN is/AUX clutch/VERB a/DET yogamat/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person holds a yogamat using his right hand.#a/DET person/NOUN hold/VERB a/DET yogamat/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0

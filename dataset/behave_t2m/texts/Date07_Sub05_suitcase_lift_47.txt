@@ -1,0 +1,3 @@
+The person is carrying the suitcase with his left hand.#the/DET person/NOUN is/AUX carry/VERB the/DET suitcase/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person is hefting the suitcase with his left hand.#the/DET person/NOUN is/AUX heft/VERB the/DET suitcase/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person is toting the suitcase with his left hand.#the/DET person/NOUN is/AUX tote/VERB the/DET suitcase/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+eone is standing in front, bearing a boxlong.#eone/NOUN is/AUX stand/VERB in/ADP front/NOUN bear/VERB a/DET boxlong/NOUN#0.0#0.0
+a person is situated in front, toting a boxlong.#a/DET person/NOUN is/AUX situate/VERB in/ADP front/NOUN tote/VERB a/DET boxlong/NOUN#0.0#0.0
+individual is positioned in front, transporting a boxlong.#individual/NOUN is/AUX position/VERB in/ADP front/NOUN transport/VERB a/DET boxlong/NOUN#0.0#0.0

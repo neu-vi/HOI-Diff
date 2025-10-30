@@ -1,0 +1,3 @@
+The person is exerting pressure on the tablesquare.#the/DET person/NOUN is/AUX exert/VERB pressure/NOUN on/ADP the/DET tablesquare/NOUN#0.0#0.0
+The person is pressing down on the tablesquare.#the/DET person/NOUN is/AUX press/VERB down/ADP on/ADP the/DET tablesquare/NOUN#0.0#0.0
+The person is applying strength to the tablesquare.#the/DET person/NOUN is/AUX apply/VERB strength/NOUN to/ADP the/DET tablesquare/NOUN#0.0#0.0

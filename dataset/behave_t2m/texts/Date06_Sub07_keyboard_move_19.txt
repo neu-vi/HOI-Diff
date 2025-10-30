@@ -1,0 +1,3 @@
+A person is grasping a keyboard with one hand and his body.#a/DET person/NOUN is/AUX grasp/VERB a/DET keyboard/NOUN with/ADP one/NUM hand/NOUN and/CCONJ his/PRON body/NOUN#0.0#0.0
+A person is clutching a keyboard using one hand and his body.#a/DET person/NOUN is/AUX clutch/VERB a/DET keyboard/NOUN use/VERB one/NUM hand/NOUN and/CCONJ his/PRON body/NOUN#0.0#0.0
+A person is gripping a keyboard while utilizing one hand and his body.#a/DET person/NOUN is/AUX grip/VERB a/DET keyboard/NOUN while/SCONJ utilize/VERB one/NUM hand/NOUN and/CCONJ his/PRON body/NOUN#0.0#0.0

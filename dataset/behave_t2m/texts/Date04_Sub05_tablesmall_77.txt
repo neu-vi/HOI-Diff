@@ -1,0 +1,3 @@
+A person in the front is supporting the tablesmall.#a/DET person/NOUN in/ADP the/DET front/NOUN is/AUX support/VERB the/DET tablesmall/NOUN#0.0#0.0
+The tablesmall is currently being handled by someone in the front.#the/DET tablesmall/NOUN is/AUX currently/ADV being/AUX handle/VERB by/ADP someone/PRON in/ADP the/DET front/NOUN#0.0#0.0
+Someone in the front presently has hold of the tablesmall.#someone/PRON in/ADP the/DET front/NOUN presently/ADV have/VERB hold/NOUN of/ADP the/DET tablesmall/NOUN#0.0#0.0

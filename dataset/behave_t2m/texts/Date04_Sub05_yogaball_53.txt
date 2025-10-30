@@ -1,0 +1,3 @@
+A person is engaging in a ball game while seated on a yogaball.#a/DET person/NOUN is/AUX engage/VERB in/ADP a/DET ball/NOUN game/NOUN while/SCONJ seat/VERB on/ADP a/DET yogaball/NOUN#0.0#0.0
+A person is participating in a ball activity while in a cross-legged position on a yogaball.#a/DET person/NOUN is/AUX participate/VERB in/ADP a/DET ball/NOUN activity/NOUN while/SCONJ in/ADP a/DET crosslegged/ADJ position/NOUN on/ADP a/DET yogaball/NOUN#0.0#0.0
+A person is involved in a ball play while remaining seated on a yogaball with crossed legs.#a/DET person/NOUN is/AUX involve/VERB in/ADP a/DET ball/NOUN play/NOUN while/SCONJ remain/VERB seat/VERB on/ADP a/DET yogaball/NOUN with/ADP cross/VERB leg/NOUN#0.0#0.0

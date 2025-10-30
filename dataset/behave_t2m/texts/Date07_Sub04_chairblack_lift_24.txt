@@ -1,0 +1,3 @@
+A person is raising the chairblackusing his right hand.#a/DET person/NOUN is/AUX raise/VERB the/DET chairblackusing/NOUN his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person in question is hoisting the chairblackwith his right hand.#the/DET person/NOUN in/ADP question/NOUN is/AUX hoist/VERB the/DET chairblackwith/NOUN his/PRON right/ADJ hand/NOUN#0.0#0.0
+As we speak, the person is elevating the chairblackusing his right hand.#as/SCONJ we/PRON speak/VERB the/DET person/NOUN is/AUX elevate/VERB the/DET chairblackuse/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0

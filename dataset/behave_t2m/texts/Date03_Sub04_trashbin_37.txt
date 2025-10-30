@@ -1,0 +1,3 @@
+A person is gripping a trashbin with his left hand close to his body.#a/DET person/NOUN is/AUX grip/VERB a/DET trashbin/NOUN with/ADP his/PRON left/ADJ hand/NOUN close/ADV to/ADP his/PRON body/NOUN#0.0#0.0
+A person firmly clutches a trashbin with his left hand close to his body.#a/DET person/NOUN firmly/ADV clutch/VERB a/DET trashbin/NOUN with/ADP his/PRON left/ADJ hand/NOUN close/ADV to/ADP his/PRON body/NOUN#0.0#0.0
+A person maintains a hold on a trashbin with his left hand close to his body.#a/DET person/NOUN maintain/VERB a/DET hold/NOUN on/ADP a/DET trashbin/NOUN with/ADP his/PRON left/ADJ hand/NOUN close/ADV to/ADP his/PRON body/NOUN#0.0#0.0

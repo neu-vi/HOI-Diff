@@ -1,0 +1,3 @@
+The chairblack is currently being gripped in the front by an individual with black color.#the/DET chairblack/NOUN is/AUX currently/ADV being/AUX grip/VERB in/ADP the/DET front/NOUN by/ADP an/DET individual/NOUN with/ADP black/ADJ color/NOUN#0.0#0.0
+A person with black color is presently clutching the chairblack from the front.#a/DET person/NOUN with/ADP black/ADJ color/NOUN is/AUX presently/ADV clutch/VERB the/DET chairblack/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+At this moment, the chairblack is being firmly grasped in the front by an individual with black color.#at/ADP this/DET moment/NOUN the/DET chairblack/NOUN is/AUX being/AUX firmly/ADV grasp/VERB in/ADP the/DET front/NOUN by/ADP an/DET individual/NOUN with/ADP black/ADJ color/NOUN#0.0#0.0

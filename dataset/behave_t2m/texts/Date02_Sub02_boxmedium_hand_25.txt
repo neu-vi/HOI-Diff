@@ -1,0 +1,3 @@
+A person is toting a boxmedium with one hand.#a/DET person/NOUN is/AUX tote/VERB a/DET boxmedium/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+Someone is carrying a boxmedium with a single hand.#someone/PRON is/AUX carry/VERB a/DET boxmedium/NOUN with/ADP a/DET single/ADJ hand/NOUN#0.0#0.0
+An individual is gripping a boxmedium with one hand.#an/DET individual/NOUN is/AUX grip/VERB a/DET boxmedium/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0

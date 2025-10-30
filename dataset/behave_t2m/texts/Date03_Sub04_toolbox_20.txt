@@ -1,0 +1,3 @@
+The person stands at the front while clutching the toolbox.#the/DET person/NOUN stand/VERB at/ADP the/DET front/NOUN while/SCONJ clutch/VERB the/DET toolbox/NOUN#0.0#0.0
+Standing at the front, the individual has a firm grip on the toolbox.#stand/VERB at/ADP the/DET front/NOUN the/DET individual/NOUN have/VERB a/DET firm/ADJ grip/NOUN on/ADP the/DET toolbox/NOUN#0.0#0.0
+With the toolbox in hand, the person stands at the front.#with/ADP the/DET toolbox/NOUN in/ADP hand/NOUN the/DET person/NOUN stand/VERB at/ADP the/DET front/NOUN#0.0#0.0

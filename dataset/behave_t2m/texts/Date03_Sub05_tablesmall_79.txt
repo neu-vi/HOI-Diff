@@ -1,0 +1,3 @@
+A person stands beside a tablesmall.#a/DET person/NOUN stand/VERB beside/ADP a/DET tablesmall/NOUN#0.0#0.0
+A person is positioned in front of a tablesmall.#a/DET person/NOUN is/AUX position/VERB in/ADP front/NOUN of/ADP a/DET tablesmall/NOUN#0.0#0.0
+A person remains near a tablesmall.#a/DET person/NOUN remain/VERB near/ADP a/DET tablesmall/NOUN#0.0#0.0

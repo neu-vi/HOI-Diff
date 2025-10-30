@@ -1,0 +1,3 @@
+A person is perching on the stool.#a/DET person/NOUN is/AUX perch/VERB on/ADP the/DET stool/NOUN#0.0#0.0
+A person is occupying the stool.#a/DET person/NOUN is/AUX occupy/VERB the/DET stool/NOUN#0.0#0.0
+A person is settling on the stool.#a/DET person/NOUN is/AUX settle/VERB on/ADP the/DET stool/NOUN#0.0#0.0

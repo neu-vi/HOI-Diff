@@ -1,0 +1,3 @@
+the person on the ground is tugging at a tablesmall.#the/DET person/NOUN on/ADP the/DET ground/NOUN is/AUX tug/VERB at/ADP a/DET tablesmall/NOUN#0.0#0.0
+a person is dragging and pushing a tablesmall.#a/DET person/NOUN is/AUX drag/VERB and/CCONJ push/VERB a/DET tablesmall/NOUN#0.0#0.0
+someone is exerting force to push and pull a tablesmall on the ground.#someone/PRON is/AUX exert/VERB force/NOUN to/PART push/VERB and/CCONJ pull/VERB a/DET tablesmall/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

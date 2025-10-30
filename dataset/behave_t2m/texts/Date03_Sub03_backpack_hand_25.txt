@@ -1,0 +1,3 @@
+The person is clutching a backpack in his raised right hand.#the/DET person/NOUN is/AUX clutch/VERB a/DET backpack/NOUN in/ADP his/PRON raise/VERB right/ADJ hand/NOUN#0.0#0.0
+A person is grasping a backpack, his right hand raised.#a/DET person/NOUN is/AUX grasp/VERB a/DET backpack/NOUN his/PRON right/ADJ hand/NOUN raise/VERB#0.0#0.0
+The individual is gripping a backpack, holding it with his right hand raised.#the/DET individual/NOUN is/AUX grip/VERB a/DET backpack/NOUN hold/VERB it/PRON with/ADP his/PRON right/ADJ hand/NOUN raise/VERB#0.0#0.0

@@ -1,0 +1,3 @@
+Someone is giving the chairwood a nudge with his foot.#someone/PRON is/AUX give/VERB the/DET chairwood/NOUN a/DET nudge/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+Somebody is nudging the chairwood with his foot.#somebody/PRON is/AUX nudge/VERB the/DET chairwood/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is gently pushing the chairwood using his foot.#a/DET person/NOUN is/AUX gently/ADV push/VERB the/DET chairwood/NOUN use/VERB his/PRON foot/NOUN#0.0#0.0

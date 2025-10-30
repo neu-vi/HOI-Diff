@@ -1,0 +1,3 @@
+Someone is kicking the suitcase.#someone/PRON is/AUX kick/VERB the/DET suitcase/NOUN#0.0#0.0
+Someone is pushing the suitcase with his foot.#someone/PRON is/AUX push/VERB the/DET suitcase/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+Someone is shoving the suitcase with a kick.#someone/PRON is/AUX shove/VERB the/DET suitcase/NOUN with/ADP a/DET kick/NOUN#0.0#0.0

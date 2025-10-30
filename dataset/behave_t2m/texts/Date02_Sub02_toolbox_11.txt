@@ -1,0 +1,3 @@
+The person is grasping the toolbox with his left hand.#the/DET person/NOUN is/AUX grasp/VERB the/DET toolbox/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#15.0
+A person has the toolbox clasped in his left hand.#a/DET person/NOUN have/VERB the/DET toolbox/NOUN clasp/VERB in/ADP his/PRON left/ADJ hand/NOUN#0.0#15.0
+The toolbox is currently in the possession of the person's left hand.#the/DET toolbox/NOUN is/AUX currently/ADV in/ADP the/DET possession/NOUN of/ADP the/DET person/NOUN left/ADJ hand/NOUN#0.0#15.0

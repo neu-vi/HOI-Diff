@@ -1,0 +1,3 @@
+The person is in possession of the suitcase.#the/DET person/NOUN is/AUX in/ADP possession/NOUN of/ADP the/DET suitcase/NOUN#0.0#0.0
+The person has the suitcase in his possession.#the/DET person/NOUN have/VERB the/DET suitcase/NOUN in/ADP his/PRON possession/NOUN#0.0#0.0
+The person carries the suitcase in front of him.#the/DET person/NOUN carry/VERB the/DET suitcase/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

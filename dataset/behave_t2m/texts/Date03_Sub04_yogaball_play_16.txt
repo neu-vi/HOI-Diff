@@ -1,0 +1,3 @@
+a person is toying with a yogaball while playing handely.#a/DET person/NOUN is/AUX toy/VERB with/ADP a/DET yogaball/NOUN while/SCONJ play/VERB handely/ADV#0.0#0.0
+a person is fiddling with a yogaball.#a/DET person/NOUN is/AUX fiddle/VERB with/ADP a/DET yogaball/NOUN#0.0#0.0
+a person is amusing himself with a yogaball with one hand.#a/DET person/NOUN is/AUX amuse/VERB himself/PRON with/ADP a/DET yogaball/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0

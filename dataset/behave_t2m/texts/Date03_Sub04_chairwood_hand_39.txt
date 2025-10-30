@@ -1,0 +1,3 @@
+A person is applying a pushing and pulling force on the chairblack legs.#a/DET person/NOUN is/AUX apply/VERB a/DET pushing/NOUN and/CCONJ pull/VERB force/NOUN on/ADP the/DET chairblack/NOUN leg/NOUN#0.0#0.0
+A person is utilizing a pushing and pulling force on the chairblack legs.#a/DET person/NOUN is/AUX utilize/VERB a/DET pushing/NOUN and/CCONJ pull/VERB force/NOUN on/ADP the/DET chairblack/NOUN leg/NOUN#0.0#0.0
+A person is employing a pushing and pulling force on the chairblack legs.#a/DET person/NOUN is/AUX employ/VERB a/DET pushing/NOUN and/CCONJ pull/VERB force/NOUN on/ADP the/DET chairblack/NOUN leg/NOUN#0.0#0.0

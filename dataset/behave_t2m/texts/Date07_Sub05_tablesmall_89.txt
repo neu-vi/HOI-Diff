@@ -1,0 +1,3 @@
+An individual is exerting force on the ground to shift the tablesmall.#an/DET individual/NOUN is/AUX exert/VERB force/NOUN on/ADP the/DET ground/NOUN to/PART shift/VERB the/DET tablesmall/NOUN#0.0#0.0
+A person applies pressure on the ground to relocate the tablesmall.#a/DET person/NOUN apply/VERB pressure/NOUN on/ADP the/DET ground/NOUN to/PART relocate/VERB the/DET tablesmall/NOUN#0.0#0.0
+Someone is pushing against the ground to move the tablesmall.#someone/PRON is/AUX push/VERB against/ADP the/DET ground/NOUN to/PART move/VERB the/DET tablesmall/NOUN#0.0#0.0

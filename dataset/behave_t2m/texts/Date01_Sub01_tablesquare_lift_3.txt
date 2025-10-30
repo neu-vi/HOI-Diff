@@ -1,0 +1,2 @@
+a person in front is currently holding the tablesquare.#a/DET person/NOUN in/ADP front/NOUN is/AUX currently/ADV hold/VERB the/DET tablesquare/NOUN#0.0#0.0
+a person is holding a tablesquare in front.#a/DET person/NOUN is/AUX hold/VERB a/DET tablesquare/NOUN in/ADP front/NOUN#0.0#0.0

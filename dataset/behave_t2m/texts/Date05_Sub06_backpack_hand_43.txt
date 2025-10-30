@@ -1,0 +1,3 @@
+An individual is hefting the backpack with his left hand.#an/DET individual/NOUN is/AUX heft/VERB the/DET backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person is raising the backpack with his left hand.#the/DET person/NOUN is/AUX raise/VERB the/DET backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone is hoisting the backpack with his left hand.#someone/PRON is/AUX hoist/VERB the/DET backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

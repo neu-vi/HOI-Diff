@@ -1,0 +1,3 @@
+The person is clasping the boxtiny with his left hand.#the/DET person/NOUN is/AUX clasp/VERB the/DET boxtiny/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#10.0
+The person is gripping the boxtiny with his left hand.#the/DET person/NOUN is/AUX grip/VERB the/DET boxtiny/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#10.0
+The person is clutching the boxtiny with his left hand.#the/DET person/NOUN is/AUX clutch/VERB the/DET boxtiny/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#10.0

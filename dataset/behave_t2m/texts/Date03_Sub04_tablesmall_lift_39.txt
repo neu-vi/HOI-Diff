@@ -1,0 +1,3 @@
+a person is shouldering the weight of the tablesmall.#a/DET person/NOUN is/AUX shoulder/VERB the/DET weight/NOUN of/ADP the/DET tablesmall/NOUN#0.0#0.0
+a person is bearing the weight of the tablesmall on his shoulder.#a/DET person/NOUN is/AUX bear/VERB the/DET weight/NOUN of/ADP the/DET tablesmall/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0
+a person is shouldering the burden of supporting the tablesmall.#a/DET person/NOUN is/AUX shoulder/VERB the/DET burden/NOUN of/ADP support/VERB the/DET tablesmall/NOUN#0.0#0.0

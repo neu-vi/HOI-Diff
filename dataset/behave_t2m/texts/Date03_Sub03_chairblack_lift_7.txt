@@ -1,0 +1,3 @@
+erson in black is holding the chair's front.#erson/NOUN in/ADP black/NOUN is/AUX hold/VERB the/DET chair/NOUN front/NOUN#0.0#0.0
+erson wearing black is keeping the chair's front.#erson/NOUN wear/VERB black/ADJ is/AUX keep/VERB the/DET chair/NOUN front/NOUN#0.0#0.0
+eone dressed in black is grasping the chair's front.#eone/NOUN dress/VERB in/ADP black/ADJ is/AUX grasp/VERB the/DET chair/NOUN front/NOUN#0.0#0.0

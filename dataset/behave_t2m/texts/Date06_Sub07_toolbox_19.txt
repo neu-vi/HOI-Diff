@@ -1,0 +1,3 @@
+An individual is supporting a toolbox with his left hand.#an/DET individual/NOUN is/AUX support/VERB a/DET toolbox/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person is upholding a toolbox with his left hand.#the/DET person/NOUN is/AUX uphold/VERB a/DET toolbox/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person sustains a toolbox with his left hand.#a/DET person/NOUN sustain/VERB a/DET toolbox/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

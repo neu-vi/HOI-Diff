@@ -1,0 +1,3 @@
+A person is placing a tablesmall.#a/DET person/NOUN is/AUX place/VERB a/DET tablesmall/NOUN#0.0#0.0
+A person is arranging a tablesmall.#a/DET person/NOUN is/AUX arrange/VERB a/DET tablesmall/NOUN#0.0#0.0
+A person is adjusting a tablesmall.#a/DET person/NOUN is/AUX adjust/VERB a/DET tablesmall/NOUN#0.0#0.0

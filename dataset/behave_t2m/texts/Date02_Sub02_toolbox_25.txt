@@ -1,0 +1,3 @@
+Someone is grasping the toolbox in front.#someone/PRON is/AUX grasp/VERB the/DET toolbox/NOUN in/ADP front/NOUN#0.0#0.0
+The toolbox is being clutched in front by someone.#the/DET toolbox/NOUN is/AUX being/AUX clutch/VERB in/ADP front/NOUN by/ADP someone/PRON#0.0#0.0
+A person is firmly gripping the toolbox in front.#a/DET person/NOUN is/AUX firmly/ADV grip/VERB the/DET toolbox/NOUN in/ADP front/NOUN#0.0#0.0

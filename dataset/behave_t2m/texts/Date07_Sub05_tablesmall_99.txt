@@ -1,0 +1,3 @@
+A person is standing in front of a tabletop.#a/DET person/NOUN is/AUX stand/VERB in/ADP front/NOUN of/ADP a/DET tabletop/NOUN#0.0#0.0
+A person is situated in front of a desk.#a/DET person/NOUN is/AUX situate/VERB in/ADP front/NOUN of/ADP a/DET desk/NOUN#0.0#0.0
+A person is placed in front of a counter.#a/DET person/NOUN is/AUX place/VERB in/ADP front/NOUN of/ADP a/DET counter/NOUN#0.0#0.0

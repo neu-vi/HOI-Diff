@@ -1,0 +1,3 @@
+A person is hoisting the luggage with one hand.#a/DET person/NOUN is/AUX hoist/VERB the/DET luggage/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+The luggage is being upheld by a person with one hand.#the/DET luggage/NOUN is/AUX being/AUX uphold/VERB by/ADP a/DET person/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+Someone is carrying the luggage single-handedly.#someone/PRON is/AUX carry/VERB the/DET luggage/NOUN singlehandedly/ADV#0.0#0.0

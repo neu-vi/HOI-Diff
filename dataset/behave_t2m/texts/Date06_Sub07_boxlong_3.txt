@@ -1,0 +1,3 @@
+A person is lifting a boxlong single-handedly.#a/DET person/NOUN is/AUX lift/VERB a/DET boxlong/NOUN singlehandedly/ADV#0.0#0.0
+An individual is raising a boxlong using just one hand.#an/DET individual/NOUN is/AUX raise/VERB a/DET boxlong/NOUN use/VERB just/ADV one/NUM hand/NOUN#0.0#0.0
+Someone is hoisting a boxlong by himself with a single hand.#someone/PRON is/AUX hoist/VERB a/DET boxlong/NOUN by/ADP himself/PRON with/ADP a/DET single/ADJ hand/NOUN#0.0#0.0

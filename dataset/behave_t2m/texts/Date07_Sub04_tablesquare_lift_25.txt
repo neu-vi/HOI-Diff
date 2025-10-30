@@ -1,0 +1,3 @@
+A person is supporting the tablesquare on his shoulder.#a/DET person/NOUN is/AUX support/VERB the/DET tablesquare/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0
+The tablesquare is being shouldered by someone.#the/DET tablesquare/NOUN is/AUX being/AUX shoulder/VERB by/ADP someone/PRON#0.0#0.0
+Someone carries the tablesquare on his shoulder.#someone/PRON carry/VERB the/DET tablesquare/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0

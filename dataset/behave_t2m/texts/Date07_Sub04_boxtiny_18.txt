@@ -1,0 +1,3 @@
+An individual grips the boxtiny in front.#an/DET individual/ADJ grip/VERB the/DET boxtiny/NOUN in/ADP front/NOUN#0.0#0.0
+A person is grasping the boxtiny in front.#a/DET person/NOUN is/AUX grasp/VERB the/DET boxtiny/NOUN in/ADP front/NOUN#0.0#0.0
+The boxtiny is in the possession of a person in front.#the/DET boxtiny/NOUN is/AUX in/ADP the/DET possession/NOUN of/ADP a/DET person/NOUN in/ADP front/NOUN#0.0#0.0

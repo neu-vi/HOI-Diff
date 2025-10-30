@@ -1,0 +1,3 @@
+A person is tapping the keys on a keyboard.#a/DET person/NOUN is/AUX tap/VERB the/DET key/NOUN on/ADP a/DET keyboard/NOUN#0.0#0.0
+A person is striking the keys on a keyboard.#a/DET person/NOUN is/AUX strike/VERB the/DET key/NOUN on/ADP a/DET keyboard/NOUN#0.0#0.0
+A person is pressing the keys on a keyboard.#a/DET person/NOUN is/AUX press/VERB the/DET key/NOUN on/ADP a/DET keyboard/NOUN#0.0#0.0

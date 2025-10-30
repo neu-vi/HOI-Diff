@@ -1,0 +1,3 @@
+A person is supporting a keyboard with one hand.#a/DET person/NOUN is/AUX support/VERB a/DET keyboard/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is upholding a keyboard with one hand.#a/DET person/NOUN is/AUX uphold/VERB a/DET keyboard/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is carrying a keyboard with one hand.#a/DET person/NOUN is/AUX carry/VERB a/DET keyboard/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0

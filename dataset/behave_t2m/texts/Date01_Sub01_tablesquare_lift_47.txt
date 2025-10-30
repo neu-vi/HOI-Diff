@@ -1,0 +1,3 @@
+The person is grasping the tablecloth from the front.#the/DET person/NOUN is/AUX grasp/VERB the/DET tablecloth/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The person is clutching the tablecloth from the front.#the/DET person/NOUN is/AUX clutch/VERB the/DET tablecloth/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The person is gripping the tablecloth from the front.#the/DET person/NOUN is/AUX grip/VERB the/DET tablecloth/NOUN from/ADP the/DET front/NOUN#0.0#0.0

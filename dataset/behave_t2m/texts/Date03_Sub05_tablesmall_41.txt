@@ -1,0 +1,3 @@
+A person exerts force to shift a tablesmall.#a/DET person/NOUN exert/NOUN force/VERB to/PART shift/VERB a/DET tablesmall/NOUN#0.0#0.0
+A person is pushing a tablesmall with force.#a/DET person/NOUN is/AUX push/VERB a/DET tablesmall/NOUN with/ADP force/NOUN#0.0#0.0
+A person is using effort to relocate a tablesmall.#a/DET person/NOUN is/AUX use/VERB effort/NOUN to/PART relocate/VERB a/DET tablesmall/NOUN#0.0#0.0

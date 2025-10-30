@@ -1,0 +1,3 @@
+The basketball player is participating in cross-legged ball-handling.#the/DET basketball/NOUN player/NOUN is/AUX participate/VERB in/ADP crosslegged/ADJ ballhandling/NOUN#0.0#0.0
+The basketball player is involved in cross-legged ball manipulation.#the/DET basketball/NOUN player/NOUN is/AUX involve/VERB in/ADP crosslegge/VERB ball/NOUN manipulation/NOUN#0.0#0.0
+The basketball player is actively practicing cross-legged ball control.#the/DET basketball/NOUN player/NOUN is/AUX actively/ADV practice/VERB crosslegge/VERB ball/NOUN control/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is grasping the boxlarg with his right hand.#the/DET person/NOUN is/AUX grasp/VERB the/DET boxlarg/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person is clutching the boxlarg using his right hand.#the/DET person/NOUN is/AUX clutch/VERB the/DET boxlarg/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person has the boxlarg upheld in his right hand.#the/DET person/NOUN have/VERB the/DET boxlarg/NOUN uphold/VERB in/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

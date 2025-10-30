@@ -1,0 +1,3 @@
+erson is gripping a boxlong at the front.#erson/PROPN is/AUX grip/VERB a/DET boxlong/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+erson is clutching a boxlong at the front.#erson/PROPN is/AUX clutch/VERB a/DET boxlong/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+erson is grasping a boxlong at the front.#erson/PROPN is/AUX grasp/VERB a/DET boxlong/NOUN at/ADP the/DET front/NOUN#0.0#0.0

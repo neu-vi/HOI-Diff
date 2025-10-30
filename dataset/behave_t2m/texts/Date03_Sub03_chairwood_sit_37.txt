@@ -1,0 +1,3 @@
+A person is currently sitting the chairwood.#a/DET person/NOUN is/AUX currently/ADV sit/VERB the/DET chairwood/NOUN#0.0#0.0
+The chairwood is presently in occupied by a person.#the/DET chairwood/NOUN is/AUX presently/ADV in/ADP occupy/VERB by/ADP a/DET person/NOUN#0.0#0.0
+Right now, a person is sitting on the chairwood.#right/ADV now/ADV a/DET person/NOUN is/AUX sit/VERB on/ADP the/DET chairwood/NOUN#0.0#0.0

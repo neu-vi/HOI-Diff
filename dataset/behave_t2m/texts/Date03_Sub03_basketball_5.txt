@@ -1,0 +1,3 @@
+allplayer is utilizing his upper body to play basketball.#allplayer/PROPN is/AUX utilize/VERB his/PRON upper/ADJ body/NOUN to/PART play/VERB basketball/NOUN#0.0#0.0
+allplayer is employing his upper body to play basketball.#allplayer/PROPN is/AUX employ/VERB his/PRON upper/ADJ body/NOUN to/PART play/VERB basketball/NOUN#0.0#0.0
+allplayer is employing the use of his upper body to play basketball.#allplayer/PROPN is/AUX employ/VERB the/DET use/NOUN of/ADP his/PRON upper/ADJ body/NOUN to/PART play/VERB basketball/NOUN#0.0#0.0

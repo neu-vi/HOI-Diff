@@ -1,0 +1,3 @@
+An individual is observing the monitor.#an/DET individual/NOUN is/AUX observe/VERB the/DET monitor/NOUN#0.0#0.0
+A person is surveilling the monitor.#a/DET person/NOUN is/AUX surveille/VERB the/DET monitor/NOUN#0.0#0.0
+The monitor is being watched by someone.#the/DET monitor/NOUN is/AUX being/AUX watch/VERB by/ADP someone/PRON#0.0#0.0

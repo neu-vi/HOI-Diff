@@ -1,0 +1,3 @@
+A person takes hold of a yogamat at the front.#a/DET person/NOUN take/VERB hold/NOUN of/ADP a/DET yogamat/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+A person is gripping a yogamat at the front.#a/DET person/NOUN is/AUX grip/VERB a/DET yogamat/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+A person firmly clutches a yogamat at the front.#a/DET person/NOUN firmly/ADV clutch/VERB a/DET yogamat/NOUN at/ADP the/DET front/NOUN#0.0#0.0

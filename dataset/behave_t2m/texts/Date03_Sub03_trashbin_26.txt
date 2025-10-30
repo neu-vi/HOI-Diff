@@ -1,0 +1,3 @@
+The person is lifting the trashbin with his right hand.#the/DET person/NOUN is/AUX lift/VERB the/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person raises the trashbin with his right hand.#a/DET person/NOUN raise/VERB the/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The individual grabs hold of the trashbin with his right hand.#the/DET individual/ADJ grab/NOUN hold/VERB of/ADP the/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

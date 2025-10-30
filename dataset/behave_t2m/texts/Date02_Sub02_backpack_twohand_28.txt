@@ -1,0 +1,3 @@
+A person is slinging the backpack over his shoulder.#a/DET person/NOUN is/AUX sling/VERB the/DET backpack/NOUN over/ADP his/PRON shoulder/NOUN#0.0#0.0
+A person is shouldering the backpack as they walk.#a/DET person/NOUN is/AUX shoulder/VERB the/DET backpack/NOUN as/SCONJ they/PRON walk/VERB#0.0#0.0
+A person is lugging the backpack on his shoulder.#a/DET person/NOUN is/AUX lug/VERB the/DET backpack/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0

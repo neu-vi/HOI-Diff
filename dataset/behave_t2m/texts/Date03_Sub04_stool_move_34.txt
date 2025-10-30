@@ -1,0 +1,3 @@
+a person is kicking the stool.#a/DET person/NOUN is/AUX kick/VERB the/DET stool/NOUN#0.0#0.0
+a person is using his foot to move the stool.#a/DET person/NOUN is/AUX use/VERB his/PRON foot/NOUN to/PART move/VERB the/DET stool/NOUN#0.0#0.0
+a person is using his lower limb to push the stool.#a/DET person/NOUN is/AUX use/VERB his/PRON lower/ADJ limb/NOUN to/PART push/VERB the/DET stool/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+a person is exerting force with his foot to relocate a compact box.#a/DET person/NOUN is/AUX exert/VERB force/NOUN with/ADP his/PRON foot/NOUN to/PART relocate/VERB a/DET compact/ADJ box/NOUN#0.0#0.0
+a person is using his foot to push a boxsmall.#a/DET person/NOUN is/AUX use/VERB his/PRON foot/NOUN to/PART push/VERB a/DET boxsmall/NOUN#0.0#0.0
+a person is applying pressure with his foot in order to shift a diminutive box.#a/DET person/NOUN is/AUX apply/VERB pressure/NOUN with/ADP his/PRON foot/NOUN in/ADP order/NOUN to/PART shift/VERB a/DET diminutive/ADJ box/NOUN#0.0#0.0

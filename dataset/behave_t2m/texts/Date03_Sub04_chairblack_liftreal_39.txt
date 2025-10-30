@@ -1,0 +1,3 @@
+A person is clutching the chair's front with right hand.#a/DET person/NOUN is/AUX clutch/VERB the/DET chair/NOUN front/NOUN with/ADP right/ADJ hand/NOUN#0.0#0.0S
+Someone is lifting the chair's front by right hand.#someone/PRON is/AUX lift/VERB the/DET chair/NOUN front/NOUN by/ADP right/ADJ hand/NOUN#0.0#0.0
+Someone grips the chair's front by right hand.#someone/PRON grip/NOUN the/DET chair/NOUN front/NOUN by/ADP right/ADJ hand/NOUN#0.0#0.0

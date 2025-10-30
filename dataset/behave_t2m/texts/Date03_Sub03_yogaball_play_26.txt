@@ -1,0 +1,3 @@
+The person is balancing a yogaball in front.#the/DET person/NOUN sit/VERB a/DET yogaball/NOUN in/ADP front/NOUN#0.0#0.0
+A yogaball is being gripped by the person in front.#a/DET yogaball/NOUN is/AUX being/AUX grip/VERB by/ADP the/DET person/NOUN in/ADP front/NOUN#0.0#0.0
+The person holds a yogaball in front.#the/DET person/NOUN hold/VERB a/DET yogaball/NOUN in/ADP front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is clasping the backpack tightly against his body with his left hand.#the/DET person/NOUN is/AUX clasp/VERB the/DET backpack/NOUN tightly/ADV against/ADP his/PRON body/NOUN with/ADP his/PRON left/ADJ hand/NOUN#5.0#10.0
+The person has a firm grip on the backpack as they press it against his body with his left hand.#the/DET person/NOUN have/VERB a/DET firm/ADJ grip/NOUN on/ADP the/DET backpack/NOUN as/SCONJ they/PRON press/VERB it/PRON against/ADP his/PRON body/NOUN with/ADP his/PRON left/ADJ hand/NOUN#5.0#10.0
+The person secures the backpack against his body by gripping it with his left hand.#the/DET person/NOUN secure/VERB the/DET backpack/NOUN against/ADP his/PRON body/NOUN by/ADP grip/VERB it/PRON with/ADP his/PRON left/ADJ hand/NOUN#5.0#10.0

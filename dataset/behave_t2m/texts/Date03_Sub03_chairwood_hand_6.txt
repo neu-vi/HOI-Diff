@@ -1,0 +1,3 @@
+The person is exerting force to rock the chairwood back and forth.#the/DET person/NOUN is/AUX exert/VERB force/NOUN to/PART rock/VERB the/DET chairwood/NOUN back/ADV and/CCONJ forth/ADV#0.0#0.0
+The individual is pushing the chairwood to move it back and forth.#the/DET individual/NOUN is/AUX push/VERB the/DET chairwood/NOUN to/PART move/VERB it/PRON back/ADV and/CCONJ forth/ADV#0.0#0.0
+The person is using strength to sway the chairwood back and forth.#the/DET person/NOUN is/AUX use/VERB strength/NOUN to/PART sway/VERB the/DET chairwood/NOUN back/ADV and/CCONJ forth/ADV#0.0#0.0

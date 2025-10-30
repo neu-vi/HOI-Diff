@@ -1,0 +1,3 @@
+A person is nudging the boxlong forward with his foot.#a/DET person/NOUN is/AUX nudge/VERB the/DET boxlong/NOUN forward/ADV with/ADP his/PRON foot/NOUN#0.0#0.0
+The boxlong is being propelled forward by someone's foot. #the/DET boxlong/NOUN is/AUX being/AUX propel/VERB forward/ADV by/ADP someone/PRON foot/NOUN#0.0#0.0
+Someone is pushing the boxlong ahead with his foot.#someone/PRON is/AUX push/VERB the/DET boxlong/NOUN ahead/ADV with/ADP his/PRON foot/NOUN#0.0#0.0

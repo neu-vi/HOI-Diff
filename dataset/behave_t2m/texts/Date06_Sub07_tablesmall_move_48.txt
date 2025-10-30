@@ -1,0 +1,3 @@
+The person is nudging a tablesmall with his foot.#the/DET person/NOUN is/AUX nudge/VERB a/DET tablesmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is prodding a tablesmall with his foot.#a/DET person/NOUN is/AUX prod/VERB a/DET tablesmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+Someone is tapping a tablesmall with his foot.#someone/PRON is/AUX tap/VERB a/DET tablesmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0

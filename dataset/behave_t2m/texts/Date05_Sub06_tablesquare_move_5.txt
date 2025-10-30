@@ -1,0 +1,3 @@
+The person is maneuvering the tablesquare on the ground.#the/DET person/NOUN is/AUX maneuver/VERB the/DET tablesquare/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is pushing and pulling the tablesquare across the ground.#a/DET person/NOUN is/AUX push/VERB and/CCONJ pull/VERB the/DET tablesquare/NOUN across/ADP the/DET ground/NOUN#0.0#0.0
+The person is manipulating the tablesquare by exerting force on it while on the ground.#the/DET person/NOUN is/AUX manipulate/VERB the/DET tablesquare/NOUN by/ADP exert/VERB force/NOUN on/ADP it/PRON while/SCONJ on/ADP the/DET ground/NOUN#0.0#0.0

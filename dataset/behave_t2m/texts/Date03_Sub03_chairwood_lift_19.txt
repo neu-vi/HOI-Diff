@@ -1,0 +1,3 @@
+The person is clutching the chairwood from the front.#the/DET person/NOUN is/AUX clutch/VERB the/DET chairwood/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The person is gripping the chairwood from the front.#the/DET person/NOUN is/AUX grip/VERB the/DET chairwood/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The person is firmly holding onto the chairwood from the front.#the/DET person/NOUN is/AUX firmly/ADV hold/VERB onto/ADP the/DET chairwood/NOUN from/ADP the/DET front/NOUN#0.0#0.0

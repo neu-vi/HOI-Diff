@@ -1,0 +1,3 @@
+eone is tilting the tablesmall slightly.#eone/NOUN is/AUX tilt/VERB the/DET tablesmall/NOUN slightly/ADV#0.0#0.0
+eone is leaning the tablesmall slightly.#eone/NOUN is/AUX lean/VERB the/DET tablesmall/NOUN slightly/ADV#0.0#0.0
+eone is angling the tablesmall slightly.#eone/NOUN is/AUX angle/VERB the/DET tablesmall/NOUN slightly/ADV#0.0#0.0

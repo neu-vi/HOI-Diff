@@ -1,0 +1,3 @@
+The person is clutching a compact box.#the/DET person/NOUN is/AUX clutch/VERB a/DET compact/ADJ box/NOUN#0.0#0.0
+The individual is firmly gripping a boxsmall.#the/DET individual/NOUN is/AUX firmly/ADV grip/VERB a/DET boxsmall/NOUN#0.0#0.0
+A person is clasping onto a boxtiny.#a/DET person/NOUN is/AUX clasp/VERB onto/ADP a/DET boxtiny/NOUN#0.0#0.0

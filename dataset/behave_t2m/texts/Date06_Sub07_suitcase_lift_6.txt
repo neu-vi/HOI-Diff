@@ -1,0 +1,3 @@
+The person is gripping the suitcase with his right hand.#the/DET person/NOUN is/AUX grip/VERB the/DET suitcase/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person currently has a hold of the suitcase with his right hand.#the/DET person/NOUN currently/ADV have/VERB a/DET hold/NOUN of/ADP the/DET suitcase/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person retains a firm grasp on the suitcase with his right hand.#the/DET person/NOUN retain/VERB a/DET firm/ADJ grasp/NOUN on/ADP the/DET suitcase/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

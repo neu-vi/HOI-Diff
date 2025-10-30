@@ -1,0 +1,3 @@
+An individual is pushing the ground to shift a tablesmall.#an/DET individual/NOUN is/AUX push/VERB the/DET ground/NOUN to/PART shift/VERB a/DET tablesmall/NOUN#0.0#0.0
+Somebody is applying force on the ground to relocate a tablesmall.#somebody/PRON is/AUX apply/VERB force/NOUN on/ADP the/DET ground/NOUN to/PART relocate/VERB a/DET tablesmall/NOUN#0.0#0.0
+An individual is pressing down on the ground to move a tablesmall.#an/DET individual/NOUN is/AUX press/VERB down/ADP on/ADP the/DET ground/NOUN to/PART move/VERB a/DET tablesmall/NOUN#0.0#0.0

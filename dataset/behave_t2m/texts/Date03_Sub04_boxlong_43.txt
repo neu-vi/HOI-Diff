@@ -1,0 +1,3 @@
+The person is clutching the boxlong with his right hand and toting it beside his body.#the/DET person/NOUN is/AUX clutch/VERB the/DET boxlong/NOUN with/ADP his/PRON right/ADJ hand/NOUN and/CCONJ tote/VERB it/PRON beside/ADP his/PRON body/NOUN#0.0#0.0
+The individual is gripping the boxlong with his right hand and lugging it alongside his body.#the/DET individual/NOUN is/AUX grip/VERB the/DET boxlong/NOUN with/ADP his/PRON right/ADJ hand/NOUN and/CCONJ lug/VERB it/PRON alongside/ADP his/PRON body/NOUN#0.0#0.0
+The person holds onto the boxlong with his right hand and transports it next to his body.#the/DET person/NOUN hold/VERB onto/ADP the/DET boxlong/NOUN with/ADP his/PRON right/ADJ hand/NOUN and/CCONJ transport/VERB it/PRON next/ADV to/ADP his/PRON body/NOUN#0.0#0.0

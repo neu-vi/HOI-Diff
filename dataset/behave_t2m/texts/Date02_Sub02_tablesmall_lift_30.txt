@@ -1,0 +1,3 @@
+The person is currently holding a tablesmallsmall in front.#the/DET person/NOUN is/AUX currently/ADV hold/VERB a/DET tablesmallsmall/NOUN in/ADP front/NOUN#0.0#0.0
+A person possesses a tablesmallsmall in front.#a/DET person/NOUN possess/VERB a/DET tablesmallsmall/NOUN in/ADP front/NOUN#0.0#0.0
+The person has a tablesmallsmall in his possession.#the/DET person/NOUN have/VERB a/DET tablesmallsmall/NOUN in/ADP his/PRON possession/NOUN#0.0#0.0

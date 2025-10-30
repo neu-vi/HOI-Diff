@@ -1,0 +1,3 @@
+The person is hauling the suitcase using the left hand.#the/DET person/NOUN is/AUX haul/VERB the/DET suitcase/NOUN use/VERB the/DET left/ADJ hand/NOUN#0.0#0.0
+The individual is carrying the suitcase by employing the left hand.#the/DET individual/NOUN is/AUX carry/VERB the/DET suitcase/NOUN by/ADP employ/VERB the/DET left/ADJ hand/NOUN#0.0#0.0
+Someone is lugging the suitcase with the left hand.#someone/PRON is/AUX lug/VERB the/DET suitcase/NOUN with/ADP the/DET left/ADJ hand/NOUN#0.0#0.0

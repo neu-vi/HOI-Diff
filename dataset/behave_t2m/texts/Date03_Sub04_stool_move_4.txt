@@ -1,0 +1,3 @@
+The person is applying force to the stool by thrusting and yanking it across the floor.#the/DET person/NOUN is/AUX apply/VERB force/NOUN to/ADP the/DET stool/NOUN by/ADP thrust/VERB and/CCONJ yank/VERB it/PRON across/ADP the/DET floor/NOUN#0.0#0.0
+The individual is using strength to shove and haul the stool along the ground.#the/DET individual/NOUN is/AUX use/VERB strength/NOUN to/PART shove/VERB and/CCONJ haul/VERB the/DET stool/NOUN along/ADP the/DET ground/NOUN#0.0#0.0
+The person is exerting pressure on the stool by pushing and dragging it across the floor.#the/DET person/NOUN is/AUX exert/VERB pressure/NOUN on/ADP the/DET stool/NOUN by/ADP push/VERB and/CCONJ drag/VERB it/PRON across/ADP the/DET floor/NOUN#0.0#0.0

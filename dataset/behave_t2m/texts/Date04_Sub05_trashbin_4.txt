@@ -1,0 +1,3 @@
+A person is hoisting the trashbin with his right hand.#a/DET person/NOUN is/AUX hoist/VERB the/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#2.0
+The trashbin is being raised by a person using his right hand.#the/DET trashbin/NOUN is/AUX being/AUX raise/VERB by/ADP a/DET person/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#2.0
+The trashbin is currently being elevated by a person's right hand.#the/DET trashbin/NOUN is/AUX currently/ADV being/AUX elevate/VERB by/ADP a/DET person/NOUN right/ADJ hand/NOUN#0.0#2.0

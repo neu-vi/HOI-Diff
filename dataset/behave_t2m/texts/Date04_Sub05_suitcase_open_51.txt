@@ -1,0 +1,3 @@
+a person is exerting force to propel the suitcase back and forth on the surface.#a/DET person/NOUN is/AUX exert/VERB force/NOUN to/PART propel/VERB the/DET suitcase/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET surface/NOUN#0.0#0.0
+an individual is applying force to move the suitcase forwards and backwards on the surface.#an/DET individual/NOUN is/AUX apply/VERB force/NOUN to/PART move/VERB the/DET suitcase/NOUN forwards/ADV and/CCONJ backwards/ADV on/ADP the/DET surface/NOUN#0.0#0.0
+someone is pushing the suitcase forwards and backwards on the surface by exerting force.#someone/PRON is/AUX push/VERB the/DET suitcase/NOUN forwards/ADV and/CCONJ backwards/ADV on/ADP the/DET surface/NOUN by/ADP exert/VERB force/NOUN#0.0#0.0

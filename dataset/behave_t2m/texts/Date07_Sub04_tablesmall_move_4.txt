@@ -1,0 +1,3 @@
+A person is dragging a tablesmall.#a/DET person/NOUN is/AUX drag/VERB a/DET tablesmall/NOUN#0.0#0.0
+A person is pushing and pulling a tablesmall.#a/DET person/NOUN is/AUX push/VERB and/CCONJ pull/VERB a/DET tablesmall/NOUN#0.0#0.0
+A person is tugging a tablesmall.#a/DET person/NOUN is/AUX tug/VERB a/DET tablesmall/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The boxmedium is being lifted by a person's left hand.#the/DET boxmedium/NOUN is/AUX being/AUX lift/VERB by/ADP a/DET person/NOUN left/ADJ hand/NOUN#0.0#0.0
+A person is elevating the boxmedium with his left hand.#a/DET person/NOUN is/AUX elevate/VERB the/DET boxmedium/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person holds the boxmedium using his left hand.#the/DET person/NOUN hold/VERB the/DET boxmedium/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0

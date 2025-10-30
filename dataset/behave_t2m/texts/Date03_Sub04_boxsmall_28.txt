@@ -1,0 +1,3 @@
+A person is gripping the boxsmall from the front.#a/DET person/NOUN is/AUX grip/VERB the/DET boxsmall/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The boxsmall is in the possession of someone from the front.#the/DET boxsmall/NOUN is/AUX in/ADP the/DET possession/NOUN of/ADP someone/PRON from/ADP the/DET front/NOUN#0.0#0.0
+Someone is clutching the boxsmall from the front.#someone/PRON is/AUX clutch/VERB the/DET boxsmall/NOUN from/ADP the/DET front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is pushing a tablesmall back and forth.#a/DET person/NOUN is/AUX push/VERB a/DET tablesmall/NOUN back/NOUN and/CCONJ forth/ADV#0.0#0.0
+A person is swaying a tablesmall back and forth.#a/DET person/NOUN is/AUX sway/VERB a/DET tablesmall/NOUN back/NOUN and/CCONJ forth/ADV#0.0#0.0
+A person is oscillating a tablesmall back and forth.#a/DET person/NOUN is/AUX oscillate/VERB a/DET tablesmall/NOUN back/NOUN and/CCONJ forth/ADV#0.0#0.0

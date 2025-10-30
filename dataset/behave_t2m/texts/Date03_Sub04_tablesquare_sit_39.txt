@@ -1,0 +1,3 @@
+A person is upending the tablesquare.#a/DET person/NOUN is/AUX upend/VERB the/DET tablesquare/NOUN#0.0#0.0
+A person is overturning the tablesquare.#a/DET person/NOUN is/AUX overturn/VERB the/DET tablesquare/NOUN#0.0#0.0
+A person is flipping the tablesquare.#a/DET person/NOUN is/AUX flip/VERB the/DET tablesquare/NOUN#0.0#0.0

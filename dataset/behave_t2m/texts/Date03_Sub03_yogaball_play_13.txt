@@ -1,0 +1,3 @@
+The person is engaging with a yogaball by two hands.#the/DET person/NOUN is/AUX engage/VERB with/ADP a/DET yogaball/NOUN by/ADP two/NUM hand/NOUN#0.0#0.0
+The person is interacting with a yogaball with both hands.#the/DET person/NOUN is/AUX interact/VERB with/ADP a/DET yogaball/NOUN with/ADP both/DET hand/NOUN#0.0#0.0
+The person uses two hands to play with a yogaball.#the/DET person/NOUN use/VERB two/NUM hand/NOUN to/PART play/VERB with/ADP a/DET yogaball/NOUN#0.0#0.0

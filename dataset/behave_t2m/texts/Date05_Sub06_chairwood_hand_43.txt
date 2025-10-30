@@ -1,0 +1,3 @@
+The person is dragging and tugging the chairwood on the ground.#the/DET person/NOUN is/AUX drag/VERB and/CCONJ tug/VERB the/DET chairwood/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+The person is hauling and yanking the chairwood on the ground.#the/DET person/NOUN is/AUX haul/VERB and/CCONJ yank/VERB the/DET chairwood/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+The person is heaving and maneuvering the chairwood on the ground.#the/DET person/NOUN is/AUX heave/VERB and/CCONJ maneuver/VERB the/DET chairwood/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

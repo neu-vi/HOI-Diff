@@ -1,0 +1,3 @@
+A person is carrying a toolbox using one hand.#a/DET person/NOUN is/AUX carry/VERB a/DET toolbox/NOUN use/VERB one/NUM hand/NOUN#0.0#0.0
+A person holds a toolbox with one hand.#a/DET person/NOUN hold/VERB a/DET toolbox/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is grasping a toolbox single-handedly.#a/DET person/NOUN is/AUX grasp/VERB a/DET toolbox/NOUN singlehandedly/ADV#0.0#0.0

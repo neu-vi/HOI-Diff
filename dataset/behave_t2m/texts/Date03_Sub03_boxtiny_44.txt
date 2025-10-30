@@ -1,0 +1,3 @@
+person is transporting a boxtiny in front of him.#person/NOUN is/AUX transport/VERB a/DET boxtiny/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+person is toting a boxtiny in front of himself.#person/NOUN is/AUX tote/VERB a/DET boxtiny/NOUN in/ADP front/NOUN of/ADP himself/PRON#0.0#0.0
+person is lugging a boxtiny in front of himself.#person/NOUN is/AUX lug/VERB a/DET boxtiny/NOUN in/ADP front/NOUN of/ADP himself/PRON#0.0#0.0

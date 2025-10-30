@@ -1,0 +1,3 @@
+A person is tugging and dragging a chairblack.#a/DET person/NOUN is/AUX tug/VERB and/CCONJ drag/VERB a/DET chairblack/NOUN#0.0#0.0
+Someone is pushing and yanking a chairblack.#someone/PRON is/AUX push/VERB and/CCONJ yank/VERB a/DET chairblack/NOUN#0.0#0.0
+A chairblack is being hauled and tugged by someone on the ground.#a/DET chairblack/NOUN is/AUX being/AUX haul/VERB and/CCONJ tug/VERB by/ADP someone/PRON on/ADP the/DET ground/NOUN#0.0#0.0

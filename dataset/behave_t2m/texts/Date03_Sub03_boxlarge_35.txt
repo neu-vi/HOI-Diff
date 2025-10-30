@@ -1,0 +1,3 @@
+A person is carrying a boxlarge with his left hand.#a/DET person/NOUN is/AUX carry/VERB a/DET boxlarge/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person holds a boxlarge while using his left hand.#a/DET person/NOUN hold/VERB a/DET boxlarge/NOUN while/SCONJ use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person is gripping the boxlarge with his left hand.#the/DET person/NOUN is/AUX grip/VERB the/DET boxlarge/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

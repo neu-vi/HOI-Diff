@@ -1,0 +1,3 @@
+A person engages his upper body while playing basketball.#a/DET person/NOUN engage/VERB his/PRON upper/ADJ body/NOUN while/SCONJ play/VERB basketball/NOUN#0.0#0.0
+A person employs his upper body in playing basketball.#a/DET person/NOUN employ/VERB his/PRON upper/ADJ body/NOUN in/ADP play/VERB basketball/NOUN#0.0#0.0
+A person utilizes his upper body while playing basketball.#a/DET person/NOUN utilize/VERB his/PRON upper/ADJ body/NOUN while/SCONJ play/VERB basketball/NOUN#0.0#0.0

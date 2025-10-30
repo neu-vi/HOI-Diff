@@ -1,0 +1,3 @@
+A person is grasping a boxsmall with his right hand.#a/DET person/NOUN is/AUX grasp/VERB a/DET boxsmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is picking up a boxsmall with his right hand.#a/DET person/NOUN is/AUX pick/VERB up/ADP a/DET boxsmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is hefting a boxsmall with his right hand.#a/DET person/NOUN is/AUX heft/VERB a/DET boxsmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

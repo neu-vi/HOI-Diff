@@ -1,0 +1,3 @@
+A person in black is grasping the chairblack in front.#a/DET person/NOUN in/ADP black/NOUN is/AUX grasp/VERB the/DET chairblack/NOUN in/ADP front/NOUN#0.0#0.0
+The chairblack is currently being held in front by an individual dressed in black.#the/DET chairblack/NOUN is/AUX currently/ADV being/AUX hold/VERB in/ADP front/NOUN by/ADP an/DET individual/NOUN dress/VERB in/ADP black/NOUN#0.0#0.0
+A person wearing black is presently holding the chairblack in front.#a/DET person/NOUN wear/VERB black/ADJ is/AUX presently/ADV hold/VERB the/DET chairblack/NOUN in/ADP front/NOUN#0.0#0.0

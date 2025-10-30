@@ -1,0 +1,3 @@
+The person clutches the elongated container from the front.#the/DET person/NOUN clutch/VERB the/DET elongate/VERB container/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The individual seizes the extended container from the front.#the/DET individual/NOUN seize/VERB the/DET extended/ADJ container/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person grips the prolonged container from the front.#a/DET person/NOUN grip/VERB the/DET prolonged/ADJ container/NOUN from/ADP the/DET front/NOUN#0.0#0.0

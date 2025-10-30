@@ -1,0 +1,3 @@
+A person is positioned in front of a tablesmall.#a/DET person/NOUN is/AUX position/VERB in/ADP front/NOUN of/ADP a/DET tablesmall/NOUN#0.0#0.0
+There is someone standing in close proximity to a tablesmall.#there/PRON be/VERB someone/PRON stand/VERB in/ADP close/ADJ proximity/NOUN to/ADP a/DET tablesmall/NOUN#0.0#0.0
+An individual is situated directly before a tablesmall.#an/DET individual/NOUN is/AUX situate/VERB directly/ADV before/ADP a/DET tablesmall/NOUN#0.0#0.0

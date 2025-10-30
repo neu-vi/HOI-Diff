@@ -1,0 +1,3 @@
+An individual is dragging a chairwood across the floor.#an/DET individual/NOUN is/AUX drag/VERB a/DET chairwood/NOUN across/ADP the/DET floor/NOUN#0.0#0.0
+A person is propelling a chairwood while pushing and pulling it on the ground.#a/DET person/NOUN is/AUX propel/VERB a/DET chairwood/NOUN while/SCONJ push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0
+The individual moves a chairwood as they pull and push it along the surface.#the/DET individual/NOUN move/VERB a/DET chairwood/NOUN as/SCONJ they/PRON pull/VERB and/CCONJ push/VERB it/PRON along/ADP the/DET surface/NOUN#0.0#0.0

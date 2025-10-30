@@ -1,0 +1,3 @@
+A person is shouldering a plasticcontainer.#a/DET person/NOUN is/AUX shoulder/VERB a/DET plasticcontainer/NOUN#0.0#0.0
+A person is bearing a plasticcontainer on his shoulder.#a/DET person/NOUN is/AUX bear/VERB a/DET plasticcontainer/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0
+A person is carrying a plasticcontainer atop his shoulder.#a/DET person/NOUN is/AUX carry/VERB a/DET plasticcontainer/NOUN atop/ADP his/PRON shoulder/NOUN#0.0#0.0

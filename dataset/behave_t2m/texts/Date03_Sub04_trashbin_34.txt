@@ -1,0 +1,3 @@
+A person is clutching the trashbin with his right hand.#a/DET person/NOUN is/AUX clutch/VERB the/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.2
+A person is gripping onto the trashbin with his right hand.#a/DET person/NOUN is/AUX grip/VERB onto/ADP the/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.2
+A person is grasping the trashbin with his right hand.#a/DET person/NOUN is/AUX grasp/VERB the/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.2

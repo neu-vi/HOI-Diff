@@ -1,0 +1,3 @@
+A person is nudging the suitcase with his foot.#a/DET person/NOUN is/AUX nudge/VERB the/DET suitcase/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+The suitcase is being prodded by someone's foot.#the/DET suitcase/NOUN is/AUX being/AUX prod/VERB by/ADP someone/PRON foot/NOUN#0.0#0.0
+Somebody is using his foot to move the suitcase along.#somebody/PRON is/AUX use/VERB his/PRON foot/NOUN to/PART move/VERB the/DET suitcase/NOUN along/ADP#0.0#0.0

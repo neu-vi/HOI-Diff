@@ -1,0 +1,3 @@
+An individual is grasping a bboxsmallox with his right hand lifted.#an/DET individual/NOUN is/AUX grasp/VERB a/DET bboxsmallox/NOUN with/ADP his/PRON right/ADJ hand/NOUN lift/VERB#0.0#0.0
+A person is gripping a boxsmall while his right hand is raised.#a/DET person/NOUN is/AUX grip/VERB a/DET boxsmall/NOUN while/SCONJ his/PRON right/ADJ hand/NOUN is/AUX raise/VERB#0.0#0.0
+Someone is clasping a boxsmall with his right hand held up.#someone/PRON is/AUX clasp/VERB a/DET boxsmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN hold/VERB up/ADP#0.0#0.0

@@ -1,0 +1,3 @@
+The person is shifting the tablesmall on the ground by pushing and pulling.#the/DET person/NOUN is/AUX shift/VERB the/DET tablesmall/NOUN on/ADP the/DET ground/NOUN by/ADP push/VERB and/CCONJ pull/VERB#0.0#0.0
+A person is adjusting the tablesmall on the ground by pushing and pulling.#a/DET person/NOUN is/AUX adjust/VERB the/DET tablesmall/NOUN on/ADP the/DET ground/NOUN by/ADP push/VERB and/CCONJ pull/VERB#0.0#0.0
+The individual is transferring the tablesmall on the ground by pushing and pulling.#the/DET individual/NOUN is/AUX transfer/VERB the/DET tablesmall/NOUN on/ADP the/DET ground/NOUN by/ADP push/VERB and/CCONJ pull/VERB#0.0#0.0

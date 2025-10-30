@@ -1,0 +1,3 @@
+An individual is grasping the tablesmall with his left hand.#an/DET individual/NOUN is/AUX grasp/VERB the/DET tablesmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#5.0
+The tablesmall is currently being supported by a person's left hand.#the/DET tablesmall/NOUN is/AUX currently/ADV being/AUX support/VERB by/ADP a/DET person/NOUN left/ADJ hand/NOUN#0.0#5.0
+Someone is presently having a grip on the tablesmall with his left hand.#someone/PRON is/AUX presently/ADV have/VERB a/DET grip/NOUN on/ADP the/DET tablesmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#5.0

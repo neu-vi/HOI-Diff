@@ -1,0 +1,3 @@
+an individual is grasping the tablesquare in front of him.#an/DET individual/NOUN is/AUX grasp/VERB the/DET tablesquare/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+a person stands, holding the tablesquare in front of him.#a/DET person/NOUN stand/VERB hold/VERB the/DET tablesquare/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+the tablesquare is being held in front of him by an individual standing.#the/DET tablesquare/NOUN is/AUX being/AUX hold/VERB in/ADP front/NOUN of/ADP him/PRON by/ADP an/DET individual/ADJ standing/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is utilizing a yogaball to engage his upper body.#a/DET person/NOUN is/AUX utilize/VERB a/DET yogaball/NOUN to/PART engage/VERB his/PRON upper/ADJ body/NOUN#0.0#0.0
+A person is employing a yogaball for upper body play.#a/DET person/NOUN is/AUX employ/VERB a/DET yogaball/NOUN for/ADP upper/ADJ body/NOUN play/NOUN#0.0#0.0
+A person is employing a yogaball to have fun with his upper body.#a/DET person/NOUN is/AUX employ/VERB a/DET yogaball/NOUN to/PART have/VERB fun/NOUN with/ADP his/PRON upper/ADJ body/NOUN#0.0#0.0

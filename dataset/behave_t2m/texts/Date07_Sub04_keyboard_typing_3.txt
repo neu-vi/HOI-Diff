@@ -1,0 +1,3 @@
+A person is actively pressing keys on a keyboard.#a/DET person/NOUN is/AUX actively/ADV press/VERB key/NOUN on/ADP a/DET keyboard/NOUN#0.0#0.0
+A person is presently typing on a keyboard.#a/DET person/NOUN is/AUX presently/ADV type/VERB on/ADP a/DET keyboard/NOUN#0.0#0.0
+A person engages in keyboard operation by typing.#a/DET person/NOUN engage/VERB in/ADP keyboard/NOUN operation/NOUN by/ADP type/VERB#0.0#0.0

@@ -1,0 +1,3 @@
+The individual is modifying a monitor.#the/DET individual/NOUN is/AUX modify/VERB a/DET monitor/NOUN#0.0#0.0
+The person is tweaking a monitor.#the/DET person/NOUN is/AUX tweak/VERB a/DET monitor/NOUN#0.0#0.0
+Someone is fine-tuning a monitor.#someone/PRON is/AUX finetune/VERB a/DET monitor/NOUN#0.0#0.0

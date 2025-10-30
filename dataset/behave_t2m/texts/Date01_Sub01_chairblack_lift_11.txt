@@ -1,0 +1,2 @@
+The person is grasping the chairblackwith his right hand.#the/DET person/NOUN is/AUX grasp/VERB the/DET chairblackwith/NOUN his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person is carrying the chairblackwith his right hand.#the/DET person/NOUN is/AUX carry/VERB the/DET chairblackwith/NOUN his/PRON right/ADJ hand/NOUN#0.0#0.0

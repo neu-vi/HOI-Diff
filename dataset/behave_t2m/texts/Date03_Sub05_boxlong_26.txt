@@ -1,0 +1,3 @@
+Clutching the boxlong from the front, a person grasps onto it.#clutch/VERB the/DET boxlong/NOUN from/ADP the/DET front/NOUN a/DET person/NOUN grasp/VERB onto/ADP it/PRON#0.0#0.0
+Securing the boxlong by the front, an individual clings to it.#secure/VERB the/DET boxlong/NOUN by/ADP the/DET front/NOUN an/DET individual/ADJ cling/NOUN to/ADP it/PRON#0.0#0.0
+Grabbing the boxlong at the front, someone maintains a firm hold on it.#grab/VERB the/DET boxlong/NOUN at/ADP the/DET front/NOUN someone/PRON maintain/VERB a/DET firm/ADJ hold/NOUN on/ADP it/PRON#0.0#0.0

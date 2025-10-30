@@ -1,0 +1,3 @@
+The person is grasping the stool from the front.#the/DET person/NOUN is/AUX grasp/VERB the/DET stool/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is gripping the stool from the front.#a/DET person/NOUN is/AUX grip/VERB the/DET stool/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is clutching the stool from the front.#a/DET person/NOUN is/AUX clutch/VERB the/DET stool/NOUN from/ADP the/DET front/NOUN#0.0#0.0

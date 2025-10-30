@@ -1,0 +1,3 @@
+a person is raising a boxlong with his left hand.#a/DET person/NOUN is/AUX raise/VERB a/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+a person is hoisting a boxlong using his left hand.#a/DET person/NOUN is/AUX hoist/VERB a/DET boxlong/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0
+a person is heaving a box, holding it with his left hand.#a/DET person/NOUN is/AUX heave/VERB a/DET box/NOUN hold/VERB it/PRON with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

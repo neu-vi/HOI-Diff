@@ -1,0 +1,3 @@
+Someone is applying force to the floor while shifting the chairblack.#someone/PRON is/AUX apply/VERB force/NOUN to/ADP the/DET floor/NOUN while/SCONJ shift/VERB the/DET chairblack/NOUN#0.0#0.0
+A person is pushing down on the floor while relocating the chairblack.#a/DET person/NOUN is/AUX push/VERB down/ADP on/ADP the/DET floor/NOUN while/SCONJ relocate/VERB the/DET chairblack/NOUN#0.0#0.0
+An individual is placing weight on the floor while moving the chairblack.#an/DET individual/NOUN is/AUX place/VERB weight/NOUN on/ADP the/DET floor/NOUN while/SCONJ move/VERB the/DET chairblack/NOUN#0.0#0.0

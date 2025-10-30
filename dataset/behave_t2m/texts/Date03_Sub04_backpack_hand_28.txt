@@ -1,0 +1,3 @@
+The person is raising a backpack with his right hand.#the/DET person/NOUN is/AUX raise/VERB a/DET backpack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person is lifting up a backpack using his right hand.#the/DET person/NOUN is/AUX lift/VERB up/ADP a/DET backpack/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+A backpack is being elevated by the person's right hand.#a/DET backpack/NOUN is/AUX being/AUX elevate/VERB by/ADP the/DET person/NOUN right/ADJ hand/NOUN#0.0#0.0

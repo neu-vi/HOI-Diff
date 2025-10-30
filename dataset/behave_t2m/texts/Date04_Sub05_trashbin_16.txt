@@ -1,0 +1,3 @@
+A person is gripping and hoisting a trashbin with one hand.#a/DET person/NOUN is/AUX grip/VERB and/CCONJ hoist/VERB a/DET trashbin/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is clutching and raising a trashbin with one hand.#a/DET person/NOUN is/AUX clutch/VERB and/CCONJ raise/VERB a/DET trashbin/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is grasping and elevating a trashbin with one hand.#a/DET person/NOUN is/AUX grasp/VERB and/CCONJ elevate/VERB a/DET trashbin/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0

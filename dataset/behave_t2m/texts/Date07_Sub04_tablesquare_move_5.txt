@@ -1,0 +1,3 @@
+A person is pulling the tablesquare in different directions.#a/DET person/NOUN is/AUX pull/VERB the/DET tablesquare/NOUN in/ADP different/ADJ direction/NOUN#0.0#0.0
+A person is exerting force in opposite directions to move the tablesquare.#a/DET person/NOUN is/AUX exert/VERB force/NOUN in/ADP opposite/ADJ direction/NOUN to/PART move/VERB the/DET tablesquare/NOUN#0.0#0.0
+A person is pushing and pulling the tablesquare simultaneously.#a/DET person/NOUN is/AUX push/VERB and/CCONJ pull/VERB the/DET tablesquare/NOUN simultaneously/ADV#0.0#0.0

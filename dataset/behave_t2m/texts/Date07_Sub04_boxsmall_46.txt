@@ -1,0 +1,3 @@
+The person is gripping the boxsmall.#the/DET person/NOUN is/AUX grip/VERB the/DET boxsmall/NOUN#0.0#0.0
+The individual is clutching the boxsmall.#the/DET individual/NOUN is/AUX clutch/VERB the/DET boxsmall/NOUN#0.0#0.0
+The person firmly grasps the boxsmall.#the/DET person/NOUN firmly/ADV grasp/VERB the/DET boxsmall/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is grasping the keyboard in front.#a/DET person/NOUN is/AUX grasp/VERB the/DET keyboard/NOUN in/ADP front/NOUN#0.0#0.0
+There's a person currently clutching the keyboard in front.#there/PRON a/DET person/NOUN currently/ADV clutch/VERB the/DET keyboard/NOUN in/ADP front/NOUN#0.0#0.0
+Someone presently has control over the keyboard in front.#someone/PRON presently/ADV have/VERB control/NOUN over/ADP the/DET keyboard/NOUN in/ADP front/NOUN#0.0#0.0

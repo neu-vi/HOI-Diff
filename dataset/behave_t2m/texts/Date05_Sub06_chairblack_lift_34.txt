@@ -1,0 +1,3 @@
+Someone is in front of the chair, holding onto its black color.#someone/PRON is/AUX in/ADP front/NOUN of/ADP the/DET chair/NOUN hold/VERB onto/ADP its/PRON black/ADJ color/NOUN#0.0#0.0
+The chair's black color is being gripped in front by someone.#the/DET chair/NOUN black/ADJ color/NOUN is/AUX being/AUX grip/VERB in/ADP front/NOUN by/ADP someone/PRON#0.0#0.0
+A person stands in front, clutching the black color of the chairblack.#a/DET person/NOUN stand/VERB in/ADP front/NOUN clutch/VERB the/DET black/ADJ color/NOUN of/ADP the/DET chairblack/NOUN#0.0#0.0

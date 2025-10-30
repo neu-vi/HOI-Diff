@@ -1,0 +1,3 @@
+A person is shouldering a boxmedium.#a/DET person/NOUN is/AUX shoulder/VERB a/DET boxmedium/NOUN#0.0#0.0
+A person is lugging a boxmedium on his shoulder.#a/DET person/NOUN is/AUX lug/VERB a/DET boxmedium/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0
+A person is carting a boxmedium on his shoulder.#a/DET person/NOUN is/AUX cart/VERB a/DET boxmedium/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0

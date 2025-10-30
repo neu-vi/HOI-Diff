@@ -1,0 +1,3 @@
+Someone is returning with a backpack.#someone/PRON is/AUX return/VERB with/ADP a/DET backpack/NOUN#0.0#0.0
+Somebody is bringing back a backpack.#somebody/PRON is/AUX bring/VERB back/ADV a/DET backpack/NOUN#0.0#0.0
+An individual is coming back with a backpack.#an/DET individual/NOUN is/AUX come/VERB back/ADV with/ADP a/DET backpack/NOUN#0.0#0.0

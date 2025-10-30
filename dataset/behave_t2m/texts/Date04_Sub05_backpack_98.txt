@@ -1,0 +1,3 @@
+A person is carrying a backpack with his right hand.#a/DET person/NOUN is/AUX carry/VERB a/DET backpack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is gripping a backpack with his right hand.#a/DET person/NOUN is/AUX grip/VERB a/DET backpack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is supporting a backpack with his right hand.#a/DET person/NOUN is/AUX support/VERB a/DET backpack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is kicking a yogaball forward with his foot.#the/DET person/NOUN is/AUX kick/VERB a/DET yogaball/NOUN forward/ADV with/ADP his/PRON foot/NOUN#0.0#0.0
+The person is pushing a yogaball forward using his foot.#the/DET person/NOUN is/AUX push/VERB a/DET yogaball/NOUN forward/ADV use/VERB his/PRON foot/NOUN#0.0#0.0
+The person is propelling a yogaball forward by kicking it with his foot.#the/DET person/NOUN is/AUX propel/VERB a/DET yogaball/NOUN forward/ADV by/ADP kick/VERB it/PRON with/ADP his/PRON foot/NOUN#0.0#0.0

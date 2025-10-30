@@ -1,0 +1,3 @@
+A person is grasping the boxlarge at the front.#a/DET person/NOUN is/AUX grasp/VERB the/DET boxlarge/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+The boxlarge is currently being held by a person in the front.#the/DET boxlarge/NOUN is/AUX currently/ADV being/AUX hold/VERB by/ADP a/DET person/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+At the front, someone is currently clutching the boxlarge.#at/ADP the/DET front/NOUN someone/PRON is/AUX currently/ADV clutch/VERB the/DET boxlarge/NOUN#0.0#0.0

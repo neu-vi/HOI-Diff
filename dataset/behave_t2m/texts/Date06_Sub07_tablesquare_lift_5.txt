@@ -1,0 +1,3 @@
+A person is grasping the tablesquare in front.#a/DET person/NOUN is/AUX grasp/VERB the/DET tablesquare/NOUN in/ADP front/NOUN#0.0#0.0
+The tablesquare is being held by a person standing in front.#the/DET tablesquare/NOUN is/AUX being/AUX hold/VERB by/ADP a/DET person/NOUN stand/VERB in/ADP front/NOUN#0.0#0.0
+In front, a person is gripping the tablesquare.#in/ADP front/NOUN a/DET person/NOUN is/AUX grip/VERB the/DET tablesquare/NOUN#0.0#0.0

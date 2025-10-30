@@ -1,0 +1,3 @@
+The person is clutching the boxmedium with his right hand against his body.#the/DET person/NOUN is/AUX clutch/VERB the/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN against/ADP his/PRON body/NOUN#0.0#0.0
+The person is grasping the boxmedium with his right hand pressed to his body.#the/DET person/NOUN is/AUX grasp/VERB the/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN press/VERB to/ADP his/PRON body/NOUN#0.0#0.0
+The person is gripping the boxmedium with his right hand held against his body.#the/DET person/NOUN is/AUX grip/VERB the/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN hold/VERB against/ADP his/PRON body/NOUN#0.0#0.0

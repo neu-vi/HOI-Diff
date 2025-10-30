@@ -1,0 +1,3 @@
+The person is carrying the backpack in the front.#the/DET person/NOUN is/AUX carry/VERB the/DET backpack/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+The person has the backpack in his grasp in the front.#the/DET person/NOUN have/VERB the/DET backpack/NOUN in/ADP his/PRON grasp/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+The person is clasping the backpack in the front.#the/DET person/NOUN is/AUX clasp/VERB the/DET backpack/NOUN in/ADP the/DET front/NOUN#0.0#0.0

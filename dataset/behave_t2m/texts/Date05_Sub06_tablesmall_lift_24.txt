@@ -1,0 +1,3 @@
+A person is standing before a tablesmall.#a/DET person/NOUN is/AUX stand/VERB before/ADP a/DET tablesmall/NOUN#0.0#0.0
+A person stands in front of a tablesmall.#a/DET person/NOUN stand/VERB in/ADP front/NOUN of/ADP a/DET tablesmall/NOUN#0.0#0.0
+A person is positioned in front of a tablesmall.#a/DET person/NOUN is/AUX position/VERB in/ADP front/NOUN of/ADP a/DET tablesmall/NOUN#0.0#0.0

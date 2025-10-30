@@ -1,0 +1,3 @@
+A person is playing basketball using only his upper body.#a/DET person/NOUN is/AUX play/VERB basketball/NOUN use/VERB only/ADV his/PRON upper/ADJ body/NOUN#0.0#0.0
+A person participates in basketball using only his upper body.#a/DET person/NOUN participate/VERB in/ADP basketball/NOUN use/VERB only/ADV his/PRON upper/ADJ body/NOUN#0.0#0.0
+A person is involved in basketball, utilizing solely his upper body.#a/DET person/NOUN is/AUX involve/VERB in/ADP basketball/NOUN utilize/VERB solely/ADV his/PRON upper/ADJ body/NOUN#0.0#0.0

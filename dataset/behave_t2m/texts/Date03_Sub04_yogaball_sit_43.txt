@@ -1,0 +1,3 @@
+A person is sitting cross-legged on a yogaball and engaging in ball play.#a/DET person/NOUN is/AUX sitting/AUX crosslegge/VERB on/ADP a/DET yogaball/NOUN and/CCONJ engage/VERB in/ADP ball/NOUN play/NOUN#0.0#0.0
+A person is positioned cross-legged on a yogaball and participating in ball play.#a/DET person/NOUN is/AUX position/VERB crosslegge/VERB on/ADP a/DET yogaball/NOUN and/CCONJ participate/VERB in/ADP ball/NOUN play/NOUN#0.0#0.0
+A person is set cross-legged on a yogaball and involved in ball play.#a/DET person/NOUN is/AUX set/VERB crosslegge/VERB on/ADP a/DET yogaball/NOUN and/CCONJ involve/VERB in/ADP ball/NOUN play/NOUN#0.0#0.0

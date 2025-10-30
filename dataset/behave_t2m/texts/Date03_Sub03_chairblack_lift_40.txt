@@ -1,0 +1,3 @@
+The person is grasping the chairblack with his right hand.#the/DET person/NOUN is/AUX grasp/VERB the/DET chairblack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is seizing the chairblack with his right hand.#a/DET person/NOUN is/AUX seize/VERB the/DET chairblack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+Someone is clutching the chairblack with his right hand.#someone/PRON is/AUX clutch/VERB the/DET chairblack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

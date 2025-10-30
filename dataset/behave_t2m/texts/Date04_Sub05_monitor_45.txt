@@ -1,0 +1,3 @@
+The person is gripping the monitor from the front.#the/DET person/NOUN is/AUX grip/VERB the/DET monitor/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is clutching the monitor from the front.#a/DET person/NOUN is/AUX clutch/VERB the/DET monitor/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The individual is firmly grasping the monitor from the front.#the/DET individual/NOUN is/AUX firmly/ADV grasp/VERB the/DET monitor/NOUN from/ADP the/DET front/NOUN#0.0#0.0

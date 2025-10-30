@@ -1,0 +1,3 @@
+The person clasps a boxtiny from the front.#the/DET person/NOUN clasp/VERB a/DET boxtiny/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The individual clutches a boxtiny from the front.#the/DET individual/NOUN clutch/VERB a/DET boxtiny/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person grasps a boxtiny from the front.#a/DET person/NOUN grasp/VERB a/DET boxtiny/NOUN from/ADP the/DET front/NOUN#0.0#0.0

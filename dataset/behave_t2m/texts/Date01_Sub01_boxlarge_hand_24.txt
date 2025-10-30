@@ -1,0 +1,3 @@
+The person is lifting the boxlarge using his left hand.#the/DET person/NOUN is/AUX lift/VERB the/DET boxlarge/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person is raising the boxlarge using his left hand.#a/DET person/NOUN is/AUX raise/VERB the/DET boxlarge/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0
+An individual is elevating the boxlarge with his left hand.#an/DET individual/NOUN is/AUX elevate/VERB the/DET boxlarge/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

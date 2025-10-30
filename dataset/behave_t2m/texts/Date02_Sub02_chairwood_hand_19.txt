@@ -1,0 +1,3 @@
+A person is raising a chairwood with the left hand.#a/DET person/NOUN is/AUX raise/VERB a/DET chairwood/NOUN with/ADP the/DET left/ADJ hand/NOUN#0.0#0.0
+A person is grasping a chairwood with the left hand.#a/DET person/NOUN is/AUX grasp/VERB a/DET chairwood/NOUN with/ADP the/DET left/ADJ hand/NOUN#0.0#0.0
+A person is hoisting a chairwood with the left hand.#a/DET person/NOUN is/AUX hoist/VERB a/DET chairwood/NOUN with/ADP the/DET left/ADJ hand/NOUN#0.0#0.0

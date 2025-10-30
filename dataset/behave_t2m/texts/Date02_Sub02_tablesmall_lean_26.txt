@@ -1,0 +1,3 @@
+The person is bending towards the table, making it seem small.#the/DET person/NOUN is/AUX bend/VERB towards/ADP the/DET table/NOUN make/VERB it/PRON seem/VERB small/ADJ#0.0#0.0
+The person is inclining over the table, giving it the appearance of small size.#the/DET person/NOUN is/AUX incline/VERB over/ADP the/DET table/NOUN give/VERB it/PRON the/DET appearance/NOUN of/ADP small/ADJ size/NOUN#0.0#0.0
+The person is leaning down over the table, perceiving it as small.#the/DET person/NOUN is/AUX lean/VERB down/ADP over/ADP the/DET table/NOUN perceive/VERB it/PRON as/ADP small/ADJ#0.0#0.0

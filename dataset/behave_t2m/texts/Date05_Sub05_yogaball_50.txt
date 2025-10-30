@@ -1,0 +1,3 @@
+A person is balancing on a yogaball with two hands.#a/DET person/NOUN sit/VERB on/ADP a/DET yogaball/NOUN with/ADP two/NUM hand/NOUN#0.0#0.0
+A person is engaging with a yogaball with two hands.#a/DET person/NOUN is/AUX engage/VERB with/ADP a/DET yogaball/NOUN with/ADP two/NUM hand/NOUN#0.0#0.0
+A person is interacting with a yogaball with two hands.#a/DET person/NOUN is/AUX interact/VERB with/ADP a/DET yogaball/NOUN with/ADP two/NUM hand/NOUN#0.0#0.0

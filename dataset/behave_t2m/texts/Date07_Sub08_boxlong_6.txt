@@ -1,0 +1,3 @@
+A person is gripping the boxlong from the front.#a/DET person/NOUN is/AUX grip/VERB the/DET boxlong/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is clutching the boxlong in his hands from the front.#a/DET person/NOUN is/AUX clutch/VERB the/DET boxlong/NOUN in/ADP his/PRON hand/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is firmly grasping the boxlong in front of him.#a/DET person/NOUN is/AUX firmly/ADV grasp/VERB the/DET boxlong/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

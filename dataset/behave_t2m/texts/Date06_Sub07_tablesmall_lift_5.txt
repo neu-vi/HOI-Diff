@@ -1,0 +1,3 @@
+A person is raising the tablesmall with his right hand.#a/DET person/NOUN is/AUX raise/VERB the/DET tablesmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#15.0
+A person is hoisting the tablesmall using only his right hand.#a/DET person/NOUN is/AUX hoist/VERB the/DET tablesmall/NOUN use/VERB only/ADV his/PRON right/ADJ hand/NOUN#0.0#15.0
+The tablesmall is being elevated by a person's right hand.#the/DET tablesmall/NOUN is/AUX being/AUX elevate/VERB by/ADP a/DET person/NOUN right/ADJ hand/NOUN#0.0#15.0

@@ -1,0 +1,3 @@
+Someone is pushing the chairblack on the ground.#someone/PRON is/AUX push/VERB the/DET chairblack/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+Someone is propelling the chairblack on the ground.#someone/PRON is/AUX propel/VERB the/DET chairblack/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+Someone is shifting the chairblack on the ground.#someone/PRON is/AUX shift/VERB the/DET chairblack/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

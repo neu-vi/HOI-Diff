@@ -1,0 +1,3 @@
+A person is currently holding the boxsmall.#a/DET person/NOUN is/AUX currently/ADV hold/VERB the/DET boxsmall/NOUN#0.0#0.0
+The boxsmall is currently being held by someone.#the/DET boxsmall/NOUN is/AUX currently/ADV being/AUX hold/VERB by/ADP someone/PRON#0.0#0.0
+Someone presently possesses the boxsmall.#someone/PRON presently/ADV possess/VERB the/DET boxsmall/NOUN#0.0#0.0

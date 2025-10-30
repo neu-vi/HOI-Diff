@@ -1,0 +1,3 @@
+A person supports a boxsmall with his right hand.#a/DET person/NOUN support/VERB a/DET boxsmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is propping up a boxsmall with his right hand.#a/DET person/NOUN is/AUX prop/VERB up/ADP a/DET boxsmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person sustains a boxsmall using his right hand.#a/DET person/NOUN sustain/VERB a/DET boxsmall/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0

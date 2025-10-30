@@ -1,0 +1,3 @@
+A person has the front of the chairblack.#a/DET person/NOUN have/VERB the/DET front/NOUN of/ADP the/DET chairblack/NOUN#0.0#0.0
+A person is currently holding the front of the chairblack.#a/DET person/NOUN is/AUX currently/ADV hold/VERB the/DET front/NOUN of/ADP the/DET chairblack/NOUN#0.0#0.0
+A person possesses the front of the chairblack.#a/DET person/NOUN possess/VERB the/DET front/NOUN of/ADP the/DET chairblack/NOUN#0.0#0.0

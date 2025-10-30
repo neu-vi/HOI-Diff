@@ -1,0 +1,3 @@
+Someone is supporting a tablesmall from the front.#someone/PRON is/AUX support/VERB a/DET tablesmall/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is grasping a tablesmall from the front.#a/DET person/NOUN is/AUX grasp/VERB a/DET tablesmall/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is maintaining a hold on a tablesmall from the front.#a/DET person/NOUN is/AUX maintain/VERB a/DET hold/NOUN on/ADP a/DET tablesmall/NOUN from/ADP the/DET front/NOUN#0.0#0.0

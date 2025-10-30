@@ -1,0 +1,3 @@
+The individual is grasping the plasticcontainer with his right hand raised.#the/DET individual/NOUN is/AUX grasp/VERB the/DET plasticcontainer/NOUN with/SCONJ his/PRON right/ADJ hand/NOUN raise/VERB#0.0#8.0
+A person is clutching the plasticcontainer while lifting his right hand.#a/DET person/NOUN is/AUX clutch/VERB the/DET plasticcontainer/NOUN while/SCONJ lift/VERB his/PRON right/ADJ hand/NOUN#0.0#8.0
+Someone holds the plasticcontainer and simultaneously raises his right hand.#someone/PRON hold/VERB the/DET plasticcontainer/NOUN and/CCONJ simultaneously/ADV raise/VERB his/PRON right/ADJ hand/NOUN#0.0#8.0

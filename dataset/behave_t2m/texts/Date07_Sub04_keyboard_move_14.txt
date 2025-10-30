@@ -1,0 +1,3 @@
+The person is clasping the keyboard firmly against his body.#the/DET person/NOUN is/AUX clasp/VERB the/DET keyboard/NOUN firmly/ADV against/ADP his/PRON body/NOUN#0.0#0.0
+A person is firmly grasping the keyboard against his body.#a/DET person/NOUN is/AUX firmly/ADV grasp/VERB the/DET keyboard/NOUN against/ADP his/PRON body/NOUN#0.0#0.0
+The keyboard is being tightly clutched by the person against his body.#the/DET keyboard/NOUN is/AUX being/AUX tightly/ADV clutch/VERB by/ADP the/DET person/NOUN against/ADP his/PRON body/NOUN#0.0#0.0

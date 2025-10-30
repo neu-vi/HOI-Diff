@@ -1,0 +1,3 @@
+a person is sitting with crossed legs while interacting with a yogaball.#a/DET person/NOUN is/AUX sit/VERB with/ADP cross/VERB leg/NOUN while/SCONJ interact/VERB with/ADP a/DET yogaball/NOUN#0.0#0.0
+a person is engaging his legs in a crossed position while manipulating a yogaball.#a/DET person/NOUN is/AUX engage/VERB his/PRON leg/NOUN in/ADP a/DET cross/VERB position/NOUN while/SCONJ manipulate/VERB a/DET yogaball/NOUN#0.0#0.0
+a person is crossing his legs as they play with a yogaball.#a/DET person/NOUN is/AUX cross/VERB his/PRON leg/NOUN as/SCONJ they/PRON play/VERB with/ADP a/DET yogaball/NOUN#0.0#0.0

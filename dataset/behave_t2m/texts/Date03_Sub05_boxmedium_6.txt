@@ -1,0 +1,3 @@
+The person is grasping the boxmedium in front.#the/DET person/NOUN is/AUX grasp/VERB the/DET boxmedium/NOUN in/ADP front/NOUN#0.0#0.0
+A person has the boxmedium in hand, in front.#a/DET person/NOUN have/VERB the/DET boxmedium/NOUN in/ADP hand/NOUN in/ADP front/NOUN#0.0#0.0
+The person holds the boxmedium in front.#the/DET person/NOUN hold/VERB the/DET boxmedium/NOUN in/ADP front/NOUN#0.0#0.0

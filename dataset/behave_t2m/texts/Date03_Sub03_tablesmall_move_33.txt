@@ -1,0 +1,3 @@
+erson is relocating the tablesmall using his foot.#erson/PROPN is/AUX relocate/VERB the/DET tablesmall/NOUN use/VERB his/PRON foot/NOUN#0.0#0.0
+erson is shifting the tablesmall with his foot.#erson/PROPN is/AUX shift/VERB the/DET tablesmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+erson is transferring the tablesmall by means of his foot.#erson/PROPN is/AUX transfer/VERB the/DET tablesmall/NOUN by/ADP mean/NOUN of/ADP his/PRON foot/NOUN#0.0#0.0

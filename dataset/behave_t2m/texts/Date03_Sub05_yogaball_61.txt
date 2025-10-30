@@ -1,0 +1,3 @@
+A person is bouncing on a yogaball with both hands.#a/DET person/NOUN is/AUX bounce/VERB on/ADP a/DET yogaball/NOUN with/ADP both/DET hand/NOUN#0.0#0.0
+A person is toying with a yogaball with two hands.#a/DET person/NOUN is/AUX toy/VERB with/ADP a/DET yogaball/NOUN with/ADP two/NUM hand/NOUN#0.0#0.0
+A person is slapping a yogaball with two hands.#a/DET person/NOUN is/AUX slap/VERB a/DET yogaball/NOUN with/ADP two/NUM hand/NOUN#0.0#0.0

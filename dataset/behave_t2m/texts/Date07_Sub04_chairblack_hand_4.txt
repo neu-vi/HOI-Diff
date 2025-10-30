@@ -1,0 +1,3 @@
+The person is dragging the chairblack along the floor by pushing and pulling it.#the/DET person/NOUN is/AUX drag/VERB the/DET chairblack/NOUN along/ADP the/DET floor/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON#0.0#0.0
+The individual is shifting the chairblack by sliding it across the ground.#the/DET individual/NOUN is/AUX shift/VERB the/DET chairblack/NOUN by/ADP slide/VERB it/PRON across/ADP the/DET ground/NOUN#0.0#0.0
+The person is propelling the chairblack forward by pushing and pulling it on the floor.#the/DET person/NOUN is/AUX propel/VERB the/DET chairblack/NOUN forward/ADV by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET floor/NOUN#0.0#0.0

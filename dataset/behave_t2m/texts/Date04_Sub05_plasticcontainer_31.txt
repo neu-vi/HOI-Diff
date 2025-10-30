@@ -1,0 +1,3 @@
+A person is grasping a plasticcontainer with one hand.#a/DET person/NOUN is/AUX grasp/VERB a/DET plasticcontainer/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is clutching a plasticcontainer with one hand.#a/DET person/NOUN is/AUX clutch/VERB a/DET plasticcontainer/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is gripping a plasticcontainer with one hand.#a/DET person/NOUN is/AUX grip/VERB a/DET plasticcontainer/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0

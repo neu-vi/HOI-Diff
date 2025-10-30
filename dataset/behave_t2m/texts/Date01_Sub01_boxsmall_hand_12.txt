@@ -1,0 +1,3 @@
+A person is grasping a boxsmall with his left hand.#a/DET person/NOUN is/AUX grasp/VERB a/DET boxsmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person is clutching a boxsmall using his left hand.#a/DET person/NOUN is/AUX clutch/VERB a/DET boxsmall/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person is firmly gripping a boxsmall with his left hand.#a/DET person/NOUN is/AUX firmly/ADV grip/VERB a/DET boxsmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

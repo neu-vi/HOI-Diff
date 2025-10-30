@@ -1,0 +1,3 @@
+A person is kicking the backpack.#a/DET person/NOUN is/AUX kick/VERB the/DET backpack/NOUN#0.0#0.0
+A person gives the backpack a little kick.#a/DET person/NOUN give/VERB the/DET backpack/NOUN a/DET little/ADJ kick/NOUN#0.0#0.0
+A person is nudging the backpack with his foot.#a/DET person/NOUN is/AUX nudge/VERB the/DET backpack/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0

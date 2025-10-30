@@ -1,0 +1,3 @@
+An individual is sitting on the stool.#an/DET individual/NOUN is/AUX sit/VERB on/ADP the/DET stool/NOUN#0.0#0.0
+The stool is being used by a person.#the/DET stool/NOUN is/AUX being/AUX use/VERB by/ADP a/DET person/NOUN#0.0#0.0
+A person is currently occupying the stool.#a/DET person/NOUN is/AUX currently/ADV occupy/VERB the/DET stool/NOUN#0.0#0.0

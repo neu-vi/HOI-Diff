@@ -1,0 +1,3 @@
+The person is clutching a minuscule box.#the/DET person/NOUN is/AUX clutch/VERB a/DET minuscule/ADJ box/NOUN#0.0#0.0
+A person has a boxtiny firmly in his grasp.#a/DET person/NOUN have/VERB a/DET boxtiny/NOUN firmly/ADV in/ADP his/PRON grasp/NOUN#0.0#0.0
+An individual is gripping a petite box.#an/DET individual/NOUN is/AUX grip/VERB a/DET petite/ADJ box/NOUN#0.0#0.0

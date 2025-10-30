@@ -1,0 +1,3 @@
+The person is gripping the boxlong with his left hand.#the/DET person/NOUN is/AUX grip/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#10.0
+A person has the boxlong firmly grasped in his left hand.#a/DET person/NOUN have/VERB the/DET boxlong/NOUN firmly/ADV grasp/VERB in/ADP his/PRON left/ADJ hand/NOUN#0.0#10.0
+An individual firmly clutches the boxlong in his left hand.#an/DET individual/NOUN firmly/ADV clutch/VERB the/DET boxlong/NOUN in/ADP his/PRON left/ADJ hand/NOUN#0.0#10.0

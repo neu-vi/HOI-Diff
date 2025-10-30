@@ -1,0 +1,3 @@
+An individual is dragging the suitcase across the ground.#an/DET individual/NOUN is/AUX drag/VERB the/DET suitcase/NOUN across/ADP the/DET ground/NOUN#0.0#0.0
+A person is hauling and tugging the suitcase along the floor.#a/DET person/NOUN is/AUX haul/VERB and/CCONJ tug/VERB the/DET suitcase/NOUN along/ADP the/DET floor/NOUN#0.0#0.0
+The suitcase is currently being moved by a person, who is pushing and pulling it.#the/DET suitcase/NOUN is/AUX currently/ADV being/AUX move/VERB by/ADP a/DET person/NOUN who/PRON is/AUX push/VERB and/CCONJ pull/VERB it/PRON#0.0#0.0

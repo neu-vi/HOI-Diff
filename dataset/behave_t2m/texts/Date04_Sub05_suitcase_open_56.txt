@@ -1,0 +1,3 @@
+The person is applying physical strength to move the suitcase.#the/DET person/NOUN is/AUX apply/VERB physical/ADJ strength/NOUN to/PART move/VERB the/DET suitcase/NOUN#0.0#0.0
+The person is employing physical effort to transport the suitcase.#the/DET person/NOUN is/AUX employ/VERB physical/ADJ effort/NOUN to/PART transport/VERB the/DET suitcase/NOUN#0.0#0.0
+The person is using physical power to shift the suitcase.#the/DET person/NOUN is/AUX use/VERB physical/ADJ power/NOUN to/PART shift/VERB the/DET suitcase/NOUN#0.0#0.0

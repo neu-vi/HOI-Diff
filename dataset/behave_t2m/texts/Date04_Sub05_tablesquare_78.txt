@@ -1,0 +1,3 @@
+A person is supporting the tablesquare at the front.#a/DET person/NOUN is/AUX support/VERB the/DET tablesquare/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+A person is upholding the tablesquare at the front.#a/DET person/NOUN is/AUX uphold/VERB the/DET tablesquare/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+A person is maintaining the tablesquare at the front.#a/DET person/NOUN is/AUX maintain/VERB the/DET tablesquare/NOUN at/ADP the/DET front/NOUN#0.0#0.0

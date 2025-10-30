@@ -1,0 +1,3 @@
+A person is hoisting a backpack using his right hand.#a/DET person/NOUN is/AUX hoist/VERB a/DET backpack/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#13.0
+A person is carrying a backpack with his right hand.#a/DET person/NOUN is/AUX carry/VERB a/DET backpack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#13.0
+A person is grasping a backpack using his right hand.#a/DET person/NOUN is/AUX grasp/VERB a/DET backpack/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#13.0

@@ -1,0 +1,3 @@
+An individual is elevating a boxtiny with his left hand.#an/DET individual/NOUN is/AUX elevate/VERB a/DET boxtiny/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person is raising a boxtiny using his left hand.#a/DET person/NOUN is/AUX raise/VERB a/DET boxtiny/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0
+An individual is raising a boxtiny while gripping it with his left hand.#an/DET individual/NOUN is/AUX raise/VERB a/DET boxtiny/NOUN while/SCONJ grip/VERB it/PRON with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

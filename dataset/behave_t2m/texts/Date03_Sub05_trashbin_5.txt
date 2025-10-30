@@ -1,0 +1,3 @@
+An individual is grasping a trashbin with his left hand.#an/DET individual/NOUN is/AUX grasp/VERB a/DET trashbin/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person is hoisting a trashbin with his left hand.#a/DET person/NOUN is/AUX hoist/VERB a/DET trashbin/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone is clutching a trashbin with his left hand.#someone/PRON is/AUX clutch/VERB a/DET trashbin/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+Someone clutches the toolbox from the front.#someone/PRON clutch/VERB the/DET toolbox/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+Someone grasps the toolbox from the front.#someone/PRON grasp/VERB the/DET toolbox/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+Someone seizes the toolbox from the front.#someone/PRON seize/VERB the/DET toolbox/NOUN from/ADP the/DET front/NOUN#0.0#0.0

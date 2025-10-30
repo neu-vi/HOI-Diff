@@ -1,0 +1,3 @@
+A person is lugging the backpack.#a/DET person/NOUN is/AUX lug/VERB the/DET backpack/NOUN#0.0#0.0
+A person is toting the backpack.#a/DET person/NOUN is/AUX tote/VERB the/DET backpack/NOUN#0.0#0.0
+A person is burdened with the backpack.#a/DET person/NOUN is/AUX burden/VERB with/ADP the/DET backpack/NOUN#0.0#0.0

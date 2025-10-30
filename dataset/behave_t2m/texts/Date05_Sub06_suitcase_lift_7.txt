@@ -1,0 +1,3 @@
+A person is hefting a suitcase with his left hand.#a/DET person/NOUN is/AUX heft/VERB a/DET suitcase/NOUN with/ADP his/PRON left/ADJ hand/NOUN#21.0#37.0
+A person is carrying a suitcase using his left hand.#a/DET person/NOUN is/AUX carry/VERB a/DET suitcase/NOUN use/VERB his/PRON left/ADJ hand/NOUN#21.0#37.0
+A person is hoisting a suitcase with his left hand.#a/DET person/NOUN is/AUX hoist/VERB a/DET suitcase/NOUN with/ADP his/PRON left/ADJ hand/NOUN#21.0#37.0

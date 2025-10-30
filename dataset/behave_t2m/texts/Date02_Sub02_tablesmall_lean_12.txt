@@ -1,0 +1,3 @@
+A person tilts the tablesmall slightly.#a/DET person/NOUN tilt/VERB the/DET tablesmall/NOUN slightly/ADV#0.0#0.0
+A person is angling the tablesmall a little.#a/DET person/NOUN is/AUX angle/VERB the/DET tablesmall/NOUN a/DET little/ADJ#0.0#0.0
+A person adjusts the table's angle just a bit.#a/DET person/NOUN adjust/VERB the/DET table/NOUN angle/NOUN just/ADV a/DET bit/NOUN#0.0#0.0

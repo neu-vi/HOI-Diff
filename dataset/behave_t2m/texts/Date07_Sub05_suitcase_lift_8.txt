@@ -1,0 +1,3 @@
+The person is pressing against the ground to move the suitcase by pushing and pulling.#the/DET person/NOUN is/AUX press/VERB against/ADP the/DET ground/NOUN to/PART move/VERB the/DET suitcase/NOUN by/ADP push/VERB and/CCONJ pull/VERB#0.0#0.0
+The person is applying force on the ground to move the suitcase through pushing and pulling.#the/DET person/NOUN is/AUX apply/VERB force/NOUN on/ADP the/DET ground/NOUN to/PART move/VERB the/DET suitcase/NOUN through/ADP push/VERB and/CCONJ pull/VERB#0.0#0.0
+The person is using strength on the ground to move the suitcase by pushing and pulling.#the/DET person/NOUN is/AUX use/VERB strength/NOUN on/ADP the/DET ground/NOUN to/PART move/VERB the/DET suitcase/NOUN by/ADP push/VERB and/CCONJ pull/VERB#0.0#0.0

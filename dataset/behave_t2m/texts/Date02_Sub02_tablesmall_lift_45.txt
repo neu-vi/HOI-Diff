@@ -1,0 +1,3 @@
+An individual is supporting a tablesmall.#an/DET individual/NOUN is/AUX support/VERB a/DET tablesmall/NOUN#0.0#0.0
+A person is propping up a tablesmall.#a/DET person/NOUN is/AUX prop/VERB up/ADP a/DET tablesmall/NOUN#0.0#0.0
+Someone is upholding a tablesmall.#someone/PRON is/AUX uphold/VERB a/DET tablesmall/NOUN#0.0#0.0

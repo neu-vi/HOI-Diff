@@ -1,0 +1,3 @@
+Someone is grasping the toolbox upfront.#someone/PRON is/AUX grasp/VERB the/DET toolbox/NOUN upfront/NOUN#0.0#0.0
+The toolbox is currently in the possession of someone in the front.#the/DET toolbox/NOUN is/AUX currently/ADV in/ADP the/DET possession/NOUN of/ADP someone/PRON in/ADP the/DET front/NOUN#0.0#0.0
+At the front, someone is currently carrying the toolbox.#at/ADP the/DET front/NOUN someone/PRON is/AUX currently/ADV carry/VERB the/DET toolbox/NOUN#0.0#0.0

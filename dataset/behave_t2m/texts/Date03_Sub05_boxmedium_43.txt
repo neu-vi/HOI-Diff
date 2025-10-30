@@ -1,0 +1,3 @@
+An individual is kicking a boxmedium with his foot.#an/DET individual/NOUN is/AUX kick/VERB a/DET boxmedium/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is using his foot to push a boxmedium.#a/DET person/NOUN is/AUX use/VERB his/PRON foot/NOUN to/PART push/VERB a/DET boxmedium/NOUN#0.0#0.0
+A boxmedium is being moved by an individual using his foot.#a/DET boxmedium/NOUN is/AUX being/AUX move/VERB by/ADP an/DET individual/NOUN use/VERB his/PRON foot/NOUN#0.0#0.0

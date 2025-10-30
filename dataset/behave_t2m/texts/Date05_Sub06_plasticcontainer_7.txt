@@ -1,0 +1,3 @@
+A person in the process of lifting the plasticcontainer with his left hand.#a/DET person/NOUN in/ADP the/DET process/NOUN of/ADP lift/VERB the/DET plasticcontainer/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#12.0
+The plasticcontainer is currently being raised by a person using his left hand.#the/DET plasticcontainer/NOUN is/AUX currently/ADV being/AUX raise/VERB by/ADP a/DET person/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#12.0
+A person presently lifts the plasticcontainer with his left hand.#a/DET person/NOUN presently/ADV lift/VERB the/DET plasticcontainer/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#12.0

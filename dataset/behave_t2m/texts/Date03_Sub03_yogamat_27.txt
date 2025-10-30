@@ -1,0 +1,3 @@
+The person is gripping a yogamat.#the/DET person/NOUN is/AUX grip/VERB a/DET yogamat/NOUN#0.0#0.0
+A person clutches a yogamat.#a/DET person/NOUN clutch/VERB a/DET yogamat/NOUN#0.0#0.0
+There is a person holding a yogamat.#there/PRON be/VERB a/DET person/NOUN hold/VERB a/DET yogamat/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is clutching a backpack in front of him.#a/DET person/NOUN is/AUX clutch/VERB a/DET backpack/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+A person is grasping a backpack in front of him.#a/DET person/NOUN is/AUX grasp/VERB a/DET backpack/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+A person is carrying a backpack in front of him.#a/DET person/NOUN is/AUX carry/VERB a/DET backpack/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

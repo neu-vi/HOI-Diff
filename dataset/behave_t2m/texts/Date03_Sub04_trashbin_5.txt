@@ -1,0 +1,3 @@
+Someone is grasping a trashbin in front.#someone/PRON is/AUX grasp/VERB a/DET trashbin/NOUN in/ADP front/NOUN#0.0#0.0
+A person is clutching a trashbin in front.#a/DET person/NOUN is/AUX clutch/VERB a/DET trashbin/NOUN in/ADP front/NOUN#0.0#0.0
+Somebody is firmly gripping a trashbin in front.#somebody/PRON is/AUX firmly/ADV grip/VERB a/DET trashbin/NOUN in/ADP front/NOUN#0.0#0.0

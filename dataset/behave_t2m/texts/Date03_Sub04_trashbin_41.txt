@@ -1,0 +1,3 @@
+A person is clutching a trashbin with his right hand while propping it up with his body.#a/DET person/NOUN is/AUX clutch/VERB a/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN while/SCONJ prop/VERB it/PRON up/ADP with/ADP his/PRON body/NOUN#0.0#0.0
+Someone is clasping onto a trashbin with his right hand while upholding it with his body.#someone/PRON is/AUX clasp/VERB onto/ADP a/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN while/SCONJ uphold/VERB it/PRON with/ADP his/PRON body/NOUN#0.0#0.0
+An individual is gripping a trashbin with his right hand while sustaining it with his body.#an/DET individual/NOUN is/AUX grip/VERB a/DET trashbin/NOUN with/ADP his/PRON right/ADJ hand/NOUN while/SCONJ sustain/VERB it/PRON with/ADP his/PRON body/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is carrying a toolbox.#a/DET person/NOUN is/AUX carry/VERB a/DET toolbox/NOUN#0.0#0.0
+A person has the toolbox in his hands.#a/DET person/NOUN have/VERB the/DET toolbox/NOUN in/ADP his/PRON hand/NOUN#0.0#0.0
+A person possesses a toolbox in front of him.#a/DET person/NOUN possess/VERB a/DET toolbox/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

@@ -1,0 +1,3 @@
+A person is applying force to the tablesquare in various directions.#a/DET person/NOUN is/AUX apply/VERB force/NOUN to/ADP the/DET tablesquare/NOUN in/ADP various/ADJ direction/NOUN#0.0#0.0
+A person is exerting pressure on the tablesquare, altering its position.#a/DET person/NOUN is/AUX exert/VERB pressure/NOUN on/ADP the/DET tablesquare/NOUN alter/VERB its/PRON position/NOUN#0.0#0.0
+A person actively manipulates the tablesquare by pushing it in different directions.#a/DET person/NOUN actively/ADV manipulate/VERB the/DET tablesquare/NOUN by/ADP push/VERB it/PRON in/ADP different/ADJ direction/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is grasping the boxbig with his right hand.#the/DET person/NOUN is/AUX grasp/VERB the/DET boxbig/NOUN with/ADP his/PRON right/ADJ hand/NOUN#10.0#18.0
+A person grips the boxhuge with his right hand.#a/DET person/NOUN grip/VERB the/DET boxhuge/NOUN with/ADP his/PRON right/ADJ hand/NOUN#10.0#18.0
+Someone clutches the boxenormous with his right hand.#someone/PRON clutch/VERB the/DET boxenormous/ADJ with/ADP his/PRON right/ADJ hand/NOUN#10.0#18.0

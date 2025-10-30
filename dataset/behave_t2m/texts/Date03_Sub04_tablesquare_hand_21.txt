@@ -1,0 +1,3 @@
+A person is utilizing his foot to shift the tablesmall surface.#a/DET person/NOUN is/AUX utilize/VERB his/PRON foot/NOUN to/PART shift/VERB the/DET tablesmall/NOUN surface/NOUN#0.0#0.0
+A person is employing his foot to relocate the tablesmall surface.#a/DET person/NOUN is/AUX employ/VERB his/PRON foot/NOUN to/PART relocate/VERB the/DET tablesmall/NOUN surface/NOUN#0.0#0.0
+A person is manipulating the tablesmall surface by using his foot.#a/DET person/NOUN is/AUX manipulate/VERB the/DET tablesmall/NOUN surface/NOUN by/ADP use/VERB his/PRON foot/NOUN#0.0#0.0

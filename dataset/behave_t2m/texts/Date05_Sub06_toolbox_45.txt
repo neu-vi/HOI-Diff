@@ -1,0 +1,3 @@
+Someone is currently grasping the toolbox in his hands.#someone/PRON is/AUX currently/ADV grasp/VERB the/DET toolbox/NOUN in/ADP his/PRON hand/NOUN#0.0#0.0
+The front person is currently gripping the toolbox.#the/DET front/ADJ person/NOUN is/AUX currently/ADV grip/VERB the/DET toolbox/NOUN#0.0#0.0
+A person in the front is currently clasping the toolbox.#a/DET person/NOUN in/ADP the/DET front/NOUN is/AUX currently/ADV clasp/VERB the/DET toolbox/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is shifting the boxmedium by exerting force against the ground.#the/DET person/NOUN is/AUX shift/VERB the/DET boxmedium/NOUN by/ADP exert/VERB force/NOUN against/ADP the/DET ground/NOUN#0.0#0.0
+The person is relocating the boxmedium by applying pressure to the ground through pushing and pulling.#the/DET person/NOUN is/AUX relocate/VERB the/DET boxmedium/NOUN by/ADP apply/VERB pressure/NOUN to/ADP the/DET ground/NOUN through/ADP push/VERB and/CCONJ pull/VERB#0.0#0.0
+The person is displacing the boxmedium by using contact with the ground to move it.#the/DET person/NOUN is/AUX displace/VERB the/DET boxmedium/NOUN by/ADP use/VERB contact/NOUN with/ADP the/DET ground/NOUN to/PART move/VERB it/PRON#0.0#0.0

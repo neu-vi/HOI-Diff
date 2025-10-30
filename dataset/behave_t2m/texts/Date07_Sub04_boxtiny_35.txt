@@ -1,0 +1,3 @@
+A person is shouldering a boxtiny.#a/DET person/NOUN is/AUX shoulder/VERB a/DET boxtiny/NOUN#0.0#0.0
+A person is balancing a boxtiny on his shoulder.#a/DET person/NOUN sit/VERB a/DET boxtiny/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0
+A person is lugging a boxtiny on his shoulder.#a/DET person/NOUN is/AUX lug/VERB a/DET boxtiny/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+erson is perching on a tablesmall.#erson/PROPN is/AUX perch/VERB on/ADP a/DET tablesmall/NOUN#0.0#0.0
+erson is occupying a tablesmall.#erson/PROPN is/AUX occupy/VERB a/DET tablesmall/NOUN#0.0#0.0
+erson is boggling on a tablesmall.#erson/PROPN is/AUX boggle/VERB on/ADP a/DET tablesmall/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+An individual is oscillating the chairwood on the ground.#an/DET individual/NOUN is/AUX oscillate/VERB the/DET chairwood/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+The person is swaying the chairwood back and forth on the ground.#the/DET person/NOUN is/AUX sway/VERB the/DET chairwood/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+Someone is rocking the chairwood to and fro on the ground.#someone/PRON is/AUX rock/VERB the/DET chairwood/NOUN to/ADP and/CCONJ fro/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

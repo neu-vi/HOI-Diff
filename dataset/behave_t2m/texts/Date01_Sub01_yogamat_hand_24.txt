@@ -1,0 +1,2 @@
+The person is raising a yogamat with his left hand.#the/DET person/NOUN is/AUX raise/VERB a/DET yogamat/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person holds a yogamat with his left hand.#the/DET person/NOUN hold/VERB a/DET yogamat/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

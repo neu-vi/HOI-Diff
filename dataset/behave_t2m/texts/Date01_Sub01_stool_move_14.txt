@@ -1,0 +1,3 @@
+The person is exerting force to both shove and tug the stool on the ground.#the/DET person/NOUN is/AUX exert/VERB force/NOUN to/ADP both/CCONJ shove/NOUN and/CCONJ tug/NOUN the/DET stool/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+The person is applying force to both push and yank the stool on the ground.#the/DET person/NOUN is/AUX apply/VERB force/NOUN to/ADP both/CCONJ push/NOUN and/CCONJ yank/VERB the/DET stool/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+The person is using force to both thrust and drag the stool on the ground.#the/DET person/NOUN is/AUX use/VERB force/NOUN to/ADP both/DET thrust/NOUN and/CCONJ drag/VERB the/DET stool/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

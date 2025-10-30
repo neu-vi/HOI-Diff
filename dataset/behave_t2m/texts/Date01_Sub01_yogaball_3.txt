@@ -1,0 +1,3 @@
+A person is sitting on a yogaball.#a/DET person/NOUN is/AUX sit/VERB on/ADP a/DET yogaball/NOUN#0.0#0.0
+A person is using a yogaball as his seat.#a/DET person/NOUN is/AUX use/VERB a/DET yogaball/NOUN as/ADP his/PRON seat/NOUN#0.0#0.0
+A person is using a yogaball as a sitting apparatus.#a/DET person/NOUN is/AUX use/VERB a/DET yogaball/NOUN as/ADP a/DET sit/VERB apparatus/NOUN#0.0#0.0

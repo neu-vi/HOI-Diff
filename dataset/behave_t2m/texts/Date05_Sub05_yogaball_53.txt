@@ -1,0 +1,3 @@
+A person is working his upper body while playing with an yogaball.#a/DET person/NOUN is/AUX work/VERB his/PRON upper/ADJ body/NOUN while/SCONJ play/VERB with/ADP an/DET yogaball/NOUN#0.0#0.0
+A person is exercising his upper body while having fun with an yogaball.#a/DET person/NOUN is/AUX exercise/VERB his/PRON upper/ADJ body/NOUN while/SCONJ have/VERB fun/NOUN with/ADP an/DET yogaball/NOUN#0.0#0.0
+A person is engaging his upper body while enjoying himself with an yogaball.#a/DET person/NOUN is/AUX engage/VERB his/PRON upper/ADJ body/NOUN while/SCONJ enjoy/VERB himself/PRON with/ADP an/DET yogaball/NOUN#0.0#0.0

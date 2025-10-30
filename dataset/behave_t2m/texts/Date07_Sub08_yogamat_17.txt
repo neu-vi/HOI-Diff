@@ -1,0 +1,3 @@
+The individual is clutching a yogamat with his left hand, keeping it firmly against his body.#the/DET individual/NOUN is/AUX clutch/VERB a/DET yogamat/NOUN with/ADP his/PRON left/ADJ hand/NOUN keep/VERB it/PRON firmly/ADV against/ADP his/PRON body/NOUN#0.0#0.0
+A person is grasping onto a yogamat, holding it tightly against his body with his left hand.#a/DET person/NOUN is/AUX grasp/VERB onto/ADP a/DET yogamat/NOUN hold/VERB it/PRON tightly/ADV against/ADP his/PRON body/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone holds a yogamat close to his body, with his left hand gripping onto it tightly.#someone/PRON hold/VERB a/DET yogamat/NOUN close/ADJ to/ADP his/PRON body/NOUN with/ADP his/PRON left/ADJ hand/NOUN grip/VERB onto/ADP it/PRON tightly/ADV#0.0#0.0

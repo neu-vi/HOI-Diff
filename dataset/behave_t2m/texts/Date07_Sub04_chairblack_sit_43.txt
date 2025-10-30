@@ -1,0 +1,3 @@
+A person is currently using the chairblack as a seat.#a/DET person/NOUN is/AUX currently/ADV use/VERB the/DET chairblack/NOUN as/ADP a/DET seat/NOUN#0.0#0.0
+A person is presently occupying the chairblack.#a/DET person/NOUN is/AUX presently/ADV occupy/VERB the/DET chairblack/NOUN#0.0#0.0
+The chairblack is presently being used by an individual for sitting.#the/DET chairblack/NOUN is/AUX presently/ADV being/AUX use/VERB by/ADP an/DET individual/NOUN for/ADP sit/VERB#0.0#0.0

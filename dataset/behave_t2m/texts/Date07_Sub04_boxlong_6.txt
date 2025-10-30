@@ -1,0 +1,3 @@
+A person is lugging the boxlong from the front.#a/DET person/NOUN is/AUX lug/VERB the/DET boxlong/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is toting the boxlong from the front.#a/DET person/NOUN is/AUX tote/VERB the/DET boxlong/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is hauling the boxlong from the front.#a/DET person/NOUN is/AUX haul/VERB the/DET boxlong/NOUN from/ADP the/DET front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is engaging in a game of basketball while sitting cross-legged.#the/DET person/NOUN is/AUX engage/VERB in/ADP a/DET game/NOUN of/ADP basketball/NOUN while/SCONJ sit/VERB crosslegge/VERB#0.0#0.0
+The person is participating in a seated basketball activity.#the/DET person/NOUN is/AUX participate/VERB in/ADP a/DET seated/ADJ basketball/NOUN activity/NOUN#0.0#0.0
+The person is involved in playing basketball while seated with crossed legs.#the/DET person/NOUN is/AUX involve/VERB in/ADP play/VERB basketball/NOUN while/SCONJ seat/VERB with/ADP cross/VERB leg/NOUN#0.0#0.0

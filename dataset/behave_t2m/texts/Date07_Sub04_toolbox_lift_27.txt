@@ -1,0 +1,3 @@
+The right hand is currently grasping the toolbox.#the/DET right/ADJ hand/NOUN is/AUX currently/ADV grasp/VERB the/DET toolbox/NOUN#0.0#7.0
+The person is presently holding the toolbox with his right hand.#the/DET person/NOUN is/AUX presently/ADV hold/VERB the/DET toolbox/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#7.0
+A person currently has the toolbox in his right hand.#a/DET person/NOUN currently/ADV have/VERB the/DET toolbox/NOUN in/ADP his/PRON right/ADJ hand/NOUN#0.0#7.0

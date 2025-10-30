@@ -1,0 +1,3 @@
+A person is exerting force on the tablesquare, moving it back and forth.#a/DET person/NOUN is/AUX exert/VERB force/NOUN on/ADP the/DET tablesquare/NOUN move/VERB it/PRON back/ADV and/CCONJ forth/ADV#0.0#0.0
+A person is applying pressure to the tablesquare, alternately pushing and pulling it.#a/DET person/NOUN is/AUX apply/VERB pressure/NOUN to/ADP the/DET tablesquare/NOUN alternately/ADV push/VERB and/CCONJ pull/VERB it/PRON#0.0#0.0
+A person is manipulating the tablesquare by pushing and pulling it from the ground.#a/DET person/NOUN is/AUX manipulate/VERB the/DET tablesquare/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON from/ADP the/DET ground/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+Someone is grasping the boxmedium from the front.#someone/PRON is/AUX grasp/VERB the/DET boxmedium/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person has a hold on the boxmedium from the front.#a/DET person/NOUN have/VERB a/DET hold/NOUN on/ADP the/DET boxmedium/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The boxmedium is being firmly gripped from the front by someone.#the/DET boxmedium/NOUN is/AUX being/AUX firmly/ADV grip/VERB from/ADP the/DET front/NOUN by/ADP someone/PRON#0.0#0.0

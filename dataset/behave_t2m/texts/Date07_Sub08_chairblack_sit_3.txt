@@ -1,0 +1,3 @@
+an individual is sitting on the chairblack.#an/DET individual/NOUN in/ADP black/NOUN is/AUX sit/VERB on/ADP the/DET chairblack/NOUN#0.0#0.0
+a person sits at a chairblack.#a/DET person/NOUN sit/VERB at/ADP a/DET chairblack/NOUN#0.0#0.0
+a chairblack is currently being seated by someone.#a/DET chairblack/NOUN is/AUX currently/ADV being/AUX sit/VERB by/ADP someone/PRON#0.0#0.0

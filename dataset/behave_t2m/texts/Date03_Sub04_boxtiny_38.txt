@@ -1,0 +1,3 @@
+A person is grasping a boxtiny, with one hand lifted.#a/DET person/NOUN is/AUX grasp/VERB a/DET boxtiny/NOUN with/SCONJ one/NUM hand/NOUN lift/VERB#0.0#0.0
+Someone is clutching a boxtiny, while raising one hand.#someone/PRON is/AUX clutch/VERB a/DET boxtiny/NOUN while/SCONJ raise/VERB one/NUM hand/NOUN#0.0#0.0
+A person is gripping a boxtiny, his hand held aloft.#a/DET person/NOUN is/AUX grip/VERB a/DET boxtiny/NOUN his/PRON hand/NOUN hold/VERB aloft/ADV#0.0#0.0

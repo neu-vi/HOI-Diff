@@ -1,0 +1,3 @@
+A person clad in black sits on a chairblack.#a/DET person/NOUN clothe/VERB in/ADP black/ADJ sit/NOUN on/ADP a/DET chairblack/NOUN#0.0#0.0
+A person in black is taking a seat on a chairblack.#a/DET person/NOUN in/ADP black/NOUN is/AUX take/VERB a/DET seat/NOUN on/ADP a/DET chairblack/NOUN#0.0#0.0
+A person wearing black attire is seated on a chairblack.#a/DET person/NOUN wear/VERB black/ADJ attire/NOUN is/AUX seat/VERB on/ADP a/DET chairblack/NOUN#0.0#0.0

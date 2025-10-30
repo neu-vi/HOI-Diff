@@ -1,0 +1,3 @@
+The person is seated on the chairwood.#the/DET person/NOUN is/AUX seat/VERB on/ADP the/DET chairwood/NOUN#0.0#0.0
+The person is sitting on the chairwood.#the/DET person/NOUN is/AUX sit/VERB on/ADP the/DET chairwood/NOUN#0.0#0.0
+The person is perched on the chairwood.#the/DET person/NOUN is/AUX perch/VERB on/ADP the/DET chairwood/NOUN#0.0#0.0

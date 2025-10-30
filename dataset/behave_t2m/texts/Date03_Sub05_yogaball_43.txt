@@ -1,0 +1,3 @@
+A person is participating in a game of yogaball with both hands.#a/DET person/NOUN is/AUX participate/VERB in/ADP a/DET game/NOUN of/ADP yogaball/NOUN with/ADP both/DET hand/NOUN#0.0#0.0
+A person is involved in a game of two-handly yogaball.#a/DET person/NOUN is/AUX involve/VERB in/ADP a/DET game/NOUN of/ADP twohandly/ADV yogaball/ADJ#0.0#0.0
+A person is immersed in a yogaball game, playing by two hands.#a/DET person/NOUN is/AUX immerse/VERB in/ADP a/DET yogaball/NOUN game/NOUN play/VERB by/ADP two/NUM hand/NOUN#0.0#0.0

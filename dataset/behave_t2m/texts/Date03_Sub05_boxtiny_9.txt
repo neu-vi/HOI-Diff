@@ -1,0 +1,3 @@
+A person firmly grips the minibox from the front.#a/DET person/NOUN firmly/ADV grip/VERB the/DET minibox/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+Someone is clutching the nanocontainer from the front.#someone/PRON is/AUX clutch/VERB the/DET nanocontainer/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+An individual has a tight hold on the micropackage from the front.#an/DET individual/NOUN have/VERB a/DET tight/ADJ hold/NOUN on/ADP the/DET micropackage/NOUN from/ADP the/DET front/NOUN#0.0#0.0

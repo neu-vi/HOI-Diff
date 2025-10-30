@@ -1,0 +1,3 @@
+A person is manipulating the stool by exerting both pulling and pushing forces on the ground.#a/DET person/NOUN is/AUX manipulate/VERB the/DET stool/NOUN by/ADP exert/VERB both/PRON pull/VERB and/CCONJ push/VERB force/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is handling the stool by applying both pulling and pushing forces on the ground.#a/DET person/NOUN is/AUX handle/VERB the/DET stool/NOUN by/ADP apply/VERB both/PRON pull/VERB and/CCONJ push/VERB force/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is operating the stool by employing both pulling and pushing forces on the ground.#a/DET person/NOUN is/AUX operate/VERB the/DET stool/NOUN by/ADP employ/VERB both/PRON pull/VERB and/CCONJ push/VERB force/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+a person is approaching a trashbin.#a/DET person/NOUN is/AUX approach/VERB a/DET trashbin/NOUN#0.0#0.0
+a person is standing beside a trashbin.#a/DET person/NOUN is/AUX stand/VERB beside/ADP a/DET trashbin/NOUN#0.0#0.0
+a person is interacting with a trashbin.#a/DET person/NOUN is/AUX interact/VERB with/ADP a/DET trashbin/NOUN#0.0#0.0

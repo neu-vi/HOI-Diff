@@ -1,0 +1,3 @@
+A person is transporting a minuscule boxlong in front of him.#a/DET person/NOUN is/AUX transport/VERB a/DET minuscule/ADJ boxlong/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+Someone is toting a diminutive boxlong in front of him.#someone/PRON is/AUX tote/VERB a/DET diminutive/ADJ boxlong/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+A person is lugging a boxsmall in front of him.#a/DET person/NOUN is/AUX lug/VERB a/DET boxsmall/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

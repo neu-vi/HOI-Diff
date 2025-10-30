@@ -1,0 +1,3 @@
+A person is nudging the boxmedium with his foot.#a/DET person/NOUN is/AUX nudge/VERB the/DET boxmedium/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is kicking the boxmedium lightly with his foot.#a/DET person/NOUN is/AUX kick/VERB the/DET boxmedium/NOUN lightly/ADV with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is pushing the boxmedium forward using his foot.#a/DET person/NOUN is/AUX push/VERB the/DET boxmedium/NOUN forward/ADV use/VERB his/PRON foot/NOUN#0.0#0.0

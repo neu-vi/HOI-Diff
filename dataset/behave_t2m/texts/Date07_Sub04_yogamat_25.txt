@@ -1,0 +1,3 @@
+An individual is shouldering a yogamat.#an/DET individual/NOUN is/AUX shoulder/VERB a/DET yogamat/NOUN#0.0#0.0
+A person is carrying a yogamat on his shoulder.#a/DET person/NOUN is/AUX carry/VERB a/DET yogamat/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0
+Someone holds a yogamat against his shoulder.#someone/PRON hold/VERB a/DET yogamat/NOUN against/ADP his/PRON shoulder/NOUN#0.0#0.0

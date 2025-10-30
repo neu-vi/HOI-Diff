@@ -1,0 +1,3 @@
+The person holds the monitor in front of himself.#the/DET person/NOUN hold/VERB the/DET monitor/NOUN in/ADP front/NOUN of/ADP himself/PRON#0.0#0.0
+A person is keeping the monitor in front of himself.#a/DET person/NOUN is/AUX keep/VERB the/DET monitor/NOUN in/ADP front/NOUN of/ADP himself/PRON#0.0#0.0
+The monitor is being grasped by the person in front of himself.#the/DET monitor/NOUN is/AUX being/AUX grasp/VERB by/ADP the/DET person/NOUN in/ADP front/NOUN of/ADP himself/PRON#0.0#0.0

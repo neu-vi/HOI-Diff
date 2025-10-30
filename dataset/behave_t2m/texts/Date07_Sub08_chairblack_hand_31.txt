@@ -1,0 +1,3 @@
+A person is nudging a chairblack with his foot.#a/DET person/NOUN is/AUX nudge/VERB a/DET chairblack/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+Someone is shoving a chairblack forward with his foot.#someone/PRON is/AUX shove/VERB a/DET chairblack/NOUN forward/ADV with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is propelling a chairblack by pushing it with his foot.#a/DET person/NOUN is/AUX propel/VERB a/DET chairblack/NOUN by/ADP push/VERB it/PRON with/ADP his/PRON foot/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is sitting at the tablesquare.#the/DET person/NOUN is/AUX sit/VERB at/ADP the/DET tablesquare/NOUN#0.0#0.0
+The person is stationed at the tablesquare.#the/DET person/NOUN is/AUX station/VERB at/ADP the/DET tablesquare/NOUN#0.0#0.0
+The person is positioned at the tablesquare.#the/DET person/NOUN is/AUX position/VERB at/ADP the/DET tablesquare/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is grasping onto his body while holding the boxmedium with his left hand.#the/DET person/NOUN is/AUX grasp/VERB onto/ADP his/PRON body/NOUN while/SCONJ hold/VERB the/DET boxmedium/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person holds onto his body while gripping the boxmedium with his left hand.#a/DET person/NOUN hold/VERB onto/ADP his/PRON body/NOUN while/SCONJ grip/VERB the/DET boxmedium/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The individual keeps hold of his body while holding onto the boxmedium with his left hand.#the/DET individual/NOUN keep/VERB hold/NOUN of/ADP his/PRON body/NOUN while/SCONJ hold/VERB onto/ADP the/DET boxmedium/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

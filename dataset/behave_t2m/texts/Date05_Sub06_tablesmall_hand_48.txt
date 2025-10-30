@@ -1,0 +1,3 @@
+A person is pushing the tablesmall with his foot.#a/DET person/NOUN is/AUX push/VERB the/DET tablesmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is sliding the tablesmall using his foot.#a/DET person/NOUN is/AUX slide/VERB the/DET tablesmall/NOUN use/VERB his/PRON foot/NOUN#0.0#0.0
+A person is propelling the tablesmall forward with his foot.#a/DET person/NOUN is/AUX propel/VERB the/DET tablesmall/NOUN forward/ADV with/ADP his/PRON foot/NOUN#0.0#0.0

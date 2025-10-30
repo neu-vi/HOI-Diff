@@ -1,0 +1,3 @@
+A person is rectifying the monitor.#a/DET person/NOUN is/AUX rectify/VERB the/DET monitor/NOUN#0.0#0.0
+A person is adjusting the monitor.#a/DET person/NOUN is/AUX adjust/VERB the/DET monitor/NOUN#0.0#0.0
+A person is fixing the monitor.#a/DET person/NOUN is/AUX fix/VERB the/DET monitor/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is grasping the plasticcontainer from the front.#a/DET person/NOUN is/AUX grasp/VERB the/DET plasticcontainer/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The plasticcontainer is currently in the person's grasp from the front.#the/DET plasticcontainer/NOUN is/AUX currently/ADV in/ADP the/DET person/NOUN grasp/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+Someone holds the plasticcontainer by the front.#someone/PRON hold/VERB the/DET plasticcontainer/NOUN by/ADP the/DET front/NOUN#0.0#0.0

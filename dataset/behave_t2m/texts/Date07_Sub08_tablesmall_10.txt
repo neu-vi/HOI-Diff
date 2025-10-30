@@ -1,0 +1,3 @@
+A person is causing the tablesmall to tilt with his body weight.#a/DET person/NOUN is/AUX cause/VERB the/DET tablesmall/NOUN to/PART tilt/VERB with/ADP his/PRON body/NOUN weight/NOUN#0.0#0.0
+A person is shifting the tablesmall with his body weight.#a/DET person/NOUN is/AUX shift/VERB the/DET tablesmall/NOUN with/ADP his/PRON body/NOUN weight/NOUN#0.0#0.0
+A person is creating a tilt on the tablesmall with his body weight.#a/DET person/NOUN is/AUX create/VERB a/DET tilt/NOUN on/ADP the/DET tablesmall/NOUN with/ADP his/PRON body/NOUN weight/NOUN#0.0#0.0

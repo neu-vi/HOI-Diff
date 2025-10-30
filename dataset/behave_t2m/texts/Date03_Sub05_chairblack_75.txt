@@ -1,0 +1,3 @@
+A person is dragging a chairblack across the floor.#a/DET person/NOUN is/AUX drag/VERB a/DET chairblack/NOUN across/ADP the/DET floor/NOUN#0.0#0.0
+A person is shoving and yanking a chairblack back and forth on the ground.#a/DET person/NOUN is/AUX shove/VERB and/CCONJ yank/VERB a/DET chairblack/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+A person is tugging and maneuvering a chairblack across the surface.#a/DET person/NOUN is/AUX tug/VERB and/CCONJ maneuver/VERB a/DET chairblack/NOUN across/ADP the/DET surface/NOUN#0.0#0.0

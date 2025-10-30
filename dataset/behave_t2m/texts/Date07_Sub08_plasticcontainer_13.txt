@@ -1,0 +1,3 @@
+A person is grasping a plasticcontainer with his right hand.#a/DET person/NOUN is/AUX grasp/VERB a/DET plasticcontainer/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is clutching a plasticcontainer using his right hand.#a/DET person/NOUN is/AUX clutch/VERB a/DET plasticcontainer/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is gripping a plasticcontainer in his right hand.#a/DET person/NOUN is/AUX grip/VERB a/DET plasticcontainer/NOUN in/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

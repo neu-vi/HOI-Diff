@@ -1,0 +1,3 @@
+A person is pushing the luggage on the ground.#a/DET person/NOUN is/AUX push/VERB the/DET luggage/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is pulling the luggage on the ground.#a/DET person/NOUN is/AUX pull/VERB the/DET luggage/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is dragging the luggage on the ground.#a/DET person/NOUN is/AUX drag/VERB the/DET luggage/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

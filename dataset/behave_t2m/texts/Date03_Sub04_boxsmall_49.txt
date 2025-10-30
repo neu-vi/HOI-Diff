@@ -1,0 +1,3 @@
+A person is carting a boxsmall with one hand gripping his body.#a/DET person/NOUN is/AUX cart/VERB a/DET boxsmall/NOUN with/ADP one/NUM hand/NOUN grip/VERB his/PRON body/NOUN#0.0#0.0
+A person is ferrying a boxsmall while clutching onto his body.#a/DET person/NOUN is/AUX ferry/VERB a/DET boxsmall/NOUN while/SCONJ clutch/VERB onto/ADP his/PRON body/NOUN#0.0#0.0
+A person is lugging a boxsmall, maintaining hold on his body.#a/DET person/NOUN is/AUX lug/VERB a/DET boxsmall/NOUN maintain/VERB hold/NOUN on/ADP his/PRON body/NOUN#0.0#0.0

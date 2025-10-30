@@ -1,0 +1,3 @@
+A person is pushing and dragging the suitcase along the ground.#a/DET person/NOUN is/AUX push/VERB and/CCONJ drag/VERB the/DET suitcase/NOUN along/ADP the/DET ground/NOUN#0.0#0.0
+A person is shoving and yanking the suitcase on the ground.#a/DET person/NOUN is/AUX shove/VERB and/CCONJ yank/VERB the/DET suitcase/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is thrusting and tugging the suitcase along the ground.#a/DET person/NOUN is/AUX thrust/VERB and/CCONJ tug/VERB the/DET suitcase/NOUN along/ADP the/DET ground/NOUN#0.0#0.0

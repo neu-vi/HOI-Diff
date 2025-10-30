@@ -1,0 +1,3 @@
+A person is propelling the stool using his foot.#a/DET person/NOUN is/AUX propel/VERB the/DET stool/NOUN use/VERB his/PRON foot/NOUN#0.0#0.0
+A person is pushing the stool forward with his foot.#a/DET person/NOUN is/AUX push/VERB the/DET stool/NOUN forward/ADV with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is sliding the stool forward by means of his foot.#a/DET person/NOUN is/AUX slide/VERB the/DET stool/NOUN forward/ADV by/ADP mean/NOUN of/ADP his/PRON foot/NOUN#0.0#0.0

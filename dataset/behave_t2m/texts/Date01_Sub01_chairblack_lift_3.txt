@@ -1,0 +1,3 @@
+A person is clutching the chairblack from the front.#a/DET person/NOUN is/AUX clutch/VERB the/DET chairblack/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is gripping the chairblack from the front.#a/DET person/NOUN is/AUX grip/VERB the/DET chairblack/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is clasping the chairblack from the front.#a/DET person/NOUN is/AUX clasp/VERB the/DET chairblack/NOUN from/ADP the/DET front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is wearing a backpack.#a/DET person/NOUN is/AUX wear/VERB a/DET backpack/NOUN#0.0#0.0
+A person is toting a backpack.#a/DET person/NOUN is/AUX tote/VERB a/DET backpack/NOUN#0.0#0.0
+A person is bearing a backpack.#a/DET person/NOUN is/AUX bear/VERB a/DET backpack/NOUN#0.0#0.0

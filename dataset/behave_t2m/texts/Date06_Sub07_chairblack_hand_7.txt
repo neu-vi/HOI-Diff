@@ -1,0 +1,3 @@
+A person is moving the chairblack back and forth on the ground.#a/DET person/NOUN is/AUX move/VERB the/DET chairblack/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+Someone is pushing and tugging the chairblack while on the ground.#someone/PRON is/AUX push/VERB and/CCONJ tug/VERB the/DET chairblack/NOUN while/SCONJ on/ADP the/DET ground/NOUN#0.0#0.0
+The chairblack is undergoing movement as a person pushes and pulls on it from the ground.#the/DET chairblack/NOUN is/AUX undergo/VERB movement/NOUN as/SCONJ a/DET person/NOUN push/VERB and/CCONJ pull/VERB on/ADP it/PRON from/ADP the/DET ground/NOUN#0.0#0.0

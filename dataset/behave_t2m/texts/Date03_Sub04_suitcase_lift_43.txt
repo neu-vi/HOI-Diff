@@ -1,0 +1,3 @@
+An individual is heaving a suitcase with his right hand.#an/DET individual/NOUN is/AUX heave/VERB a/DET suitcase/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is toting a suitcase with his right hand.#a/DET person/NOUN is/AUX tote/VERB a/DET suitcase/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+Someone is carrying a suitcase with his right hand.#someone/PRON is/AUX carry/VERB a/DET suitcase/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

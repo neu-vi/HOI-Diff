@@ -1,0 +1,3 @@
+a person is adjusting the monitor. #a/DET person/NOUN is/AUX adjust/VERB the/DET monitor/NOUN#0.0#0.0
+a person is fine-tuning the monitor.#a/DET person/NOUN is/AUX finetune/VERB the/DET monitor/NOUN#0.0#0.0
+a person is setting up the monitor.#a/DET person/NOUN is/AUX set/VERB up/ADP the/DET monitor/NOUN#0.0#0.0

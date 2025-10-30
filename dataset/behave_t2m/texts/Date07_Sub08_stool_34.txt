@@ -1,0 +1,3 @@
+A person is pushing the stool on the ground.#a/DET person/NOUN is/AUX push/VERB the/DET stool/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is shifting the stool on the ground.#a/DET person/NOUN is/AUX shift/VERB the/DET stool/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is relocating the stool on the ground.#a/DET person/NOUN is/AUX relocate/VERB the/DET stool/NOUN on/ADP the/DET ground/NOUN#0.0#0.0

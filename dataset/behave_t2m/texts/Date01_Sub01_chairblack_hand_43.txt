@@ -1,0 +1,3 @@
+Someone is giving the chairblack a nudge with his foot and it remains black in color.#someone/PRON is/AUX give/VERB the/DET chairblack/NOUN a/DET nudge/NOUN with/ADP his/PRON foot/NOUN and/CCONJ it/PRON remain/VERB black/ADJ in/ADP color/NOUN#0.0#0.0
+Somebody is propelling the chairblack with his foot and it continues to be black in color.#somebody/PRON is/AUX propel/VERB the/DET chairblack/NOUN with/ADP his/PRON foot/NOUN and/CCONJ it/PRON continue/VERB to/PART be/AUX black/ADJ in/ADP color/NOUN#0.0#0.0
+A person is pushing the chairblack forward using his foot, and it stays black in color.#a/DET person/NOUN is/AUX push/VERB the/DET chairblack/NOUN forward/ADV use/VERB his/PRON foot/NOUN and/CCONJ it/PRON stay/VERB black/ADJ in/ADP color/NOUN#0.0#0.0

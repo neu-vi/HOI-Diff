@@ -1,0 +1,3 @@
+A person is pushing the suitcase back and forth on the ground.#a/DET person/NOUN is/AUX push/VERB the/DET suitcase/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+A person is sliding the suitcase back and forth on the ground.#a/DET person/NOUN is/AUX slide/VERB the/DET suitcase/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+A person is propelling the suitcase back and forth on the ground.#a/DET person/NOUN is/AUX propel/VERB the/DET suitcase/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0

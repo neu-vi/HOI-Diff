@@ -1,0 +1,3 @@
+A person is carrying a tablesmall single-handedly.#a/DET person/NOUN is/AUX carry/VERB a/DET tablesmall/NOUN singlehandedly/ADV#0.0#0.0
+The person holds a tablesmall with a lifted hand.#the/DET person/NOUN hold/VERB a/DET tablesmall/NOUN with/ADP a/DET lift/VERB hand/NOUN#0.0#0.0
+A person is able to hold a tablesmall with one hand.#a/DET person/NOUN is/AUX able/ADJ to/PART hold/VERB a/DET tablesmall/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0

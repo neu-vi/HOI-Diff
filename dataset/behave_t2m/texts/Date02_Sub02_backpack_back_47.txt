@@ -1,0 +1,3 @@
+A person is wearing a backpack on his back.#a/DET person/NOUN is/AUX wear/VERB a/DET backpack/NOUN on/ADP his/PRON back/NOUN#0.0#0.0
+A person is donning a backpack on his back.#a/DET person/NOUN is/AUX don/VERB a/DET backpack/NOUN on/ADP his/PRON back/NOUN#0.0#0.0
+A person is sporting a backpack on his back.#a/DET person/NOUN is/AUX sport/VERB a/DET backpack/NOUN on/ADP his/PRON back/NOUN#0.0#0.0

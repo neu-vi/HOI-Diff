@@ -1,0 +1,3 @@
+The person is pushing the chairblack across the floor.#the/DET person/NOUN is/AUX push/VERB the/DET chairblack/NOUN across/ADP the/DET floor/NOUN#0.0#0.0
+The person is propelling the chairblack forward on the ground.#the/DET person/NOUN is/AUX propel/VERB the/DET chairblack/NOUN forward/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+The person is moving the chairblack by applying force on the floor.#the/DET person/NOUN is/AUX move/VERB the/DET chairblack/NOUN by/ADP apply/VERB force/NOUN on/ADP the/DET floor/NOUN#0.0#0.0

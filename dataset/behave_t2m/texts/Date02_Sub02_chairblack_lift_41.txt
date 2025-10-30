@@ -1,0 +1,3 @@
+The individual is raising the chairblack with his right hand.#the/DET individual/NOUN is/AUX raise/VERB the/DET chairblack/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person is elevating the chairblack using his right hand.#the/DET person/NOUN is/AUX elevate/VERB the/DET chairblack/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+The chairblack is being hoisted by the individual with his right hand.#the/DET chairblack/NOUN is/AUX being/AUX hoist/VERB by/ADP the/DET individual/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is grasping a boxmedium with his right hand.#a/DET person/NOUN is/AUX grasp/VERB a/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+An individual is carrying a boxmedium using his right hand.#an/DET individual/NOUN is/AUX carry/VERB a/DET boxmedium/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+Someone is holding onto a boxmedium with his right hand.#someone/PRON is/AUX hold/VERB onto/ADP a/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

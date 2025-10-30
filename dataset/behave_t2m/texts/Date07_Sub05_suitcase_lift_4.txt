@@ -1,0 +1,3 @@
+A person is raising the luggage with his right hand.#a/DET person/NOUN is/AUX raise/VERB the/DET luggage/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+An individual picks up the suitcase using his right hand.#an/DET individual/NOUN pick/VERB up/ADP the/DET suitcase/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+Someone carries the bag, gripping it with his right hand.#someone/PRON carry/VERB the/DET bag/NOUN grip/VERB it/PRON with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

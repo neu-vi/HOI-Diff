@@ -1,0 +1,3 @@
+Someone is nudging a trashbin with his foot.#someone/PRON is/AUX nudge/VERB a/DET trashbin/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is kicking a trashbin lightly with his foot.#a/DET person/NOUN is/AUX kick/VERB a/DET trashbin/NOUN lightly/ADV with/ADP his/PRON foot/NOUN#0.0#0.0
+Somebody is using his foot to push a trashbin.#somebody/PRON is/AUX use/VERB his/PRON foot/NOUN to/PART push/VERB a/DET trashbin/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is applying force to the tablesquare by pushing and pulling it on the ground.#the/DET person/NOUN is/AUX apply/VERB force/NOUN to/ADP the/DET tablesquare/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0
+The person is exerting pressure on the tablesquare by pushing and pulling it on the ground.#the/DET person/NOUN is/AUX exert/VERB pressure/NOUN on/ADP the/DET tablesquare/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0
+The person is pressing on the tablesquare by pushing and pulling it on the ground.#the/DET person/NOUN is/AUX press/VERB on/ADP the/DET tablesquare/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0

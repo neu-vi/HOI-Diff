@@ -1,0 +1,3 @@
+basketball player is utilizing his upper body to play ball.#basketball/NOUN player/NOUN is/AUX utilize/VERB his/PRON upper/ADJ body/NOUN to/PART play/VERB ball/NOUN#0.0#0.0
+basketball player is employing his upper body to play ball.#basketball/NOUN player/NOUN is/AUX employ/VERB his/PRON upper/ADJ body/NOUN to/PART play/VERB ball/NOUN#0.0#0.0
+basketball player is utilizing his upper body to engage in ball play.#basketball/NOUN player/NOUN is/AUX utilize/VERB his/PRON upper/ADJ body/NOUN to/PART engage/VERB in/ADP ball/NOUN play/NOUN#0.0#0.0

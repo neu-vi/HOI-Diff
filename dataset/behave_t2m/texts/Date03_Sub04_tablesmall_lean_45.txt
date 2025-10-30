@@ -1,0 +1,3 @@
+erson is flipping a tablesmall on its side.#erson/PROPN is/AUX flip/VERB a/DET tablesmall/NOUN on/ADP its/PRON side/NOUN#0.0#0.0
+erson is tilting a tablesmall on its side.#erson/PROPN is/AUX tilt/VERB a/DET tablesmall/NOUN on/ADP its/PRON side/NOUN#0.0#0.0
+erson is turning a tablesmall on its side.#erson/PROPN is/AUX turn/VERB a/DET tablesmall/NOUN on/ADP its/PRON side/NOUN#0.0#0.0

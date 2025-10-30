@@ -1,0 +1,3 @@
+A person is carrying a yogamat in his left hand.#a/DET person/NOUN is/AUX carry/VERB a/DET yogamat/NOUN in/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone is hoisting a yogamat with his left hand.#someone/PRON is/AUX hoist/VERB a/DET yogamat/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+An individual is supporting a yogamat using his left hand.#an/DET individual/NOUN is/AUX support/VERB a/DET yogamat/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0

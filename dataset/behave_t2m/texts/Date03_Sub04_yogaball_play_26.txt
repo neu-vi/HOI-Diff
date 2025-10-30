@@ -1,0 +1,3 @@
+A person is engaging a yogaball with hands.#a/DET person/NOUN is/AUX engage/VERB a/DET yogaball/NOUN with/ADP hand/NOUN#0.0#0.0
+Someone is participating in a ball game while moving a yogaball with both hands.#someone/PRON is/AUX participate/VERB in/ADP a/DET ball/NOUN game/NOUN while/SCONJ move/VERB a/DET yogaball/NOUN with/ADP both/DET hand/NOUN#0.0#0.0
+An individual is involved in a ball activity while playing a yogaball.#an/DET individual/NOUN is/AUX involve/VERB in/ADP a/DET ball/NOUN activity/NOUN while/SCONJ play/VERB a/DET yogaball/NOUN#0.0#0.0

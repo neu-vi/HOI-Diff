@@ -1,0 +1,3 @@
+A person is carrying the backpack in the front.#a/DET person/NOUN is/AUX carry/VERB the/DET backpack/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+The backpack is being supported by a person in the front.#the/DET backpack/NOUN is/AUX being/AUX support/VERB by/ADP a/DET person/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+Someone in the front has hold of the backpack.#someone/PRON in/ADP the/DET front/NOUN have/VERB hold/NOUN of/ADP the/DET backpack/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+Someone is kicking a boxsmall with his foot.#someone/PRON is/AUX kick/VERB a/DET boxsmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is giving a boxsmall a kick with his foot.#a/DET person/NOUN is/AUX give/VERB a/DET boxsmall/NOUN a/DET kick/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+Somebody is delivering a kick to a boxsmall with his foot.#somebody/PRON is/AUX deliver/VERB a/DET kick/NOUN to/ADP a/DET boxsmall/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0

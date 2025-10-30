@@ -1,0 +1,2 @@
+The person in front is gripping a yogamat.#the/DET person/NOUN in/ADP front/NOUN is/AUX grip/VERB a/DET yogamat/NOUN#0.0#0.0
+The person in front holds a yogamat.#the/DET person/NOUN in/ADP front/NOUN hold/VERB a/DET yogamat/NOUN#0.0#0.0

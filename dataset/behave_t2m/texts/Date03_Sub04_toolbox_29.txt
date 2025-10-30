@@ -1,0 +1,3 @@
+The individual is clasping the toolbox firmly to his body with both hands.#the/DET individual/NOUN is/AUX clasp/VERB the/DET toolbox/NOUN firmly/ADV to/ADP his/PRON body/NOUN with/ADP both/DET hand/NOUN#0.0#0.0
+The person is firmly gripping the toolbox against his body using both hands.#the/DET person/NOUN is/AUX firmly/ADV grip/VERB the/DET toolbox/NOUN against/ADP his/PRON body/NOUN use/VERB both/DET hand/NOUN#0.0#0.0
+An individual holds the toolbox tightly against his body, grasping it with both hands.#an/DET individual/NOUN hold/VERB the/DET toolbox/NOUN tightly/ADV against/ADP his/PRON body/NOUN grasp/VERB it/PRON with/ADP both/DET hand/NOUN#0.0#0.0

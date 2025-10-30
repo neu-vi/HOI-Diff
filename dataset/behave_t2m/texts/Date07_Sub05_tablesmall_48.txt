@@ -1,0 +1,3 @@
+A person is propelling a tablesmall by pushing and pulling it on the ground.#a/DET person/NOUN is/AUX propel/VERB a/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0
+A person is maneuvering a tablesmall by pushing and pulling it on the ground.#a/DET person/NOUN is/AUX maneuver/VERB a/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0
+A person is mobilizing a tablesmall by pushing and pulling it on the ground.#a/DET person/NOUN is/AUX mobilize/VERB a/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0

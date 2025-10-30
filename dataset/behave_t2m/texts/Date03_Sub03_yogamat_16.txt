@@ -1,0 +1,3 @@
+A person places a yogamat in front of him.#a/DET person/NOUN place/VERB a/DET yogamat/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+A person sets up a yogamat in front of him.#a/DET person/NOUN set/VERB up/ADP a/DET yogamat/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+A person positions a yogamat in front of him.#a/DET person/NOUN position/VERB a/DET yogamat/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

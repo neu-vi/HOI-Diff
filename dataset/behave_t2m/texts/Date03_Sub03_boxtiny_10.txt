@@ -1,0 +1,3 @@
+A person is raising a boxtiny with his right hand.#a/DET person/NOUN is/AUX raise/VERB a/DET boxtiny/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The individual is keeping a boxtiny elevated with his right hand.#the/DET individual/NOUN is/AUX keep/VERB a/DET boxtiny/NOUN elevate/VERB with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+Someone is upholding a boxtiny with his right hand.#someone/PRON is/AUX uphold/VERB a/DET boxtiny/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

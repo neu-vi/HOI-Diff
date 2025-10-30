@@ -1,0 +1,3 @@
+The tablesmall seems to be tilting as someone leans against it.#the/DET tablesmall/NOUN seem/VERB to/PART be/AUX tilt/VERB as/SCONJ someone/PRON lean/VERB against/ADP it/PRON#0.0#0.0
+The tablesmall looks as if it's tilting while someone stands against it.#the/DET tablesmall/NOUN look/VERB as/SCONJ if/SCONJ it/PRON tilting/NOUN while/SCONJ someone/PRON stand/VERB against/ADP it/PRON#0.0#0.0
+The tablesmall appears to tilt while someone is pressing against it.#the/DET tablesmall/NOUN appear/VERB to/PART tilt/VERB while/SCONJ someone/PRON is/AUX press/VERB against/ADP it/PRON#0.0#0.0

@@ -1,0 +1,3 @@
+An individual is gripping a chairwood.#an/DET individual/NOUN is/AUX grip/VERB a/DET chairwood/NOUN#0.0#0.0
+Someone is clutching a chairwood.#someone/PRON is/AUX clutch/VERB a/DET chairwood/NOUN#0.0#0.0
+A person is grasping a chairwood.#a/DET person/NOUN is/AUX grasp/VERB a/DET chairwood/NOUN#0.0#0.0

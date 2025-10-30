@@ -1,0 +1,3 @@
+The person is raising the stool with his left hand.#the/DET person/NOUN is/AUX raise/VERB the/DET stool/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person lifts the stool with his left hand.#a/DET person/NOUN lift/VERB the/DET stool/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The individual holds up the stool using his left hand.#the/DET individual/NOUN hold/VERB up/ADP the/DET stool/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0

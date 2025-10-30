@@ -1,0 +1,3 @@
+The person in front is currently grasping the boxtiny.#the/DET person/NOUN in/ADP front/NOUN is/AUX currently/ADV grasp/VERB the/DET boxtiny/NOUN#0.0#0.0
+A person is presently clutching the boxtiny.#a/DET person/NOUN is/AUX presently/ADV clutch/VERB the/DET boxtiny/NOUN#0.0#0.0
+The boxtiny is currently being held by the individual in front.#the/DET boxtiny/NOUN is/AUX currently/ADV being/AUX hold/VERB by/ADP the/DET individual/NOUN in/ADP front/NOUN#0.0#0.0

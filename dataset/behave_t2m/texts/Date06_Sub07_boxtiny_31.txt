@@ -1,0 +1,3 @@
+A person is clutching the tiny receptacle from the front.#a/DET person/NOUN is/AUX clutch/VERB the/DET tiny/ADJ receptacle/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The individual is gripping the small vessel from the front.#the/DET individual/NOUN is/AUX grip/VERB the/DET small/ADJ vessel/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+Someone is clasping the diminutive jar from the front.#someone/PRON is/AUX clasp/VERB the/DET diminutive/ADJ jar/NOUN from/ADP the/DET front/NOUN#0.0#0.0

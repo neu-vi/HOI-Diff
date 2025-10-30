@@ -1,0 +1,3 @@
+A person is utilizing a chairwood for sitting.#a/DET person/NOUN is/AUX utilize/VERB a/DET chairwood/NOUN for/ADP sit/VERB#0.0#0.0
+A person is employing a chairwood for seating.#a/DET person/NOUN is/AUX employ/VERB a/DET chairwood/NOUN for/ADP seating/NOUN#0.0#0.0
+A person is sitting at a chairwood.#a/DET person/NOUN is/AUX utilize/VERB a/DET chairwood/NOUN for/ADP rest/VERB#0.0#0.0

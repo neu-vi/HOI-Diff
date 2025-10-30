@@ -1,0 +1,3 @@
+A person is manipulating a yogaball with his upper body.#a/DET person/NOUN is/AUX manipulate/VERB a/DET yogaball/NOUN with/ADP his/PRON upper/ADJ body/NOUN#0.0#0.0
+Someone is utilizing his upper body to interact with a yogaball.#someone/PRON is/AUX utilize/VERB his/PRON upper/ADJ body/NOUN to/PART interact/VERB with/ADP a/DET yogaball/NOUN#0.0#0.0
+An individual is employing his upper body to engage with a yogaball.#an/DET individual/NOUN is/AUX employ/VERB his/PRON upper/ADJ body/NOUN to/PART engage/VERB with/ADP a/DET yogaball/NOUN#0.0#0.0

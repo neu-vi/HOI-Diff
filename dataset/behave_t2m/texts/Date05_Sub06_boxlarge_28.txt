@@ -1,0 +1,3 @@
+A person is grasping a boxlarge in front.#a/DET person/NOUN is/AUX grasp/VERB a/DET boxlarge/NOUN in/ADP front/NOUN#0.0#0.0
+A person is clutching a boxlarge in front of him.#a/DET person/NOUN is/AUX clutch/VERB a/DET boxlarge/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0
+A person is carrying a boxlarge in his hands in front.#a/DET person/NOUN is/AUX carry/VERB a/DET boxlarge/NOUN in/ADP his/PRON hand/NOUN in/ADP front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+An individual is supporting the front of the tablesmall.#an/DET individual/NOUN is/AUX support/VERB the/DET front/NOUN of/ADP the/DET tablesmall/NOUN#0.0#0.0
+A person is maintaining the front of the tablesmall.#a/DET person/NOUN is/AUX maintain/VERB the/DET front/NOUN of/ADP the/DET tablesmall/NOUN#0.0#0.0
+Someone is upholding the front of the tablesmall.#someone/PRON is/AUX uphold/VERB the/DET front/NOUN of/ADP the/DET tablesmall/NOUN#0.0#0.0

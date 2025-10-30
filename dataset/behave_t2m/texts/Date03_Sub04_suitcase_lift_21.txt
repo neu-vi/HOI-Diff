@@ -1,0 +1,3 @@
+a person is lugging the suitcase from the front.#a/DET person/NOUN is/AUX lug/VERB the/DET suitcase/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+a person is bearing the suitcase from the front.#a/DET person/NOUN is/AUX bear/VERB the/DET suitcase/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+a person is carting the suitcase from the front.#a/DET person/NOUN is/AUX cart/VERB the/DET suitcase/NOUN from/ADP the/DET front/NOUN#0.0#0.0

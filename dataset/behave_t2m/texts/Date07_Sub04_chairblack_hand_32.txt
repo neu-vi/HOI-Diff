@@ -1,0 +1,3 @@
+A person is nudging the chairblack with his foot, and it has a black color.#a/DET person/NOUN is/AUX nudge/VERB the/DET chairblack/NOUN with/ADP his/PRON foot/NOUN and/CCONJ it/PRON have/VERB a/DET black/ADJ color/NOUN#0.0#0.0
+Someone is using his foot to shove the chair, and it appears black.#someone/PRON is/AUX use/VERB his/PRON foot/NOUN to/PART shove/VERB the/DET chair/NOUN and/CCONJ it/PRON appear/VERB black/ADJ#0.0#0.0
+An individual is giving the chairblack a push with his foot, and it is displaying a black hue.#an/DET individual/NOUN is/AUX give/VERB the/DET chairblack/NOUN a/DET push/NOUN with/ADP his/PRON foot/NOUN and/CCONJ it/PRON is/AUX display/VERB a/DET black/ADJ hue/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is shoving the boxlarge with his foot.#the/DET person/NOUN is/AUX shove/VERB the/DET boxlarge/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is propelling the boxlarge forward using his foot.#a/DET person/NOUN is/AUX propel/VERB the/DET boxlarge/NOUN forward/ADV use/VERB his/PRON foot/NOUN#0.0#0.0
+The boxlarge is being pushed by a person's foot.#the/DET boxlarge/NOUN is/AUX being/AUX push/VERB by/ADP a/DET person/NOUN foot/NOUN#0.0#0.0

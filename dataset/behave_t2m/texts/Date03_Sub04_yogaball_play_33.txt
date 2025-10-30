@@ -1,0 +1,3 @@
+A person is playing a yogaball with one hand.#a/DET person/NOUN is/AUX play/VERB a/DET yogaball/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is playing on a yogaball.#a/DET person/NOUN is/AUX play/VERB on/ADP a/DET yogaball/NOUN#0.0#0.0
+A person is involving in ball-related play while slaping a yogaball.#a/DET person/NOUN is/AUX involve/VERB in/ADP ballrelate/VERB play/NOUN while/SCONJ slap/VERB a/DET yogaball/NOUN#0.0#0.0

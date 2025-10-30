@@ -1,0 +1,3 @@
+A person is grasping a tablesmallsmall at the front.#a/DET person/NOUN is/AUX grasp/VERB a/DET tablesmallsmall/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+Someone is clutching a tablesmallsmall at the forefront.#someone/PRON is/AUX clutch/VERB a/DET tablesmallsmall/NOUN at/ADP the/DET forefront/NOUN#0.0#0.0
+An individual is gripping a tablesmallsmall near the front.#an/DET individual/NOUN is/AUX grip/VERB a/DET tablesmallsmall/NOUN near/ADP the/DET front/NOUN#0.0#0.0

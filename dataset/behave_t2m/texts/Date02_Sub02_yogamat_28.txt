@@ -1,0 +1,3 @@
+person is clutching a yogamat at the front.#person/NOUN is/AUX clutch/VERB a/DET yogamat/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+person is gripping a yogamat at the front.#person/NOUN is/AUX grip/VERB a/DET yogamat/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+person is clenching a yogamat at the front.#person/NOUN is/AUX clench/VERB a/DET yogamat/NOUN at/ADP the/DET front/NOUN#0.0#0.0

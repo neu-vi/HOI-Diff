@@ -1,0 +1,3 @@
+A person is engaging in a seated ball game with a yogaball.#a/DET person/NOUN is/AUX engage/VERB in/ADP a/DET seated/ADJ ball/NOUN game/NOUN with/ADP a/DET yogaball/NOUN#0.0#0.0
+A person is participating in a seated ball game using a yogaball.#a/DET person/NOUN is/AUX participate/VERB in/ADP a/DET seated/ADJ ball/NOUN game/NOUN use/VERB a/DET yogaball/NOUN#0.0#0.0
+A person is involved in a seated ball game, utilizing a yogaball.#a/DET person/NOUN is/AUX involve/VERB in/ADP a/DET seated/ADJ ball/NOUN game/NOUN utilize/VERB a/DET yogaball/NOUN#0.0#0.0

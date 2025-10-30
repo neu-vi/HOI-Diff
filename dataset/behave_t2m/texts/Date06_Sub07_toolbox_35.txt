@@ -1,0 +1,3 @@
+The person is grasping the toolbox with his left hand.#the/DET person/NOUN is/AUX grasp/VERB the/DET toolbox/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person is clutching the toolbox using his left hand.#the/DET person/NOUN is/AUX clutch/VERB the/DET toolbox/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person is gripping the toolbox with his left hand.#the/DET person/NOUN is/AUX grip/VERB the/DET toolbox/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

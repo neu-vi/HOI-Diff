@@ -1,0 +1,3 @@
+A person is carrying a boxsmall with his left hand.#a/DET person/NOUN is/AUX carry/VERB a/DET boxsmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone grips a boxsmall with his left hand.#someone/PRON grip/VERB a/DET boxsmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+An individual grasps a boxsmall using his left hand.#an/DET individual/NOUN grasp/VERB a/DET boxsmall/NOUN use/VERB his/PRON left/ADJ hand/NOUN#0.0#0.0

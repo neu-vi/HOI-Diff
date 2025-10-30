@@ -1,0 +1,3 @@
+A person is grasping a tablesmalltop from the front.#a/DET person/NOUN is/AUX grasp/VERB a/DET tablesmalltop/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is clutching a tablesmalltop from the front.#a/DET person/NOUN is/AUX clutch/VERB a/DET tablesmalltop/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is seizing a tablesmalltop from the front.#a/DET person/NOUN is/AUX seize/VERB a/DET tablesmalltop/NOUN from/ADP the/DET front/NOUN#0.0#0.0

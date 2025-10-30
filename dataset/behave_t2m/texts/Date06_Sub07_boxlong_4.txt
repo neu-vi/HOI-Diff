@@ -1,0 +1,3 @@
+A person is grasping a boxlong while looking ahead.#a/DET person/NOUN is/AUX grasp/VERB a/DET boxlong/NOUN while/SCONJ look/VERB ahead/ADV#0.0#0.0
+An individual is clutching a boxlong while facing forward.#an/DET individual/NOUN is/AUX clutch/VERB a/DET boxlong/NOUN while/SCONJ face/VERB forward/ADV#0.0#0.0
+Someone is gripping a boxlong as they move forward.#someone/PRON is/AUX grip/VERB a/DET boxlong/NOUN as/SCONJ they/PRON move/VERB forward/ADV#0.0#0.0

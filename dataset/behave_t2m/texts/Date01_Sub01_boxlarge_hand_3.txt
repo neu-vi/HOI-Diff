@@ -1,0 +1,3 @@
+The person is clutching the boxlarge from the front.#the/DET person/NOUN is/AUX clutch/VERB the/DET boxlarge/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is clasping the boxlarge from the front.#a/DET person/NOUN is/AUX clasp/VERB the/DET boxlarge/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+Someone is gripping the boxlarge from the front.#someone/PRON is/AUX grip/VERB the/DET boxlarge/NOUN from/ADP the/DET front/NOUN#0.0#0.0

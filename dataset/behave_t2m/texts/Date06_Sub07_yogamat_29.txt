@@ -1,0 +1,3 @@
+person is currently holding a yogamat.#person/NOUN is/AUX currently/ADV hold/VERB a/DET yogamat/NOUN#0.0#0.0
+person is presently grasping a yogamat.#person/NOUN is/AUX presently/ADV grasp/VERB a/DET yogamat/NOUN#0.0#0.0
+person holds a yogamat right now.#person/NOUN hold/VERB a/DET yogamat/NOUN right/ADV now/ADV#0.0#0.0

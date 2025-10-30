@@ -1,0 +1,3 @@
+An individual is raising a trashbin using only his right hand.#an/DET individual/NOUN is/AUX raise/VERB a/DET trashbin/NOUN use/VERB only/ADV his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is raising a trashbin solely with his right hand.#a/DET person/NOUN is/AUX raise/VERB a/DET trashbin/NOUN solely/ADV with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+Someone is lifting a trashbin using only his right hand.#someone/PRON is/AUX lift/VERB a/DET trashbin/NOUN use/VERB only/ADV his/PRON right/ADJ hand/NOUN#0.0#0.0

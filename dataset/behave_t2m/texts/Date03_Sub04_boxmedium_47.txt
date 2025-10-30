@@ -1,0 +1,3 @@
+An individual is gripping a boxmedium.#an/DET individual/NOUN is/AUX grip/VERB a/DET boxmedium/NOUN#0.0#0.0
+Someone is clutching a boxmedium.#someone/PRON is/AUX clutch/VERB a/DET boxmedium/NOUN#0.0#0.0
+A person is clasping a boxmedium.#a/DET person/NOUN is/AUX clasp/VERB a/DET boxmedium/NOUN#0.0#0.0

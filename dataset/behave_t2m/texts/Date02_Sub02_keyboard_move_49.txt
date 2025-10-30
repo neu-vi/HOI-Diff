@@ -1,0 +1,3 @@
+A person is clutching the front of the keyboard.#a/DET person/NOUN is/AUX clutch/VERB the/DET front/NOUN of/ADP the/DET keyboard/NOUN#0.0#0.0
+A person is grasping the front of the keyboard.#a/DET person/NOUN is/AUX grasp/VERB the/DET front/NOUN of/ADP the/DET keyboard/NOUN#0.0#0.0
+A person is clasping the front of the keyboard.#a/DET person/NOUN is/AUX clasp/VERB the/DET front/NOUN of/ADP the/DET keyboard/NOUN#0.0#0.0

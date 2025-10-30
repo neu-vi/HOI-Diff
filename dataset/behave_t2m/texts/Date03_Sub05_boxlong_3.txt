@@ -1,0 +1,3 @@
+The person is raising the boxlong with his right hand.#the/DET person/NOUN is/AUX raise/VERB the/DET boxlong/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is hoisting the boxlong using his right hand.#a/DET person/NOUN is/AUX hoist/VERB the/DET boxlong/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+The individual keeps the boxlong aloft with his right hand.#the/DET individual/NOUN keep/VERB the/DET boxlong/NOUN aloft/ADV with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

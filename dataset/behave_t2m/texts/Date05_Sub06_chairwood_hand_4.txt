@@ -1,0 +1,3 @@
+A person is pushing the chairblack wood.#a/DET person/NOUN is/AUX push/VERB the/DET chairblack/NOUN wood/NOUN#0.0#0.0
+A person is applying force to move the chairblack wood.#a/DET person/NOUN is/AUX apply/VERB force/NOUN to/PART move/VERB the/DET chairblack/NOUN wood/NOUN#0.0#0.0
+A person is exerting pressure to move the chairblack wood.#a/DET person/NOUN is/AUX exert/VERB pressure/NOUN to/PART move/VERB the/DET chairblack/NOUN wood/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is clutching the boxsmall against his body.#the/DET person/NOUN is/AUX clutch/VERB the/DET boxsmall/NOUN against/ADP his/PRON body/NOUN#0.0#0.0
+The person firmly grasps the boxsmall, keeping it pressed to his body.#the/DET person/NOUN firmly/ADV grasp/VERB the/DET boxsmall/NOUN keep/VERB it/PRON press/VERB to/ADP his/PRON body/NOUN#0.0#0.0
+A person tightly grips the boxsmall, always holding it firmly against his body.#a/DET person/NOUN tightly/ADV grip/VERB the/DET boxsmall/NOUN always/ADV hold/VERB it/PRON firmly/ADV against/ADP his/PRON body/NOUN#0.0#0.0

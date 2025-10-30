@@ -1,0 +1,3 @@
+erson is nudging a trashbin with his foot.#erson/PROPN is/AUX nudge/VERB a/DET trashbin/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+erson is pushing a trashbin using his foot.#erson/PROPN is/AUX push/VERB a/DET trashbin/NOUN use/VERB his/PRON foot/NOUN#0.0#0.0
+erson is shoving a trashbin with his foot.#erson/PROPN is/AUX shove/VERB a/DET trashbin/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0

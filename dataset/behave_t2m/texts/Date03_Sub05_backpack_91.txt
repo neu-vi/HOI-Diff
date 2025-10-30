@@ -1,0 +1,3 @@
+An individual is raising the backpack with one hand.#an/DET individual/NOUN is/AUX raise/VERB the/DET backpack/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+The person is hoisting the backpack using just one hand.#the/DET person/NOUN is/AUX hoist/VERB the/DET backpack/NOUN use/VERB just/ADV one/NUM hand/NOUN#0.0#0.0
+One hand of the individual is elevating the backpack.#one/NUM hand/NOUN of/ADP the/DET individual/NOUN is/AUX elevate/VERB the/DET backpack/NOUN#0.0#0.0

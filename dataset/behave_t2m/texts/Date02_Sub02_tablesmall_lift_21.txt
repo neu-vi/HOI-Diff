@@ -1,0 +1,3 @@
+A person is grasping a tablesmall in front.#a/DET person/NOUN is/AUX grasp/VERB a/DET tablesmall/NOUN in/ADP front/NOUN#0.0#0.0
+A person has a tablesmall in his grip in front.#a/DET person/NOUN have/VERB a/DET tablesmall/NOUN in/ADP his/PRON grip/NOUN in/ADP front/NOUN#0.0#0.0
+A person stands holding a tablesmall in front.#a/DET person/NOUN stand/VERB hold/VERB a/DET tablesmall/NOUN in/ADP front/NOUN#0.0#0.0

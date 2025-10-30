@@ -1,0 +1,3 @@
+A person is sitting on a chairwood.#a/DET person/NOUN is/AUX sit/VERB on/ADP a/DET chairwood/NOUN#0.0#0.0
+A person occupies a chairblack made of wood.#a/DET person/NOUN occupy/VERB a/DET chairblack/NOUN make/VERB of/ADP wood/NOUN#0.0#0.0
+A person is stationed on a chairblack constructed from wood.#a/DET person/NOUN is/AUX station/VERB on/ADP a/DET chairblack/NOUN construct/VERB from/ADP wood/NOUN#0.0#0.0

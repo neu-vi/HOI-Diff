@@ -1,0 +1,3 @@
+The person is gripping a yogamat from the front.#the/DET person/NOUN is/AUX grip/VERB a/DET yogamat/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The person is clasping onto a yogamat from the front.#the/DET person/NOUN is/AUX clasp/VERB onto/ADP a/DET yogamat/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The person is grasping a yogamat from the front.#the/DET person/NOUN is/AUX grasp/VERB a/DET yogamat/NOUN from/ADP the/DET front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+Someone is engaging in basketball with upper body motions.#someone/PRON is/AUX engage/VERB in/ADP basketball/NOUN with/ADP upper/ADJ body/NOUN motion/NOUN#0.0#0.0
+Somebody is participating in basketball with upper body gestures.#somebody/PRON is/AUX participate/VERB in/ADP basketball/NOUN with/ADP upper/ADJ body/NOUN gesture/NOUN#0.0#0.0
+A person is involved in basketball with upper body actions.#a/DET person/NOUN is/AUX involve/VERB in/ADP basketball/NOUN with/ADP upper/ADJ body/NOUN action/NOUN#0.0#0.0

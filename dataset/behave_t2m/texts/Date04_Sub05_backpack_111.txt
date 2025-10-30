@@ -1,0 +1,3 @@
+Someone in the front is gripping the backpack.#someone/PRON in/ADP the/DET front/NOUN is/AUX grip/VERB the/DET backpack/NOUN#0.0#0.0
+The backpack is currently in the possession of someone in the front.#the/DET backpack/NOUN is/AUX currently/ADV in/ADP the/DET possession/NOUN of/ADP someone/PRON in/ADP the/DET front/NOUN#0.0#0.0
+A person in the front has the backpack firmly in hand.#a/DET person/NOUN in/ADP the/DET front/NOUN have/VERB the/DET backpack/NOUN firmly/ADV in/ADP hand/NOUN#0.0#0.0

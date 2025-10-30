@@ -1,0 +1,3 @@
+A person is gripping a toolbox.#a/DET person/NOUN is/AUX grip/VERB a/DET toolbox/NOUN#0.0#0.0
+A person is clutching a toolbox.#a/DET person/NOUN is/AUX clutch/VERB a/DET toolbox/NOUN#0.0#0.0
+A person holds onto a toolbox.#a/DET person/NOUN hold/VERB onto/ADP a/DET toolbox/NOUN#0.0#0.0

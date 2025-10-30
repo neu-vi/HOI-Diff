@@ -1,0 +1,3 @@
+asketball player is crossing his legs while playing ball.#asketball/PROPN player/PROPN is/AUX cross/VERB his/PRON leg/NOUN while/SCONJ play/VERB ball/NOUN#0.0#0.0
+A basketball player is sitting down with crossed legs while playing ball.#a/DET basketball/NOUN player/NOUN is/AUX sit/VERB down/ADP with/ADP cross/VERB leg/NOUN while/SCONJ play/VERB ball/NOUN#0.0#0.0
+A basketball player is positioning his legs in a crossed manner while playing ball.#a/DET basketball/NOUN player/NOUN is/AUX position/VERB his/PRON leg/NOUN in/ADP a/DET cross/VERB manner/NOUN while/SCONJ play/VERB ball/NOUN#0.0#0.0

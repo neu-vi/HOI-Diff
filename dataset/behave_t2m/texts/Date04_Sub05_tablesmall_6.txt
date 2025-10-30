@@ -1,0 +1,3 @@
+A person is reclining against the tablesmall.#a/DET person/NOUN is/AUX recline/VERB against/ADP the/DET tablesmall/NOUN#0.0#0.0
+Someone is leaning against the tablesmall.#someone/PRON is/AUX lean/VERB against/ADP the/DET tablesmall/NOUN#0.0#0.0
+An individual is lying against the condensed tablesmall.#an/DET individual/NOUN is/AUX lie/VERB against/ADP the/DET condensed/ADJ tablesmall/NOUN#0.0#0.0

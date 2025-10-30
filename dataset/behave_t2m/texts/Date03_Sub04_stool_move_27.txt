@@ -1,0 +1,3 @@
+A person seizes the stool from the front.#a/DET person/NOUN seize/VERB the/DET stool/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person clutches the stool from the front.#a/DET person/NOUN clutch/VERB the/DET stool/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person grips the stool from the front.#a/DET person/NOUN grip/VERB the/DET stool/NOUN from/ADP the/DET front/NOUN#0.0#0.0

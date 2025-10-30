@@ -1,0 +1,3 @@
+A person is grasping a chairblack at the front.#a/DET person/NOUN is/AUX grasp/VERB a/DET chairblack/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+A person currently has a chairblack in his hands at the front.#a/DET person/NOUN currently/ADV have/VERB a/DET chairblack/NOUN in/ADP his/PRON hand/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+At the front, a person holds onto a chairblack.#at/ADP the/DET front/NOUN a/DET person/NOUN hold/VERB onto/ADP a/DET chairblack/NOUN#0.0#0.0

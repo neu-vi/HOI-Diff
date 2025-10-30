@@ -1,0 +1,3 @@
+Someone in the front holds the chairblack.#someone/PRON in/ADP the/DET front/NOUN hold/VERB the/DET chairblack/NOUN#0.0#0.0
+The chairblack is currently being held by someone in the front.#the/DET chairblack/NOUN is/AUX currently/ADV being/AUX hold/VERB by/ADP someone/PRON in/ADP the/DET front/NOUN#0.0#0.0
+A person in the front is in possession of the chairblack.#a/DET person/NOUN in/ADP the/DET front/NOUN is/AUX in/ADP possession/NOUN of/ADP the/DET chairblack/NOUN#0.0#0.0

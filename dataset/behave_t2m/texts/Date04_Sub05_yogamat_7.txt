@@ -1,0 +1,3 @@
+The person is currently grasping the yogamat with his right hand.#the/DET person/NOUN is/AUX currently/ADV grasp/VERB the/DET yogamat/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#14.0
+The person presently has a hold on the yogamat, using his right hand.#the/DET person/NOUN presently/ADV have/VERB a/DET hold/NOUN on/ADP the/DET yogamat/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#14.0
+A person in the act of gripping the yogamat with his right hand.#a/DET person/NOUN in/ADP the/DET act/NOUN of/ADP grip/VERB the/DET yogamat/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#14.0

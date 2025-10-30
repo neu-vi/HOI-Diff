@@ -1,0 +1,3 @@
+The person is performing upper body actions while playing basketball.#the/DET person/NOUN is/AUX perform/VERB upper/ADJ body/NOUN action/NOUN while/SCONJ play/VERB basketball/NOUN#0.0#0.0
+A person is executing upper body gestures while engaging in basketball.#a/DET person/NOUN is/AUX execute/VERB upper/ADJ body/NOUN gesture/NOUN while/SCONJ engage/VERB in/ADP basketball/NOUN#0.0#0.0
+The individual is undertaking upper body motions while participating in basketball.#the/DET individual/NOUN is/AUX undertake/VERB upper/ADJ body/NOUN motion/NOUN while/SCONJ participate/VERB in/ADP basketball/NOUN#0.0#0.0

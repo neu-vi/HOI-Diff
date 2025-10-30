@@ -1,0 +1,3 @@
+Someone is shoving a tablesquare with his foot.#someone/PRON is/AUX shove/VERB a/DET tablesquare/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is nudging a tablesquare using his foot.#a/DET person/NOUN is/AUX nudge/VERB a/DET tablesquare/NOUN use/VERB his/PRON foot/NOUN#0.0#0.0
+A tablesquare is being pushed by someone's foot.#a/DET tablesquare/NOUN is/AUX being/AUX push/VERB by/ADP someone/PRON foot/NOUN#0.0#0.0

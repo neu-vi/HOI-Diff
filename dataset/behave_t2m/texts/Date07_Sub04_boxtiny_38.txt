@@ -1,0 +1,3 @@
+A person is carrying a boxtiny that can be lifted by his left hand.#a/DET person/NOUN is/AUX carry/VERB a/DET boxtiny/NOUN that/PRON can/AUX be/AUX lift/VERB by/ADP his/PRON left/ADJ hand/NOUN#3.0#10.0
+The person holds a boxtiny to be lifted by his left hand.#the/DET person/NOUN hold/VERB a/DET boxtiny/NOUN to/PART be/AUX lift/VERB by/ADP his/PRON left/ADJ hand/NOUN#3.0#10.0
+A person is transporting a boxtiny that his left hand is capable of lifting.#a/DET person/NOUN is/AUX transport/VERB a/DET boxtiny/NOUN that/PRON his/PRON left/ADJ hand/NOUN is/AUX capable/ADJ of/ADP lifting/NOUN#3.0#10.0

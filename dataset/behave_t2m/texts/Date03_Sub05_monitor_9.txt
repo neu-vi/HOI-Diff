@@ -1,0 +1,3 @@
+A person is adjusting the monitor to his liking.#a/DET person/NOUN is/AUX adjust/VERB the/DET monitor/NOUN to/ADP his/PRON liking/NOUN#0.0#0.0
+A person is configuring the monitor to his preference.#a/DET person/NOUN is/AUX configure/VERB the/DET monitor/NOUN to/ADP his/PRON preference/NOUN#0.0#0.0
+A person is customizing the monitor to suit his taste.#a/DET person/NOUN is/AUX customize/VERB the/DET monitor/NOUN to/PART suit/VERB his/PRON taste/NOUN#0.0#0.0

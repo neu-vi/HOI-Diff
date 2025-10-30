@@ -1,0 +1,3 @@
+A person is raising a boxtiny with a single hand.#a/DET person/NOUN is/AUX raise/VERB a/DET boxtiny/NOUN with/ADP a/DET single/ADJ hand/NOUN#0.0#0.0
+A person is carrying a boxtiny while using one hand.#a/DET person/NOUN is/AUX carry/VERB a/DET boxtiny/NOUN while/SCONJ use/VERB one/NUM hand/NOUN#0.0#0.0
+A person is grasping a boxtiny and lifting it with one hand.#a/DET person/NOUN is/AUX grasp/VERB a/DET boxtiny/NOUN and/CCONJ lift/VERB it/PRON with/ADP one/NUM hand/NOUN#0.0#0.0

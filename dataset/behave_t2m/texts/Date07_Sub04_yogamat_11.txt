@@ -1,0 +1,3 @@
+The person is clenching a yogamat against his body using his right hand.#the/DET person/NOUN is/AUX clench/VERB a/DET yogamat/NOUN against/ADP his/PRON body/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person grips a yogamat with his right hand, pressing it firmly against his body.#a/DET person/NOUN grip/VERB a/DET yogamat/NOUN with/ADP his/PRON right/ADJ hand/NOUN press/VERB it/PRON firmly/ADV against/ADP his/PRON body/NOUN#0.0#0.0
+The person firmly grasps a yogamat with his right hand, keeping it pressed against his body.#the/DET person/NOUN firmly/ADV grasp/VERB a/DET yogamat/NOUN with/ADP his/PRON right/ADJ hand/NOUN keep/VERB it/PRON press/VERB against/ADP his/PRON body/NOUN#0.0#0.0

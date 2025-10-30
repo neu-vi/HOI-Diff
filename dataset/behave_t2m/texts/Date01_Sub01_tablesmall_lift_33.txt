@@ -1,0 +1,3 @@
+A person is standing near a tablesmall.#a/DET person/NOUN is/AUX stand/VERB near/ADP a/DET tablesmall/NOUN#0.0#0.0
+A person is positioned in front of a tablesmall.#a/DET person/NOUN is/AUX position/VERB in/ADP front/NOUN of/ADP a/DET tablesmall/NOUN#0.0#0.0
+A person is stationed before a tablesmall.#a/DET person/NOUN is/AUX station/VERB before/ADP a/DET tablesmall/NOUN#0.0#0.0

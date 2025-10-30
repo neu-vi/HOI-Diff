@@ -1,0 +1,3 @@
+The person is gripping the chairwood solely with his right hand.#the/DET person/NOUN is/AUX grip/VERB the/DET chairwood/NOUN solely/ADV with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+Using only his right hand, the person is shouldering the chairwood.#use/VERB only/ADV his/PRON right/ADJ hand/NOUN the/DET person/NOUN is/AUX shoulder/VERB the/DET chairwood/NOUN#0.0#0.0
+The person grasps the chairwood with nothing but his right hand.#the/DET person/NOUN grasp/VERB the/DET chairwood/NOUN with/ADP nothing/PRON but/CCONJ his/PRON right/ADJ hand/NOUN#0.0#0.0

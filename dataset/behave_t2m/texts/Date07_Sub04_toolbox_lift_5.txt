@@ -1,0 +1,3 @@
+The individual lifts the toolbox using his right hand.#the/DET individual/ADJ lift/VERB the/DET toolbox/NOUN use/VERB his/PRON right/ADJ hand/NOUN#0.0#10.0
+A person raises the toolbox utilizing his right hand.#a/DET person/NOUN raise/VERB the/DET toolbox/NOUN utilize/VERB his/PRON right/ADJ hand/NOUN#0.0#10.0
+Someone elevates the toolbox with his right hand.#someone/PRON elevate/VERB the/DET toolbox/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#10.0

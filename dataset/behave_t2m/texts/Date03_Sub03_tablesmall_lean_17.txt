@@ -1,0 +1,3 @@
+eone is upending a tablesmall.#eone/NOUN is/AUX upend/VERB a/DET tablesmall/NOUN#0.0#0.0
+eone is jostling a tablesmall.#eone/NOUN is/AUX jostle/VERB a/DET tablesmall/NOUN#0.0#0.0
+eone is tipping a tablesmall.#eone/NOUN is/AUX tip/VERB a/DET tablesmall/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+An individual is shifting the tablesmall on the ground, using both pushing and pulling forces.#an/DET individual/NOUN is/AUX shift/VERB the/DET tablesmall/NOUN on/ADP the/DET ground/NOUN use/VERB both/PRON push/VERB and/CCONJ pull/VERB force/NOUN#0.0#0.0
+The person is relocating the table, pushing and pulling it along the ground.#the/DET person/NOUN is/AUX relocate/VERB the/DET table/NOUN push/VERB and/CCONJ pull/VERB it/PRON along/ADP the/DET ground/NOUN#0.0#0.0
+A person is pushing and pulling the tablesmall while moving it on the ground.#a/DET person/NOUN is/AUX push/VERB and/CCONJ pull/VERB the/DET tablesmall/NOUN while/SCONJ move/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0

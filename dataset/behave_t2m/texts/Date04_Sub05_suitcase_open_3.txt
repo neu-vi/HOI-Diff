@@ -1,0 +1,3 @@
+A person hoists the suitcase with one hand.#a/DET person/NOUN hoist/VERB the/DET suitcase/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person is hefting the suitcase with one hand.#a/DET person/NOUN is/AUX heft/VERB the/DET suitcase/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0
+A person carries the suitcase with one hand.#a/DET person/NOUN carry/VERB the/DET suitcase/NOUN with/ADP one/NUM hand/NOUN#0.0#0.0

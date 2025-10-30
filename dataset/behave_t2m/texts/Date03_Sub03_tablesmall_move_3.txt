@@ -1,0 +1,3 @@
+A person is pushing the tablesmall to and fro on the ground.#a/DET person/NOUN is/AUX push/VERB the/DET tablesmall/NOUN to/ADP and/CCONJ fro/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is oscillating the tablesmall on the ground.#a/DET person/NOUN is/AUX oscillate/VERB the/DET tablesmall/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is rocking the tablesmall back and forth on the ground.#a/DET person/NOUN is/AUX rock/VERB the/DET tablesmall/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0

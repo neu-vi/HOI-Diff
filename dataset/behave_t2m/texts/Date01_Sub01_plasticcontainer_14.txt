@@ -1,0 +1,3 @@
+a person is lifting the plasticcontainer with his right hand.#a/DET person/NOUN is/AUX lift/VERB the/DET plasticcontainer/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+a person is grasping the plasticcontainer with his right hand.#a/DET person/NOUN is/AUX grasp/VERB the/DET plasticcontainer/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+a person is raising the plasticcontainer with his right hand.#a/DET person/NOUN is/AUX raise/VERB the/DET plasticcontainer/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

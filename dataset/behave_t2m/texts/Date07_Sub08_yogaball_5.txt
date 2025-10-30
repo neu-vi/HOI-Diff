@@ -1,0 +1,3 @@
+The person is perched on a yogaball.#the/DET person/NOUN is/AUX perch/VERB on/ADP a/DET yogaball/NOUN#0.0#0.0
+The person is balancing on a yogaball.#the/DET person/NOUN sit/VERB on/ADP a/DET yogaball/NOUN#0.0#0.0
+The person is occupying a yogaball.#the/DET person/NOUN is/AUX occupy/VERB a/DET yogaball/NOUN#0.0#0.0

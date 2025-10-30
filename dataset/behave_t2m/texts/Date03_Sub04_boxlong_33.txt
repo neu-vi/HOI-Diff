@@ -1,0 +1,3 @@
+person is clutching the boxlong with his left hand and grasping it against his body.#person/NOUN is/AUX clutch/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN and/CCONJ grasp/VERB it/PRON against/ADP his/PRON body/NOUN#0.0#0.0
+person is gripping the boxlong with his left hand and securing it against his body.#person/NOUN is/AUX grip/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN and/CCONJ secure/VERB it/PRON against/ADP his/PRON body/NOUN#0.0#0.0
+person is clasping the boxlong with his left hand and pressing it against his body.#person/NOUN is/AUX clasp/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN and/CCONJ press/VERB it/PRON against/ADP his/PRON body/NOUN#0.0#0.0

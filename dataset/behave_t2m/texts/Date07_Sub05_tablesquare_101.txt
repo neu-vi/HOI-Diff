@@ -1,0 +1,3 @@
+A person is grasping a tablesquare.#a/DET person/NOUN is/AUX grasp/VERB a/DET tablesquare/NOUN#0.0#0.0
+A person is clutching a tablesquare.#a/DET person/NOUN is/AUX clutch/VERB a/DET tablesquare/NOUN#0.0#0.0
+A person is gripping a tablesquare.#a/DET person/NOUN is/AUX grip/VERB a/DET tablesquare/NOUN#0.0#0.0

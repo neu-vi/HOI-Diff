@@ -1,0 +1,3 @@
+A person is in possession of the tablesquare from the front. #a/DET person/NOUN is/AUX in/ADP possession/NOUN of/ADP the/DET tablesquare/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The tablesquare is being held by a person from the front. #the/DET tablesquare/NOUN is/AUX being/AUX hold/VERB by/ADP a/DET person/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person holds the tablesquare from the front.#a/DET person/NOUN hold/VERB the/DET tablesquare/NOUN from/ADP the/DET front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is shouldering the backpack.#the/DET person/NOUN is/AUX shoulder/VERB the/DET backpack/NOUN#0.0#0.0
+The person is wearing the backpack.#the/DET person/NOUN is/AUX wear/VERB the/DET backpack/NOUN#0.0#0.0
+The person is lugging the backpack.#the/DET person/NOUN is/AUX lug/VERB the/DET backpack/NOUN#0.0#0.0

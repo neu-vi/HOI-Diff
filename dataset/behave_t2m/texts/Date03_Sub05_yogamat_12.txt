@@ -1,0 +1,3 @@
+A person is clutching a yogamat at the forefront.#a/DET person/NOUN is/AUX clutch/VERB a/DET yogamat/NOUN at/ADP the/DET forefront/NOUN#0.0#0.0
+A person is firmly gripping a yogamat at the forefront.#a/DET person/NOUN is/AUX firmly/ADV grip/VERB a/DET yogamat/NOUN at/ADP the/DET forefront/NOUN#0.0#0.0
+A person is firmly holding a yogamat at the forefront.#a/DET person/NOUN is/AUX firmly/ADV hold/VERB a/DET yogamat/NOUN at/ADP the/DET forefront/NOUN#0.0#0.0

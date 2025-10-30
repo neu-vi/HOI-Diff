@@ -1,0 +1,3 @@
+A person is shouldering the boxlong.#a/DET person/NOUN is/AUX shoulder/VERB the/DET boxlong/NOUN#0.0#0.0
+The boxlong is being carried on someone's shoulder.#the/DET boxlong/NOUN is/AUX being/AUX carry/VERB on/ADP someone/PRON shoulder/NOUN#0.0#0.0
+Someone is currently holding the boxlong on his shoulder.#someone/PRON is/AUX currently/ADV hold/VERB the/DET boxlong/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0

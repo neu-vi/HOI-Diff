@@ -1,0 +1,3 @@
+The person is gripping a boxsmall.#the/DET person/NOUN is/AUX grip/VERB a/DET boxsmall/NOUN#0.0#0.0
+The person has a boxsmall in his hands.#the/DET person/NOUN have/VERB a/DET boxsmall/NOUN in/ADP his/PRON hand/NOUN#0.0#0.0
+The person possesses a boxsmall.#the/DET person/NOUN possess/VERB a/DET boxsmall/NOUN#0.0#0.0

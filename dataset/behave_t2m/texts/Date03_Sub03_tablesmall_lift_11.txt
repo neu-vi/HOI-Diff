@@ -1,0 +1,3 @@
+A person is grasping a tablesmall.#a/DET person/NOUN is/AUX grasp/VERB a/DET tablesmall/NOUN#0.0#0.0
+A person is clutching a tablesmall.#a/DET person/NOUN is/AUX clutch/VERB a/DET tablesmall/NOUN#0.0#0.0
+A person holds onto a tablesmall.#a/DET person/NOUN hold/VERB onto/ADP a/DET tablesmall/NOUN#0.0#0.0

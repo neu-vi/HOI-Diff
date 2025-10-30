@@ -1,0 +1,3 @@
+erson is shouldering the backpack.#erson/PROPN is/AUX shoulder/VERB the/DET backpack/NOUN#0.0#0.0
+erson is bearing the backpack on his shoulder.#erson/PROPN is/AUX bear/VERB the/DET backpack/NOUN on/ADP his/PRON shoulder/NOUN#0.0#0.0
+erson is transporting the backpack using his shoulder.#erson/PROPN is/AUX transport/VERB the/DET backpack/NOUN use/VERB his/PRON shoulder/NOUN#0.0#0.0

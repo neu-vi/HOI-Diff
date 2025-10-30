@@ -1,0 +1,3 @@
+Somebody is angling a tablesmall slightly.#somebody/PRON is/AUX angle/VERB a/DET tablesmall/NOUN slightly/ADV#0.0#0.0
+Someone is slanting a tablesmall minimally.#someone/PRON is/AUX slant/VERB a/DET tablesmall/NOUN minimally/ADV#0.0#0.0
+A person is inclining a tablesmall.#a/DET person/NOUN is/AUX incline/VERB a/DET tablesmall/NOUN#0.0#0.0

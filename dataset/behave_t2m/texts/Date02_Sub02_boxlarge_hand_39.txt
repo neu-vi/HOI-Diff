@@ -1,0 +1,3 @@
+A person is pushing the boxlarge back and forth.#a/DET person/NOUN is/AUX push/VERB the/DET boxlarge/NOUN back/ADV and/CCONJ forth/ADV#0.0#0.0
+A person is sliding the boxlarge back and forth.#a/DET person/NOUN is/AUX slide/VERB the/DET boxlarge/NOUN back/ADV and/CCONJ forth/ADV#0.0#0.0
+A person is shifting the boxlarge back and forth.#a/DET person/NOUN is/AUX shift/VERB the/DET boxlarge/NOUN back/ADV and/CCONJ forth/ADV#0.0#0.0

@@ -1,0 +1,3 @@
+The person is clutching the suitcase from the front.#the/DET person/NOUN is/AUX clutch/VERB the/DET suitcase/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is gripping the suitcase from the front.#a/DET person/NOUN is/AUX grip/VERB the/DET suitcase/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The individual is firmly holding the suitcase from the front.#the/DET individual/NOUN is/AUX firmly/ADV hold/VERB the/DET suitcase/NOUN from/ADP the/DET front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is gripping the tablesmall with his right hand and securing its body.#the/DET person/NOUN is/AUX grip/VERB the/DET tablesmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN and/CCONJ secure/VERB its/PRON body/NOUN#0.0#0.0
+A person clutches the tablesmallsmall with his right hand and firmly grasps its body.#a/DET person/NOUN clutch/VERB the/DET tablesmallsmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN and/CCONJ firmly/ADV grasp/VERB its/PRON body/NOUN#0.0#0.0
+Someone holds the tablesmallsmall with his right hand while tightly clasping its body.#someone/PRON hold/VERB the/DET tablesmallsmall/NOUN with/ADP his/PRON right/ADJ hand/NOUN while/SCONJ tightly/ADV clasp/VERB its/PRON body/NOUN#0.0#0.0

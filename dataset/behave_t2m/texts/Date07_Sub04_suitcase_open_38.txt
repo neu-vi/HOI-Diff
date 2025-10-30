@@ -1,0 +1,3 @@
+A person is propelling a suitcase with his foot.#a/DET person/NOUN is/AUX propel/VERB a/DET suitcase/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is exerting force on a suitcase with his foot.#a/DET person/NOUN is/AUX exert/VERB force/NOUN on/ADP a/DET suitcase/NOUN with/ADP his/PRON foot/NOUN#0.0#0.0
+A person is guiding a suitcase using his foot.#a/DET person/NOUN is/AUX guide/VERB a/DET suitcase/NOUN use/VERB his/PRON foot/NOUN#0.0#0.0

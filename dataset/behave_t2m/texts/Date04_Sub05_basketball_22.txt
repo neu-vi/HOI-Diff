@@ -1,0 +1,3 @@
+a person is participating in a game of basketball using solely his upper limbs.#a/DET person/NOUN is/AUX participate/VERB in/ADP a/DET game/NOUN of/ADP basketball/NOUN use/VERB solely/ADV his/PRON upper/ADJ limb/NOUN#0.0#0.0
+a person is involved in a basketball game utilizing exclusively his upper body.#a/DET person/NOUN is/AUX involve/VERB in/ADP a/DET basketball/NOUN game/NOUN utilize/VERB exclusively/ADV his/PRON upper/ADJ body/NOUN#0.0#0.0
+a person is taking part in a game of basketball employing only his upper extremities.#a/DET person/NOUN is/AUX take/VERB part/NOUN in/ADP a/DET game/NOUN of/ADP basketball/NOUN employ/VERB only/ADV his/PRON upper/ADJ extremity/NOUN#0.0#0.0

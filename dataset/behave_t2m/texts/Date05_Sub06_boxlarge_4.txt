@@ -1,0 +1,3 @@
+The person is gripping a boxlarge.#the/DET person/NOUN is/AUX grip/VERB a/DET boxlarge/NOUN#0.0#0.0
+A person is clutching a boxlarge.#a/DET person/NOUN is/AUX clutch/VERB a/DET boxlarge/NOUN#0.0#0.0
+The person currently has a boxlarge in his possession.#the/DET person/NOUN currently/ADV have/VERB a/DET boxlarge/NOUN in/ADP his/PRON possession/NOUN#0.0#0.0

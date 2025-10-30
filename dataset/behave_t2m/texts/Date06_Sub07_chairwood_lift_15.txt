@@ -1,0 +1,3 @@
+A person grasps a chairwood with his right hand.#a/DET person/NOUN grasp/VERB a/DET chairwood/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is gripping a chairwood with his right hand.#a/DET person/NOUN is/AUX grip/VERB a/DET chairwood/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person has his right hand supporting a chairwood.#a/DET person/NOUN have/VERB his/PRON right/ADJ hand/NOUN support/VERB a/DET chairwood/NOUN#0.0#0.0

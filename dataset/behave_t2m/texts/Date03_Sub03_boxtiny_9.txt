@@ -1,0 +1,3 @@
+A person is clutching a boxsmall from the front.#a/DET person/NOUN is/AUX clutch/VERB a/DET boxsmall/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+An individual is clasping a boxsmall from the front.#an/DET individual/NOUN is/AUX clasp/VERB a/DET boxsmall/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+The person is gripping a boxsmall from the front.#the/DET person/NOUN is/AUX grip/VERB a/DET boxsmall/NOUN from/ADP the/DET front/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+An individual is grasping the backpack in his left hand.#an/DET individual/NOUN is/AUX grasp/VERB the/DET backpack/NOUN in/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+The person is clutching the backpack with his left hand.#the/DET person/NOUN is/AUX clutch/VERB the/DET backpack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone is firmly gripping the backpack in his left hand.#someone/PRON is/AUX firmly/ADV grip/VERB the/DET backpack/NOUN in/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

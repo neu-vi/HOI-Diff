@@ -1,0 +1,3 @@
+An individual is gripping the boxmedium in the front.#an/DET individual/NOUN is/AUX grip/VERB the/DET boxmedium/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+Somebody is clasping the boxmedium in the front.#somebody/PRON is/AUX clasp/VERB the/DET boxmedium/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+A person has the boxmedium held in the front.#a/DET person/NOUN have/VERB the/DET boxmedium/NOUN hold/VERB in/ADP the/DET front/NOUN#0.0#0.0

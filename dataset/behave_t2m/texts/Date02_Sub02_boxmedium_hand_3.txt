@@ -1,0 +1,3 @@
+erson is grasping the boxmedium at the front.#erson/PROPN is/AUX grasp/VERB the/DET boxmedium/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+erson is clutching the boxmedium in the front.#erson/PROPN is/AUX clutch/VERB the/DET boxmedium/NOUN in/ADP the/DET front/NOUN#0.0#0.0
+erson is gripping the boxmedium up front.#erson/PROPN is/AUX grip/VERB the/DET boxmedium/NOUN up/ADP front/NOUN#0.0#0.0

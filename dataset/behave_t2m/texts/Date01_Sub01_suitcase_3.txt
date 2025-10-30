@@ -1,0 +1,3 @@
+The person is dragging the suitcase across the floor.#the/DET person/NOUN is/AUX drag/VERB the/DET suitcase/NOUN across/ADP the/DET floor/NOUN#0.0#0.0
+The person is pushing the suitcase back and forth on the ground.#the/DET person/NOUN is/AUX push/VERB the/DET suitcase/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0
+The person is shifting the suitcase by sliding it back and forth on the ground.#the/DET person/NOUN is/AUX shift/VERB the/DET suitcase/NOUN by/ADP slide/VERB it/PRON back/ADV and/CCONJ forth/ADV on/ADP the/DET ground/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person in front is currently holding the monitor.#the/DET person/NOUN in/ADP front/NOUN is/AUX currently/ADV hold/VERB the/DET monitor/NOUN#0.0#0.0
+The monitor is presently being held by the person in front.#the/DET monitor/NOUN is/AUX presently/ADV being/AUX hold/VERB by/ADP the/DET person/NOUN in/ADP front/NOUN#0.0#0.0
+At this moment, the person in front holds the monitor.#at/ADP this/DET moment/NOUN the/DET person/NOUN in/ADP front/NOUN hold/VERB the/DET monitor/NOUN#0.0#0.0

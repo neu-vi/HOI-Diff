@@ -1,0 +1,3 @@
+An individual is tilting the tablesmall.#an/DET individual/NOUN is/AUX tilt/VERB the/DET tablesmall/NOUN#0.0#0.0
+The person is tipping the tablesmall.#the/DET person/NOUN is/AUX tip/VERB the/DET tablesmall/NOUN#0.0#0.0
+Someone is leaning the tablesmall.#someone/PRON is/AUX lean/VERB the/DET tablesmall/NOUN#0.0#0.0

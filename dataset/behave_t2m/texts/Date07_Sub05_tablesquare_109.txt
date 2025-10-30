@@ -1,0 +1,3 @@
+The person is raising the tablesquare with his right hand.#the/DET person/NOUN is/AUX raise/VERB the/DET tablesquare/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person is elevating the tablesquare with his right hand.#the/DET person/NOUN is/AUX elevate/VERB the/DET tablesquare/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person is hoisting the tablesquare with his right hand.#the/DET person/NOUN is/AUX hoist/VERB the/DET tablesquare/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

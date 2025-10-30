@@ -1,0 +1,3 @@
+The person is clutching a lengthy boxlong in front.#the/DET person/NOUN is/AUX clutch/VERB a/DET lengthy/ADJ boxlong/NOUN in/ADP front/NOUN#0.0#0.0
+A person tightly grips a boxlong from the front.#a/DET person/NOUN tightly/ADV grip/VERB a/DET boxlong/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+An individual firmly clasps a boxlong in front.#an/DET individual/NOUN firmly/ADV clasp/VERB a/DET boxlong/NOUN in/ADP front/NOUN#0.0#0.0

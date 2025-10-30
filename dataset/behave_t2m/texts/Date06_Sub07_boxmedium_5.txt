@@ -1,0 +1,3 @@
+The front person is gripping the boxmedium.#the/DET front/ADJ person/NOUN is/AUX grip/VERB the/DET boxmedium/NOUN#0.0#0.0
+A person in the front clutches the boxmedium.#a/DET person/NOUN in/ADP the/DET front/NOUN clutch/VERB the/DET boxmedium/NOUN#0.0#0.0
+Someone at the front keeps hold of the boxmedium.#someone/PRON at/ADP the/DET front/NOUN keep/VERB hold/NOUN of/ADP the/DET boxmedium/NOUN#0.0#0.0

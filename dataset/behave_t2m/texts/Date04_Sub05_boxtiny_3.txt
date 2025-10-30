@@ -1,0 +1,3 @@
+A person is raising a boxsmall with his left hand.#a/DET person/NOUN is/AUX raise/VERB a/DET boxsmall/NOUN with/ADP his/PRON left/ADJ hand/NOUN#2.0#9.0
+A person is hoisting a boxsmall using only his left hand.#a/DET person/NOUN is/AUX hoist/VERB a/DET boxsmall/NOUN use/VERB only/ADV his/PRON left/ADJ hand/NOUN#2.0#9.0
+A person holds a boxsmall exclusively with his left hand.#a/DET person/NOUN hold/VERB a/DET boxsmall/NOUN exclusively/ADV with/ADP his/PRON left/ADJ hand/NOUN#2.0#9.0

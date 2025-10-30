@@ -1,0 +1,3 @@
+A person has the monitor in his grasp at the front.#a/DET person/NOUN have/VERB the/DET monitor/NOUN in/ADP his/PRON grasp/NOUN at/ADP the/DET front/NOUN#0.0#0.0
+The monitor is currently being gripped by someone in the front.#the/DET monitor/NOUN is/AUX currently/ADV being/AUX grip/VERB by/ADP someone/PRON in/ADP the/DET front/NOUN#0.0#0.0
+Someone is currently clutching the monitor at the front.#someone/PRON is/AUX currently/ADV clutch/VERB the/DET monitor/NOUN at/ADP the/DET front/NOUN#0.0#0.0

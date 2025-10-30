@@ -1,0 +1,3 @@
+An individual on the ground is exerting force on a tablesmall by pushing and pulling it.#an/DET individual/NOUN on/ADP the/DET ground/NOUN is/AUX exert/VERB force/NOUN on/ADP a/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON#0.0#0.0
+Someone on the ground is manipulating a tablesmall by pushing and pulling it.#someone/PRON on/ADP the/DET ground/NOUN is/AUX manipulate/VERB a/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON#0.0#0.0
+A person is applying pressure to a tablesmall by pushing and pulling it.#a/DET person/NOUN is/AUX apply/VERB pressure/NOUN to/ADP a/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON#0.0#0.0

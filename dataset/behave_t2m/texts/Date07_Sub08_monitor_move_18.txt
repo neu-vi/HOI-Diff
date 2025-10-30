@@ -1,0 +1,3 @@
+The person is grasping the monitor with his right hand.#the/DET person/NOUN is/AUX grasp/VERB the/DET monitor/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person currently has the monitor in his right hand.#the/DET person/NOUN currently/ADV have/VERB the/DET monitor/NOUN in/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person presently holds the monitor with his right hand.#the/DET person/NOUN presently/ADV hold/VERB the/DET monitor/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is lugging the boxlarge in front.#the/DET person/NOUN is/AUX lug/VERB the/DET boxlarge/NOUN in/ADP front/NOUN#0.0#0.0
+The individual is transporting the boxlarge in front.#the/DET individual/NOUN is/AUX transport/VERB the/DET boxlarge/NOUN in/ADP front/NOUN#0.0#0.0
+A person is bearing the boxlarge in front.#a/DET person/NOUN is/AUX bear/VERB the/DET boxlarge/NOUN in/ADP front/NOUN#0.0#0.0

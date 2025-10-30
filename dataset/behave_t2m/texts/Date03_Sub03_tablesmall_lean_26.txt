@@ -1,0 +1,3 @@
+person finds the tablesmall to be diminutive.#person/NOUN find/VERB the/DET tablesmall/NOUN to/PART be/AUX diminutive/ADJ#0.0#0.0
+person perceives the tablesmall as undersized.#person/NOUN perceive/VERB the/DET tablesmall/NOUN as/ADP undersized/ADJ#0.0#0.0
+person views the tablesmall as compact.#person/NOUN view/VERB the/DET tablesmall/NOUN as/ADP compact/ADJ#0.0#0.0

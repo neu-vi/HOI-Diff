@@ -1,0 +1,3 @@
+A person is clutching the computer screen from the front.#a/DET person/NOUN is/AUX clutch/VERB the/DET computer/NOUN screen/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is gripping the computer screen from the front.#a/DET person/NOUN is/AUX grip/VERB the/DET computer/NOUN screen/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is clasping the computer screen from the front.#a/DET person/NOUN is/AUX clasp/VERB the/DET computer/NOUN screen/NOUN from/ADP the/DET front/NOUN#0.0#0.0

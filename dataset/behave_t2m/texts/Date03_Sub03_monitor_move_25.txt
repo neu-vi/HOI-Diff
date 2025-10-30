@@ -1,0 +1,3 @@
+The person is manning a monitor.#the/DET person/NOUN is/AUX man/VERB a/DET monitor/NOUN#0.0#0.0
+The person is operating a monitor.#the/DET person/NOUN is/AUX operate/VERB a/DET monitor/NOUN#0.0#0.0
+The person is using a monitor.#the/DET person/NOUN is/AUX use/VERB a/DET monitor/NOUN#0.0#0.0

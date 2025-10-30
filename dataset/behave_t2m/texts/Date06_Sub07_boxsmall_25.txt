@@ -1,0 +1,3 @@
+erson is grasping a boxsmall in front.#erson/PROPN is/AUX grasp/VERB a/DET boxsmall/NOUN in/ADP front/NOUN#0.0#0.0
+erson is clutching a boxsmall in front.#erson/PROPN is/AUX clutch/VERB a/DET boxsmall/NOUN in/ADP front/NOUN#0.0#0.0
+erson is carrying a boxsmall in front.#erson/PROPN is/AUX carry/VERB a/DET boxsmall/NOUN in/ADP front/NOUN#0.0#0.0

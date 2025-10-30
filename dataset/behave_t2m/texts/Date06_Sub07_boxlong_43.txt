@@ -1,0 +1,3 @@
+The person is hefting the boxlong with his left hand and carrying it along.#the/DET person/NOUN is/AUX heft/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN and/CCONJ carry/VERB it/PRON along/ADP#0.0#7.0
+A person is raising the boxlong with his left hand and proceeding with it.#a/DET person/NOUN is/AUX raise/VERB the/DET boxlong/NOUN with/ADP his/PRON left/ADJ hand/NOUN and/CCONJ proceed/VERB with/ADP it/PRON#0.0#7.0
+The individual is raising the boxlong upward using his left hand and walking with it.#the/DET individual/NOUN is/AUX raise/VERB the/DET boxlong/NOUN upward/ADV use/VERB his/PRON left/ADJ hand/NOUN and/CCONJ walk/VERB with/ADP it/PRON#0.0#7.0

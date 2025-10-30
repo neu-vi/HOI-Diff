@@ -1,0 +1,3 @@
+An individual is moving the tablesmall by pushing and pulling it on the ground.#an/DET individual/NOUN is/AUX move/VERB the/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0
+Someone is manipulating the tablesmall by pushing and pulling it on the ground.#someone/PRON is/AUX manipulate/VERB the/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0
+A person is operating the tablesmall by pushing and pulling it on the ground.#a/DET person/NOUN is/AUX operate/VERB the/DET tablesmall/NOUN by/ADP push/VERB and/CCONJ pull/VERB it/PRON on/ADP the/DET ground/NOUN#0.0#0.0

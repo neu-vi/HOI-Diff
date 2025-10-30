@@ -1,0 +1,3 @@
+A person currently has hold of the chairwood.#a/DET person/NOUN currently/ADV have/VERB hold/NOUN of/ADP the/DET chairwood/NOUN#0.0#0.0
+The chairwood is presently being grasped by a person.#the/DET chairwood/NOUN is/AUX presently/ADV being/AUX grasp/VERB by/ADP a/DET person/NOUN#0.0#0.0
+At this moment, a person holds the chairwood.#at/ADP this/DET moment/NOUN a/DET person/NOUN hold/VERB the/DET chairwood/NOUN#0.0#0.0

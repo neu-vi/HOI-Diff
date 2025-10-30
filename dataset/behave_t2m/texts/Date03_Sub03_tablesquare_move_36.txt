@@ -1,0 +1,3 @@
+A person is seated at the tablesquare.#a/DET person/NOUN is/AUX seat/VERB at/ADP the/DET tablesquare/NOUN#0.0#0.0
+A person is situated at the tablesquare.#a/DET person/NOUN is/AUX situate/VERB at/ADP the/DET tablesquare/NOUN#0.0#0.0
+A person is staying at the tablesquare.#a/DET person/NOUN is/AUX stay/VERB at/ADP the/DET tablesquare/NOUN#0.0#0.0

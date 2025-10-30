@@ -1,0 +1,3 @@
+The person secures the boxmedium with his right hand and keeps it nearby.#the/DET person/NOUN secure/VERB the/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN and/CCONJ keep/VERB it/PRON nearby/ADV#0.0#0.0
+The individual clutches onto the boxmedium with his right hand and maintains a close hold on it.#the/DET individual/NOUN clutch/VERB onto/ADP the/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN and/CCONJ maintain/VERB a/DET close/ADJ hold/NOUN on/ADP it/PRON#0.0#0.0
+The person firmly grips the boxmedium with his right hand and stays in possession of it.#the/DET person/NOUN firmly/ADV grip/VERB the/DET boxmedium/NOUN with/ADP his/PRON right/ADJ hand/NOUN and/CCONJ stay/VERB in/ADP possession/NOUN of/ADP it/PRON#0.0#0.0

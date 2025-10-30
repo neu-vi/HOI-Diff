@@ -1,0 +1,3 @@
+person is hoisting the chairwood with his left hand.#person/NOUN is/AUX hoist/VERB the/DET chairwood/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+individual is raising the chairwood with his left hand.#individual/NOUN is/AUX raise/VERB the/DET chairwood/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+erson holds the chairwood with his left hand.#erson/PROPN hold/VERB the/DET chairwood/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+a person is applying force in both forward and backward directions on a tablesmall.#a/DET person/NOUN is/AUX apply/VERB force/NOUN in/ADP both/CCONJ forward/ADV and/CCONJ backward/ADJ direction/NOUN on/ADP a/DET tablesmall/NOUN#0.0#0.0
+a person is exerting force simultaneously in the forward and backward direction on a tablesmall.#a/DET person/NOUN is/AUX exert/VERB force/NOUN simultaneously/ADV in/ADP the/DET forward/ADJ and/CCONJ backward/ADJ direction/NOUN on/ADP a/DET tablesmall/NOUN#0.0#0.0
+a person is pushing and pulling a tablesmall with force in equal measure.#a/DET person/NOUN is/AUX push/VERB and/CCONJ pull/VERB a/DET tablesmall/NOUN with/ADP force/NOUN in/ADP equal/ADJ measure/NOUN#0.0#0.0

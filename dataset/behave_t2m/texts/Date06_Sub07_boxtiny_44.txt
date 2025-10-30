@@ -1,0 +1,3 @@
+A person is raising a boxtiny.#a/DET person/NOUN is/AUX raise/VERB a/DET boxtiny/NOUN#0.0#0.0
+A person is hoisting a boxtiny.#a/DET person/NOUN is/AUX hoist/VERB a/DET boxtiny/NOUN#0.0#0.0
+A person is elevating a boxtiny.#a/DET person/NOUN is/AUX elevate/VERB a/DET boxtiny/NOUN#0.0#0.0

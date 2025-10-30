@@ -1,0 +1,3 @@
+A person carries a trashbin in front.#a/DET person/NOUN carry/VERB a/DET trashbin/NOUN in/ADP front/NOUN#0.0#0.0
+A person is clutching a trashbin in front.#a/DET person/NOUN is/AUX clutch/VERB a/DET trashbin/NOUN in/ADP front/NOUN#0.0#0.0
+A person has a trashbin in hand, in front.#a/DET person/NOUN have/VERB a/DET trashbin/NOUN in/ADP hand/NOUN in/ADP front/NOUN#0.0#0.0

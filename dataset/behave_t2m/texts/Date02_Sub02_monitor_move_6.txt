@@ -1,0 +1,3 @@
+The person is altering the display screen.#the/DET person/NOUN is/AUX alter/VERB the/DET display/NOUN screen/NOUN#0.0#0.0
+The individual is adjusting the display screen.#the/DET individual/NOUN is/AUX adjust/VERB the/DET display/NOUN screen/NOUN#0.0#0.0
+The person is adapting the display screen.#the/DET person/NOUN is/AUX adapt/VERB the/DET display/NOUN screen/NOUN#0.0#0.0

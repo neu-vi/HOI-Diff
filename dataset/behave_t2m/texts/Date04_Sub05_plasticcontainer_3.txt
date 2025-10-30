@@ -1,0 +1,3 @@
+A person is grasping the plasticcontainer with his left hand.#a/DET person/NOUN is/AUX grasp/VERB the/DET plasticcontainer/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person has the plasticcontainer lifted with his left hand.#a/DET person/NOUN have/VERB the/DET plasticcontainer/NOUN lift/VERB with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person supports the plasticcontainer with his left hand.#a/DET person/NOUN support/VERB the/DET plasticcontainer/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+An individual is currently using the tablesquare.#an/DET individual/NOUN is/AUX currently/ADV use/VERB the/DET tablesquare/NOUN#0.0#0.0
+The tablesquare is presently being utilized by a person.#the/DET tablesquare/NOUN is/AUX presently/ADV being/AUX utilize/VERB by/ADP a/DET person/NOUN#0.0#0.0
+A person presently employs the tablesquare.#a/DET person/NOUN presently/ADV employ/VERB the/DET tablesquare/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+The person is clasping a boxsmall against his body.#the/DET person/NOUN is/AUX clasp/VERB a/DET boxsmall/NOUN against/ADP his/PRON body/NOUN#0.0#7.0
+A person firmly grasps a boxsmall against his body.#a/DET person/NOUN firmly/ADV grasp/VERB a/DET boxsmall/NOUN against/ADP his/PRON body/NOUN#0.0#7.0
+Someone firmly secures a boxsmall against his body.#someone/PRON firmly/ADV secure/VERB a/DET boxsmall/NOUN against/ADP his/PRON body/NOUN#0.0#7.0

@@ -1,0 +1,3 @@
+A person is carrying the suitcase, pushing and pulling it with force.#a/DET person/NOUN is/AUX carry/VERB the/DET suitcase/NOUN push/VERB and/CCONJ pull/VERB it/PRON with/ADP force/NOUN#0.0#0.0
+A person is moving the suitcase by exerting force through pushing and pulling.#a/DET person/NOUN is/AUX move/VERB the/DET suitcase/NOUN by/ADP exert/VERB force/NOUN through/ADP push/VERB and/CCONJ pull/VERB#0.0#0.0
+A person is manipulating the suitcase, applying force to push and pull it.#a/DET person/NOUN is/AUX manipulate/VERB the/DET suitcase/NOUN apply/VERB force/NOUN to/PART push/VERB and/CCONJ pull/VERB it/PRON#0.0#0.0

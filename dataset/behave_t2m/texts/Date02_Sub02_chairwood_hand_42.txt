@@ -1,0 +1,3 @@
+The individual is grasping a chairwood in his right hand.#the/DET individual/NOUN is/AUX grasp/VERB a/DET chairwood/NOUN in/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+The person is clutching a chairwood with his right hand.#the/DET person/NOUN is/AUX clutch/VERB a/DET chairwood/NOUN with/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0
+A person is clasping a chairwood in his right hand.#a/DET person/NOUN is/AUX clasp/VERB a/DET chairwood/NOUN in/ADP his/PRON right/ADJ hand/NOUN#0.0#0.0

@@ -1,0 +1,3 @@
+A person is raising a chairblack with his left hand.#a/DET person/NOUN is/AUX raise/VERB a/DET chairblack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person is hoisting a chairblack with his left hand.#a/DET person/NOUN is/AUX hoist/VERB a/DET chairblack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+A person is elevating a chairblack with his left hand.#a/DET person/NOUN is/AUX elevate/VERB a/DET chairblack/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

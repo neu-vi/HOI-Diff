@@ -1,0 +1,3 @@
+The person is currently grasping the tablesquare from the front.#the/DET person/NOUN is/AUX currently/ADV grasp/VERB the/DET tablesquare/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person has the tablesquare from the front in his possession.#a/DET person/NOUN have/VERB the/DET tablesquare/NOUN from/ADP the/DET front/NOUN in/ADP his/PRON possession/NOUN#0.0#0.0
+The tablesquare from the front is being held by a person.#the/DET tablesquare/NOUN from/ADP the/DET front/NOUN is/AUX being/AUX hold/VERB by/ADP a/DET person/NOUN#0.0#0.0

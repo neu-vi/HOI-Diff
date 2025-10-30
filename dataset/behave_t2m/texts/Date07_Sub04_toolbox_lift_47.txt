@@ -1,0 +1,3 @@
+The individual is grasping the toolbox.#the/DET individual/NOUN is/AUX grasp/VERB the/DET toolbox/NOUN#0.0#0.0
+A person has the toolbox before him.#a/DET person/NOUN have/VERB the/DET toolbox/NOUN before/ADP him/PRON#0.0#0.0
+Someone carries the toolbox in front of him.#someone/PRON carry/VERB the/DET toolbox/NOUN in/ADP front/NOUN of/ADP him/PRON#0.0#0.0

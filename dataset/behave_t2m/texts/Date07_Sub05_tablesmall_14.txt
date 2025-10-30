@@ -1,0 +1,3 @@
+person is knocking over a tablesmall. #person/NOUN is/AUX knock/VERB over/ADP a/DET tablesmall/NOUN#0.0#0.0
+person is upturning a tablesmall. #person/NOUN is/AUX upturne/VERB a/DET tablesmall/NOUN#0.0#0.0
+person is flipping over a tablesmall. #person/NOUN is/AUX flip/VERB over/ADP a/DET tablesmall/NOUN#0.0#0.0

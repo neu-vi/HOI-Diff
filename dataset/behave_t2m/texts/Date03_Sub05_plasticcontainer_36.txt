@@ -1,0 +1,3 @@
+A person is clutching a plasticcontainer in front.#a/DET person/NOUN is/AUX clutch/VERB a/DET plasticcontainer/NOUN in/ADP front/NOUN#0.0#0.0
+A person grasps a plasticcontainer in front.#a/DET person/NOUN grasp/VERB a/DET plasticcontainer/NOUN in/ADP front/NOUN#0.0#0.0
+A person clings to a plasticcontainer in front.#a/DET person/NOUN cling/NOUN to/ADP a/DET plasticcontainer/NOUN in/ADP front/NOUN#0.0#0.0

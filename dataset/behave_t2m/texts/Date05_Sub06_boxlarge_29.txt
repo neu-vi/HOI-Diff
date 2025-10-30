@@ -1,0 +1,3 @@
+A person is clutching a boxlarge tightly to his body with his left hand.#a/DET person/NOUN is/AUX clutch/VERB a/DET boxlarge/NOUN tightly/ADV to/ADP his/PRON body/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+An individual is firmly clasping a boxlarge against his body with his left hand.#an/DET individual/NOUN is/AUX firmly/ADV clasp/VERB a/DET boxlarge/NOUN against/ADP his/PRON body/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0
+Someone is tightly gripping a boxlarge against his body with his left hand.#someone/PRON is/AUX tightly/ADV grip/VERB a/DET boxlarge/NOUN against/ADP his/PRON body/NOUN with/ADP his/PRON left/ADJ hand/NOUN#0.0#0.0

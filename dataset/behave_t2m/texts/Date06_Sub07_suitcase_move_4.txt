@@ -1,0 +1,3 @@
+The person is pushing the luggage back and forth on the surface.#the/DET person/NOUN is/AUX push/VERB the/DET luggage/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET surface/NOUN#0.0#0.0
+The individual is shifting the luggage back and forth on the surface.#the/DET individual/NOUN is/AUX shift/VERB the/DET luggage/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET surface/NOUN#0.0#0.0
+The person moves the luggage back and forth on the surface.#the/DET person/NOUN move/VERB the/DET luggage/NOUN back/ADV and/CCONJ forth/ADV on/ADP the/DET surface/NOUN#0.0#0.0

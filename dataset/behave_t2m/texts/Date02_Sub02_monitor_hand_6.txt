@@ -1,0 +1,3 @@
+The person is replacing the display screen.#the/DET person/NOUN is/AUX replace/VERB the/DET display/NOUN screen/NOUN#0.0#0.0
+The individual is swapping out the display screen.#the/DET individual/NOUN is/AUX swap/VERB out/ADP the/DET display/NOUN screen/NOUN#0.0#0.0
+Someone is switching the display screen.#someone/PRON is/AUX switch/VERB the/DET display/NOUN screen/NOUN#0.0#0.0

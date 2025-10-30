@@ -1,0 +1,3 @@
+A person is dragging the chairwood on the ground.#a/DET person/NOUN is/AUX drag/VERB the/DET chairwood/NOUN on/ADP the/DET ground/NOUN#0.0#0.0
+A person is yanking the chairwood across the floor.#a/DET person/NOUN is/AUX yank/VERB the/DET chairwood/NOUN across/ADP the/DET floor/NOUN#0.0#0.0
+A person is pushing and tugging the chairwood along the ground.#a/DET person/NOUN is/AUX push/VERB and/CCONJ tug/VERB the/DET chairwood/NOUN along/ADP the/DET ground/NOUN#0.0#0.0

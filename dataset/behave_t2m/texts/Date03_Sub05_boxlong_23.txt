@@ -1,0 +1,3 @@
+A person is sustaining the boxlong from the front.#a/DET person/NOUN is/AUX sustain/VERB the/DET boxlong/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is upholding the boxlong from the front.#a/DET person/NOUN is/AUX uphold/VERB the/DET boxlong/NOUN from/ADP the/DET front/NOUN#0.0#0.0
+A person is maintaining the boxlong from the front.#a/DET person/NOUN is/AUX maintain/VERB the/DET boxlong/NOUN from/ADP the/DET front/NOUN#0.0#0.0

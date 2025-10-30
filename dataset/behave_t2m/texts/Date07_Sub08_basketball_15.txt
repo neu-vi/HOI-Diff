@@ -1,0 +1,3 @@
+person is seated with his legs crossed, playing basketball.#person/NOUN is/AUX seat/VERB with/ADP his/PRON leg/NOUN cross/VERB play/VERB basketball/NOUN#0.0#0.0
+person is currently playing basketball while seated, with his legs crossed.#person/NOUN is/AUX currently/ADV play/VERB basketball/NOUN while/SCONJ seat/VERB with/SCONJ his/PRON leg/NOUN cross/VERB#0.0#0.0
+rently, the person seated with his legs crossed is engaged in playing basketball.#rently/ADV the/DET person/NOUN seat/VERB with/ADP his/PRON leg/NOUN cross/VERB is/AUX engage/VERB in/ADP play/VERB basketball/NOUN#0.0#0.0
