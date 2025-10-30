@@ -1,6 +1,6 @@
 import torch
-
-
+import random
+import numpy as np
 def to_numpy(tensor):
     if torch.is_tensor(tensor):
         return tensor.cpu().numpy()
@@ -38,3 +38,9 @@ def freeze_joints(x, joints_to_freeze):
     frozen = x.detach().clone()
     frozen[:, joints_to_freeze, :, :] = frozen[:, joints_to_freeze, :, :1]
     return frozen
+
+def fixseed(seed):
+    torch.backends.cudnn.benchmark = False
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)

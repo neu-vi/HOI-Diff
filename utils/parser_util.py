@@ -78,8 +78,8 @@ def add_diffusion_options(parser):
 
 def add_model_options(parser):
     group = parser.add_argument_group('model')
-    group.add_argument("--arch", default='hybrid',
-                       choices=['trans_enc', 'trans_dec', 'gru', 'hybrid'], type=str,
+    group.add_argument("--arch", default='trans_enc_split',
+                       choices=['trans_enc', 'trans_enc_split', 'gru', 'hybrid'], type=str,
                        help="Architecture types as reported in the paper.")
     group.add_argument("--emb_trans_dec", default=False, type=bool,
                        help="For trans_dec architecture only, if true, will inject condition as a class token"
@@ -212,8 +212,82 @@ def add_evaluation_options(parser):
                        help="model path of human motion generation")
     group.add_argument("--afford_model_path", default='./save/afford_pred/model000020000.pt', type=str,
                        help="model path of affordance learning")
-
     group.add_argument("--comment", default='_', type=str, help="comment for evaluation")
+
+
+def train_decomp_args():
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--name', type=str, default="decomp_behave", help='Name of this trial')
+    parser.add_argument("--gpu_id", type=int, default=0,
+                                 help='GPU id')
+    parser.add_argument("--seed", type=int, default=4396,
+                                help='Seed for random')
+    parser.add_argument('--checkpoints_dir', type=str, default='./checkpoints', help='models are saved here')
+    parser.add_argument("--window_size", type=int, default=40, help="Length of motion clips for reconstruction")
+    parser.add_argument('--dim_movement_enc_hidden', type=int, default=512,
+                                 help='Dimension of hidden in AutoEncoder(encoder)')
+    parser.add_argument('--dim_movement_dec_hidden', type=int, default=512,
+                                 help='Dimension of hidden in AutoEncoder(decoder)')
+    parser.add_argument('--dim_movement_latent', type=int, default=512, help='Dimension of motion snippet')
+    parser.add_argument('--batch_size', type=int, default=128, help='Batch size')
+    parser.add_argument('--max_epoch', type=int, default=270, help='Training iterations')
+    parser.add_argument('--feat_bias', type=float, default=5, help='Layers of GRU')
+    parser.add_argument('--lambda_sparsity', type=float, default=0.001, help='Layers of GRU')
+    parser.add_argument('--lambda_smooth', type=float, default=0.001, help='Layers of GRU')
+    parser.add_argument('--lr', type=float, default=1e-4, help='Layers of GRU')
+    parser.add_argument('--is_continue', action="store_true", help='Training iterations')
+    parser.add_argument('--log_every', type=int, default=50, help='Frequency of printing training progress')
+    parser.add_argument('--save_every_e', type =int, default=10, help='Frequency of printing training progress')
+    parser.add_argument('--eval_every_e', type=int, default=3, help='Frequency of printing training progress')
+    parser.add_argument('--save_latest', type=int, default=500, help='Frequency of printing training progress')
+    return parser.parse_args()
+
+
+def train_feature_extractor_args():
+    parser=ArgumentParser()
+    parser.add_argument('--exp_name', type=str, default="fe_epoch300", help='Name of this trial')
+    parser.add_argument("--gpu_id", type=int, default=0,
+                                help='GPU id')
+    parser.add_argument("--seed", type=int, default=4396,
+                                help='Seed for random')
+    parser.add_argument("--is_train", action="store_true",default=True,
+                         help='Training iterations')
+    
+    parser.add_argument("--dataset", type=str, default="feature_extractor")
+    parser.add_argument('--save_dir', type=str, default='./save', help='models are saved here')
+    parser.add_argument('--decomp_name', type=str, default="decomp", help='Name of this trial')
+    parser.add_argument('--checkpoints_dir', type=str, default='./save', help='models are saved here')
+
+    parser.add_argument("--unit_length", type=int, default=5, help="Length of motion")
+    parser.add_argument('--batch_size', type=int, default=64, help='Batch size')
+    
+    parser.add_argument("--max_motion_length",type=int,default=300,help="Max length of motion")
+    parser.add_argument("--max_text_len", type=int, default=40, help="Length of motion")
+
+
+    parser.add_argument('--dim_movement_enc_hidden', type=int, default=512,
+                                 help='Dimension of hidden unit in GRU')
+    parser.add_argument('--dim_movement_latent', type=int, default=512, help='Dimension of hidden unit in GRU')
+    
+    parser.add_argument('--dim_text_hidden', type=int, default=512, help='Dimension of hidden unit in GRU')
+    parser.add_argument('--dim_motion_hidden', type=int, default=1024, help='Dimension of hidden unit in GRU')
+    parser.add_argument('--dim_coemb_hidden', type=int, default=512, help='Dimension of hidden unit in GRU')
+
+    parser.add_argument('--max_epoch', type=int, default=300, help='Training iterations')
+    parser.add_argument('--estimator_mod', type=str, default='bigru')
+    parser.add_argument('--feat_bias', type=float, default=5, help='Layers of GRU')
+    parser.add_argument('--negative_margin', type=float, default=10.0)
+
+    parser.add_argument('--lr', type=float, default=1e-4, help='Layers of GRU')
+
+    parser.add_argument('--is_continue', action="store_true", help='Training iterations')
+
+    parser.add_argument('--log_every', type=int, default=50, help='Frequency of printing training progress')
+    parser.add_argument('--save_every_e', type=int, default=5, help='Frequency of printing training progress')
+    parser.add_argument('--eval_every_e', type=int, default=5, help='Frequency of printing training progress')
+    parser.add_argument('--save_latest', type=int, default=500, help='Frequency of printing training progress')
+
+    return parser.parse_args()
 
 
 def get_cond_mode(args):

@@ -68,14 +68,17 @@ def get_model_args(args, data):
         num_actions = 1
 
     # SMPL defaults
-    data_rep = 'rot6d'
-    njoints = 25
-    nfeats = 6
+    # data_rep = 'SMPL'
+    data_rep = 'hml_vec'
+    # njoints = 25
+    # nfeats = 6
 
 
-    if args.dataset in ['behave', 'omomo']:
-        data_rep = 'hml_vec'
+    if data_rep == 'SMPL':
+        njoints = 85
+        nfeats = 1
 
+    if data_rep == 'hml_vec':
         njoints = 269
         nfeats = 1
 
