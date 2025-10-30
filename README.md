@@ -135,7 +135,7 @@ unzip humanml_trans_enc_512.zip -d .
 cd ..
 ```
 ```
-python -m train.hoi_diff --save_dir ./save/my_behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
+python -m train.train_hoi_diff --save_dir ./save/my_behave_enc_512 --dataset behave --save_interval 1000 --num_steps 20000 --arch trans_enc --batch_size 32
 ```
 
 
