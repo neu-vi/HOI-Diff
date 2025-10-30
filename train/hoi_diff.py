@@ -40,7 +40,6 @@ def main():
         name=args.dataset,
         batch_size=args.batch_size,
         num_frames=args.num_frames,
-        use_global=args.global_3d,
         training_stage=2
     )
     data = get_dataset_loader(data_conf)
