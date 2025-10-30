@@ -1,5 +1,5 @@
 import torch
-from data_loaders.behave.scripts.motion_process import recover_from_ric
+from data_loaders.scripts.motion_process import recover_from_ric
 import torch.nn.functional as F
 import numpy as np
 import os
@@ -20,7 +20,6 @@ class Guide_Contact:
                  classifiler_scale=10.0,
                  guidance_style='xstart',
                  stop_cond_from=0,
-                 use_global=False,
                  batch_size=10,
                  afford_sample=None,
                  mean=None,
@@ -29,11 +28,9 @@ class Guide_Contact:
 
         self.classifiler_scale = classifiler_scale
         self.inv_transform_th = inv_transform_th 
-        self.n_joints = 22
         self.sigmoid = torch.nn.Sigmoid()
         self.mean=mean
         self.std=std
-        self.use_global = use_global
         self.batch_size = batch_size
 
 
@@ -107,11 +104,8 @@ class Guide_Contact:
                               
                 # center
                 vertices = obj_points[i][:-2,:].float()
-                center = torch.mean(vertices, 0)
-                vertices -= center
-                center_ = torch.mean(vertices, 0)
 
-            
+     
                 obj_normal = obj_normals[i]
                 pred_angle, pred_trans = obj_output[i, :, :3].transpose(1,0), obj_output[i, :, 3:].transpose(1,0)
                 pred_rot = axis_angle_to_matrix(pred_angle.transpose(1,0))

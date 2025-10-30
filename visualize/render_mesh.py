@@ -9,8 +9,11 @@ if __name__ == '__main__':
     parser.add_argument("--input_path", type=str, required=True, help='stick figure mp4 file to be rendered.')
     parser.add_argument("--cuda", type=bool, default=True, help='')
     parser.add_argument("--device", type=int, default=0, help='')
-    parser.add_argument("--obj_mesh_path", type=str, default='/work/vig/xiaogangp/codes/hoi-motion_pretrained/object_mesh')
+    parser.add_argument("--data_root", type=str, default='./dataset')
     params = parser.parse_args()
+
+
+
 
     assert params.input_path.endswith('.mp4')
     parsed_name = os.path.basename(params.input_path).replace('.mp4', '').replace('sample', '').replace('rep', '')
@@ -25,17 +28,14 @@ if __name__ == '__main__':
     os.makedirs(results_dir) 
 
     # object
-    npy2obj_object = vis_utils.npy2obj_object(npy_path, params.obj_mesh_path, sample_i, rep_i,
+    npy2obj_object = vis_utils.npy2obj_object(npy_path, params.data_root, sample_i, rep_i,
                                        device=params.device, cuda=params.cuda, if_color=True)
 
     # # human
     npy2obj = vis_utils.npy2obj(npy_path, sample_i, rep_i,
                                 device=params.device, cuda=params.cuda, if_color=True)
 
-    # print('Saving obj files to [{}]'.format(os.path.abspath(results_dir)))
-    # for frame_i in tqdm(range(npy2obj.real_num_frames)):
-    #     npy2obj.save_ply(os.path.join(results_dir, 'frame{:03d}.ply'.format(frame_i)), frame_i)
-    #     npy2obj_object.save_ply(os.path.join(results_dir, 'obj_frame{:03d}.ply'.format(frame_i)), sample_i, frame_i)
+
 
     print('Saving SMPL params to [{}]'.format(os.path.abspath(out_npy_path)))
     npy2obj.save_npy(out_npy_path)

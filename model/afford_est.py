@@ -141,7 +141,7 @@ class AffordEstimation(nn.Module):
         """
 
         bs, njoints, nfeats, nframes = x.shape
-        print(f"x: {x.shape}")
+
 
 
         emb = self.embed_timestep(timesteps)  # [1, bs, d]

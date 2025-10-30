@@ -6,8 +6,8 @@ from utils.utils import *
 from utils.rotation_conversions import axis_angle_to_matrix
 # distChamfer = ext.chamferDist()
 
-from data_loaders.behave.utils.plot_script import plot_3d_motion
-import data_loaders.behave.utils.paramUtil as paramUtil
+from data_loaders.utils.plot_script import plot_3d_motion
+import data_loaders.utils.paramUtil as paramUtil
 
 # import ChamferDistancePytorch.dist_chamfer_idx  as ext
 # distChamfer = ext.chamferDist()

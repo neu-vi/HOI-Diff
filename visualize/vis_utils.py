@@ -132,34 +132,7 @@ class npy2obj:
         # # End of Conversion of data to .pkl file for 'softcat477/SMPL-to-FBX/'
 
 
-# path to the simplified mesh used for registration
-simplified_mesh = {
-    "backpack":"backpack/backpack_f1000.ply",
-    'basketball':"basketball/basketball_f1000.ply",
-    'boxlarge':"boxlarge/boxlarge_f1000.ply",
-    'boxtiny':"boxtiny/boxtiny_f1000.ply",
-    'boxlong':"boxlong/boxlong_f1000.ply",
-    'boxsmall':"boxsmall/boxsmall_f1000.ply",
-    'boxmedium':"boxmedium/boxmedium_f1000.ply",
-    'chairblack': "chairblack/chairblack_f2500.ply",
-    'chairwood': "chairwood/chairwood_f2500.ply",
-    'monitor': "monitor/monitor_closed_f1000.ply",
-    'keyboard':"keyboard/keyboard_f1000.ply",
-    'plasticcontainer':"plasticcontainer/plasticcontainer_f1000.ply",
-    'stool':"stool/stool_f1000.ply",
-    'tablesquare':"tablesquare/tablesquare_f2000.ply",
-    'toolbox':"toolbox/toolbox_f1000.ply",
-    "suitcase":"suitcase/suitcase_f1000.ply",
-    'tablesmall':"tablesmall/tablesmall_f1000.ply",
-    'yogamat': "yogamat/yogamat_f1000.ply",
-    'yogaball':"yogaball/yogaball_f1000.ply",
-    'trashbin':"trashbin/trashbin_f1000.ply",
-    'clothesstand':"clothesstand_cleaned_simplified.obj",
-    'floorlamp':"floorlamp_cleaned_simplified.obj",
-    'tripod':"tripod_cleaned_simplified.obj",
-    'whitechair':"whitechair_cleaned_simplified.obj",
-    'woodchair':"woodchair_cleaned_simplified.obj"
-}
+
 
 
 class npy2obj_object:
@@ -177,41 +150,22 @@ class npy2obj_object:
         self.absl_idx = self.rep_idx*self.total_num_samples + self.sample_idx
         self.num_frames = self.motions['motion_obj'][self.absl_idx].shape[-1]
 
-        if len( self.motions['obj_name'][0].split('_'))>2:
-            obj_name = [b.split('_')[2] for b in self.motions['obj_name']]
-        else:
-            obj_name = [b for b in self.motions['obj_name']]
+  
+        obj_names = [b for b in self.motions['obj_name']]
+        dataset_name = [b for b in self.motions['dataset']]
         self.motions['motion_obj'] = self.motions['motion_obj']
         self.vertices, self.faces = self.pose2mesh(self.motions['motion_obj'], obj_path, obj_name)
         # self.j2s = joints2smpl(num_frames=self.num_frames, device_id=device, cuda=cuda)
     
         self.real_num_frames = self.motions['lengths'][self.absl_idx]
 
-
-        if if_color and 'o_contact' in self.motions.keys():
-        #     self.colors = np.load('./gt_files/oc_Date01_Sub01_backpack_back.npy'.format(self.motions['obj_name'][0]))
-        #     self.colors = np.stack([self.colors, self.colors, self.colors, np.ones_like(self.colors)], axis=1).astype(np.int8) * 255
-        # else:
-            # assume batchsize = 1
-            # TODO  support any batch_size 
-            obj_sample_path = '/work/vig/yimingx/behave_obj_sample/{}.npy'.format(self.motions['obj_name'][self.absl_idx])
-            choose = np.load(obj_sample_path)
-
-            self.contact_idxs = np.zeros((self.bs, self.vertices[self.absl_idx].shape[0], self.nframes), dtype=np.int8)
-            self.contact_idxs[:, choose, :] = self.motions['o_contact'][self.absl_idx].astype(np.int8)
-
-            self.colors = np.zeros((self.bs, self.vertices[self.absl_idx].shape[0], 4, self.nframes), dtype=np.int8)
-            colors = self.motions['o_contact'][self.absl_idx].astype(np.int8) * 255
-            colors = np.stack([colors, colors, colors, np.ones_like(colors)], axis=2)
-            self.colors[:, choose, :, :] = colors
-        else:
-            self.colors = None
+        self.colors = None
 
     def pose2mesh(self, motion_obj, obj_path, obj_name):
         vertices_list = []
         faces_list = []
         for b in range(self.bs):
-            mesh_path = os.path.join(obj_path, simplified_mesh[obj_name[b]])
+            mesh_path = os.path.join(obj_path, dataset_name[b], 'object_mesh', obj_names[b], obj_names[b]+'.obj')
             temp_simp = trimesh.load(mesh_path)
             # vertices = temp_simp.vertices * 0.16
             vertices = temp_simp.vertices

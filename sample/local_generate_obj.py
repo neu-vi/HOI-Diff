@@ -11,18 +11,17 @@ from utils.parser_util import generate_args
 from utils.model_util import create_model_and_diffusion, load_model_wo_clip, load_model
 from utils import dist_util
 from model.cfg_sampler import ClassifierFreeSampleModel
-from data_loaders.get_data import DatasetConfig, get_dataset_loader
-from data_loaders.behave.scripts.motion_process import recover_from_ric
-import data_loaders.behave.utils.paramUtil as paramUtil
-from data_loaders.behave.utils.plot_script import plot_3d_motion
+from data_loaders.scripts.motion_process import recover_from_ric
+import data_loaders.utils.paramUtil as paramUtil
+from data_loaders.utils.plot_script import plot_3d_motion
 import shutil
 from data_loaders.tensors import collate, afford_collate
 from trimesh import Trimesh
 import trimesh
 from scipy.spatial.transform import Rotation
-from data_loaders.behave.data.dataset import text_to_object
 from visualize.vis_utils import simplified_mesh
 from model.hoi_diff import HOIDiff as used_model
+# from model.chois import Chois as used_model
 from model.afford_est import AffordEstimation
 from diffusion.gaussian_diffusion import LocalMotionDiffusion, AffordDiffusion
 from sample.condition import Guide_Contact
@@ -34,7 +33,7 @@ def main():
     out_path = args.output_dir
     name = os.path.basename(os.path.dirname(args.model_path))
     niter = os.path.basename(args.model_path).replace('model', '').replace('.pt', '')
-    max_frames = 196 if args.dataset in ['humanml', 'behave'] else 120
+    max_frames = 196 if args.dataset in ['humanml', 'behave', 'omomo'] else 120
     fps = 20
     n_frames = min(max_frames, int(args.motion_length*fps))
     is_using_data = not any([args.input_text, args.text_prompt, args.action_file, args.action_name])
@@ -44,30 +43,7 @@ def main():
     if out_path == '':
         out_path = os.path.join(os.path.dirname(args.model_path),
                                 'samples_{}_{}_seed{}'.format(name, niter, args.seed))
-        if args.text_prompt != '':
-            out_path += '_' + args.text_prompt.replace(' ', '_').replace('.', '')
-        elif args.input_text != '':
-            out_path += '_' + os.path.basename(args.input_text).replace('.txt', '').replace(' ', '_').replace('.', '')
 
-    # this block must be called BEFORE the dataset is loaded
-    if args.text_prompt != '':
-        texts = [args.text_prompt]
-        args.num_samples = 1
-    elif args.input_text != '':
-        assert os.path.exists(args.input_text)
-        with open(args.input_text, 'r') as fr:
-            texts = fr.readlines()
-        texts = [s.replace('\n', '') for s in texts]
-        args.num_samples = len(texts)
-    elif args.action_name:
-        action_text = [args.action_name]
-        args.num_samples = 1
-    elif args.action_file != '':
-        assert os.path.exists(args.action_file)
-        with open(args.action_file, 'r') as fr:
-            action_text = fr.readlines()
-        action_text = [s.replace('\n', '') for s in action_text]
-        args.num_samples = len(action_text)
 
     assert args.num_samples <= args.batch_size, \
         f'Please either increase batch_size({args.batch_size}) or reduce num_samples({args.num_samples})'
@@ -79,7 +55,7 @@ def main():
 
 
     print('Loading Motion dataset...')
-    data = load_motion_dataset(args, max_frames, n_frames)
+    data = load_motion_dataset(args)
 
     total_num_samples = args.num_samples * args.num_repetitions
 
@@ -94,24 +70,14 @@ def main():
     motion_model, motion_diffusion = load_model(args, data, dist_util.dev(), ModelClass=used_model, DiffusionClass=LocalMotionDiffusion, diff_steps=1000,model_path=args.model_path)
 
         
-    if is_using_data:
-        iterator = iter(data)
-        _, model_kwargs = next(iterator)
-    else:
-        n_frames = int(args.motion_length * fps)
-        collate_args = [{'inp': torch.zeros(n_frames), 'tokens': None, 'lengths': n_frames}] * args.num_samples
-        is_t2m = any([args.input_text, args.text_prompt])
-        if is_t2m:
-            # t2m
-            obj_points, obj_normals, obj_name = text_to_object(texts)
 
-            collate_args = [dict(arg, text=txt, obj_points=points, obj_normals=normals, seq_name = name) for arg, txt, points, normals, name in zip(collate_args, texts, obj_points, obj_normals, obj_name)]
-   
+    iterator = iter(data)
+    _, model_kwargs = next(iterator)
 
-        _, model_kwargs = collate(collate_args)
 
     # input to cuda
     model_kwargs['y']['obj_points'] = model_kwargs['y']['obj_points'].to(dist_util.dev())
+    model_kwargs['y']['obj_bps'] = model_kwargs['y']['obj_bps'].to(dist_util.dev())
     model_kwargs['y']['obj_normals'] = model_kwargs['y']['obj_normals'].to(dist_util.dev())
 
 
@@ -124,7 +90,7 @@ def main():
     all_text = []
     all_obj_name = []
     all_obj_points = []
-
+    all_dataset_name = []
     for rep_i in range(args.num_repetitions):
         print(f'### Sampling [repetitions #{rep_i}]')
 
@@ -138,11 +104,11 @@ def main():
 
             afford_sample = afford_sample_fn(
                 afford_model,
-                (args.batch_size, 4, afford_model.nfeats, 8),    # + 6 object pose
+                (args.batch_size, 4, 1, 8),    #  for 8 affordance joints
                 # clip_denoised=False,
                 clip_denoised=not args.predict_xstart,
                 model_kwargs=model_kwargs,
-                skip_timesteps=0,  # 0 is the default value - i.e. don't skip any step
+                skip_timesteps=496,  # 0 is the default value - i.e. don't skip any step
                 init_image=None,
                 progress=True,
                 dump_steps=None,
@@ -155,15 +121,12 @@ def main():
 
 
 
-
-
         if args.guidance:
             guide_fn_contact = Guide_Contact(
-                                            inv_transform_th=data.dataset.t2m_dataset.inv_transform_th,
-                                            mean=data.dataset.t2m_dataset.mean,
-                                            std=data.dataset.t2m_dataset.std,
+                                            inv_transform_th=data.dataset.inv_transform_th,
+                                            mean=data.dataset.mean,
+                                            std=data.dataset.std,
                                             classifiler_scale=args.classifier_scale,
-                                            use_global=data.dataset.use_global,
                                             batch_size=afford_sample.shape[0],
                                             afford_sample = afford_sample
                                             )
@@ -175,11 +138,11 @@ def main():
 
         sample = sample_fn(
             motion_model,
-            (args.batch_size, motion_model.njoints + 6, motion_model.nfeats, n_frames),    # + 6 object pose
+            (args.batch_size, 269, 1, n_frames),    # + 6 object pose
             clip_denoised=False,
             # clip_denoised=not args.predict_xstart,
             model_kwargs=model_kwargs,
-            skip_timesteps=0,  # 0 is the default value - i.e. don't skip any step
+            skip_timesteps=995,  # 0 is the default value - i.e. don't skip any step
             init_image=None,
             progress=True,
             dump_steps=None,
@@ -188,18 +151,28 @@ def main():
             cond_fn=guide_fn_contact,
         )
 
-        sample = data.dataset.t2m_dataset.inv_transform(sample.cpu().permute(0, 2, 3, 1)).float()
+        sample = data.dataset.inv_transform(sample.cpu().permute(0, 2, 3, 1)).float()
 
         sample_obj = sample[..., 263:]
         sample_obj = sample_obj.permute(0, 1, 3, 2)
         sample = sample[..., :263]
         n_joints = 22
 
+
+        from skel_vis import plot
+
+
         sample = recover_from_ric(sample, n_joints)
         sample = sample[:,:,:,:n_joints*3]
+
         sample = sample.reshape(sample.shape[0], sample.shape[1], sample.shape[2], n_joints, 3)
+        print(f"======== {sample.shape}")
+
+        plot('./test.mp4', sample[0,0].detach().cpu().numpy(), None, 'test', fps=20)
+
         sample = sample.view(-1, *sample.shape[2:]).permute(0, 2, 3, 1)
 
+    
 
         if args.unconstrained:
             all_text += ['unconstrained'] * args.num_samples
@@ -212,7 +185,8 @@ def main():
         all_lengths.append(model_kwargs['y']['lengths'].cpu().numpy())
         all_motions_obj.append(sample_obj.cpu().numpy())
         all_obj_points.append(model_kwargs['y']['obj_points'].cpu().numpy())
-        all_obj_name += model_kwargs['y']['seq_name']
+        all_obj_name.append(model_kwargs['y']['obj_name'])
+        all_dataset_name.append(model_kwargs['y']['dataset'])
 
 
         print(f"created {len(all_motions) * args.batch_size} samples")
@@ -235,7 +209,7 @@ def main():
 
 
     save_dict = {'motion': all_motions, 'motion_obj':all_motions_obj, 'text': all_text, 'lengths': all_lengths,
-                'num_samples': args.num_samples, 'num_repetitions': args.num_repetitions, 'obj_name': all_obj_name}
+                'num_samples': args.num_samples, 'num_repetitions': args.num_repetitions, 'obj_name': all_obj_name, 'dataset': all_dataset_name}
 
     print(f"saving results file to [{npy_path}]")
     np.save(npy_path, save_dict)
@@ -270,12 +244,9 @@ def main():
                 obj_name = all_obj_name[rep_i*args.batch_size + sample_i]
 
 
-            mesh_path = os.path.join("./dataset/behave_t2m/object_mesh", simplified_mesh[obj_name])
+            mesh_path = os.path.join(data.dataset.data_dir, 'object_mesh', obj_name, obj_name+'.obj')
             temp_simp = trimesh.load(mesh_path)
             all_vertices = temp_simp.vertices
-            # center the meshes
-            center = np.mean(all_vertices, 0)
-            all_vertices -= center
             new_vertices = np.concatenate([all_vertices, vertices[-2:]], 0)
 
 
@@ -349,28 +320,22 @@ def construct_template_variables(unconstrained):
 
 
 
-def load_afford_dataset(args, training_stage=1):
-    data_conf = DatasetConfig(
-        name=args.dataset,
-        batch_size=args.batch_size,
-        num_frames=1,
-        split='test',
-        hml_mode='text_only',
-        training_stage=training_stage)
-    data = get_dataset_loader(data_conf)
-    return data
 
-def load_motion_dataset(args, max_frames, n_frames, training_stage=2): 
-    data_conf = DatasetConfig(
-        name=args.dataset,
+
+def load_motion_dataset(args): 
+    from data_loaders.dataset import Text2MotionDatasetV2
+    from data_loaders.tensors import t2hoi_collate
+    data = Text2MotionDatasetV2(opt=args, split='test')
+    data_loader = torch.utils.data.DataLoader(
+        data,
         batch_size=args.batch_size,
-        num_frames=max_frames,
-        split='test',
-        hml_mode='text_only',
-        training_stage=training_stage)
-    data = get_dataset_loader(data_conf)
-    data.fixed_length = n_frames
-    return data
+        num_workers=args.num_workers,
+        pin_memory=False,
+        shuffle=False,
+        drop_last=True,
+        collate_fn=t2hoi_collate
+    )
+    return data_loader
 
 
     
