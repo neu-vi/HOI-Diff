@@ -17,6 +17,49 @@ args = parser.parse_args()
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
+
+markerset_smplx = [
+    # body (38)
+    4391, 5533, 5761, 4509, 5678, 4245, 4379, 4515, 5726, 8852,
+    4258, 3638, 3781, 3705, 3479, 4039, 4297, 5615, 8455, 7179,
+    7145, 7028, 7115, 7251, 8421, 8634, 7036, 6401, 6539, 6466,
+    6352, 6778, 5532, 7293, 7274, 4557, 4538, 5944,
+
+    # foot (6)
+    5893, 5899, 5857, 8587, 8593, 8551,
+
+    # head (5)
+    3035, 2148, 2041, 3076, 9002,
+
+
+    # butt
+    3462, 5574, 6223,
+
+    # finger (30)
+    4875, 4897, 4931, 5014, 5020, 5045,
+    5242, 5250, 5268, 5124, 5131, 5149,
+    4683, 5321, 5346, 7611, 7633, 7667,
+    7750, 7756, 7781, 7978, 7984, 8001,
+    7860, 7867, 7884, 7419, 7602, 8082,
+
+    # hand (6)
+    4686, 7423, 4748, 4615, 7500, 7351,
+
+
+
+    # palm (44)
+    4628, 4641, 4660, 4690, 4691, 4710,
+    4750, 4885, 4957, 4970, 5001, 5012,
+    5082, 5111, 5179, 5193, 5229, 5296,
+    5306, 5315, 5353, 5387, 7357, 7396,
+    7443, 7446, 7536, 7589, 7618, 7625,
+    7692, 7706, 7730, 7748, 7789, 7847,
+    7858, 7924, 7931, 7976, 8039, 8050,
+    8087, 8122,
+]
+
+
+
 markerset_smplh= [
     751,  3506, 3453, 761, 3095, 1724, 1727, 1422, 1322, 3458,
     1661, 1083, 1087, 3189, 979, 791, 3481, 3149, 6853, 6366, 
@@ -46,6 +89,40 @@ markerset_smplh= [
     6016, 6016, 6016, 6016, 6016, 6016, 6140, 6140, 6140, 6196, 
     6192, 6140
     ]
+
+
+markerset_smplx_dict = {
+
+    "back": [
+        4391, 4509, 7179,
+    ],
+
+    "left_shoulder": [4039],
+    "right_shoulder": [7251],
+
+    "left_foot": [
+        5893, 5899, 5857
+    ],
+    "right_foot": [
+       8587, 8593, 8551,
+    ],
+
+    "butt": [
+        3462, 5574, 6223,
+    ],
+    "left_hand": [
+       4628, 4641, 4660, 4690, 4691, 4710,
+        4750, 4885, 4957, 4970, 5001, 5012,
+        5082, 5111, 5179, 5193, 5229, 5296,
+        5306, 5315, 5353, 5387,
+    ],
+    "right_hand": [
+      7357, 7396,7443, 7446, 7536, 7589, 7618, 7625,
+        7692, 7706, 7730, 7748, 7789, 7847,
+        7858, 7924, 7931, 7976, 8039, 8050,
+        8087, 8122
+    ],
+}
 
 
 markerset_smplh_dict = {
@@ -106,38 +183,40 @@ else:
 
 
 
-smpl_model_male = smplx.create('./body_models', model_type='smplh',
+smplh_model_male = smplx.create('./body_models', model_type='smplh',
                         gender="male",
                         use_pca=False,
                         flat_hand_mean=True,
                         ext='pkl').to(device)
 
-smpl_model_female = smplx.create('./body_models', model_type='smplh',
+smplh_model_female = smplx.create('./body_models', model_type='smplh',
                         gender="female",
                         use_pca=False,
                         flat_hand_mean=True,
                         ext='pkl').to(device)
 
-smpl_models = {'male': smpl_model_male, 'female': smpl_model_female}
+smplh_models = {'male': smplh_model_male, 'female': smplh_model_female}
 
 
 smplx_model_male = smplx.create('./body_models', model_type='smplx',
-                        gender="male",
-                        use_pca=False,
-                        flat_hand_mean=True,
-                        ext='pkl').to(device)
-smplx_model_female = smplx.create('./body_models', model_type='smplx',
-                        gender="male",
-                        use_pca=False,
-                        flat_hand_mean=True,
-                        ext='pkl').to(device)
-smplx_model_neutral = smplx.create('./body_models', model_type='smplx',
-                        gender="neutral",
-                        use_pca=False,
-                        flat_hand_mean=True,
-                        ext='pkl').to(device)
-smplx_models = {'male': smplx_model_male, 'female': smplx_model_female, 'neutral': smplx_model_neutral}
+                          gender="male",
+                          use_pca=False,
+                          num_betas=16,
+                          ext='pkl').to(device)
 
+smplx_model_female = smplx.create('./body_models', model_type='smplx',
+                          gender="female",
+                          use_pca=False,
+                          num_betas=16,
+                          ext='pkl').to(device)
+
+smpl_model_neutral = smplx.create('./body_models', model_type='smplx',
+                          gender="neutral",
+                          use_pca=False,
+                          num_betas=16,
+                          ext='pkl').to(device)
+
+smplx_models = {'male': smplx_model_male, 'female': smplx_model_female, 'neutral': smpl_model_neutral}
 # motion_list = random.sample(os.listdir(motion_path), 10)
 motion_list = os.listdir(motion_path)
 for seq_name in tqdm(motion_list):
@@ -148,21 +227,33 @@ for seq_name in tqdm(motion_list):
         poses, betas, trans, betas, gender = f['poses'], f['betas'], f['trans'], f['betas'], str(f['gender'])
 
 
+    markerset = markerset_smplh if args.dataset == 'behave' else markerset_smplx
+    markerset_dict = markerset_smplh_dict if args.dataset == 'behave' else markerset_smplx_dict
+    smpl_model = smplh_models[gender] if args.dataset == 'behave' else smplx_models[gender]
+    if args.dataset == 'behave':
+        smplx_output = smpl_model(body_pose=torch.from_numpy(poses[:, 3:66]).float().to(device),
+                                global_orient=torch.from_numpy(poses[:, :3]).float().to(device),
+                                left_hand_pose=torch.from_numpy(poses[:, 66:111]).float().to(device),
+                                right_hand_pose=torch.from_numpy(poses[:, 111:156]).float().to(device),
+                                betas=torch.from_numpy(betas).unsqueeze(0).repeat(poses.shape[0], 1).float().to(device),
+                                transl=torch.from_numpy(trans).float().to(device),)
+    else:
+        smplx_output = smpl_model(body_pose=torch.from_numpy(poses[:, 3:66]).float().to(device),
+                                global_orient=torch.from_numpy(poses[:, :3]).float().to(device),
+                                left_hand_pose=torch.from_numpy(poses[:, 66:111]).float().to(device),
+                                right_hand_pose=torch.from_numpy(poses[:, 111:156]).float().to(device),
+                                jaw_pose=torch.zeros([poses.shape[0], 3]).float().to(device),
+                                leye_pose=torch.zeros([poses.shape[0], 3]).float().to(device),
+                                reye_pose=torch.zeros([poses.shape[0], 3]).float().to(device),
+                                expression=torch.zeros(poses.shape[0], 10).float().to(device),
+                                betas=torch.from_numpy(betas).unsqueeze(0).repeat(poses.shape[0], 1).float().to(device),
+                                transl=torch.from_numpy(trans).float().to(device))
 
 
-    smpl_model = smpl_models[gender]
-    smplx_output = smpl_model(body_pose=torch.from_numpy(poses[:, 3:66]).float().to(device),
-                              global_orient=torch.from_numpy(poses[:, :3]).float().to(device),
-                              left_hand_pose=torch.from_numpy(poses[:, 66:111]).float().to(device),
-                              right_hand_pose=torch.from_numpy(poses[:, 111:156]).float().to(device),
-                              betas=torch.from_numpy(betas).unsqueeze(0).repeat(poses.shape[0], 1).float().to(device),
-                              transl=torch.from_numpy(trans).float().to(device),)
     human_verts = smplx_output.vertices.detach().cpu().numpy()
-    markers = human_verts[:, markerset_smplh,:]
+    markers = human_verts[:, markerset,:]
 
 
-
-    # plot_3d_motion('./marker.mp4', None, markers, [human_verts[:, markerset_smplh_dict['back'], :]], title='t-pose_smplh')
 
 
     with np.load(os.path.join(motion_path, seq_name, 'object_motion.npz')) as data:
@@ -186,7 +277,7 @@ for seq_name in tqdm(motion_list):
     all_contact_points = []
     all_contact_mask = []
 
-
+    # check visualization
     # plot_3d_motion('./{}.mp4'.format(seq_name), None, markers, [obj_verts_motion], title=str(seq_name))
 
 
@@ -241,10 +332,10 @@ for seq_name in tqdm(motion_list):
 
     # mapping contact markers to key body joints
     part_state = {part: False for part in key_body_index.keys()}
-    for i, h_dx in enumerate(np.array(markerset_smplh)[np.array(human_contact_idx)]):
+    for i, h_dx in enumerate(np.array(markerset)[np.array(human_contact_idx)]):
 
-        for part in markerset_smplh_dict:
-            if h_dx in markerset_smplh_dict[part] and not part_state[part]:
+        for part in markerset_dict:
+            if h_dx in markerset_dict[part] and not part_state[part]:
                 obj_idx = all_obj_contact_idx[i]
   
                 joint_idx = key_body_index[part]
